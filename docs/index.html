@@ -1386,6 +1386,251 @@
       opacity: 1;
       transform: translateY(0);
     }
+
+    /* ── Progress Ring ── */
+    .progress-ring-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .progress-ring {
+      transform: rotate(-90deg);
+    }
+
+    .progress-ring-bg {
+      fill: none;
+      stroke: rgba(99, 102, 241, 0.15);
+    }
+
+    .progress-ring-fill {
+      fill: none;
+      stroke-linecap: round;
+      transition: stroke-dashoffset 0.8s ease;
+    }
+
+    .progress-ring-text {
+      font-size: 18px;
+      font-weight: 700;
+      fill: var(--text);
+      text-anchor: middle;
+      dominant-baseline: central;
+    }
+
+    /* ── Animated Stat Values ── */
+    .stat-card .stat-value {
+      font-size: 36px;
+      font-weight: 700;
+      color: var(--accent);
+      line-height: 1.2;
+    }
+
+    /* ── Sparkline Bars ── */
+    .sparkline-container {
+      display: flex;
+      align-items: flex-end;
+      gap: 3px;
+      height: 30px;
+      margin-top: 8px;
+      justify-content: center;
+    }
+
+    .sparkline-bar {
+      width: 12px;
+      border-radius: 3px 3px 0 0;
+      background: var(--accent);
+      transition: height 0.4s ease;
+      min-height: 2px;
+      opacity: 0.6;
+    }
+
+    .sparkline-bar:last-child {
+      opacity: 1;
+      background: var(--green);
+    }
+
+    .sparkline-labels {
+      display: flex;
+      gap: 3px;
+      justify-content: center;
+      margin-top: 2px;
+    }
+
+    .sparkline-labels span {
+      width: 12px;
+      text-align: center;
+      font-size: 9px;
+      color: var(--text-muted);
+    }
+
+    /* ── Writing Guide Card ── */
+    .writing-guide {
+      background: rgba(99, 102, 241, 0.06);
+      border: 1px solid rgba(99, 102, 241, 0.2);
+      border-radius: var(--radius);
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+
+    .writing-guide-purpose {
+      background: rgba(99, 102, 241, 0.1);
+      border-left: 3px solid var(--accent);
+      padding: 10px 14px;
+      border-radius: 0 8px 8px 0;
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 12px;
+      color: var(--text);
+    }
+
+    .writing-guide h4 {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    .writing-guide-steps {
+      list-style: none;
+      counter-reset: guide-step;
+      margin-bottom: 12px;
+    }
+
+    .writing-guide-steps li {
+      counter-increment: guide-step;
+      font-size: 13px;
+      line-height: 1.5;
+      padding: 4px 0;
+      padding-left: 28px;
+      position: relative;
+      color: var(--text-muted);
+    }
+
+    .writing-guide-steps li::before {
+      content: counter(guide-step);
+      position: absolute;
+      left: 0;
+      background: var(--accent);
+      color: #fff;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      font-weight: 700;
+      top: 4px;
+    }
+
+    .writing-guide-progress {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .writing-guide-progress .wg-progress-track {
+      flex: 1;
+      height: 6px;
+      background: rgba(255,255,255,0.08);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    .writing-guide-progress .wg-progress-fill {
+      height: 100%;
+      border-radius: 3px;
+      transition: width 0.4s ease;
+    }
+
+    .writing-guide-progress .wg-progress-label {
+      font-size: 12px;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+
+    .writing-guide-starter {
+      font-style: italic;
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 8px;
+    }
+
+    .use-starter-btn {
+      padding: 5px 14px;
+      border-radius: 6px;
+      border: 1px solid var(--accent);
+      background: transparent;
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .use-starter-btn:hover {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    /* ── Check Card Enhancements ── */
+    .check-contraction {
+      background: rgba(168,85,247,0.1);
+      border-left: 3px solid var(--purple);
+    }
+
+    .check-card .check-dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-right: 6px;
+      vertical-align: middle;
+    }
+
+    .check-card .check-line-num {
+      font-size: 11px;
+      color: var(--text-muted);
+      float: right;
+      margin-top: 2px;
+    }
+
+    .check-card .check-suggestion {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    /* ── Issues Badge ── */
+    .issues-badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 700;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+
+    .issues-badge.badge-green {
+      background: rgba(34,197,94,0.15);
+      color: var(--green);
+    }
+
+    .issues-badge.badge-amber {
+      background: rgba(245,158,11,0.15);
+      color: var(--amber);
+    }
+
+    .issues-badge.badge-red {
+      background: rgba(239,68,68,0.15);
+      color: var(--red);
+    }
   </style>
 </head>
 <body>
@@ -1452,7 +1697,269 @@ const PASSWORD_HASH = '8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab
 const AUTH_KEY = 'research-agent-auth';
 const QUIZ_SCORES_KEY = 'quiz-scores';
 
+const AMERICAN_TO_BRITISH = {
+  'analyze': 'analyse', 'analyzing': 'analysing', 'analyzed': 'analysed',
+  'behavior': 'behaviour', 'behavioral': 'behavioural',
+  'catalog': 'catalogue', 'center': 'centre', 'centered': 'centred',
+  'color': 'colour', 'colored': 'coloured', 'colorful': 'colourful',
+  'defense': 'defence', 'dialog': 'dialogue',
+  'favor': 'favour', 'favorable': 'favourable', 'favorite': 'favourite',
+  'fiber': 'fibre', 'fulfill': 'fulfil', 'gray': 'grey',
+  'honor': 'honour', 'humor': 'humour',
+  'initialize': 'initialise', 'labor': 'labour', 'license': 'licence',
+  'maximize': 'maximise', 'minimize': 'minimise',
+  'modeling': 'modelling', 'neighbor': 'neighbour',
+  'optimize': 'optimise', 'optimizing': 'optimising', 'optimization': 'optimisation',
+  'organize': 'organise', 'organization': 'organisation',
+  'prioritize': 'prioritise', 'program': 'programme',
+  'realize': 'realise', 'recognize': 'recognise',
+  'specialize': 'specialise', 'standardize': 'standardise',
+  'summarize': 'summarise', 'utilize': 'utilise', 'utilization': 'utilisation',
+};
+
+const CONTRACTIONS = {
+  "don't": "do not", "doesn't": "does not", "didn't": "did not",
+  "can't": "cannot", "won't": "will not", "wouldn't": "would not",
+  "shouldn't": "should not", "couldn't": "could not",
+  "isn't": "is not", "aren't": "are not", "wasn't": "was not",
+  "weren't": "were not", "hasn't": "has not", "haven't": "have not",
+  "it's": "it is", "that's": "that is", "there's": "there is",
+};
+
+const INFORMAL_WORDS = {
+  'a lot': 'numerous', 'lots of': 'numerous', 'big': 'significant',
+  'get': 'obtain', 'got': 'obtained', 'thing': 'aspect', 'things': 'aspects',
+  'stuff': 'material', 'kind of': 'somewhat', 'sort of': 'somewhat',
+  'really': 'significantly', 'very': 'highly', 'pretty much': 'largely',
+  'basically': 'fundamentally', 'obviously': 'evidently', 'okay': 'acceptable',
+};
+
+const WRITING_GUIDES = {
+  '1.1': {
+    purpose: 'Set the scene for your research in 1-2 paragraphs. Introduce the broad topic and why it matters.',
+    structure: [
+      'Start with the global challenge: why is indigenous farming knowledge important?',
+      'Introduce the threat: what is happening to this knowledge?',
+      'Bridge to your solution: how could serious games help?',
+      'End with a brief statement of what this research aims to do.'
+    ],
+    targetWords: 300,
+    starterPattern: 'Indigenous farming knowledge represents a critical component of...',
+  },
+  '1.2': {
+    purpose: 'Provide detailed context on indigenous farming knowledge in Southern Africa, agricultural education gaps, and the role of technology.',
+    structure: [
+      'Define indigenous farming knowledge with citations from the literature.',
+      'Describe the agricultural landscape in Southern Africa.',
+      'Explain the gap between indigenous and modern agricultural practices.',
+      'Introduce technology and games as potential bridges.',
+    ],
+    targetWords: 800,
+    starterPattern: 'The concept of indigenous farming knowledge encompasses...',
+  },
+  '1.3': {
+    purpose: 'Clearly articulate the specific problem this research addresses in 2-3 focused paragraphs.',
+    structure: [
+      'State the core problem: indigenous knowledge is being lost and not integrated with modern science.',
+      'Explain why existing solutions have not solved this problem.',
+      'Articulate why a serious game approach is needed.',
+    ],
+    targetWords: 400,
+    starterPattern: 'Despite growing recognition of the value of indigenous farming knowledge [citation], there remains a significant gap in...',
+  },
+  '1.4': {
+    purpose: 'State the main research question clearly and concisely.',
+    structure: [
+      'State the overarching research question.',
+      'List 3-4 sub-questions that decompose the main question.',
+      'Each sub-question should map to a chapter.',
+    ],
+    targetWords: 200,
+    starterPattern: 'The primary research question guiding this study is: How can a serious game...',
+  },
+  '1.5': {
+    purpose: 'State the research aim and 3-5 measurable objectives.',
+    structure: [
+      'State the aim (one sentence responding to the research question).',
+      'List objectives using verbs: investigate, design, develop, evaluate.',
+      'Each objective should map to a chapter.',
+    ],
+    targetWords: 250,
+    starterPattern: 'The aim of this research is to design and develop...',
+  },
+  '1.6': {
+    purpose: 'Explain what this research contributes -- both academically and practically.',
+    structure: [
+      'Academic contribution: what new knowledge does this create?',
+      'Practical contribution: what tangible artefact or tool does this produce?',
+      'Who benefits from this research?',
+    ],
+    targetWords: 300,
+    starterPattern: 'This research contributes to the body of knowledge in...',
+  },
+  '1.7': {
+    purpose: 'Define what is included and excluded, and acknowledge constraints.',
+    structure: [
+      'Scope: what regions, topics, and game features are included?',
+      'Exclusions: what is deliberately left out and why?',
+      'Limitations: sample size, time, technology access.',
+    ],
+    targetWords: 300,
+    starterPattern: 'This study is delimited to the context of...',
+  },
+  '1.8': {
+    purpose: 'Give a brief overview of each chapter.',
+    structure: [
+      'One paragraph per chapter (Chapters 1-6).',
+      'Describe the purpose and content of each.',
+      'Show how chapters connect logically.',
+    ],
+    targetWords: 400,
+    starterPattern: 'This dissertation is organised into six chapters...',
+  },
+  '1.9': {
+    purpose: 'Summarise Chapter 1 and transition to Chapter 2.',
+    structure: [
+      'Recap the problem, question, and aim in 2-3 sentences.',
+      'State what the next chapter will cover.',
+    ],
+    targetWords: 150,
+    starterPattern: 'This chapter has introduced the research context...',
+  },
+  '2.1': {
+    purpose: 'Explain the scope and structure of the literature review.',
+    structure: [
+      'State the purpose of this chapter.',
+      'List the main themes that will be reviewed.',
+      'Explain why these themes are relevant to your research question.',
+      'Provide a roadmap of the sections.',
+    ],
+    targetWords: 300,
+    starterPattern: 'This chapter presents a comprehensive review of the literature...',
+  },
+  '2.2': {
+    purpose: 'Introduce the problem domain themes.',
+    structure: [
+      'Brief overview of what the problem domain encompasses.',
+      'Transition into the three sub-topics.',
+    ],
+    targetWords: 150,
+    starterPattern: 'The problem domain of this research spans three interconnected areas...',
+  },
+  '2.2.1': {
+    purpose: 'Review indigenous farming knowledge systems -- their value, current state, and threats.',
+    structure: [
+      'Define indigenous farming knowledge with multiple citations.',
+      'Discuss the importance and value of IK in agriculture.',
+      'Review threats to IK preservation (modernisation, urbanisation, climate change).',
+      'Focus on Southern Africa specifically.',
+      'Synthesise: what does the literature collectively tell us?',
+    ],
+    targetWords: 1500,
+    starterPattern: 'Indigenous farming knowledge (IFK) refers to the accumulated knowledge, practices, and beliefs...',
+  },
+  '2.2.2': {
+    purpose: 'Review sustainable agriculture -- how it connects to both IK and modern science.',
+    structure: [
+      'Define sustainable agriculture with citations.',
+      'Discuss food security challenges in Southern Africa.',
+      'Review how indigenous practices contribute to sustainability.',
+      'Identify tensions between sustainability goals and modern farming.',
+      'Synthesise the relationship between IK and sustainability.',
+    ],
+    targetWords: 1500,
+    starterPattern: 'Sustainable agriculture has been defined as...',
+  },
+  '2.2.3': {
+    purpose: 'Review modern agricultural science and how it complements or conflicts with IK.',
+    structure: [
+      'Overview of modern agricultural science advances.',
+      'Examples of successful integration of IK with modern science.',
+      'Tensions and challenges when combining knowledge systems.',
+      'The role of technology in bridging the gap.',
+    ],
+    targetWords: 1200,
+    starterPattern: 'Modern agricultural science encompasses...',
+  },
+  '2.3': {
+    purpose: 'Introduce the solution domain -- serious games and simulations.',
+    structure: [
+      'Bridge from the problem domain to the solution.',
+      'Why technology-based solutions, specifically games, are worth exploring.',
+    ],
+    targetWords: 150,
+    starterPattern: 'Having established the challenges in the problem domain...',
+  },
+  '2.3.1': {
+    purpose: 'Review serious games -- design principles, effectiveness, and application in education and agriculture.',
+    structure: [
+      'Define serious games and game-based learning with citations.',
+      'Review learning theories that support game-based learning.',
+      'Discuss evidence for effectiveness of serious games.',
+      'Review existing serious games in agriculture.',
+      'Identify design principles from the literature.',
+    ],
+    targetWords: 2000,
+    starterPattern: 'Serious games are defined as games designed for a primary purpose other than...',
+  },
+  '2.3.2': {
+    purpose: 'Review multiplayer mechanics, farming simulations, and peer learning through games.',
+    structure: [
+      'Review multiplayer and collaborative game mechanics in education.',
+      'Discuss agricultural simulation games and what they simulate.',
+      'Review farmer-to-farmer knowledge exchange and peer learning.',
+      'How multiplayer mechanics can facilitate knowledge transfer.',
+    ],
+    targetWords: 1500,
+    starterPattern: 'Multiplayer game mechanics introduce social dynamics...',
+  },
+  '2.4': {
+    purpose: 'Critically analyse existing serious games and digital tools for agriculture.',
+    structure: [
+      'Review 3-5 existing artefacts in detail.',
+      'Create a comparison table: Name, Focus, Platform, IK Integration, Multiplayer, Limitations.',
+      'Identify common gaps across all solutions.',
+      'Link gaps to your proposed solution.',
+    ],
+    targetWords: 1200,
+    starterPattern: 'Several digital artefacts have been developed to address agricultural education...',
+  },
+  '2.5': {
+    purpose: 'Present the theoretical lens for your research.',
+    structure: [
+      'Identify the theories guiding your work (DSR, constructivism, experiential learning).',
+      'Explain each theory and its relevance.',
+      'Show how the theories connect to form your conceptual framework.',
+      'Include a conceptual framework diagram reference.',
+    ],
+    targetWords: 1000,
+    starterPattern: 'This research is grounded in several complementary theoretical perspectives...',
+  },
+  '2.6': {
+    purpose: 'Articulate the specific gap this research fills.',
+    structure: [
+      'Synthesise findings from sections 2.2-2.5.',
+      'State clearly what is missing in the current literature.',
+      'Explain why this gap matters.',
+      'Connect the gap to your research question and proposed artefact.',
+    ],
+    targetWords: 500,
+    starterPattern: 'The review of existing literature reveals a significant gap at the intersection of...',
+  },
+  '2.7': {
+    purpose: 'Summarise the key themes and transition to Chapter 3.',
+    structure: [
+      'Recap the main themes and findings from the review.',
+      'Restate the identified research gap.',
+      'Transition to the methodology chapter.',
+    ],
+    targetWords: 200,
+    starterPattern: 'This chapter has presented a comprehensive review of...',
+  },
+};
+
 let DATA = null;
+let _writeCheckDebounceTimer = null;
 
 // ── Authentication ──
 async function hashPassword(password) {
@@ -1566,6 +2073,74 @@ function showToast(msg) {
 }
 
 // ── DASHBOARD TAB ──
+function buildProgressRing(pct, size, strokeWidth, color) {
+  var radius = (size - strokeWidth) / 2;
+  var circumference = 2 * Math.PI * radius;
+  var offset = circumference - (pct / 100) * circumference;
+  return '<div class="progress-ring-container">' +
+    '<svg width="' + size + '" height="' + size + '" class="progress-ring" style="transform:rotate(-90deg)">' +
+    '<circle class="progress-ring-bg" cx="' + (size/2) + '" cy="' + (size/2) + '" r="' + radius + '" stroke-width="' + strokeWidth + '"/>' +
+    '<circle class="progress-ring-fill" cx="' + (size/2) + '" cy="' + (size/2) + '" r="' + radius + '" stroke-width="' + strokeWidth + '" ' +
+    'stroke="' + color + '" stroke-dasharray="' + circumference + '" stroke-dashoffset="' + offset + '" data-target-offset="' + offset + '"/>' +
+    '</svg>' +
+    '<div style="margin-top:-' + (size/2 + 10) + 'px;font-size:18px;font-weight:700;color:var(--text);text-align:center;">' + pct.toFixed(0) + '%</div>' +
+    '<div style="height:' + (size/2 - 10) + 'px;"></div>' +
+    '</div>';
+}
+
+function animateCountUp(el, target, duration) {
+  var start = 0;
+  var startTime = null;
+  var isPercent = String(target).indexOf('%') !== -1;
+  var numTarget = parseFloat(target);
+  if (isNaN(numTarget)) { el.textContent = target; return; }
+  var suffix = isPercent ? '%' : '';
+  // Check if it has fire emoji
+  var extraHtml = '';
+  if (el.innerHTML && el.innerHTML.indexOf('&#128293;') !== -1) {
+    extraHtml = ' &#128293;';
+  }
+
+  function step(timestamp) {
+    if (!startTime) startTime = timestamp;
+    var progress = Math.min((timestamp - startTime) / duration, 1);
+    var eased = 1 - Math.pow(1 - progress, 3); // ease-out cubic
+    var current = Math.round(eased * numTarget);
+    el.innerHTML = current + suffix + extraHtml;
+    if (progress < 1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+
+function buildSparkline(logs) {
+  var today = new Date();
+  var dayNames = ['S','M','T','W','T','F','S'];
+  var bars = [];
+  for (var i = 6; i >= 0; i--) {
+    var d = new Date(today);
+    d.setDate(d.getDate() - i);
+    var key = d.toISOString().split('T')[0];
+    var log = logs[key];
+    var mins = log ? (log.total_minutes || 0) : 0;
+    bars.push({ mins: mins, day: dayNames[d.getDay()] });
+  }
+  var maxMins = Math.max.apply(null, bars.map(function(b) { return b.mins; }));
+  if (maxMins === 0) maxMins = 1;
+
+  var html = '<div class="sparkline-container">';
+  bars.forEach(function(b) {
+    var h = Math.max((b.mins / maxMins) * 28, 2);
+    html += '<div class="sparkline-bar" style="height:' + h + 'px;" title="' + b.mins + ' min"></div>';
+  });
+  html += '</div>';
+  html += '<div class="sparkline-labels">';
+  bars.forEach(function(b) {
+    html += '<span>' + b.day + '</span>';
+  });
+  html += '</div>';
+  return html;
+}
+
 function renderDashboard() {
   const stats = DATA.stats;
   const streaks = DATA.streaks;
@@ -1587,13 +2162,16 @@ function renderDashboard() {
       '</span></div>';
   }
 
-  // Stat cards
+  // Stat cards with progress ring for reading progress
+  const readingPct = stats.reading_progress_pct || 0;
+  const ringColor = readingPct >= 75 ? 'var(--green)' : readingPct >= 40 ? 'var(--amber)' : 'var(--accent)';
   const fireEmoji = streaks.current_streak_days > 0 ? ' &#128293;' : '';
+
   html += '<div class="stat-grid">' +
-    '<div class="stat-card"><div class="stat-value">' + stats.total_sources + '</div><div class="stat-label">Total Sources</div></div>' +
-    '<div class="stat-card"><div class="stat-value">' + (stats.reading_progress_pct || 0).toFixed(0) + '%</div><div class="stat-label">Reading Progress</div></div>' +
-    '<div class="stat-card"><div class="stat-value">' + streaks.current_streak_days + fireEmoji + '</div><div class="stat-label">Current Streak</div></div>' +
-    '<div class="stat-card"><div class="stat-value">' + todayMinutes + '</div><div class="stat-label">Today\'s Minutes</div></div>' +
+    '<div class="stat-card"><div class="stat-value" data-count-target="' + stats.total_sources + '">' + stats.total_sources + '</div><div class="stat-label">Total Sources</div></div>' +
+    '<div class="stat-card">' + buildProgressRing(readingPct, 90, 8, ringColor) + '<div class="stat-label">Reading Progress</div></div>' +
+    '<div class="stat-card"><div class="stat-value" data-count-target="' + streaks.current_streak_days + '">' + streaks.current_streak_days + fireEmoji + '</div><div class="stat-label">Current Streak</div></div>' +
+    '<div class="stat-card"><div class="stat-value" data-count-target="' + todayMinutes + '">' + todayMinutes + '</div><div class="stat-label">Today\'s Minutes</div>' + buildSparkline(logs) + '</div>' +
     '</div>';
 
   // Today's Focus
@@ -1673,6 +2251,14 @@ function renderDashboard() {
   html += '</div>'; // close two-col
 
   document.getElementById('tab-dashboard').innerHTML = html;
+
+  // Animate count-up on stat values
+  document.querySelectorAll('[data-count-target]').forEach(function(el) {
+    var target = parseInt(el.dataset.countTarget);
+    if (!isNaN(target) && target > 0) {
+      animateCountUp(el, target, 600);
+    }
+  });
 }
 
 // ── SOURCES TAB ──
@@ -1773,6 +2359,43 @@ function toggleAbstract(idx) {
 }
 
 // ── WRITE TAB ──
+function buildWritingGuideHtml(sectionId) {
+  const guide = WRITING_GUIDES[sectionId];
+  if (!guide) return '';
+  const text = (document.getElementById('write-textarea') || {}).value || '';
+  const words = text.trim() ? text.trim().split(/\s+/).length : 0;
+  const pct = guide.targetWords > 0 ? Math.min((words / guide.targetWords) * 100, 100) : 0;
+  const progressColor = pct >= 100 ? 'var(--green)' : pct >= 60 ? 'var(--amber)' : 'var(--accent)';
+
+  let html = '<div class="writing-guide">';
+  html += '<div class="writing-guide-purpose">' + esc(guide.purpose) + '</div>';
+  html += '<h4>Structure</h4><ol class="writing-guide-steps">';
+  guide.structure.forEach(function(step) {
+    html += '<li>' + esc(step) + '</li>';
+  });
+  html += '</ol>';
+  html += '<h4>Target Word Count</h4>';
+  html += '<div class="writing-guide-progress">' +
+    '<div class="wg-progress-track"><div class="wg-progress-fill" style="width:' + pct.toFixed(0) + '%;background:' + progressColor + '"></div></div>' +
+    '<span class="wg-progress-label">' + words + ' / ' + guide.targetWords + ' words</span></div>';
+  html += '<h4>Starter Pattern</h4>';
+  html += '<div class="writing-guide-starter">"' + esc(guide.starterPattern) + '"</div>';
+  html += '<button class="use-starter-btn" onclick="useStarterPattern()">Use this starter</button>';
+  html += '</div>';
+  return html;
+}
+
+function useStarterPattern() {
+  const sectionId = window._currentSection;
+  const guide = WRITING_GUIDES[sectionId];
+  if (!guide) return;
+  const textarea = document.getElementById('write-textarea');
+  if (textarea && !textarea.value.trim()) {
+    textarea.value = guide.starterPattern;
+    debouncedWriteCheck();
+  }
+}
+
 function renderWrite() {
   const structure = DATA.dissertation_structure;
   if (!structure || !structure.chapters) {
@@ -1794,35 +2417,17 @@ function renderWrite() {
     sidebarHtml += '</div>';
   });
 
-  // Writing checks panel
-  const checks = DATA.writing_checks || [];
-  let checksHtml = '<h3>Writing Suggestions</h3>';
-  if (checks.length === 0) {
-    checksHtml += '<div class="check-empty">Save your draft and the agent will check it automatically</div>';
-  } else {
-    checks.forEach(check => {
-      (check.americanisms_found || []).forEach(issue => {
-        checksHtml += '<div class="check-card check-americanism"><strong>Americanism:</strong> ' + esc(typeof issue === 'string' ? issue : JSON.stringify(issue)) + '</div>';
-      });
-      (check.uncited_claims || []).forEach(issue => {
-        checksHtml += '<div class="check-card check-uncited"><strong>Uncited claim:</strong> ' + esc(typeof issue === 'string' ? issue : JSON.stringify(issue)) + '</div>';
-      });
-      (check.academic_tone_issues || []).forEach(issue => {
-        checksHtml += '<div class="check-card check-tone"><strong>Tone:</strong> ' + esc(typeof issue === 'string' ? issue : JSON.stringify(issue)) + '</div>';
-      });
-    });
-  }
-
   const html = '<div class="write-layout">' +
     '<div class="write-sidebar">' + sidebarHtml + '</div>' +
     '<div class="write-main">' +
     '<div class="section-header" id="write-section-header">' + esc(firstSectionTitle || 'Select a section') + '</div>' +
-    '<textarea class="write-textarea" id="write-textarea" placeholder="Start writing..." oninput="updateWriteStats()"></textarea>' +
+    '<div id="write-guide-container"></div>' +
+    '<textarea class="write-textarea" id="write-textarea" placeholder="Start writing..." oninput="debouncedWriteCheck()"></textarea>' +
     '<div class="write-footer">' +
-    '<div class="write-stats"><span id="write-word-count">0 words</span><span id="write-citation-count">0 citations</span></div>' +
+    '<div class="write-stats"><span id="write-word-count">0 words</span><span id="write-citation-count">0 citations</span><span id="write-issues-badge"></span></div>' +
     '<button class="save-btn" onclick="saveDraft()">Save Draft</button>' +
     '</div></div>' +
-    '<div class="write-checks-panel">' + checksHtml + '</div>' +
+    '<div class="write-checks-panel"><h3>Writing Checks <span id="checks-count-header"></span></h3><div id="live-checks-container"><div class="check-empty">Start typing to see real-time writing checks</div></div></div>' +
     '</div>';
 
   document.getElementById('tab-write').innerHTML = html;
@@ -1850,7 +2455,11 @@ function loadDraft(sectionId) {
   const key = 'draft-' + sectionId;
   const content = localStorage.getItem(key) || '';
   document.getElementById('write-textarea').value = content;
+  // Render guide for the selected section
+  const guideContainer = document.getElementById('write-guide-container');
+  if (guideContainer) guideContainer.innerHTML = buildWritingGuideHtml(sectionId);
   updateWriteStats();
+  checkWritingRealtime();
 }
 
 function saveDraft() {
@@ -1861,12 +2470,220 @@ function saveDraft() {
   showToast('Draft saved for section ' + sectionId);
 }
 
+function debouncedWriteCheck() {
+  if (_writeCheckDebounceTimer) clearTimeout(_writeCheckDebounceTimer);
+  _writeCheckDebounceTimer = setTimeout(function() {
+    updateWriteStats();
+    checkWritingRealtime();
+    // Update guide word progress
+    var guideContainer = document.getElementById('write-guide-container');
+    if (guideContainer && window._currentSection) {
+      guideContainer.innerHTML = buildWritingGuideHtml(window._currentSection);
+    }
+  }, 500);
+}
+
 function updateWriteStats() {
-  const text = document.getElementById('write-textarea').value;
+  const textarea = document.getElementById('write-textarea');
+  if (!textarea) return;
+  const text = textarea.value;
   const words = text.trim() ? text.trim().split(/\s+/).length : 0;
   const citations = (text.match(/\([^)]*\d{4}[^)]*\)/g) || []).length;
   document.getElementById('write-word-count').textContent = words + ' word' + (words !== 1 ? 's' : '');
   document.getElementById('write-citation-count').textContent = citations + ' citation' + (citations !== 1 ? 's' : '');
+  // Issues badge is updated by checkWritingRealtime
+}
+
+function checkWritingRealtime() {
+  const textarea = document.getElementById('write-textarea');
+  if (!textarea) return;
+  const text = textarea.value;
+  const container = document.getElementById('live-checks-container');
+  if (!container) return;
+
+  if (!text.trim()) {
+    container.innerHTML = '<div class="check-empty">Start typing to see real-time writing checks</div>';
+    updateIssuesBadge(0);
+    return;
+  }
+
+  const issues = [];
+  const lines = text.split('\n');
+
+  // 1. Check for Americanisms
+  lines.forEach(function(line, lineIdx) {
+    var wordsInLine = line.toLowerCase().split(/\b/);
+    for (var w = 0; w < wordsInLine.length; w++) {
+      var word = wordsInLine[w].trim();
+      if (AMERICAN_TO_BRITISH[word]) {
+        issues.push({
+          type: 'americanism',
+          text: '"' + word + '" is American English',
+          suggestion: 'Use "' + AMERICAN_TO_BRITISH[word] + '" instead',
+          line: lineIdx + 1
+        });
+      }
+    }
+  });
+
+  // 2. Check for contractions
+  lines.forEach(function(line, lineIdx) {
+    var lower = line.toLowerCase();
+    Object.keys(CONTRACTIONS).forEach(function(contraction) {
+      var regex = new RegExp('\\b' + contraction.replace("'", "[\\u2019']") + '\\b', 'gi');
+      if (regex.test(lower)) {
+        issues.push({
+          type: 'contraction',
+          text: 'Contraction "' + contraction + '" found',
+          suggestion: 'Use "' + CONTRACTIONS[contraction] + '" in academic writing',
+          line: lineIdx + 1
+        });
+      }
+    });
+  });
+
+  // 3. Check for informal words
+  lines.forEach(function(line, lineIdx) {
+    var lower = line.toLowerCase();
+    Object.keys(INFORMAL_WORDS).forEach(function(informal) {
+      var regex = new RegExp('\\b' + informal + '\\b', 'gi');
+      if (regex.test(lower)) {
+        issues.push({
+          type: 'tone',
+          text: '"' + informal + '" is informal',
+          suggestion: 'Consider "' + INFORMAL_WORDS[informal] + '"',
+          line: lineIdx + 1
+        });
+      }
+    });
+  });
+
+  // 4. Check for first person pronouns (not inside citations)
+  lines.forEach(function(line, lineIdx) {
+    // Remove citation brackets before checking
+    var stripped = line.replace(/\[[^\]]*\]/g, '').replace(/\([^)]*\d{4}[^)]*\)/g, '');
+    var pronounRegex = /\b(I|my|me|mine)\b/g;
+    var match;
+    while ((match = pronounRegex.exec(stripped)) !== null) {
+      // Skip "I" if it's part of abbreviations like "IK" or "IFK"
+      if (match[1] === 'I' && stripped[match.index + 1] && /[A-Z]/.test(stripped[match.index + 1])) continue;
+      issues.push({
+        type: 'tone',
+        text: 'First person pronoun "' + match[1] + '" detected',
+        suggestion: 'Use third person or passive voice in academic writing',
+        line: lineIdx + 1
+      });
+    }
+  });
+
+  // 5. Check for uncited assertions
+  var assertionPatterns = /\b(has been|have been|shows that|show that|indicates|indicate|suggests|suggest|is important|is critical|is essential|are important|are critical|are essential)\b/gi;
+  lines.forEach(function(line, lineIdx) {
+    var match;
+    var testLine = line;
+    assertionPatterns.lastIndex = 0;
+    while ((match = assertionPatterns.exec(testLine)) !== null) {
+      // Check if there is a citation in this sentence
+      var sentenceEnd = testLine.indexOf('.', match.index);
+      if (sentenceEnd === -1) sentenceEnd = testLine.length;
+      var sentenceChunk = testLine.substring(Math.max(0, match.index - 80), sentenceEnd);
+      var hasCitation = /\[\d+\]/.test(sentenceChunk) || /\([^)]*\d{4}[^)]*\)/.test(sentenceChunk);
+      if (!hasCitation) {
+        issues.push({
+          type: 'uncited',
+          text: 'Possible uncited assertion: "...' + match[0] + '..."',
+          suggestion: 'Add a citation to support this claim',
+          line: lineIdx + 1
+        });
+      }
+    }
+  });
+
+  // 6. Check for sentences starting with And/But/So
+  lines.forEach(function(line, lineIdx) {
+    var trimmed = line.trim();
+    if (/^(And|But|So)\b/.test(trimmed)) {
+      issues.push({
+        type: 'tone',
+        text: 'Sentence starts with "' + trimmed.split(/\s/)[0] + '"',
+        suggestion: 'Avoid starting sentences with conjunctions in formal writing',
+        line: lineIdx + 1
+      });
+    }
+    // Also check after full stops
+    var sentences = line.split(/\.\s+/);
+    for (var s = 1; s < sentences.length; s++) {
+      if (/^(And|But|So)\b/.test(sentences[s].trim())) {
+        issues.push({
+          type: 'tone',
+          text: 'Sentence starts with "' + sentences[s].trim().split(/\s/)[0] + '"',
+          suggestion: 'Avoid starting sentences with conjunctions in formal writing',
+          line: lineIdx + 1
+        });
+      }
+    }
+  });
+
+  // 7. Check for exclamation marks
+  lines.forEach(function(line, lineIdx) {
+    if (line.indexOf('!') !== -1) {
+      issues.push({
+        type: 'tone',
+        text: 'Exclamation mark found',
+        suggestion: 'Exclamation marks are not appropriate in academic writing',
+        line: lineIdx + 1
+      });
+    }
+  });
+
+  // Render issues
+  if (issues.length === 0) {
+    container.innerHTML = '<div class="check-empty" style="color:var(--green);">No issues found. Looking good!</div>';
+  } else {
+    var html = '';
+    var typeColors = {
+      americanism: 'var(--red)',
+      uncited: 'var(--amber)',
+      tone: 'var(--blue)',
+      contraction: 'var(--purple)'
+    };
+    var typeClasses = {
+      americanism: 'check-americanism',
+      uncited: 'check-uncited',
+      tone: 'check-tone',
+      contraction: 'check-contraction'
+    };
+    issues.forEach(function(issue) {
+      var dotColor = typeColors[issue.type] || 'var(--text-muted)';
+      var cardClass = typeClasses[issue.type] || 'check-tone';
+      html += '<div class="check-card ' + cardClass + '">' +
+        '<span class="check-line-num">Line ' + issue.line + '</span>' +
+        '<span class="check-dot" style="background:' + dotColor + '"></span>' +
+        '<strong>' + esc(issue.text) + '</strong>' +
+        '<div class="check-suggestion">' + esc(issue.suggestion) + '</div>' +
+        '</div>';
+    });
+    container.innerHTML = html;
+  }
+
+  updateIssuesBadge(issues.length);
+}
+
+function updateIssuesBadge(count) {
+  var badge = document.getElementById('write-issues-badge');
+  if (!badge) return;
+  if (count === 0) {
+    badge.innerHTML = '<span class="issues-badge badge-green">0 issues</span>';
+  } else if (count <= 5) {
+    badge.innerHTML = '<span class="issues-badge badge-amber">' + count + ' issue' + (count !== 1 ? 's' : '') + '</span>';
+  } else {
+    badge.innerHTML = '<span class="issues-badge badge-red">' + count + ' issue' + (count !== 1 ? 's' : '') + '</span>';
+  }
+  // Also update the checks panel header
+  var checksHeader = document.getElementById('checks-count-header');
+  if (checksHeader) {
+    checksHeader.textContent = '(' + count + ')';
+  }
 }
 
 // ── QUIZZES TAB ──
