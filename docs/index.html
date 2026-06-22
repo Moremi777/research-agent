@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research Agent Dashboard</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --card: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e4e4e7;
+      --muted: #9ca3af;
+      --accent: #6366f1;
+      --accent-light: #818cf8;
+      --green: #22c55e;
+      --amber: #f59e0b;
+      --red: #ef4444;
+      --blue: #3b82f6;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .header {
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .header h1 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      background: linear-gradient(135deg, var(--accent-light), var(--blue));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .header .subtitle { color: var(--muted); font-size: 0.85rem; }
+
+    .nav {
+      display: flex;
+      gap: 0;
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem;
+      overflow-x: auto;
+    }
+
+    .nav button {
+      background: none;
+      border: none;
+      color: var(--muted);
+      padding: 0.85rem 1.25rem;
+      cursor: pointer;
+      font-size: 0.9rem;
+      border-bottom: 2px solid transparent;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+
+    .nav button:hover { color: var(--text); }
+    .nav button.active {
+      color: var(--accent-light);
+      border-bottom-color: var(--accent);
+    }
+
+    .container { max-width: 1200px; margin: 0 auto; padding: 1.5rem; }
+
+    .tab { display: none; }
+    .tab.active { display: block; }
+
+    .grid { display: grid; gap: 1rem; }
+    .grid-4 { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+    .grid-2 { grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); }
+    .grid-1 { grid-template-columns: 1fr; }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem;
+    }
+
+    .card h3 {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .stat-value {
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .stat-label { font-size: 0.85rem; color: var(--muted); }
+
+    .progress-bar {
+      width: 100%;
+      height: 8px;
+      background: var(--border);
+      border-radius: 4px;
+      margin-top: 0.5rem;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      border-radius: 4px;
+      transition: width 0.5s ease;
+    }
+
+    .streak-fire { color: var(--amber); }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+
+    th {
+      text-align: left;
+      padding: 0.75rem;
+      border-bottom: 1px solid var(--border);
+      color: var(--muted);
+      font-weight: 500;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    td {
+      padding: 0.75rem;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+
+    tr:hover { background: rgba(99, 102, 241, 0.05); }
+
+    .tag {
+      display: inline-block;
+      padding: 0.15rem 0.5rem;
+      border-radius: 999px;
+      font-size: 0.72rem;
+      font-weight: 500;
+      margin: 0.1rem;
+    }
+
+    .tag-ik { background: #422006; color: #fbbf24; }
+    .tag-sg { background: #1e1b4b; color: #a5b4fc; }
+    .tag-ae { background: #052e16; color: #86efac; }
+    .tag-dsr { background: #4a044e; color: #e879f9; }
+    .tag-sa { background: #0c4a6e; color: #7dd3fc; }
+    .tag-gd { background: #3f0f0f; color: #fca5a5; }
+    .tag-pl { background: #134e4a; color: #5eead4; }
+    .tag-gen { background: #27272a; color: #a1a1aa; }
+
+    .status-badge {
+      display: inline-block;
+      padding: 0.2rem 0.6rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+
+    .status-screened { background: #172554; color: #60a5fa; }
+    .status-reading { background: #422006; color: #fbbf24; }
+    .status-read { background: #052e16; color: #22c55e; }
+    .status-cited { background: #1e1b4b; color: #a78bfa; }
+
+    .search-box {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+
+    .search-box::placeholder { color: var(--muted); }
+    .search-box:focus { outline: none; border-color: var(--accent); }
+
+    .filter-bar {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      transition: all 0.2s;
+    }
+
+    .filter-btn:hover { border-color: var(--accent); color: var(--text); }
+    .filter-btn.active { background: var(--accent); border-color: var(--accent); color: white; }
+
+    .quiz-container { max-width: 700px; }
+
+    .quiz-question {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .quiz-question h4 {
+      color: var(--accent-light);
+      font-size: 0.85rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .quiz-question p { margin-bottom: 1rem; font-size: 0.95rem; }
+
+    .quiz-question textarea {
+      width: 100%;
+      min-height: 100px;
+      padding: 0.75rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      font-size: 0.9rem;
+      font-family: inherit;
+      resize: vertical;
+    }
+
+    .quiz-question textarea:focus { outline: none; border-color: var(--accent); }
+
+    .btn {
+      display: inline-block;
+      padding: 0.6rem 1.25rem;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s;
+    }
+
+    .btn-primary { background: var(--accent); color: white; }
+    .btn-primary:hover { background: var(--accent-light); }
+    .btn-outline { background: transparent; border: 1px solid var(--border); color: var(--text); }
+    .btn-outline:hover { border-color: var(--accent); }
+
+    .timeline-item {
+      display: flex;
+      gap: 1rem;
+      padding: 0.75rem 0;
+      border-left: 2px solid var(--border);
+      padding-left: 1.5rem;
+      position: relative;
+    }
+
+    .timeline-item::before {
+      content: '';
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      position: absolute;
+      left: -6px;
+      top: 1rem;
+    }
+
+    .timeline-item.past::before { background: var(--green); }
+    .timeline-item.current::before { background: var(--amber); box-shadow: 0 0 8px var(--amber); }
+    .timeline-item.future::before { background: var(--border); }
+
+    .timeline-date { color: var(--muted); font-size: 0.85rem; min-width: 100px; }
+    .timeline-label { font-size: 0.95rem; }
+
+    .chart-bar {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .chart-bar-label {
+      min-width: 50px;
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-align: right;
+    }
+
+    .chart-bar-track {
+      flex: 1;
+      height: 20px;
+      background: var(--border);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .chart-bar-fill {
+      height: 100%;
+      border-radius: 4px;
+      transition: width 0.5s ease;
+      display: flex;
+      align-items: center;
+      padding-left: 0.5rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: white;
+    }
+
+    .oa-link {
+      color: var(--green);
+      text-decoration: none;
+      font-size: 0.8rem;
+    }
+
+    .oa-link:hover { text-decoration: underline; }
+
+    .empty-state {
+      text-align: center;
+      padding: 3rem;
+      color: var(--muted);
+    }
+
+    .empty-state h3 { font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--text); }
+
+    .section-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .abstract-toggle {
+      color: var(--accent-light);
+      cursor: pointer;
+      font-size: 0.8rem;
+      border: none;
+      background: none;
+    }
+
+    .abstract-text {
+      display: none;
+      margin-top: 0.5rem;
+      padding: 0.75rem;
+      background: var(--bg);
+      border-radius: 8px;
+      font-size: 0.85rem;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .abstract-text.show { display: block; }
+
+    @media (max-width: 768px) {
+      .container { padding: 1rem; }
+      .grid-4 { grid-template-columns: 1fr 1fr; }
+      .grid-2 { grid-template-columns: 1fr; }
+      .header { padding: 1rem; }
+      .nav { padding: 0 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1>Research Agent Dashboard</h1>
+    <div class="subtitle">MSc Research — Serious Games for Indigenous Farming Knowledge</div>
+  </div>
+  <div id="last-updated" class="subtitle"></div>
+</div>
+
+<div class="nav">
+  <button class="active" onclick="showTab('dashboard')">Dashboard</button>
+  <button onclick="showTab('sources')">Sources</button>
+  <button onclick="showTab('quizzes')">Quizzes</button>
+  <button onclick="showTab('timeline')">Timeline</button>
+  <button onclick="showTab('notes')">Notes</button>
+</div>
+
+<div class="container">
+
+  <!-- DASHBOARD TAB -->
+  <div id="tab-dashboard" class="tab active">
+    <div class="grid grid-4" style="margin-bottom:1rem">
+      <div class="card">
+        <h3>Sources Tracked</h3>
+        <div class="stat-value" id="stat-total">—</div>
+        <div class="stat-label">peer-reviewed papers</div>
+      </div>
+      <div class="card">
+        <h3>Reading Progress</h3>
+        <div class="stat-value" id="stat-read-pct">—</div>
+        <div class="progress-bar"><div class="progress-fill" id="progress-bar" style="width:0%;background:var(--green)"></div></div>
+        <div class="stat-label" id="stat-read-detail"></div>
+      </div>
+      <div class="card">
+        <h3>Current Streak</h3>
+        <div class="stat-value"><span class="streak-fire" id="streak-icon"></span> <span id="stat-streak">—</span></div>
+        <div class="stat-label" id="stat-longest"></div>
+      </div>
+      <div class="card">
+        <h3>Today's Progress</h3>
+        <div class="stat-value" id="stat-today-min">—</div>
+        <div class="stat-label" id="stat-today-detail"></div>
+      </div>
+    </div>
+
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>Sources by Year</h3>
+        <div id="chart-years"></div>
+      </div>
+      <div class="card">
+        <h3>Chapter Coverage</h3>
+        <div id="chart-chapters"></div>
+      </div>
+    </div>
+
+    <div class="grid grid-2" style="margin-top:1rem">
+      <div class="card">
+        <h3>Sources by Status</h3>
+        <div id="chart-status"></div>
+      </div>
+      <div class="card">
+        <h3>Topics</h3>
+        <div id="chart-tags"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SOURCES TAB -->
+  <div id="tab-sources" class="tab">
+    <input type="text" class="search-box" id="source-search" placeholder="Search by title, author, venue, or DOI..." oninput="filterSources()">
+    <div class="filter-bar" id="source-filters"></div>
+    <div class="card" style="overflow-x:auto">
+      <table>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Authors</th>
+            <th>Year</th>
+            <th>Cited</th>
+            <th>Status</th>
+            <th>Tags</th>
+            <th>Access</th>
+          </tr>
+        </thead>
+        <tbody id="sources-table"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- QUIZZES TAB -->
+  <div id="tab-quizzes" class="tab">
+    <div class="grid grid-2">
+      <div>
+        <h2 class="section-title">Active Quiz</h2>
+        <div class="quiz-container" id="quiz-area">
+          <div class="empty-state">
+            <h3>No quizzes generated yet</h3>
+            <p>Read your first paper and run the quiz generator to see questions here.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 class="section-title">Quiz History</h2>
+        <div class="card" id="quiz-history">
+          <div class="empty-state">
+            <h3>No quiz results yet</h3>
+            <p>Complete a quiz to see your score history.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TIMELINE TAB -->
+  <div id="tab-timeline" class="tab">
+    <h2 class="section-title">Research Timeline — Jun to Dec 2026</h2>
+    <div class="card">
+      <div id="timeline-view"></div>
+    </div>
+  </div>
+
+  <!-- NOTES TAB -->
+  <div id="tab-notes" class="tab">
+    <h2 class="section-title">Reading Notes</h2>
+    <div id="notes-area">
+      <div class="empty-state">
+        <h3>No reading notes yet</h3>
+        <p>Notes will appear here after you complete reading sessions through the agent.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+let DATA = null;
+
+async function loadData() {
+  try {
+    const resp = await fetch('data.json');
+    DATA = await resp.json();
+    render();
+  } catch(e) {
+    console.error('Failed to load data.json:', e);
+    document.querySelector('.container').innerHTML = '<div class="empty-state"><h3>Could not load data.json</h3><p>Run: python -m tools.export_dashboard_data</p></div>';
+  }
+}
+
+function showTab(name) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  document.querySelectorAll('.nav button').forEach(b => {
+    if (b.textContent.toLowerCase() === name) b.classList.add('active');
+  });
+}
+
+function render() {
+  if (!DATA) return;
+  renderDashboard();
+  renderSources();
+  renderQuizzes();
+  renderTimeline();
+  renderNotes();
+  document.getElementById('last-updated').textContent = 'Updated: ' + new Date(DATA.exported_at).toLocaleDateString();
+}
+
+function renderDashboard() {
+  const s = DATA.stats;
+  const streaks = DATA.streaks || {};
+
+  document.getElementById('stat-total').textContent = s.total_sources;
+  document.getElementById('stat-read-pct').textContent = s.reading_progress_pct + '%';
+  document.getElementById('progress-bar').style.width = s.reading_progress_pct + '%';
+
+  const readCount = (s.by_status.read || 0) + (s.by_status.cited || 0);
+  document.getElementById('stat-read-detail').textContent = readCount + ' of ' + s.total_sources + ' read';
+
+  const streak = streaks.current_streak_days || 0;
+  document.getElementById('stat-streak').textContent = streak + ' days';
+  document.getElementById('streak-icon').textContent = streak > 0 ? '\u{1F525}' : '';
+  document.getElementById('stat-longest').textContent = 'Longest: ' + (streaks.longest_streak_days || 0) + ' days';
+
+  const today = new Date().toISOString().split('T')[0];
+  const todayLog = (DATA.daily_logs || {})[today];
+  if (todayLog) {
+    document.getElementById('stat-today-min').textContent = todayLog.total_minutes + 'min';
+    document.getElementById('stat-today-detail').textContent = todayLog.pomodoros_completed + ' pomodoros, ' + todayLog.sources_read + ' papers';
+  } else {
+    document.getElementById('stat-today-min').textContent = '0min';
+    document.getElementById('stat-today-detail').textContent = 'No activity yet today';
+  }
+
+  renderBarChart('chart-years', s.by_year, 'var(--accent)');
+  renderBarChart('chart-status', s.by_status, 'var(--blue)');
+
+  const chapterLabels = {
+    ch1_background: 'Ch1 Background',
+    ch2_indigenous_knowledge: 'Ch2 Indigenous Knowledge',
+    ch2_serious_games: 'Ch2 Serious Games',
+    ch2_ag_education: 'Ch2 Ag Education',
+    ch2_peer_learning: 'Ch2 Peer Learning',
+    ch2_solution_domain: 'Ch2 Solution Domain',
+    ch2_existing_artifacts: 'Ch2 Existing Artefacts',
+    ch2_framework: 'Ch2 Framework',
+    ch2_research_gap: 'Ch2 Research Gap',
+    ch4_game_mechanics: 'Ch4 Game Mechanics',
+    ch4_multiplayer_trading: 'Ch4 Multiplayer',
+  };
+  const chapterData = {};
+  for (const [k, v] of Object.entries(s.by_chapter)) {
+    chapterData[chapterLabels[k] || k] = v;
+  }
+  renderBarChart('chart-chapters', chapterData, 'var(--green)');
+
+  const tagLabels = {
+    indigenous_knowledge: 'Indigenous Knowledge',
+    serious_games: 'Serious Games',
+    agricultural_education: 'Ag Education',
+    dsr: 'DSR',
+    southern_africa: 'Southern Africa',
+    game_design: 'Game Design',
+    peer_learning: 'Peer Learning',
+    general: 'General',
+  };
+  const tagData = {};
+  for (const [k, v] of Object.entries(s.by_tag)) {
+    tagData[tagLabels[k] || k] = v;
+  }
+  renderBarChart('chart-tags', tagData, 'var(--amber)');
+}
+
+function renderBarChart(containerId, data, color) {
+  const container = document.getElementById(containerId);
+  if (!data || Object.keys(data).length === 0) {
+    container.innerHTML = '<div class="empty-state"><p>No data yet</p></div>';
+    return;
+  }
+  const max = Math.max(...Object.values(data));
+  let html = '';
+  for (const [label, value] of Object.entries(data)) {
+    const pct = max > 0 ? (value / max * 100) : 0;
+    html += `<div class="chart-bar">
+      <div class="chart-bar-label">${label}</div>
+      <div class="chart-bar-track">
+        <div class="chart-bar-fill" style="width:${pct}%;background:${color}">${value}</div>
+      </div>
+    </div>`;
+  }
+  container.innerHTML = html;
+}
+
+const TAG_CLASSES = {
+  indigenous_knowledge: 'tag-ik',
+  serious_games: 'tag-sg',
+  agricultural_education: 'tag-ae',
+  dsr: 'tag-dsr',
+  southern_africa: 'tag-sa',
+  game_design: 'tag-gd',
+  peer_learning: 'tag-pl',
+  general: 'tag-gen',
+};
+
+function renderSources() {
+  const tags = new Set();
+  DATA.sources.forEach(s => (s.relevance_tags || []).forEach(t => tags.add(t)));
+
+  const filterBar = document.getElementById('source-filters');
+  let filterHtml = '<button class="filter-btn active" onclick="setFilter(\'all\', this)">All</button>';
+  tags.forEach(tag => {
+    const label = tag.replace(/_/g, ' ');
+    filterHtml += `<button class="filter-btn" onclick="setFilter('${tag}', this)">${label}</button>`;
+  });
+  filterBar.innerHTML = filterHtml;
+
+  renderSourceTable(DATA.sources);
+}
+
+let currentFilter = 'all';
+
+function setFilter(tag, btn) {
+  currentFilter = tag;
+  document.querySelectorAll('#source-filters .filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  filterSources();
+}
+
+function filterSources() {
+  const query = (document.getElementById('source-search').value || '').toLowerCase();
+  let sources = DATA.sources;
+
+  if (currentFilter !== 'all') {
+    sources = sources.filter(s => (s.relevance_tags || []).includes(currentFilter));
+  }
+
+  if (query) {
+    sources = sources.filter(s => {
+      const text = (s.title + ' ' + s.authors.join(' ') + ' ' + s.venue + ' ' + s.doi).toLowerCase();
+      return text.includes(query);
+    });
+  }
+
+  renderSourceTable(sources);
+}
+
+function renderSourceTable(sources) {
+  const tbody = document.getElementById('sources-table');
+  if (sources.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;color:var(--muted)">No sources match your search</td></tr>';
+    return;
+  }
+
+  sources.sort((a, b) => (b.citation_count || 0) - (a.citation_count || 0));
+
+  let html = '';
+  sources.forEach((s, i) => {
+    const statusClass = 'status-' + (s.status || 'screened');
+    const tags = (s.relevance_tags || []).map(t => `<span class="tag ${TAG_CLASSES[t] || 'tag-gen'}">${t.replace(/_/g, ' ')}</span>`).join('');
+    const authors = s.authors.slice(0, 3).join(', ') + (s.authors.length > 3 ? ' et al.' : '');
+    const accessLink = s.is_open_access && s.open_access_url
+      ? `<a href="${s.open_access_url}" target="_blank" class="oa-link">Open Access</a>`
+      : (s.doi ? `<a href="https://doi.org/${s.doi}" target="_blank" class="oa-link">DOI</a>` : '—');
+
+    html += `<tr>
+      <td>
+        <div style="font-weight:500;margin-bottom:0.25rem">${s.title || 'Untitled'}</div>
+        <button class="abstract-toggle" onclick="toggleAbstract(${i})">Show abstract</button>
+        <div class="abstract-text" id="abstract-${i}">${s.abstract || 'No abstract available'}</div>
+      </td>
+      <td style="font-size:0.85rem;color:var(--muted)">${authors}</td>
+      <td>${s.year || '—'}</td>
+      <td>${s.citation_count || 0}</td>
+      <td><span class="status-badge ${statusClass}">${s.status}</span></td>
+      <td>${tags}</td>
+      <td>${accessLink}</td>
+    </tr>`;
+  });
+  tbody.innerHTML = html;
+}
+
+function toggleAbstract(i) {
+  const el = document.getElementById('abstract-' + i);
+  el.classList.toggle('show');
+}
+
+function renderQuizzes() {
+  const quizArea = document.getElementById('quiz-area');
+  const historyArea = document.getElementById('quiz-history');
+
+  if (DATA.quizzes && DATA.quizzes.length > 0) {
+    const latest = DATA.quizzes[0];
+    if (latest.questions && latest.questions.length > 0) {
+      let html = `<div style="margin-bottom:1rem;color:var(--muted)">
+        <strong>${latest.quiz_type.toUpperCase()} QUIZ</strong> — ${new Date(latest.generated_at).toLocaleDateString()}
+        — ${latest.questions.length} questions
+      </div>`;
+
+      latest.questions.forEach((q, i) => {
+        const typeLabel = q.type ? q.type.charAt(0).toUpperCase() + q.type.slice(1) : 'Question';
+        html += `<div class="quiz-question">
+          <h4>Q${q.id || i + 1} — ${typeLabel}</h4>
+          <p>${q.question}</p>
+          <textarea placeholder="Write your answer here..." id="quiz-answer-${i}"></textarea>
+        </div>`;
+      });
+
+      if (latest.writing_prompt) {
+        html += `<div class="quiz-question">
+          <h4>Writing Assignment</h4>
+          <p>${latest.writing_prompt}</p>
+          <textarea placeholder="Write your response here (500-1000 words)..." style="min-height:200px" id="quiz-writing"></textarea>
+        </div>`;
+      }
+
+      html += `<button class="btn btn-primary" onclick="submitQuiz(${latest.questions.length})">Submit Answers</button>`;
+      quizArea.innerHTML = html;
+    }
+
+    if (DATA.quizzes.length > 1) {
+      let histHtml = '<table><thead><tr><th>Date</th><th>Type</th><th>Questions</th></tr></thead><tbody>';
+      DATA.quizzes.slice(1).forEach(q => {
+        histHtml += `<tr>
+          <td>${new Date(q.generated_at).toLocaleDateString()}</td>
+          <td>${q.quiz_type}</td>
+          <td>${(q.questions || []).length}</td>
+        </tr>`;
+      });
+      histHtml += '</tbody></table>';
+      historyArea.innerHTML = histHtml;
+    }
+  }
+}
+
+function submitQuiz(count) {
+  let answered = 0;
+  for (let i = 0; i < count; i++) {
+    const el = document.getElementById('quiz-answer-' + i);
+    if (el && el.value.trim().length > 10) answered++;
+  }
+  const score = Math.round(answered / count * 100);
+
+  const results = JSON.parse(localStorage.getItem('quiz-results') || '[]');
+  results.push({ date: new Date().toISOString(), score: answered, total: count, pct: score });
+  localStorage.setItem('quiz-results', JSON.stringify(results));
+
+  alert(`Quiz submitted!\n\nYou answered ${answered} of ${count} questions.\n\nReview your answers with the research agent for detailed feedback.`);
+}
+
+function renderTimeline() {
+  const container = document.getElementById('timeline-view');
+  if (!DATA.timeline || !DATA.timeline.milestones) return;
+
+  const today = new Date();
+  let html = '';
+
+  DATA.timeline.milestones.forEach(m => {
+    const date = new Date(m.date);
+    let cls = 'future';
+    if (date < today) cls = 'past';
+    if (Math.abs(date - today) < 7 * 24 * 60 * 60 * 1000) cls = 'current';
+
+    const catColors = { reading: 'var(--green)', writing: 'var(--blue)', development: 'var(--amber)', review: 'var(--accent-light)' };
+    const color = catColors[m.category] || 'var(--muted)';
+
+    html += `<div class="timeline-item ${cls}">
+      <div class="timeline-date">${date.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' })}</div>
+      <div class="timeline-label" style="color:${cls === 'future' ? 'var(--muted)' : 'var(--text)'}">
+        ${m.label}
+        <span class="tag" style="background:${color}22;color:${color}">${m.category}</span>
+      </div>
+    </div>`;
+  });
+
+  container.innerHTML = html;
+}
+
+function renderNotes() {
+  const container = document.getElementById('notes-area');
+  if (!DATA.notes || Object.keys(DATA.notes).length === 0) return;
+
+  let html = '';
+  for (const [slug, note] of Object.entries(DATA.notes)) {
+    html += `<div class="card" style="margin-bottom:1rem">
+      <h3>${note.title || slug}</h3>
+      <div style="color:var(--muted);font-size:0.85rem;margin-bottom:0.5rem">Read: ${note.date_read || '—'}</div>
+      ${note.research_question ? `<p><strong>Research question:</strong> ${note.research_question}</p>` : ''}
+      ${note.methodology ? `<p><strong>Methodology:</strong> ${note.methodology}</p>` : ''}
+      ${note.key_findings ? `<p><strong>Key findings:</strong></p><ul>${note.key_findings.map(f => `<li>${f}</li>`).join('')}</ul>` : ''}
+      ${note.relevance_to_my_research ? `<p><strong>Relevance:</strong> ${note.relevance_to_my_research}</p>` : ''}
+    </div>`;
+  }
+  container.innerHTML = html;
+}
+
+loadData();
+</script>
+
+</body>
+</html>
