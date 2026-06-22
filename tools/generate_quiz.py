@@ -97,6 +97,37 @@ def _build_comprehension_question(source: dict, notes: dict | None) -> dict:
     }
 
 
+def _build_critical_analysis_question(source: dict) -> dict:
+    title = source.get("title", "this paper")
+    authors = source.get("authors", [])
+    author_name = authors[0]["name"] if authors else "the authors"
+
+    templates = [
+        f"What are the methodological strengths and weaknesses of \"{title}\"? How could the study be improved?",
+        f"Critically evaluate the evidence presented in \"{title}\". Is the authors' conclusion fully supported by their data?",
+        f"How does \"{title}\" position itself within the broader debate on indigenous knowledge vs modern science? Do you agree with the authors' stance?",
+        f"If you were reviewing \"{title}\" for a journal, what would you highlight as its main contribution and its main limitation?",
+        f"Compare the theoretical framework used in \"{title}\" with an alternative framework. Which would be more appropriate and why?",
+        f"What assumptions does \"{title}\" make about its target audience or context? Are these assumptions valid for Southern Africa?",
+    ]
+
+    return {
+        "type": "critical_analysis",
+        "question": random.choice(templates),
+        "source_doi": source.get("doi", ""),
+        "source_title": title,
+        "difficulty": "hard",
+        "scoring_rubric": {
+            "0": "No answer or irrelevant",
+            "1": "Superficial response without specific references to the paper",
+            "2": "Identifies one strength or weakness but lacks depth",
+            "3": "Identifies multiple points with some supporting evidence",
+            "4": "Well-structured analysis with specific references to the paper's content",
+            "5": "Excellent critical analysis demonstrating deep understanding and original thinking",
+        },
+    }
+
+
 def _build_application_question(source: dict) -> dict:
     title = source.get("title", "this paper")
 
@@ -105,6 +136,8 @@ def _build_application_question(source: dict) -> dict:
         f"If you were to cite \"{title}\" in Chapter 2, which section would it fit best and why?",
         f"How does \"{title}\" support or challenge your problem statement?",
         f"What design decision in your serious game could be justified using findings from \"{title}\"?",
+        f"How could the findings of \"{title}\" influence the multiplayer or trading mechanics in your game?",
+        f"Write a paragraph that synthesises the findings of \"{title}\" with two other papers you have read. Use IEEE citation style.",
     ]
 
     return {
@@ -137,7 +170,7 @@ def _build_comparison_question(source_a: dict, source_b: dict) -> dict:
     }
 
 
-def generate_daily(num_questions: int = 5) -> dict:
+def generate_daily(num_questions: int = 12) -> dict:
     sources = _get_recent_sources(days=1)
     if not sources:
         sources = _get_all_read_sources()
@@ -147,36 +180,56 @@ def generate_daily(num_questions: int = 5) -> dict:
             "generated_at": now_iso(),
             "message": "No sources have been read yet. Read some papers first.",
             "questions": [],
+            "must_redo": False,
         }
 
     questions = []
     q_id = 1
+    builders = [
+        _build_recall_question,
+        _build_comprehension_question,
+    ]
 
-    for source in sources[:3]:
+    for source in sources[:4]:
         notes = _load_notes_for_source(source.get("doi", ""))
-
-        q = _build_recall_question(source, notes)
-        q["id"] = q_id
-        questions.append(q)
-        q_id += 1
-
-        if q_id <= num_questions:
-            q = _build_comprehension_question(source, notes)
-            q["id"] = q_id
-            questions.append(q)
-            q_id += 1
+        for builder in builders:
+            if len(questions) < num_questions:
+                q = builder(source, notes) if builder in [_build_recall_question, _build_comprehension_question] else builder(source)
+                q["id"] = q_id
+                q.setdefault("scoring_rubric", {
+                    "0": "No answer", "1": "Minimal effort", "2": "Basic understanding",
+                    "3": "Good understanding", "4": "Strong understanding with evidence", "5": "Excellent, demonstrates mastery",
+                })
+                questions.append(q)
+                q_id += 1
 
     while len(questions) < num_questions and sources:
         source = random.choice(sources)
-        q = _build_application_question(source)
+        builder = random.choice([_build_application_question, _build_critical_analysis_question])
+        q = builder(source)
         q["id"] = q_id
+        q.setdefault("scoring_rubric", {
+            "0": "No answer", "1": "Minimal effort", "2": "Basic understanding",
+            "3": "Good understanding", "4": "Strong understanding with evidence", "5": "Excellent, demonstrates mastery",
+        })
         questions.append(q)
         q_id += 1
+
+    if len(sources) >= 2:
+        pair = random.sample(sources, 2)
+        q = _build_comparison_question(pair[0], pair[1])
+        q["id"] = q_id
+        q.setdefault("scoring_rubric", {
+            "0": "No answer", "1": "Minimal effort", "2": "Basic understanding",
+            "3": "Good understanding", "4": "Strong understanding with evidence", "5": "Excellent, demonstrates mastery",
+        })
+        questions.append(q)
 
     return {
         "quiz_type": "daily",
         "generated_at": now_iso(),
         "based_on_sources": list(set(s.get("doi", "") for s in sources)),
+        "must_redo": False,
         "questions": questions[:num_questions],
         "writing_prompt": None,
     }

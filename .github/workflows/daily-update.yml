@@ -1,0 +1,114 @@
+name: Daily Research Update
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # 06:00 UTC daily (08:00 SAST)
+  workflow_dispatch:  # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  daily-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate daily plan (article suggestions + focus notes)
+        run: python -m tools.generate_daily_plan
+
+      - name: Generate daily quiz
+        run: python -m tools.generate_quiz --type daily --output .tmp/quiz-$(date +%Y-%m-%d).json
+        continue-on-error: true
+
+      - name: Check streak and enforce penalty
+        run: |
+          python -c "
+          from tools.utils import load_json, save_json, today_stamp, PROJECT_ROOT
+          from datetime import datetime, timedelta
+
+          progress_path = str(PROJECT_ROOT / 'data' / 'progress' / 'progress-tracker.json')
+          progress = load_json(progress_path) or {'daily_logs': {}, 'streaks': {'current_streak_days': 0, 'longest_streak_days': 0, 'last_active_date': None}}
+
+          streaks = progress.get('streaks', {})
+          last = streaks.get('last_active_date')
+          today = today_stamp()
+
+          if last:
+              diff = (datetime.strptime(today, '%Y-%m-%d') - datetime.strptime(last, '%Y-%m-%d')).days
+              if diff > 1:
+                  print(f'STREAK BROKEN: {diff - 1} days missed since {last}')
+                  streaks['current_streak_days'] = 0
+                  save_json(progress_path, progress)
+
+                  # Flag quizzes as must_redo
+                  import glob, json
+                  for f in glob.glob(str(PROJECT_ROOT / 'data' / 'quizzes' / '*.json')):
+                      quiz = load_json(f)
+                      if quiz:
+                          quiz['must_redo'] = True
+                          save_json(f, quiz)
+                  print('All quizzes flagged as must_redo')
+              else:
+                  print(f'Streak intact: {streaks.get(\"current_streak_days\", 0)} days')
+          else:
+              print('No activity recorded yet')
+          "
+
+      - name: Generate weekly feedback report (Sundays only)
+        if: github.event.schedule == '0 6 * * 0' || github.event_name == 'workflow_dispatch'
+        run: python -m tools.generate_feedback_report
+        continue-on-error: true
+
+      - name: Check writing quality on chapter drafts
+        run: |
+          for f in data/chapters/*.md; do
+            if [ -f "$f" ]; then
+              slug=$(basename "$f" .md)
+              python -m tools.check_writing --input "$f" --output ".tmp/writing-check-${slug}.json"
+            fi
+          done
+        continue-on-error: true
+
+      - name: Export dashboard data
+        run: python -m tools.export_dashboard_data
+
+      - name: Commit and push updates
+        run: |
+          git config user.name "Research Agent Bot"
+          git config user.email "actions@github.com"
+          git add docs/data.json data/daily/ data/reports/ data/quizzes/ data/progress/ .tmp/writing-check-*.json
+          git diff --staged --quiet || git commit -m "Daily update: $(date +%Y-%m-%d) — plan, quiz, progress"
+          git push
+
+      - name: Send streak-broken email notification
+        if: always()
+        run: |
+          python -c "
+          from tools.utils import load_json, today_stamp, PROJECT_ROOT
+          from datetime import datetime
+
+          progress = load_json(str(PROJECT_ROOT / 'data' / 'progress' / 'progress-tracker.json')) or {'streaks': {}}
+          streaks = progress.get('streaks', {})
+          last = streaks.get('last_active_date')
+          today = today_stamp()
+
+          if last:
+              diff = (datetime.strptime(today, '%Y-%m-%d') - datetime.strptime(last, '%Y-%m-%d')).days
+              if diff > 1:
+                  print('::warning::STREAK BROKEN - No activity for ' + str(diff-1) + ' day(s)!')
+                  # GitHub will send a notification for failed/warning workflows
+              else:
+                  print('Streak OK')
+          else:
+              print('No activity yet')
+          "

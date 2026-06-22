@@ -1,0 +1,58 @@
+name: Streak Check & Email Alert
+
+on:
+  schedule:
+    - cron: '0 20 * * *'  # 20:00 UTC daily (22:00 SAST) — end of day check
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check-streak:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Check if user was active today
+        id: streak
+        run: |
+          python -c "
+          from tools.utils import load_json, today_stamp, PROJECT_ROOT
+
+          progress = load_json(str(PROJECT_ROOT / 'data' / 'progress' / 'progress-tracker.json')) or {'daily_logs': {}, 'streaks': {}}
+          today = today_stamp()
+          today_log = progress.get('daily_logs', {}).get(today)
+
+          if today_log and today_log.get('total_minutes', 0) > 0:
+              print('active=true')
+              streak = progress.get('streaks', {}).get('current_streak_days', 0)
+              print(f'message=Great job! You kept your {streak}-day streak alive today.')
+          else:
+              print('active=false')
+              print('message=You have not logged any research activity today. Your streak is at risk!')
+          " >> $GITHUB_OUTPUT
+
+      - name: Create streak alert issue (if inactive)
+        if: contains(steps.streak.outputs.active, 'false')
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const today = new Date().toISOString().split('T')[0];
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `⚠️ Streak Alert — No activity on ${today}`,
+              body: `## Research Streak Alert\n\nYou did not log any research activity today (${today}).\n\n**What this means:**\n- Your streak will reset to 0 if you don't log activity before midnight\n- All pending quizzes will be marked as "must redo"\n\n**What to do:**\n- Open the [Research Dashboard](https://moremi777.github.io/research-agent/)\n- Read at least one paper or complete one quiz\n- Even 25 minutes counts!\n\n---\n*This alert was generated automatically by the Research Agent.*`,
+              labels: ['streak-alert']
+            });

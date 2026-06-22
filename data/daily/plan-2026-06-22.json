@@ -1,0 +1,157 @@
+{
+  "date": "2026-06-22",
+  "generated_at": "2026-06-22T21:41:22.388433+00:00",
+  "phase": {
+    "start": "2026-06-22",
+    "end": "2026-06-28",
+    "focus": "Finalise research scope, start reading",
+    "chapter": "ch1",
+    "tags": [
+      "indigenous_knowledge",
+      "sustainable_agriculture"
+    ]
+  },
+  "daily_suggestions": [
+    {
+      "doi": "10.3390/w12102673",
+      "title": "Climate Change Impacts on Water and Agriculture Sectors in Southern Africa: Threats and Opportunities for Sustainable Development",
+      "authors": [
+        "Charles Nhemachena",
+        "Luxon Nhamo",
+        "Greenwell Matchaya"
+      ],
+      "year": 2020,
+      "venue": "Water",
+      "citation_count": 288,
+      "is_open_access": true,
+      "open_access_url": "https://www.mdpi.com/2073-4441/12/10/2673/pdf?version=1600948995",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "southern_africa"
+      ],
+      "reason": "Relevant to current focus: Finalise research scope, start reading"
+    },
+    {
+      "doi": "10.1002/ppp3.10145",
+      "title": "Unlocking plant resources to support food security and promote sustainable agriculture",
+      "authors": [
+        "Tiziana Ulian",
+        "Mauricio Diazgranados",
+        "Samuel Pironon"
+      ],
+      "year": 2020,
+      "venue": "Plants People Planet",
+      "citation_count": 299,
+      "is_open_access": true,
+      "open_access_url": "https://nph.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ppp3.10145",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "reason": "Relevant to current focus: Finalise research scope, start reading"
+    },
+    {
+      "doi": "10.3390/su15042882",
+      "title": "Climate-Smart Agriculture and Food Security in Southern Africa: A Review of the Vulnerability of Smallholder Agriculture and Food Security to Climate Change",
+      "authors": [
+        "Charles Samuel Mutengwa",
+        "Pearson Mnkeni",
+        "Aleck Kondwakwenda"
+      ],
+      "year": 2023,
+      "venue": "Sustainability",
+      "citation_count": 135,
+      "is_open_access": false,
+      "open_access_url": null,
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "modern_ag_science",
+        "southern_africa"
+      ],
+      "reason": "Relevant to current focus: Finalise research scope, start reading"
+    },
+    {
+      "doi": "10.1515/pdtc-2023-0051",
+      "title": "Revitalizing Indigenous Knowledge Systems via Digital Media Technologies for Sustainability of Indigenous Languages",
+      "authors": [
+        "Yusuf Ayodeji Ajani",
+        "Bolaji David Oladokun",
+        "Shuaib Agboola Olarongbe"
+      ],
+      "year": 2024,
+      "venue": "Preservation Digital Technology & Culture",
+      "citation_count": 57,
+      "is_open_access": true,
+      "open_access_url": "https://www.degruyter.com/document/doi/10.1515/pdtc-2023-0051/pdf",
+      "relevance_tags": [
+        "indigenous_knowledge",
+        "sustainable_agriculture",
+        "multiplayer_simulations"
+      ],
+      "reason": "Relevant to current focus: Finalise research scope, start reading"
+    },
+    {
+      "doi": "10.3390/agronomy11020343",
+      "title": "Intercropping—A Low Input Agricultural Strategy for Food and Environmental Security",
+      "authors": [
+        "Sagar Maitra",
+        "Akbar Hossain",
+        "Marián Brestič"
+      ],
+      "year": 2021,
+      "venue": "Agronomy",
+      "citation_count": 379,
+      "is_open_access": true,
+      "open_access_url": "https://www.mdpi.com/2073-4395/11/2/343/pdf?version=1614148243",
+      "relevance_tags": [
+        "indigenous_knowledge",
+        "sustainable_agriculture"
+      ],
+      "reason": "Relevant to current focus: Finalise research scope, start reading"
+    }
+  ],
+  "focus_notes": [
+    "Current phase: Finalise research scope, start reading.",
+    "You are 0% through this phase (0/6 days).",
+    "Priority gap: Ch2: Indigenous Knowledge — only 0 papers read (target: 10). Focus your reading here today.",
+    "Your streak is at 0. Read one paper and complete a quiz today to start building momentum.",
+    "Today's writing focus: work on your Chapter 1 outline or draft a subsection."
+  ],
+  "coverage_gaps": [
+    {
+      "chapter": "ch2_indigenous_knowledge",
+      "read_count": 0,
+      "target": 10,
+      "priority": "high"
+    },
+    {
+      "chapter": "ch2_sustainable_agriculture",
+      "read_count": 0,
+      "target": 10,
+      "priority": "high"
+    },
+    {
+      "chapter": "ch2_modern_ag_science",
+      "read_count": 0,
+      "target": 10,
+      "priority": "high"
+    },
+    {
+      "chapter": "ch2_serious_games",
+      "read_count": 0,
+      "target": 10,
+      "priority": "high"
+    },
+    {
+      "chapter": "ch2_multiplayer_simulations",
+      "read_count": 0,
+      "target": 10,
+      "priority": "high"
+    },
+    {
+      "chapter": "ch1_background",
+      "read_count": 0,
+      "target": 10,
+      "priority": "high"
+    }
+  ]
+}

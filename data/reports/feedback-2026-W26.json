@@ -1,0 +1,89 @@
+{
+  "week": "2026-W26",
+  "generated_at": "2026-06-22T21:41:22.672649+00:00",
+  "reading_pace": {
+    "papers_read": 0,
+    "target_papers": 5,
+    "on_track": false,
+    "total_minutes": 0,
+    "target_minutes": 420,
+    "active_days": 0,
+    "pomodoros": 0
+  },
+  "quiz_trends": {
+    "quizzes_completed": 0,
+    "average_score_pct": 0,
+    "target_score_pct": 70,
+    "above_target": false,
+    "scores": []
+  },
+  "coverage_analysis": {
+    "chapters": [
+      {
+        "chapter": "ch1_background",
+        "total_sources": 41,
+        "read_sources": 0,
+        "pct_read": 0.0,
+        "needs_attention": true
+      },
+      {
+        "chapter": "ch2_indigenous_knowledge",
+        "total_sources": 48,
+        "read_sources": 0,
+        "pct_read": 0.0,
+        "needs_attention": true
+      },
+      {
+        "chapter": "ch2_modern_ag_science",
+        "total_sources": 13,
+        "read_sources": 0,
+        "pct_read": 0.0,
+        "needs_attention": true
+      },
+      {
+        "chapter": "ch2_multiplayer_simulations",
+        "total_sources": 43,
+        "read_sources": 0,
+        "pct_read": 0.0,
+        "needs_attention": true
+      },
+      {
+        "chapter": "ch2_serious_games",
+        "total_sources": 91,
+        "read_sources": 0,
+        "pct_read": 0.0,
+        "needs_attention": true
+      },
+      {
+        "chapter": "ch2_sustainable_agriculture",
+        "total_sources": 51,
+        "read_sources": 0,
+        "pct_read": 0.0,
+        "needs_attention": true
+      },
+      {
+        "chapter": "ch4_game_mechanics",
+        "total_sources": 21,
+        "read_sources": 0,
+        "pct_read": 0.0,
+        "needs_attention": true
+      }
+    ]
+  },
+  "streak_history": {
+    "current_streak": 0,
+    "longest_streak": 0,
+    "active_days_this_week": 0,
+    "missed_days_this_week": 1,
+    "missed_dates": [
+      "2026-06-22"
+    ]
+  },
+  "recommendations": [
+    "You are 5 paper(s) behind your weekly reading target. Try to read 5 more papers before the weekend.",
+    "You were only active 0 day(s) this week. Aim for at least 5 active days to build strong habits.",
+    "No quizzes completed this week. Complete at least one quiz per reading session to track your comprehension.",
+    "These topics need more reading: Background, Indigenous Knowledge, Modern Ag Science. Prioritise sources tagged with these topics.",
+    "You missed 1 day(s) this week. Consistency matters more than intensity — even 25 minutes counts."
+  ]
+}

@@ -136,6 +136,94 @@ def _check_citations(lines: list[str]) -> list[dict]:
     return issues
 
 
+def _check_academic_tone(lines: list[str]) -> list[dict]:
+    issues = []
+    informal_words = {
+        "a lot": "numerous", "lots of": "numerous", "big": "significant",
+        "get": "obtain", "got": "obtained", "getting": "obtaining",
+        "thing": "aspect", "things": "aspects", "stuff": "material",
+        "kind of": "somewhat", "sort of": "somewhat",
+        "really": "significantly", "very": "highly",
+        "pretty much": "largely", "basically": "fundamentally",
+        "obviously": "evidently", "of course": "naturally",
+        "anyway": "", "anyways": "", "gonna": "going to",
+        "wanna": "want to", "gotta": "have to",
+        "ok": "acceptable", "okay": "acceptable",
+        "etc": "and so forth", "etc.": "and so forth",
+    }
+
+    contraction_map = {
+        "don't": "do not", "doesn't": "does not", "didn't": "did not",
+        "can't": "cannot", "won't": "will not", "wouldn't": "would not",
+        "shouldn't": "should not", "couldn't": "could not",
+        "isn't": "is not", "aren't": "are not", "wasn't": "was not",
+        "weren't": "were not", "hasn't": "has not", "haven't": "have not",
+        "it's": "it is", "that's": "that is", "there's": "there is",
+        "i'm": "I am", "we're": "we are", "they're": "they are",
+        "i've": "I have", "we've": "we have", "they've": "they have",
+    }
+
+    first_person_pattern = re.compile(r'\b(I|my|me|mine)\b(?!\s*\[)', re.IGNORECASE)
+    passive_heavy = re.compile(r'\b(was|were|is|are|been|being)\b\s+\w+ed\b')
+
+    for line_num, line in enumerate(lines, 1):
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#"):
+            continue
+
+        lower = stripped.lower()
+
+        for informal, formal in informal_words.items():
+            if informal in lower:
+                suggestion = f"Replace '{informal}' with '{formal}'" if formal else f"Remove '{informal}'"
+                issues.append({
+                    "type": "informal_language",
+                    "issue": informal,
+                    "suggestion": suggestion,
+                    "line": line_num,
+                    "context": stripped[:80],
+                })
+
+        for contraction, expansion in contraction_map.items():
+            if contraction in lower:
+                issues.append({
+                    "type": "contraction",
+                    "issue": contraction,
+                    "suggestion": f"Expand '{contraction}' to '{expansion}'",
+                    "line": line_num,
+                    "context": stripped[:80],
+                })
+
+        if first_person_pattern.search(stripped):
+            issues.append({
+                "type": "first_person",
+                "issue": "First person pronoun",
+                "suggestion": "Use third person or passive voice in academic writing (e.g., 'the researcher' instead of 'I')",
+                "line": line_num,
+                "context": stripped[:80],
+            })
+
+        if stripped.endswith("!"):
+            issues.append({
+                "type": "exclamation",
+                "issue": "Exclamation mark",
+                "suggestion": "Avoid exclamation marks in academic writing",
+                "line": line_num,
+                "context": stripped[:80],
+            })
+
+        if stripped.startswith("And ") or stripped.startswith("But ") or stripped.startswith("So "):
+            issues.append({
+                "type": "sentence_starter",
+                "issue": f"Sentence starts with '{stripped.split()[0]}'",
+                "suggestion": f"Rephrase to avoid starting with a conjunction",
+                "line": line_num,
+                "context": stripped[:80],
+            })
+
+    return issues
+
+
 def check_file(input_path: str, checks: list[str]) -> dict:
     path = Path(input_path)
     if not path.exists():
@@ -165,10 +253,14 @@ def check_file(input_path: str, checks: list[str]) -> dict:
         citation_count = len(IEEE_CITATION.findall(content))
         result["citation_count"] = citation_count
 
+    if "tone" in checks or "all" in checks:
+        result["academic_tone_issues"] = _check_academic_tone(lines)
+
     total_issues = (
         len(result.get("spelling_issues", []))
         + len(result.get("americanisms_found", []))
         + len(result.get("uncited_claims", []))
+        + len(result.get("academic_tone_issues", []))
     )
     result["total_issues"] = total_issues
 
