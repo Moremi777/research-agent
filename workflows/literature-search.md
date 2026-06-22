@@ -78,14 +78,16 @@ Present to the user:
 ## Relevance Tag Convention
 Use consistent tags across searches:
 - `indigenous_knowledge` — IK systems, traditional farming, TEK
+- `sustainable_agriculture` — sustainability, food security, climate-smart farming
+- `modern_ag_science` — precision agriculture, extension services, technology in farming
 - `serious_games` — game-based learning, gamification, educational games
-- `agricultural_education` — farming extension, ag training, sustainability education
+- `multiplayer_simulations` — multiplayer mechanics, farming simulations, peer learning, collaborative play
 - `dsr` — design science research methodology
-- `game_design` — mechanics, simulation, multiplayer
-- `peer_learning` — farmer-to-farmer, knowledge exchange, communities of practice
 - `southern_africa` — regional focus
 
 ## Chapter Relevance Labels
 - `ch1_background`, `ch1_problem`
-- `ch2_indigenous_knowledge`, `ch2_serious_games`, `ch2_ag_education`, `ch2_peer_learning`, `ch2_solution_domain`, `ch2_existing_artifacts`, `ch2_framework`, `ch2_research_gap`
+- `ch2_indigenous_knowledge`, `ch2_sustainable_agriculture`, `ch2_modern_ag_science`
+- `ch2_serious_games`, `ch2_multiplayer_simulations`
+- `ch2_existing_artifacts`, `ch2_framework`, `ch2_research_gap`
 - `ch4_game_mechanics`, `ch4_multiplayer_trading`

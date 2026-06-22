@@ -19,67 +19,77 @@ Guide the user through writing Chapter 2 (Literature Review) with a thematic str
 
 ### Section 2.2 — Thematic Review of the Problem Domain
 
-#### 2.2.1 — Indigenous Farming Knowledge Systems in Southern Africa
-**Purpose**: Review the literature on IK systems, their importance, current state, and challenges.
+#### 2.2.1 — Indigenous Farming Knowledge
+**Purpose**: Review IK systems in agriculture — their importance, how they are defined, current state, and threats to preservation.
 **Prompts**:
 - "What do researchers say about the value of indigenous farming knowledge?"
-- "What are the threats to IK preservation in Southern Africa specifically?"
 - "How do different authors define and categorise IK in agriculture?"
+- "What are the threats to IK preservation, especially in Southern Africa?"
 - "Where do authors agree? Where do they disagree?"
-**Key synthesis question**: "What does the literature collectively tell us about the state of IK in Southern African agriculture?"
+**Key synthesis question**: "What does the literature collectively tell us about the state of indigenous farming knowledge?"
 
 Show relevant sources:
 ```
 python -m tools.manage_sources --action list --filters '{"relevance_tags": ["indigenous_knowledge"]}'
 ```
 
-#### 2.2.2 — Serious Games and Game-Based Learning in Education
-**Purpose**: Review how serious games have been used for education, learning theories that underpin them.
+#### 2.2.2 — Sustainable Agriculture
+**Purpose**: Review literature on sustainable farming practices, food security, and how sustainability relates to both IK and modern science.
+**Prompts**:
+- "How is sustainable agriculture defined in the literature?"
+- "What role does indigenous farming knowledge play in sustainability?"
+- "What are the key challenges to achieving sustainable agriculture in Southern Africa?"
+- "How do sustainability goals connect to farming education?"
+**Key synthesis question**: "How does the literature position indigenous knowledge within the broader sustainability agenda?"
+
+Show relevant sources:
+```
+python -m tools.manage_sources --action list --filters '{"relevance_tags": ["sustainable_agriculture"]}'
+```
+
+#### 2.2.3 — Modern Agricultural Science
+**Purpose**: Review how modern agricultural science complements or conflicts with indigenous farming knowledge, and how integration can work.
+**Prompts**:
+- "What does modern agricultural science offer that IK does not, and vice versa?"
+- "What examples exist of successfully integrating IK with modern agricultural science?"
+- "What tensions or challenges arise when combining these two knowledge systems?"
+- "How has technology (IoT, precision farming, extension services) changed agriculture?"
+**Key synthesis question**: "What does the evidence say about integrating indigenous and modern agricultural knowledge for better outcomes?"
+
+Show relevant sources:
+```
+python -m tools.manage_sources --action list --filters '{"relevance_tags": ["modern_ag_science"]}'
+```
+
+### Section 2.3 — Thematic Review of the Solution Domain
+
+#### 2.3.1 — Serious Games
+**Purpose**: Review how serious games have been used for education, learning theories that underpin them, and their application in agriculture.
 **Prompts**:
 - "What learning theories support game-based learning? (Constructivism, experiential learning, situated learning)"
 - "What evidence exists for the effectiveness of serious games in education?"
+- "What existing serious games address agriculture or farming?"
 - "What design principles emerge from the literature?"
-- "What are the criticisms or limitations of serious games in education?"
-**Key synthesis question**: "What does the evidence say about when and why games work for learning?"
+**Key synthesis question**: "What does the evidence say about when and why serious games work for learning?"
 
 Show relevant sources:
 ```
 python -m tools.manage_sources --action list --filters '{"relevance_tags": ["serious_games"]}'
 ```
 
-#### 2.2.3 — Technology in Agricultural Education and Extension
-**Purpose**: Review how technology has been used in agricultural education, especially in developing contexts.
+#### 2.3.2 — Multiplayer and Simulations
+**Purpose**: Review multiplayer game mechanics, farming simulations, peer-based learning through games, and farmer-to-farmer knowledge exchange.
 **Prompts**:
-- "What digital tools have been used for agricultural education in Southern Africa?"
-- "What challenges exist for technology-based agricultural education in this context?"
-- "How have mobile and ICT solutions been adopted by farmers and extension workers?"
-**Key synthesis question**: "What works and what does not when using technology for agricultural education in developing regions?"
+- "How have multiplayer mechanics been used in educational games?"
+- "What agricultural simulation games exist and what do they simulate?"
+- "How do farmers traditionally share knowledge with each other?"
+- "What role does peer learning and collaborative play have in knowledge transfer?"
+**Key synthesis question**: "How can multiplayer and simulation mechanics facilitate the transfer of farming knowledge between players?"
 
 Show relevant sources:
 ```
-python -m tools.manage_sources --action list --filters '{"relevance_tags": ["agricultural_education"]}'
+python -m tools.manage_sources --action list --filters '{"relevance_tags": ["multiplayer_simulations"]}'
 ```
-
-#### 2.2.4 — Farmer-to-Farmer Knowledge Exchange and Peer Learning
-**Purpose**: Review literature on peer-based knowledge sharing in agriculture, communities of practice, and how multiplayer/collaborative mechanics can support learning.
-**Prompts**:
-- "How do farmers traditionally share knowledge with each other in Southern Africa?"
-- "What does the literature say about communities of practice in agriculture?"
-- "How have digital platforms facilitated farmer-to-farmer knowledge exchange?"
-- "What role does peer learning play in preserving indigenous knowledge?"
-**Key synthesis question**: "What mechanisms for peer-based knowledge exchange exist, and how could multiplayer game mechanics replicate or enhance them?"
-
-Show relevant sources:
-```
-python -m tools.manage_sources --action list --filters '{"relevance_tags": ["peer_learning"]}'
-```
-
-### Section 2.3 — Review of the Solution Domain
-**Purpose**: Review existing serious games, simulations, and digital tools for agriculture and IK.
-**Prompts**:
-- "What existing serious games address agriculture? (FarmVille-style, simulation games, educational farming games)"
-- "Have any games specifically addressed indigenous knowledge?"
-- "What technologies and platforms are used? (Mobile, web, VR)"
 
 ### Section 2.4 — Existing Artefacts and Their Limitations
 **Purpose**: Critical analysis of what current solutions lack.

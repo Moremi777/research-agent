@@ -1,41 +1,44 @@
 {
-  "exported_at": "2026-06-22T20:43:58.445915+00:00",
+  "exported_at": "2026-06-22T21:17:43.660914+00:00",
   "stats": {
-    "total_sources": 180,
+    "total_sources": 274,
     "by_status": {
       "excluded": 60,
-      "screened": 119,
+      "screened": 213,
       "reading": 1
     },
     "by_year": {
-      "2015": 17,
-      "2016": 13,
-      "2017": 15,
-      "2018": 16,
-      "2019": 18,
-      "2020": 25,
-      "2021": 22,
-      "2022": 10,
-      "2023": 9,
-      "2024": 15,
-      "2025": 11,
-      "2026": 9
+      "2015": 21,
+      "2016": 16,
+      "2017": 20,
+      "2018": 24,
+      "2019": 30,
+      "2020": 36,
+      "2021": 30,
+      "2022": 17,
+      "2023": 18,
+      "2024": 23,
+      "2025": 28,
+      "2026": 11
     },
     "by_chapter": {
-      "ch2_serious_games": 80,
-      "ch4_game_mechanics": 20,
-      "ch2_indigenous_knowledge": 37,
-      "ch1_background": 7,
-      "ch2_ag_education": 2
+      "ch2_serious_games": 91,
+      "ch4_game_mechanics": 21,
+      "ch2_multiplayer_simulations": 43,
+      "ch2_indigenous_knowledge": 48,
+      "ch2_sustainable_agriculture": 51,
+      "ch1_background": 41,
+      "ch2_modern_ag_science": 13
     },
     "by_tag": {
-      "serious_games": 80,
-      "game_design": 20,
-      "indigenous_knowledge": 37,
-      "southern_africa": 21,
-      "agricultural_education": 2,
-      "dsr": 2,
-      "general": 1
+      "serious_games": 91,
+      "multiplayer_simulations": 43,
+      "indigenous_knowledge": 48,
+      "sustainable_agriculture": 51,
+      "southern_africa": 48,
+      "modern_ag_science": 13,
+      "dsr": 3,
+      "general": 13
     },
     "reading_progress_pct": 0.0
   },
@@ -89,8 +92,7 @@
       "open_access_url": null,
       "status": "screened",
       "relevance_tags": [
-        "serious_games",
-        "game_design"
+        "serious_games"
       ],
       "chapter_relevance": [
         "ch2_serious_games",
@@ -116,8 +118,7 @@
       "open_access_url": null,
       "status": "screened",
       "relevance_tags": [
-        "serious_games",
-        "game_design"
+        "serious_games"
       ],
       "chapter_relevance": [
         "ch2_serious_games",
@@ -142,10 +143,12 @@
       "open_access_url": null,
       "status": "screened",
       "relevance_tags": [
-        "serious_games"
+        "serious_games",
+        "multiplayer_simulations"
       ],
       "chapter_relevance": [
-        "ch2_serious_games"
+        "ch2_serious_games",
+        "ch2_multiplayer_simulations"
       ],
       "bibtex_key": "peng_2021_how",
       "added_date": "2026-06-22",
@@ -195,8 +198,7 @@
       "open_access_url": null,
       "status": "screened",
       "relevance_tags": [
-        "serious_games",
-        "game_design"
+        "serious_games"
       ],
       "chapter_relevance": [
         "ch2_serious_games",
@@ -246,10 +248,12 @@
       "open_access_url": null,
       "status": "screened",
       "relevance_tags": [
-        "serious_games"
+        "serious_games",
+        "multiplayer_simulations"
       ],
       "chapter_relevance": [
-        "ch2_serious_games"
+        "ch2_serious_games",
+        "ch2_multiplayer_simulations"
       ],
       "bibtex_key": "cercel_2022_gamification",
       "added_date": "2026-06-22",
@@ -297,8 +301,7 @@
       "open_access_url": null,
       "status": "screened",
       "relevance_tags": [
-        "serious_games",
-        "game_design"
+        "serious_games"
       ],
       "chapter_relevance": [
         "ch2_serious_games",
@@ -372,10 +375,12 @@
       "open_access_url": "https://link.springer.com/content/pdf/10.1007%2Fs40974-017-0074-7.pdf",
       "status": "screened",
       "relevance_tags": [
-        "indigenous_knowledge"
+        "indigenous_knowledge",
+        "sustainable_agriculture"
       ],
       "chapter_relevance": [
-        "ch2_indigenous_knowledge"
+        "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture"
       ],
       "bibtex_key": "singh_2017_traditional",
       "added_date": "2026-06-22",
@@ -448,10 +453,12 @@
       "open_access_url": "https://www.tandfonline.com/doi/pdf/10.1080/21513732.2015.1124453?download=true",
       "status": "screened",
       "relevance_tags": [
-        "indigenous_knowledge"
+        "indigenous_knowledge",
+        "sustainable_agriculture"
       ],
       "chapter_relevance": [
-        "ch2_indigenous_knowledge"
+        "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture"
       ],
       "bibtex_key": "camacho_2015_indigenous",
       "added_date": "2026-06-22",
@@ -474,9 +481,11 @@
       "open_access_url": "https://ethnobiomed.biomedcentral.com/track/pdf/10.1186/s13002-017-0191-6",
       "status": "screened",
       "relevance_tags": [
+        "sustainable_agriculture",
         "southern_africa"
       ],
       "chapter_relevance": [
+        "ch2_sustainable_agriculture",
         "ch1_background"
       ],
       "bibtex_key": "mmari_2017_traditions",
@@ -499,10 +508,12 @@
       "open_access_url": "https://link.springer.com/content/pdf/10.1007/s11159-019-09770-9.pdf",
       "status": "screened",
       "relevance_tags": [
-        "indigenous_knowledge"
+        "indigenous_knowledge",
+        "sustainable_agriculture"
       ],
       "chapter_relevance": [
-        "ch2_indigenous_knowledge"
+        "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture"
       ],
       "bibtex_key": "tom_2019_indigenous",
       "added_date": "2026-06-22",
@@ -624,10 +635,14 @@
       "open_access_url": "https://www.degruyter.com/document/doi/10.1515/pdtc-2023-0051/pdf",
       "status": "screened",
       "relevance_tags": [
-        "indigenous_knowledge"
+        "indigenous_knowledge",
+        "sustainable_agriculture",
+        "multiplayer_simulations"
       ],
       "chapter_relevance": [
-        "ch2_indigenous_knowledge"
+        "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture",
+        "ch2_multiplayer_simulations"
       ],
       "bibtex_key": "ajani_2024_revitalizing",
       "added_date": "2026-06-22",
@@ -648,10 +663,12 @@
       "status": "screened",
       "relevance_tags": [
         "indigenous_knowledge",
+        "sustainable_agriculture",
         "southern_africa"
       ],
       "chapter_relevance": [
-        "ch2_indigenous_knowledge"
+        "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture"
       ],
       "bibtex_key": "tharakan_2015_integrating",
       "added_date": "2026-06-22",
@@ -705,8 +722,7 @@
       "open_access_url": "https://iopscience.iop.org/article/10.1088/1748-9326/aac1c6/pdf",
       "status": "screened",
       "relevance_tags": [
-        "serious_games",
-        "game_design"
+        "serious_games"
       ],
       "chapter_relevance": [
         "ch2_serious_games",
@@ -735,8 +751,7 @@
       "open_access_url": "https://publications.aston.ac.uk/id/eprint/28460/1/Features_of_serious_games_design_in_Higher_Education.pdf",
       "status": "screened",
       "relevance_tags": [
-        "serious_games",
-        "game_design"
+        "serious_games"
       ],
       "chapter_relevance": [
         "ch2_serious_games",
@@ -792,8 +807,7 @@
       "open_access_url": "https://www.mdpi.com/2071-1050/12/5/1789/pdf?version=1583501113",
       "status": "screened",
       "relevance_tags": [
-        "serious_games",
-        "game_design"
+        "serious_games"
       ],
       "chapter_relevance": [
         "ch2_serious_games",
@@ -821,10 +835,12 @@
       "open_access_url": "https://www.mdpi.com/2073-4441/8/5/175/pdf?version=1461825876",
       "status": "screened",
       "relevance_tags": [
-        "serious_games"
+        "serious_games",
+        "multiplayer_simulations"
       ],
       "chapter_relevance": [
-        "ch2_serious_games"
+        "ch2_serious_games",
+        "ch2_multiplayer_simulations"
       ],
       "bibtex_key": "medema_2016_exploring",
       "added_date": "2026-06-22",
@@ -870,10 +886,12 @@
       "open_access_url": "https://journals.sagepub.com/doi/pdf/10.1177/1046878118770217?download=true",
       "status": "screened",
       "relevance_tags": [
-        "serious_games"
+        "serious_games",
+        "multiplayer_simulations"
       ],
       "chapter_relevance": [
-        "ch2_serious_games"
+        "ch2_serious_games",
+        "ch2_multiplayer_simulations"
       ],
       "bibtex_key": "taillandier_2018_games",
       "added_date": "2026-06-22",
@@ -976,10 +994,12 @@
       "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/bjet.12851",
       "status": "screened",
       "relevance_tags": [
-        "serious_games"
+        "serious_games",
+        "multiplayer_simulations"
       ],
       "chapter_relevance": [
-        "ch2_serious_games"
+        "ch2_serious_games",
+        "ch2_multiplayer_simulations"
       ],
       "bibtex_key": "meij_2019_effects",
       "added_date": "2026-06-22",
@@ -1028,12 +1048,12 @@
       "open_access_url": "https://www.tandfonline.com/doi/pdf/10.1080/10494820.2024.2414429?needAccess=true",
       "status": "screened",
       "relevance_tags": [
-        "serious_games",
-        "agricultural_education"
+        "sustainable_agriculture",
+        "serious_games"
       ],
       "chapter_relevance": [
-        "ch2_serious_games",
-        "ch2_ag_education"
+        "ch2_sustainable_agriculture",
+        "ch2_serious_games"
       ],
       "bibtex_key": "ahmadov_2024_a",
       "added_date": "2026-06-22",
@@ -1055,10 +1075,12 @@
       "open_access_url": null,
       "status": "screened",
       "relevance_tags": [
-        "serious_games"
+        "serious_games",
+        "multiplayer_simulations"
       ],
       "chapter_relevance": [
-        "ch2_serious_games"
+        "ch2_serious_games",
+        "ch2_multiplayer_simulations"
       ],
       "bibtex_key": "pachecovelazquez_2023_serious",
       "added_date": "2026-06-22",
@@ -1215,9 +1237,11 @@
       "open_access_url": null,
       "status": "screened",
       "relevance_tags": [
+        "modern_ag_science",
         "serious_games"
       ],
       "chapter_relevance": [
+        "ch2_modern_ag_science",
         "ch2_serious_games"
       ],
       "bibtex_key": "tangworakitthaworn_2020_serious",
@@ -1291,8 +1315,7 @@
       "open_access_url": null,
       "status": "screened",
       "relevance_tags": [
-        "serious_games",
-        "game_design"
+        "serious_games"
       ],
       "chapter_relevance": [
         "ch2_serious_games",
@@ -1343,8 +1366,7 @@
       "open_access_url": null,
       "status": "screened",
       "relevance_tags": [
-        "serious_games",
-        "game_design"
+        "serious_games"
       ],
       "chapter_relevance": [
         "ch2_serious_games",
@@ -1395,9 +1417,11 @@
       "open_access_url": null,
       "status": "screened",
       "relevance_tags": [
+        "modern_ag_science",
         "serious_games"
       ],
       "chapter_relevance": [
+        "ch2_modern_ag_science",
         "ch2_serious_games"
       ],
       "bibtex_key": "huang_2024_an",
@@ -1502,10 +1526,11 @@
       "status": "screened",
       "relevance_tags": [
         "serious_games",
-        "game_design"
+        "multiplayer_simulations"
       ],
       "chapter_relevance": [
         "ch2_serious_games",
+        "ch2_multiplayer_simulations",
         "ch4_game_mechanics"
       ],
       "bibtex_key": "shao_2026_serious",
@@ -1692,8 +1717,7 @@
       "open_access_url": "https://ieeexplore.ieee.org/ielx7/4620076/9298488/09173738.pdf",
       "status": "screened",
       "relevance_tags": [
-        "serious_games",
-        "game_design"
+        "serious_games"
       ],
       "chapter_relevance": [
         "ch2_serious_games",
@@ -1823,10 +1847,11 @@
       "status": "screened",
       "relevance_tags": [
         "serious_games",
-        "game_design"
+        "multiplayer_simulations"
       ],
       "chapter_relevance": [
         "ch2_serious_games",
+        "ch2_multiplayer_simulations",
         "ch4_game_mechanics"
       ],
       "bibtex_key": "jaccard_2021_the",
@@ -1850,8 +1875,7 @@
       "status": "screened",
       "relevance_tags": [
         "serious_games",
-        "dsr",
-        "game_design"
+        "dsr"
       ],
       "chapter_relevance": [
         "ch2_serious_games",
@@ -1932,10 +1956,11 @@
       "status": "screened",
       "relevance_tags": [
         "serious_games",
-        "game_design"
+        "multiplayer_simulations"
       ],
       "chapter_relevance": [
         "ch2_serious_games",
+        "ch2_multiplayer_simulations",
         "ch4_game_mechanics"
       ],
       "bibtex_key": "jaccard_2021_contribution",
@@ -1956,10 +1981,12 @@
       "open_access_url": null,
       "status": "screened",
       "relevance_tags": [
-        "serious_games"
+        "serious_games",
+        "multiplayer_simulations"
       ],
       "chapter_relevance": [
-        "ch2_serious_games"
+        "ch2_serious_games",
+        "ch2_multiplayer_simulations"
       ],
       "bibtex_key": "novak_2023_mydiabetic",
       "added_date": "2026-06-22",
@@ -1983,8 +2010,7 @@
       "open_access_url": null,
       "status": "screened",
       "relevance_tags": [
-        "serious_games",
-        "game_design"
+        "serious_games"
       ],
       "chapter_relevance": [
         "ch2_serious_games",
@@ -2037,8 +2063,7 @@
       "open_access_url": null,
       "status": "screened",
       "relevance_tags": [
-        "serious_games",
-        "game_design"
+        "serious_games"
       ],
       "chapter_relevance": [
         "ch2_serious_games",
@@ -2175,9 +2200,11 @@
       "open_access_url": "https://www.mdpi.com/2071-1050/11/1/172/pdf?version=1546240572",
       "status": "screened",
       "relevance_tags": [
+        "sustainable_agriculture",
         "southern_africa"
       ],
       "chapter_relevance": [
+        "ch2_sustainable_agriculture",
         "ch1_background"
       ],
       "bibtex_key": "mabhaudhi_2018_mainstreaming",
@@ -2293,10 +2320,12 @@
       "status": "screened",
       "relevance_tags": [
         "indigenous_knowledge",
+        "sustainable_agriculture",
         "southern_africa"
       ],
       "chapter_relevance": [
         "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture",
         "ch1_background"
       ],
       "bibtex_key": "jiri_2016_seasonal",
@@ -2534,10 +2563,12 @@
       "status": "screened",
       "relevance_tags": [
         "indigenous_knowledge",
+        "sustainable_agriculture",
         "southern_africa"
       ],
       "chapter_relevance": [
-        "ch2_indigenous_knowledge"
+        "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture"
       ],
       "bibtex_key": "ncube_2025_government",
       "added_date": "2026-06-22",
@@ -2558,10 +2589,12 @@
       "status": "screened",
       "relevance_tags": [
         "indigenous_knowledge",
+        "sustainable_agriculture",
         "southern_africa"
       ],
       "chapter_relevance": [
         "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture",
         "ch1_background"
       ],
       "bibtex_key": "n_2025_gender",
@@ -2583,10 +2616,12 @@
       "status": "screened",
       "relevance_tags": [
         "indigenous_knowledge",
+        "multiplayer_simulations",
         "southern_africa"
       ],
       "chapter_relevance": [
-        "ch2_indigenous_knowledge"
+        "ch2_indigenous_knowledge",
+        "ch2_multiplayer_simulations"
       ],
       "bibtex_key": "sata_2025_integrating",
       "added_date": "2026-06-22",
@@ -2630,10 +2665,14 @@
       "status": "screened",
       "relevance_tags": [
         "indigenous_knowledge",
+        "sustainable_agriculture",
+        "multiplayer_simulations",
         "southern_africa"
       ],
       "chapter_relevance": [
-        "ch2_indigenous_knowledge"
+        "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture",
+        "ch2_multiplayer_simulations"
       ],
       "bibtex_key": "grand_2026_fourth",
       "added_date": "2026-06-22",
@@ -2755,10 +2794,12 @@
       "open_access_url": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08784034.pdf",
       "status": "screened",
       "relevance_tags": [
-        "indigenous_knowledge"
+        "indigenous_knowledge",
+        "modern_ag_science"
       ],
       "chapter_relevance": [
-        "ch2_indigenous_knowledge"
+        "ch2_indigenous_knowledge",
+        "ch2_modern_ag_science"
       ],
       "bibtex_key": "ayaz_2019_internet",
       "added_date": "2026-06-22",
@@ -2779,9 +2820,11 @@
       "open_access_url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09505674.pdf",
       "status": "screened",
       "relevance_tags": [
-        "general"
+        "modern_ag_science"
       ],
-      "chapter_relevance": [],
+      "chapter_relevance": [
+        "ch2_modern_ag_science"
+      ],
       "bibtex_key": "bhat_2021_big",
       "added_date": "2026-06-22",
       "read_date": null
@@ -2804,8 +2847,7 @@
       "open_access_url": "http://journal.uad.ac.id/index.php/EduLearn/article/download/7736/pdf_231",
       "status": "screened",
       "relevance_tags": [
-        "serious_games",
-        "game_design"
+        "serious_games"
       ],
       "chapter_relevance": [
         "ch2_serious_games",
@@ -2830,10 +2872,12 @@
       "open_access_url": "https://www.sciencedirect.com/science/article/pii/S0959652617308703",
       "status": "screened",
       "relevance_tags": [
-        "serious_games"
+        "serious_games",
+        "multiplayer_simulations"
       ],
       "chapter_relevance": [
-        "ch2_serious_games"
+        "ch2_serious_games",
+        "ch2_multiplayer_simulations"
       ],
       "bibtex_key": "gugerell_2017_gaming",
       "added_date": "2026-06-22",
@@ -2881,8 +2925,7 @@
       "open_access_url": null,
       "status": "screened",
       "relevance_tags": [
-        "serious_games",
-        "game_design"
+        "serious_games"
       ],
       "chapter_relevance": [
         "ch2_serious_games",
@@ -2954,10 +2997,12 @@
       "open_access_url": null,
       "status": "screened",
       "relevance_tags": [
-        "serious_games"
+        "serious_games",
+        "multiplayer_simulations"
       ],
       "chapter_relevance": [
-        "ch2_serious_games"
+        "ch2_serious_games",
+        "ch2_multiplayer_simulations"
       ],
       "bibtex_key": "bawa_2020_game",
       "added_date": "2026-06-22",
@@ -2980,11 +3025,11 @@
       "status": "screened",
       "relevance_tags": [
         "serious_games",
-        "agricultural_education"
+        "multiplayer_simulations"
       ],
       "chapter_relevance": [
         "ch2_serious_games",
-        "ch2_ag_education"
+        "ch2_multiplayer_simulations"
       ],
       "bibtex_key": "klit_2018_a",
       "added_date": "2026-06-22",
@@ -3008,10 +3053,12 @@
       "open_access_url": null,
       "status": "screened",
       "relevance_tags": [
-        "serious_games"
+        "serious_games",
+        "multiplayer_simulations"
       ],
       "chapter_relevance": [
-        "ch2_serious_games"
+        "ch2_serious_games",
+        "ch2_multiplayer_simulations"
       ],
       "bibtex_key": "yi_2020_conscientiousness",
       "added_date": "2026-06-22",
@@ -3057,8 +3104,7 @@
       "open_access_url": null,
       "status": "screened",
       "relevance_tags": [
-        "serious_games",
-        "game_design"
+        "serious_games"
       ],
       "chapter_relevance": [
         "ch2_serious_games",
@@ -3133,10 +3179,11 @@
       "status": "screened",
       "relevance_tags": [
         "serious_games",
-        "game_design"
+        "multiplayer_simulations"
       ],
       "chapter_relevance": [
         "ch2_serious_games",
+        "ch2_multiplayer_simulations",
         "ch4_game_mechanics"
       ],
       "bibtex_key": "xie_2024_the",
@@ -3158,12 +3205,2523 @@
       "open_access_url": null,
       "status": "screened",
       "relevance_tags": [
+        "serious_games",
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games",
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "weerasiri_2025_the",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1038/s41559-018-0793-y",
+      "title": "The global burden of pathogens and pests on major food crops",
+      "authors": [
+        "Serge Savary",
+        "Laetitia Willocquet",
+        "Sarah J. Pethybridge",
+        "Paul D. Esker",
+        "N. McRoberts",
+        "Andy Nelson"
+      ],
+      "year": 2019,
+      "venue": "Nature Ecology & Evolution",
+      "abstract": "Crop pathogens and pests reduce the yield and quality of agricultural production. They cause substantial economic losses and reduce food security at household, national and global levels. Quantitative, standardized information on crop losses is difficult to compile and compare across crops, agroecosystems and regions. Here, we report on an expert-based assessment of crop health, and provide numerical estimates of yield losses on an individual pathogen and pest basis for five major crops globally and in food security hotspots. Our results document losses associated with 137 pathogens and pests associated with wheat, rice, maize, potato and soybean worldwide. Our yield loss (range) estimates at a global level and per hotspot for wheat (21.5% (10.1-28.1%)), rice (30.0% (24.6-40.9%)), maize (22.5% (19.5-41.1%)), potato (17.2% (8.1-21.0%)) and soybean (21.4% (11.0-32.4%)) suggest that the highest losses are associated with food-deficit regions with fast-growing populations, and frequently with emerging or re-emerging pests and diseases. Our assessment highlights differences in impacts among crop pathogens and pests and among food security hotspots. This analysis contributes critical information to prioritize crop health management to improve the sustainability of agroecosystems in delivering services to societies.",
+      "citation_count": 3946,
+      "is_open_access": true,
+      "open_access_url": "https://research.utwente.nl/en/publications/cd23339a-cd2a-4075-b093-e74a05f71d98",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "savary_2019_the",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1038/s41558-018-0299-2",
+      "title": "Climate change and interconnected risks to sustainable development in the Mediterranean",
+      "authors": [
+        "Wolfgang Crämer",
+        "Joël Guiot",
+        "Marianela Fader",
+        "Joaquim Garrabou",
+        "Jean‐Pierre Gattuso",
+        "Ana Iglesias",
+        "Manfred A. Lange",
+        "Piero Lionello",
+        "María Carmen Llasat",
+        "Shlomit Paz",
+        "Josep Peñuelas",
+        "Maria Snoussi",
+        "Andrea Toreti",
+        "Michael Tsimplis",
+        "Elena Xoplaki"
+      ],
+      "year": 2018,
+      "venue": "Nature Climate Change",
+      "abstract": "",
+      "citation_count": 1464,
+      "is_open_access": true,
+      "open_access_url": "https://ddd.uab.cat/record/203562",
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "crämer_2018_climate",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1002/ecs2.2582",
+      "title": "Grasslands—more important for ecosystem services than you might think",
+      "authors": [
+        "Jan Bengtsson",
+        "James M. Bullock",
+        "Benis N. Egoh",
+        "Colin S. Everson",
+        "T. M. Everson",
+        "T.G. O’Connor",
+        "Patrick O’Farrell",
+        "Henrik G. Smith",
+        "Regina Lindborg"
+      ],
+      "year": 2019,
+      "venue": "Ecosphere",
+      "abstract": "Abstract Extensively managed grasslands are recognized globally for their high biodiversity and their social and cultural values. However, their capacity to deliver multiple ecosystem services (ES) as parts of agricultural systems is surprisingly understudied compared to other production systems. We undertook a comprehensive overview of ES provided by natural and semi‐natural grasslands, using southern Africa (SA) and northwest Europe as case studies, respectively. We show that these grasslands can supply additional non‐agricultural services, such as water supply and flow regulation, carbon storage, erosion control, climate mitigation, pollination, and cultural ES. While demand for ecosystems services seems to balance supply in natural grasslands of SA, the smaller areas of semi‐natural grasslands in Europe appear to not meet the demand for many services. We identified three bundles of related ES from grasslands: water ES including fodder production, cultural ES connected to livestock production, and population‐based regulating services (e.g., pollination and biological control), which also linked to biodiversity. Greenhouse gas emission mitigation seemed unrelated to the three bundles. The similarities among the bundles in SA and northwestern Europe suggest that there are generalities in ES relations among natural and semi‐natural grassland areas. We assessed trade‐offs and synergies among services in relation to management practices and found that although some trade‐offs are inevitable, appropriate management may create synergies and avoid trade‐offs among many services. We argue that ecosystem service and food security research and policy should give higher priority to how grasslands can be managed for fodder and meat production alongside other ES. By integrating grasslands into agricultural production systems and land‐use decisions locally and regionally, their potential to contribute to functional landscapes and to food security and sustainable livelihoods can be greatly enhanced.",
+      "citation_count": 1055,
+      "is_open_access": true,
+      "open_access_url": "https://esajournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ecs2.2582",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "bengtsson_2019_grasslands",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1186/s40538-016-0085-1",
+      "title": "Multiple benefits of legumes for agriculture sustainability: an overview",
+      "authors": [
+        "Fabio Stagnari",
+        "Albino Maggio",
+        "Angelica Galieni",
+        "Michele Pisante"
+      ],
+      "year": 2017,
+      "venue": "Chemical and Biological Technologies in Agriculture",
+      "abstract": "Food security, lowering the risk of climate change and meeting the increasing demand for energy will increasingly be critical challenges in the years to come. Producing sustainably is therefore becoming central in agriculture and food systems. Legume crops could play an important role in this context by delivering multiple services in line with sustainability principles. In addition to serving as fundamental, worldwide source of high-quality food and feed, legumes contribute to reduce the emission of greenhouse gases, as they release 5–7 times less GHG per unit area compared with other crops; allow the sequestration of carbon in soils with values estimated from 7.21 g kg−1 DM, 23.6 versus 21.8 g C kg−1 year; and induce a saving of fossil energy inputs in the system thanks to N fertilizer reduction, corresponding to 277 kg ha−1 of CO2 per year. Legumes could also be competitive crops and, due to their environmental and socioeconomic benefits, could be introduced in modern cropping systems to increase crop diversity and reduce use of external inputs. They also perform well in conservation systems, intercropping systems, which are very important in developing countries as well as in low-input and low-yield farming systems. Legumes fix the atmospheric nitrogen, release in the soil high-quality organic matter and facilitate soil nutrients’ circulation and water retention. Based on these multiple functions, legume crops have high potential for conservation agriculture, being functional either as growing crop or as crop residue.",
+      "citation_count": 999,
+      "is_open_access": true,
+      "open_access_url": "https://chembioagro.springeropen.com/counter/pdf/10.1186/s40538-016-0085-1",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "stagnari_2017_multiple",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1038/nplants.2016.112",
+      "title": "Neglecting legumes has compromised human health and sustainable food production",
+      "authors": [
+        "Christine H. Foyer",
+        "Hon‐Ming Lam",
+        "Henry T. Nguyen",
+        "Kadambot H. M. Siddique",
+        "Rajeev K. Varshney",
+        "Timothy D. Colmer",
+        "Wallace A. Cowling",
+        "Helen Bramley",
+        "Trevor A. Mori",
+        "Jonathan M. Hodgson",
+        "James W. Cooper",
+        "Tony Miller",
+        "K. Kunert",
+        "Juan Vorster",
+        "Christopher A. Cullis",
+        "Jocelyn A. Ozga",
+        "Mark L. Wahlqvist",
+        "Yan Liang",
+        "Huixia Shou",
+        "Kai Shi",
+        "Jingquan Yu",
+        "Nándor Fodor",
+        "Brent N. Kaiser",
+        "Fuk‐Ling Wong",
+        "Babu Valliyodan",
+        "Michael Considine"
+      ],
+      "year": 2016,
+      "venue": "Nature Plants",
+      "abstract": "",
+      "citation_count": 799,
+      "is_open_access": true,
+      "open_access_url": "https://api.research-repository.uwa.edu.au/ws/files/14537703/Neglecting_legumes_.pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture"
+      ],
+      "bibtex_key": "foyer_2016_neglecting",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.3390/su8030281",
+      "title": "Soil Degradation, Land Scarcity and Food Security: Reviewing a Complex Challenge",
+      "authors": [
+        "Tiziano Gomiero"
+      ],
+      "year": 2016,
+      "venue": "Sustainability",
+      "abstract": "Soil health, along with water supply, is the most valuable resource for humans, as human life depends on the soil’s generosity. Soil degradation, therefore, poses a threat to food security, as it reduces yield, forces farmers to use more inputs, and may eventually lead to soil abandonment. Unfortunately, the importance of preserving soil health appears to be overlooked by policy makers. In this paper, I first briefly introduce the present situation concerning agricultural production, natural resources, soil degradation, land use and the challenge ahead, to show how these issues are strictly interwoven. Then, I define soil degradation and present a review of its typologies and estimates at a global level. I discuss the importance of preserving soil capital, and its relationship to human civilization and food security. Trends concerning the availability of arable agricultural land, different scenarios, and their limitations, are analyzed and discussed. The possible relation between an increase in a country’s GNP, population and future availability of arable land is also analyzed, using the World Bank’s database. I argue that because of the many sources of uncertainty in the data, and the high risks at stake, a precautionary approach should be adopted when drawing scenarios. The paper ends with a discussion on the key role of preserving soil organic matter, and the need to adopt more sustainable agricultural practices. I also argue that both our relation with nature and natural resources and our lifestyle need to be reconsidered.",
+      "citation_count": 785,
+      "is_open_access": true,
+      "open_access_url": "https://www.mdpi.com/2071-1050/8/3/281/pdf?version=1458296911",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "gomiero_2016_soil",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.3390/insects6010152",
+      "title": "Integrated Pest Management for Sustainable Intensification of Agriculture in Asia and Africa",
+      "authors": [
+        "Jules Pretty",
+        "Zareen Pervez Bharucha"
+      ],
+      "year": 2015,
+      "venue": "Insects",
+      "abstract": "Integrated Pest Management (IPM) is a leading complement and alternative to synthetic pesticides and a form of sustainable intensification with particular importance for tropical smallholders. Global pesticide use has grown over the past 20 years to 3.5 billion kg/year, amounting to a global market worth $45 billion. The external costs of pesticides are $4-$19 (€3-15) per kg of active ingredient applied, suggesting that IPM approaches that result in lower pesticide use will benefit, not only farmers, but also wider environments and human health. Evidence for IPM's impacts on pesticide use and yields remains patchy. We contribute an evaluation using data from 85 IPM projects from 24 countries of Asia and Africa implemented over the past twenty years. Analysing outcomes on productivity and reliance on pesticides, we find a mean yield increase across projects and crops of 40.9% (SD 72.3), combined with a decline in pesticide use to 30.7% (SD 34.9) compared with baseline. A total of 35 of 115 (30%) crop combinations resulted in a transition to zero pesticide use. We assess successes in four types of IPM projects, and find that at least 50% of pesticide use is not needed in most agroecosystems. Nonetheless, policy support for IPM is relatively rare, counter-interventions from pesticide industry common, and the IPM challenge never done as pests, diseases and weeds evolve and move.",
+      "citation_count": 622,
+      "is_open_access": true,
+      "open_access_url": "https://www.mdpi.com/2075-4450/6/1/152/pdf?version=1425556578",
+      "status": "screened",
+      "relevance_tags": [
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch1_background"
+      ],
+      "bibtex_key": "pretty_2015_integrated",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.3389/fsufs.2020.617009",
+      "title": "Food Security and the Dynamics of Wheat and Maize Value Chains in Africa and Asia",
+      "authors": [
+        "Ulrike Grote",
+        "Anja Faße",
+        "Trung Thành Nguyễn",
+        "Olaf Erenstein"
+      ],
+      "year": 2021,
+      "venue": "Frontiers in Sustainable Food Systems",
+      "abstract": "There is an ongoing debate about how best to feed the growing world population in the long run and associated implications for research and development. Some call for a new Green Revolution to secure the supply of staple foods, whereas others emphasize the importance of diversifying and improving people's diets. We aim to contribute to this debate by reviewing the case of wheat and maize value chains and their contribution to food security in Africa and Asia. We first identify drivers transforming food systems. We then apply these to the cereal value chains and disentangle their effects on food security. We thereby add to the three strands in the literature around production, consumption, and food system transformation and point to different research needs and recommendations for the future. The review highlights: (1) Wheat and maize production will be increasingly impaired by ecological drivers such as land degradation, water scarcity and climate change. (2) There are promising innovations to increase and maintain productivity, but constraints in adopting these innovations have to be overcome (i.e., access to seeds, finance, and education/training). (3) The drivers affect all four dimensions of food security, but first and foremost they determine the availability and stability of maize and wheat. This indirectly also influences the economic and physical access of people to maize and wheat. (4) Research tends to focus on improving the productivity and sustainability of wheat and maize farming which is largely interlinked with the availability dimension of food security. (5) The stability and utilization dimension of food security merits continued yet increased support. First, to address climate change and implications for biotic and abiotic stresses. Second, to promote healthier diets and enable the equitable transformation of food systems.",
+      "citation_count": 591,
+      "is_open_access": true,
+      "open_access_url": "https://www.frontiersin.org/articles/10.3389/fsufs.2020.617009/pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "modern_ag_science",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science",
+        "ch1_background"
+      ],
+      "bibtex_key": "grote_2021_food",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1146/annurev-resource-100517-023252",
+      "title": "Organic Agriculture, Food Security, and the Environment",
+      "authors": [
+        "Eva‐Marie Meemken",
+        "Matin Qaim"
+      ],
+      "year": 2018,
+      "venue": "Annual Review of Resource Economics",
+      "abstract": "Organic agriculture is often perceived as more sustainable than conventional farming. We review the literature on this topic from a global perspective. In terms of environmental and climate change effects, organic farming is less polluting than conventional farming when measured per unit of land but not when measured per unit of output. Organic farming, which currently accounts for only 1% of global agricultural land, is lower yielding on average. Due to higher knowledge requirements, observed yield gaps might further increase if a larger number of farmers would switch to organic practices. Widespread upscaling of organic agriculture would cause additional loss of natural habitats and also entail output price increases, making food less affordable for poor consumers in developing countries. Organic farming is not the paradigm for sustainable agriculture and food security, but smart combinations of organic and conventional methods could contribute toward sustainable productivity increases in global agriculture.",
+      "citation_count": 493,
+      "is_open_access": true,
+      "open_access_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-resource-100517-023252",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "meemken_2018_organic",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1038/nclimate2735",
+      "title": "Climate and southern Africa's water–energy–food nexus",
+      "authors": [
+        "Declan Conway",
+        "Emma Archer van Garderen",
+        "Delphine Deryng",
+        "Steve Dorling",
+        "Tobias Krueger",
+        "Willem A. Landman",
+        "Bruce Lankford",
+        "Karen Lebek",
+        "Timothy J. Osborn",
+        "Claudia Ringler",
+        "James Thurlow",
+        "Tingju Zhu",
+        "Carole Dalin"
+      ],
+      "year": 2015,
+      "venue": "Nature Climate Change",
+      "abstract": "",
+      "citation_count": 471,
+      "is_open_access": true,
+      "open_access_url": "https://researchonline.lse.ac.uk/id/eprint/63308/1/Conway_Climate%20and%20southern%20Africa%27s%20water.pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "southern_africa"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "conway_2015_climate",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1007/s10113-015-0761-x",
+      "title": "Climate change, food security, and livelihoods in sub-Saharan Africa",
+      "authors": [
+        "Liette Connolly-Boutin",
+        "Barry Smit"
+      ],
+      "year": 2015,
+      "venue": "Regional Environmental Change",
+      "abstract": "Sub-Saharan Africa is particularly vulnerable to climate change. Multiple biophysical, political, and socioeconomic stresses interact to increase the region’s susceptibility and constrain its adaptive capacity. Climate change is commonly recognized as a major issue likely to have negative consequences on food security and livelihoods in the region. This paper reviews three bodies of scholarship that have evolved somewhat separately, yet are inherently interconnected: climate change impacts, vulnerability and adaptation, food security, and sustainable livelihoods. The paper develops a conceptualization of the relationships among the three themes and shows how food security’s vulnerabilities are related to multiple stresses and adaptive capacities, reflecting access to assets. Food security represents one of several livelihood outcomes. The framework shows how several research paradigms relate to the issue of food security and climate change and provides a guide for empirical investigations. Recognizing these interconnections can help in the development of more effective policies and programs. The framework is applied here to synthesize findings from an array of studies in sub-Saharan Africa dealing with vulnerability to climate change, food security, and livelihoods.",
+      "citation_count": 451,
+      "is_open_access": true,
+      "open_access_url": "https://link.springer.com/content/pdf/10.1007/s10113-015-0761-x.pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "connollyboutin_2015_climate",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.3390/agronomy11020343",
+      "title": "Intercropping—A Low Input Agricultural Strategy for Food and Environmental Security",
+      "authors": [
+        "Sagar Maitra",
+        "Akbar Hossain",
+        "Marián Brestič",
+        "Milan Skalický",
+        "P. Ondrišík",
+        "Harun I. Gitari",
+        "Koushik Brahmachari",
+        "Tanmoy Shankar",
+        "Preetha Bhadra",
+        "Jnana Bharati Palai",
+        "Jagadish Jena",
+        "Urjashi Bhattacharya",
+        "Sarath Kumar Duvvada",
+        "Lalichetti Sagar",
+        "Masina Sairam"
+      ],
+      "year": 2021,
+      "venue": "Agronomy",
+      "abstract": "Intensive agriculture is based on the use of high-energy inputs and quality planting materials with assured irrigation, but it has failed to assure agricultural sustainability because of creation of ecological imbalance and degradation of natural resources. On the other hand, intercropping systems, also known as mixed cropping or polyculture, a traditional farming practice with diversified crop cultivation, uses comparatively low inputs and improves the quality of the agro-ecosystem. Intensification of crops can be done spatially and temporally by the adoption of the intercropping system targeting future need. Intercropping ensures multiple benefits like enhancement of yield, environmental security, production sustainability and greater ecosystem services. In intercropping, two or more crop species are grown concurrently as they coexist for a significant part of the crop cycle and interact among themselves and agro-ecosystems. Legumes as component crops in the intercropping system play versatile roles like biological N fixation and soil quality improvement, additional yield output including protein yield, and creation of functional diversity. But growing two or more crops together requires additional care and management for the creation of less competition among the crop species and efficient utilization of natural resources. Research evidence showed beneficial impacts of a properly managed intercropping system in terms of resource utilization and combined yield of crops grown with low-input use. The review highlights the principles and management of an intercropping system and its benefits and usefulness as a low-input agriculture for food and environmental security.",
+      "citation_count": 379,
+      "is_open_access": true,
+      "open_access_url": "https://www.mdpi.com/2073-4395/11/2/343/pdf?version=1614148243",
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge",
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture"
+      ],
+      "bibtex_key": "maitra_2021_intercropping",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1371/journal.pone.0186406",
+      "title": "Rural food security, subsistence agriculture, and seasonality",
+      "authors": [
+        "Kibrom T. Sibhatu",
+        "Matin Qaim"
+      ],
+      "year": 2017,
+      "venue": "PLoS ONE",
+      "abstract": "Many of the world's food-insecure and undernourished people are smallholder farmers in developing countries. This is especially true in Africa. There is an urgent need to make smallholder agriculture and food systems more nutrition-sensitive. African farm households are known to consume a sizeable part of what they produce at home. Less is known about how much subsistence agriculture actually contributes to household diets, and how this contribution changes seasonally. We use representative data from rural Ethiopia covering every month of one full year to address this knowledge gap. On average, subsistence production accounts for 58% of rural households' calorie consumption, that is, 42% of the calories consumed are from purchased foods. Some seasonal variation occurs. During the lean season, purchased foods account for more than half of all calories consumed. But even during the main harvest and post-harvest season, purchased foods contribute more than one-third to total calorie consumption. Markets are even more important for dietary quality. During all seasons, purchased foods play a much larger role for dietary diversity than subsistence production. These findings suggest that strengthening rural markets needs to be a key element in strategies to improve food security and dietary quality in the African small-farm sector.",
+      "citation_count": 321,
+      "is_open_access": true,
+      "open_access_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0186406&type=printable",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "sibhatu_2017_rural",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1002/ppp3.10145",
+      "title": "Unlocking plant resources to support food security and promote sustainable agriculture",
+      "authors": [
+        "Tiziana Ulian",
+        "Mauricio Diazgranados",
+        "Samuel Pironon",
+        "S. Padulosi",
+        "Udayangani Liu",
+        "Lee Davies",
+        "Melanie‐Jayne R. Howes",
+        "James S. Borrell",
+        "Ian Ondo",
+        "Oscar A. Pérez‐Escobar",
+        "Suzanne Sharrock",
+        "Philippa Ryan",
+        "Danny Hunter",
+        "Mark A. Lee",
+        "Charles Barstow",
+        "Łukasz Łuczaj",
+        "Andréa Pieroni",
+        "Rodrigo Cámara‐Leret",
+        "Arshiya Noorani",
+        "Chikelu Mba",
+        "Rémi Nono Womdim",
+        "Hafiz Muminjanov",
+        "Alexandre Antonelli",
+        "Hugh W. Pritchard",
+        "Efisio Mattana"
+      ],
+      "year": 2020,
+      "venue": "Plants People Planet",
+      "abstract": "Societal Impact Statement Biodiversity is essential to food security and nutrition locally and globally. By reviewing the global state of edible plants and highlighting key neglected and underutilized species (NUS), we attempt to unlock plant food resources and explore the role of fungi, which along with the wealth of traditional knowledge about their uses and practices, could help support sustainable agriculture while ensuring better protection of the environment and the continued delivery of its ecosystem services. This work will inform a wide range of user communities, including scientists, conservation and development organizations, policymakers, and the public of the importance of biodiversity beyond mainstream crops. Summary As the world's population is increasing, humanity is facing both shortages (hunger) and excesses (obesity) of calorie and nutrient intakes. Biodiversity is fundamental to addressing this double challenge, which involves a far better understanding of the global state of food resources. Current estimates suggest that there are at least 7,039 edible plant species, in a broad taxonomic sense, which includes 7,014 vascular plants. This is in striking contrast to the small handful of food crops that provide the majority of humanity's calorie and nutrient intake. Most of these 7,039 edible species have additional uses, the most common being medicines (70%), materials (59%), and environmental uses (40%). Species of major food crops display centers of diversity, as previously proposed, while the rest of edible plants follow latitudinal distribution patterns similarly to the total plant diversity, with higher species richness at lower latitudes. The International Union for Conservation of Nature Red List includes global conservation assessments for at least 30% of edible plants, with ca. 86% of them conserved ex situ. However, at least 11% of those species recorded are threatened. We highlight multipurpose NUS of plants from different regions of the world, which could be key for a more resilient, sustainable, biodiverse, and community participation‐driven new “green revolution.” Furthermore, we explore how fungi could diversify and increase the nutritional value of our diets. NUS, along with the wealth of traditional knowledge about their uses and practices, offer a largely untapped resource to support food security and sustainable agriculture. However, for these natural resources to be unlocked, enhanced collaboration among stakeholders is vital.",
+      "citation_count": 299,
+      "is_open_access": true,
+      "open_access_url": "https://nph.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ppp3.10145",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "ulian_2020_unlocking",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.3390/w12102673",
+      "title": "Climate Change Impacts on Water and Agriculture Sectors in Southern Africa: Threats and Opportunities for Sustainable Development",
+      "authors": [
+        "Charles Nhemachena",
+        "Luxon Nhamo",
+        "Greenwell Matchaya",
+        "Charity R. Nhemachena",
+        "Binganidzo Muchara",
+        "S. Karuaihe",
+        "Sylvester Mpandeli"
+      ],
+      "year": 2020,
+      "venue": "Water",
+      "abstract": "Agriculture remains important in driving economic transformation, sustainable livelihoods, and development in developing countries. This paper provides a comprehensive analysis and discussion of climate change impacts on water and agriculture sectors and implications for the attainment of developmental outcomes such as food security, poverty reduction, and sustainable development in Southern Africa. The review gives policy messages for coping, adapting, and building resilience of water and agricultural production systems in the face of projected changes in climate and variability. The aim is to guide the region towards the achievement of the Sustainable Development Goals. Future projections for Southern Africa indicate reduced rainfall, increased temperatures, and high variability for the greater part of the region with severe reductions on the drier and marginal western parts. These impacts have profound implications for agriculture performance and contribution to national and regional developmental goals. The region is projected to experience reductions of between 15% and 50% in agricultural productivity, a scenario that would exacerbate food insecurity in the region. The challenge is to increase productivity on current arable land through efficient and sustainable management of available water and energy, and at the same time reducing pressure on the environment. Affordability and accessibility of innovative adaptation measures on water resources remain critical and these strategies should be part of broader sustainable development efforts. Overall, efforts to enhance agricultural productivity need to emphasise investments in sustainable management and use of water and energy resources in agriculture to achieve sustainable economic growth and livelihoods.",
+      "citation_count": 288,
+      "is_open_access": true,
+      "open_access_url": "https://www.mdpi.com/2073-4441/12/10/2673/pdf?version=1600948995",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "nhemachena_2020_climate",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1111/gcb.14158",
+      "title": "Agricultural diversification as an important strategy for achieving food security in Africa",
+      "authors": [
+        "Katharina Waha",
+        "Mark T. van Wijk",
+        "Steffen Fritz",
+        "Linda See",
+        "Philip K. Thornton",
+        "Jannike Wichern",
+        "Mario Herrero"
+      ],
+      "year": 2018,
+      "venue": "Global Change Biology",
+      "abstract": "Farmers in Africa have long adapted to climatic and other risks by diversifying their farming activities. Using a multi-scale approach, we explore the relationship between farming diversity and food security and the diversification potential of African agriculture and its limits on the household and continental scale. On the household scale, we use agricultural surveys from more than 28,000 households located in 18 African countries. In a next step, we use the relationship between rainfall, rainfall variability, and farming diversity to determine the available diversification options for farmers on the continental scale. On the household scale, we show that households with greater farming diversity are more successful in meeting their consumption needs, but only up to a certain level of diversity per ha cropland and more often if food can be purchased from off-farm income or income from farm sales. More diverse farming systems can contribute to household food security; however, the relationship is influenced by other factors, for example, the market orientation of a household, livestock ownership, nonagricultural employment opportunities, and available land resources. On the continental scale, the greatest opportunities for diversification of food crops, cash crops, and livestock are located in areas with 500-1,000 mm annual rainfall and 17%-22% rainfall variability. Forty-three percent of the African cropland lacks these opportunities at present which may hamper the ability of agricultural systems to respond to climate change. While sustainable intensification practices that increase yields have received most attention to date, our study suggests that a shift in the research and policy paradigm toward agricultural diversification options may be necessary.",
+      "citation_count": 280,
+      "is_open_access": true,
+      "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/gcb.14158",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "waha_2018_agricultural",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.gfs.2020.100431",
+      "title": "The Food Security Conundrum of sub-Saharan Africa",
+      "authors": [
+        "K.E. Giller"
+      ],
+      "year": 2020,
+      "venue": "Global Food Security",
+      "abstract": "National food security in countries of sub-Saharan Africa requires an abundant supply of cheap and nutritious food for the burgeoning population. At the same time agriculture is a major contributor to the balance of payments for African economies. So agricultural production in Africa needs to increase strongly to meet the demands of both national and international markets. Yet fragmentation of land due to population pressure in rural areas, and the low prices farmers are paid for their produce, mean that in many rural areas in sub-Saharan Africa the farms are already too small to provide food security or a living income for the household. There is a high dependency on off-farm income and little incentive to intensify production. Thus rural households are often ‘reluctant’ farmers, lacking resources or the economic incentives to invest in agriculture. The conundrum that must be addressed is how to provide cheap, nutritious food to feed the growing urban and rural populations while creating incentives to stimulate increased agricultural production. This will require major transformations of the smallholder farming systems alongside creation of alternative employment.",
+      "citation_count": 265,
+      "is_open_access": true,
+      "open_access_url": "https://doi.org/10.1016/j.gfs.2020.100431",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "giller_2020_the",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.3390/w10050567",
+      "title": "The Water-Energy-Food Nexus: Climate Risks and Opportunities in Southern Africa",
+      "authors": [
+        "Luxon Nhamo",
+        "Bekithemba Ndlela",
+        "Charles Nhemachena",
+        "Tafadzwanashe Mabhaudhi",
+        "Sylvester Mpandeli",
+        "Greenwell Matchaya"
+      ],
+      "year": 2018,
+      "venue": "Water",
+      "abstract": "The discourse on the need for water, energy, and food security has dominated the development agenda of southern African countries, centred on improving livelihoods, building resilience, and regional integration. About 60% of the population in the Southern African Development Community (SADC) live in rural areas relying mainly on rainfed agriculture, lacking access to clean water and energy, yet the region is endowed with vast natural resources. The water-energy-food (WEF) nexus is a conceptual framework that presents opportunities for greater resource coordination, management, and policy convergence across sectors. This is particularly relevant in the SADC region as resources are transboundary and supports efforts linked to regional integration and inclusive socio-economic development and security. We conducted an appraisal of WEF-related policies and institutions in SADC and identified linkages among them. The present ‘silo’ approach in resource management and allocation, often conducted at the national level, contributes to the region’s failure to meet its development targets, exacerbating its vulnerabilities. The lack of coordination of WEF nexus synergies and trade-offs in planning often threatens the sustainability of development initiatives. We highlighted the importance of the WEF nexus to sustainably address the sectoral coordination of resources through harmonised institutions and policies, as well as setting targets and indicators to direct and monitor nexus developments. We illustrate the significance of the nexus in promoting inclusive development and transforming vulnerable communities into resilient societies. The study recommends a set of integrated assessment models to monitor and evaluate the implementation of WEF nexus targets. Going forward, we propose the adoption of a regional WEF nexus framework.",
+      "citation_count": 220,
+      "is_open_access": true,
+      "open_access_url": "https://www.mdpi.com/2073-4441/10/5/567/pdf?version=1525350088",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "nhamo_2018_the",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.landusepol.2018.07.021",
+      "title": "Adoption of sustainable agricultural practices and food security threats: Effects of land tenure in Zambia",
+      "authors": [
+        "William Nkomoki",
+        "Miroslava Bavorová",
+        "Jan Banout"
+      ],
+      "year": 2018,
+      "venue": "Land Use Policy",
+      "abstract": "",
+      "citation_count": 156,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "nkomoki_2018_adoption",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.3390/su15042882",
+      "title": "Climate-Smart Agriculture and Food Security in Southern Africa: A Review of the Vulnerability of Smallholder Agriculture and Food Security to Climate Change",
+      "authors": [
+        "Charles Samuel Mutengwa",
+        "Pearson Mnkeni",
+        "Aleck Kondwakwenda"
+      ],
+      "year": 2023,
+      "venue": "Sustainability",
+      "abstract": "Southern Africa is facing chronic food insecurity mainly because of the multistressor context in which agriculture is practiced in this region. Climate-change-related constraints are fueling food shortages for marginalized rural communities. Climate-smart agriculture (CSA) has been recognized as a key strategy for mitigating the effects of climate change. However, there has been a minimal level of adoption of CSA among smallholder farmers in southern Africa. Factors contributing to the limited adoption of CSA include poor access to resources by smallholder farmers, poverty, poor infrastructure, and an inadequate level of farmer advisory and resource service provision. These are the same factors that have resulted in the increased vulnerability of smallholder farmers to climate shocks in southern Africa. Currently, there are a limited number of reviews that simultaneously address the impacts of climate change and CSA on southern Africa’s smallholder agricultural sector. The current review synthesizes information on the contribution of smallholder agriculture to food security in southern Africa, highlighting the vulnerability of smallholder agriculture to climate shocks and the effect of CSA activities practiced in the region. To come up with this writeup, we reviewed information from reliable, published journal articles, institutional reports, and our knowledge of agricultural systems in southern Africa. The adoption of CSA agriculture can be enhanced by the advancement of favorable policies by national governments. This includes adequate participation from smallholders, particularly women, in governance via bottom-up policymaking.",
+      "citation_count": 135,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "modern_ag_science",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science",
+        "ch1_background"
+      ],
+      "bibtex_key": "mutengwa_2023_climate",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1186/s40066-017-0109-5",
+      "title": "The impact of adoption of conservation agriculture on smallholder farmers’ food security in semi-arid zones of southern Africa",
+      "authors": [
+        "Nelson Mango",
+        "Shephard Siziba",
+        "Clifton Makate"
+      ],
+      "year": 2017,
+      "venue": "Agriculture &amp; Food Security",
+      "abstract": "",
+      "citation_count": 92,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "mango_2017_the",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.gfs.2017.10.002",
+      "title": "Global learnings to inform the local adaptation of conservation agriculture in Eastern and Southern Africa",
+      "authors": [
+        "Brendan Brown",
+        "Rick Llewellyn",
+        "Ian Nuberg"
+      ],
+      "year": 2018,
+      "venue": "Global Food Security",
+      "abstract": "",
+      "citation_count": 71,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "southern_africa"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "brown_2018_global",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.gfs.2023.100694",
+      "title": "Towards a sustainable agriculture: Achievements and challenges of Sustainable Development Goal Indicator 2.4.1",
+      "authors": [
+        "Suyu Liu"
+      ],
+      "year": 2023,
+      "venue": "Global Food Security",
+      "abstract": "",
+      "citation_count": 38,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture"
+      ],
+      "bibtex_key": "liu_2023_towards",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1186/s40066-018-0157-5",
+      "title": "Promoting sustainable agriculture in Africa through ecosystem-based farm management practices: evidence from Ghana",
+      "authors": [
+        "Caesar Agula",
+        "Mamudu Abunga Akudugu",
+        "Saa Dittoh",
+        "Franklin Nantui Mabe"
+      ],
+      "year": 2018,
+      "venue": "Agriculture &amp; Food Security",
+      "abstract": "",
+      "citation_count": 32,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture"
+      ],
+      "bibtex_key": "agula_2018_promoting",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1080/0376835x.2021.1920888",
+      "title": "Analysing the contribution of urban agriculture towards urban household food security in informal settlement areas",
+      "authors": [
+        "Jan Willem Swanepoel",
+        "Johan Adam Van Niekerk",
+        "P. Tirivanhu"
+      ],
+      "year": 2021,
+      "venue": "Development Southern Africa",
+      "abstract": "",
+      "citation_count": 27,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "swanepoel_2021_analysing",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1186/s40066-021-00287-9",
+      "title": "Sustainable genomic research for food security in sub-Saharan Africa",
+      "authors": [
+        "Sethlina Naa Dodua Aryee",
+        "Dennis Owusu-Adjei",
+        "Richard Osei-Amponsah",
+        "Benjamin Skinner",
+        "Emmanuel Sowatey",
+        "Carole Anne Sargent"
+      ],
+      "year": 2021,
+      "venue": "Agriculture &amp; Food Security",
+      "abstract": "AbstractAlthough traditional selective breeding has had a tremendous impact on both livestock and crop production in Africa, this has not kept pace with the high demand for animal and plant products on account of increasing urbanization, improved livelihoods and a rapidly growing human population. These challenges justify the need for more innovative and sustainable ways of improving animal and crop production to meet this demand. Over the last two decades the potential of genomics as a key tool to achieve improvement in desirable phenotypic traits has revolutionized the field of applied animal and plant biology. However, well informed use of such techniques has yet to be fully exploited within the context of local resources and capacity-building. The objective of this review is to highlight the rich agricultural biodiversity of sub-Saharan Africa, the potential of genomics in their sustainable use for food security, the challenges of genomic research and the strategies that can be adopted to overcome them in the implementation of agricultural genomic research in Africa. The lack of state-of-the-art laboratory research facilities, skilled human resources, poor funding and non-availability of scientific research resources, paucity of collaborative links between African researchers and a lack of engagement between key stakeholders in the agricultural value chain were identified as major barriers that affect agricultural genomic research in Africa. Finally, the recommended strategies to overcome these challenges will guide policy-makers, researchers, development partners and key stakeholders in the smooth advancement of sustainable agricultural genomic research for improved food security in Africa.",
+      "citation_count": 18,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "multiplayer_simulations",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch2_multiplayer_simulations",
+        "ch1_background"
+      ],
+      "bibtex_key": "aryee_2021_sustainable",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1002/fes3.173",
+      "title": "Breeding second‐generation biofortified bean varieties for Africa",
+      "authors": [
+        "Paul M. Kimani",
+        "AHMED Warsame"
+      ],
+      "year": 2019,
+      "venue": "Food and Energy Security",
+      "abstract": "AbstractMicronutrient malnutrition is one of the most serious health challenges facing vast sectors of Africa's population, particularly resource‐poor women and children. Development and utilization of drought‐tolerant, biofortified varieties is probably the most effective, sustainable, and potentially long‐lasting strategy for reducing micronutrient deficiencies and coping with frequent droughts. Our objective was to develop second‐generation biofortified bean (Phaseolus vulgaris L.) varieties combining drought tolerance, multiple disease resistance, and higher concentrations of iron and zinc in grain than the first‐generation varieties currently grown by farmers in east, central, and west Africa. Forty‐seven F2 populations segregating for mineral density, resistance to biotic and abiotic stress factors, marketable grain types, and yield potential were developed at Kabete Field Station, and advanced to F4 as population bulks. During the 2010 long rain season, 6,612 F4 single plants were selected and used to establish F4.5 progeny rows during the 2011 short rain season at Kabete. These progenies were evaluated for resistance to angular leaf spot, anthracnose, root rots, and agronomic traits. In 2012, 102 F4.6 lines were evaluated under drought stress and no‐stress conditions at Kabete and Thika. During the 2012 short rain season, selected disease and drought‐tolerant F4.7 lines were evaluated for mineral density and for their agronomic potential at four locations representing major bean production environments. Results showed significant (p &lt; 0.01) variation for mineral density, drought tolerance, disease resistance, growth habit, grain type, and maturity among the populations and their progenies. Iron concentration varied from 30 to 130 ppm. Zinc concentration varied from 10 to 60 ppm. Superior lines were selected from BF01, BF07, BF16, and BF36 populations. Eighty‐four lines had 50% more yield under stress and no‐stress conditions compared with the parental lines, suggesting transgressive segregation. Results indicate that varieties combining high micronutrient density, resistance to diseases and drought, and marketable grain types can be developed from these populations.",
+      "citation_count": 14,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "modern_ag_science",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_modern_ag_science"
+      ],
+      "bibtex_key": "kimani_2019_breeding",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.3390/agriculture14030441",
+      "title": "Determinants of Small-Scale Farmers’ Participation in Social Capital Networks to Enhance Adoption of Climate Change Adaptation Strategies in OR Tambo District, South Africa",
+      "authors": [
+        "Nobukhosi Nhliziyo",
+        "Abbyssinia Mushunje"
+      ],
+      "year": 2024,
+      "venue": "Agriculture",
+      "abstract": "Globally, climate change remains one of the most pressing challenges, and it is also an obstacle to the fundamental achievement of the Sustainable Development Goals. The purpose of the study was to examine the determinants of small-scale farmers’ participation in social capital networks to enhance adoption of climate change adaptation strategies. Multistage and purposive sampling were used to carry out the study. A cross-sectional research design was used to carry out the study and structured questionnaires were used as a data collection tool. The data collected were analyzed using descriptive statistics, the Binary Logit model, and the Ordered Logit model. The findings of the study show that gender, household size, age, marital status, education, and employment status affect a farmer’s participation in social capital networks. The results also show that household size, employment status, and income level affect the extent of participation in social networks. As the paper is the first to look at the determinants of the participation of farmers in social capital networks in Eastern Cape, the results are of paramount importance to policy formulators in order to formulate policies that will encourage farmers to join localized farmer-based social capital networks to adopt climate change adaption measures.",
+      "citation_count": 13,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "southern_africa"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "nhliziyo_2024_determinants",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.3389/fsufs.2023.1159901",
+      "title": "Strategic Foresight analysis of droughts in southern Africa and implications for food security",
+      "authors": [
+        "Sika Gbegbelegbe",
+        "David Chikoye",
+        "Arega Alene",
+        "Stephen Kyei-Boahen",
+        "Godfree Chigeza"
+      ],
+      "year": 2024,
+      "venue": "Frontiers in Sustainable Food Systems",
+      "abstract": "Southern Africa has been experiencing long-term changes in its climate and future projections imply that droughts should last longer and become more intense in southern Africa. Already, the region has been experiencing an increase in consecutive drought years. This study contributes to the literature by using bio-economic modeling to simulate the impact of future droughts on food security in southern Africa and identify plausible pathways for enhancing regional food security under drought. Food production and food security in southern Africa were projected under drought using an adjusted version of a multi-market and multi-commodity global model, the International Model for the Policy Analysis of Agricultural Commodities and Trade (IMPACT), version 3.2. The results suggest that with moderate economic growth and no drought, southern Africa would not become wealthy enough to mitigate food insecurity by 2040. In this context, recurrent droughts would worsen food security by severely affecting the production of maize, the key staple food in the region. With consecutive two-year regional droughts, like what was experienced in 2014/15 and 2015/16, most countries would experience an increase of at least 10% in the number of people at risk of hunger within a single year. Key measures which could help enhance food security under droughts include (1) breeding for stress-resilient maize (resistance to both heat and drought stresses); (2) promote crop and diet diversification, especially in countries highly dependent on maize as a staple food crop; and (3) invest in rainwater harvesting.",
+      "citation_count": 11,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "gbegbelegbe_2024_strategic",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1007/s44279-024-00026-1",
+      "title": "Climate change impacts on agricultural trade and food security in emerging economies: case of Southern Africa",
+      "authors": [
+        "Gift Andrew Sabola"
+      ],
+      "year": 2024,
+      "venue": "Discover Agriculture",
+      "abstract": "AbstractClimate change has been a significant threat to sustainable agriculture impacting trade and food security. This research investigates the impacts of climate change on agricultural trade and food security in emerging economies focusing on Southern Africa. The research employed the dynamic panel Generalised Method of Moments (GMM) using panel data for the period 2012 to 2021 obtained from a sample of 12 Southern African countries selected based on data availability. The main independent variables to the research were climate change variables (temperature and precipitation). Other control variables included were population growth, food inflation and agricultural growth. The study found significant negative effects of climate change on agriculture trade. Whilst temperature changes were found to have insignificant effects, precipitation changes were found to have significant positive effects. The research recommends concerted efforts towards climate change adaptation and mitigation for sustainable agriculture. Based on the Findings, sustainable food security and agricultural trade Southern African emerging economies may be attained through effective climate change mitigation and adaptation approaches particularly promoting climate-smart agriculture (CSA).",
+      "citation_count": 10,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "modern_ag_science",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science",
+        "ch1_background"
+      ],
+      "bibtex_key": "sabola_2024_climate",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1186/s12864-025-11828-y",
+      "title": "Evidence of early genomic selection in Holstein Friesian across African and European ecosystems",
+      "authors": [
+        "Junxin Gao",
+        "Rayner Gonzalez-Prendes",
+        "Ying Liu",
+        "Juha Kantanen",
+        "Catarina Ginja",
+        "Nasser Ghanem",
+        "Donald Rugira Kugonza",
+        "Mahlako Makgahlela",
+        "Henk Bovenhuis",
+        "Martien A.M. Groenen",
+        "Richard P.M.A. Crooijmans"
+      ],
+      "year": 2025,
+      "venue": "BMC Genomics",
+      "abstract": "Abstract\n                  \n                    Background\n                    The Holstein Friesian (HF) cattle breed is the most dominant breed in commercial dairy farming worldwide and managed in more than 150 countries. These countries span diverse agro-climatic zones, ranging from tropical to cold regions. The introduction of HF animals in these regions occurred at different moments in the past which are poorly recorded and continued through importation of live animal and frozen semen. We hypothesize that the HF cattle populations in these regions underwent early forms of adaptation to these specific local environments. However, the detection of genetic variation associated with this adaptation remains poorly documented.\n                  \n                  \n                    Results\n                    This study investigates genetic relationship and potential early selection signatures in HF populations from three African countries (Egypt, South Africa, Uganda) and three European countries (Finland, Portugal, The Netherlands), considering five animals per country. Approximately 16.0 million single nucleotide polymorphisms (SNPs) were detected in the 30 HF animals and used for further analyses.\n                    \n                      Across all countries, we identified dispersed regions totaling 3.3 megabase of ecosystem-specific genomic regions (43 genes), indicative of early selection signatures based on fixation indices (\n                      F\n                      -statistic,\n                      F\n                      st). Furthermore, comparing variants between tropical (Egypt and Uganda) and cold regions (Finland and The Netherlands) by\n                      F\n                      st, nucleotide diversity (\n                      θ\n                      π\n                      ratio), and extended haplotype homozygosity (XP-EHH), we identified a total of 10 candidate regions, comprising 12 genes within a 0.57 megabase size. The regions were enriched with genes involved in signaling pathways associated directly or indirectly with adaptation, including the immune system (\n                      PGLYRP4\n                      ,\n                      PGLYRP3\n                      ,\n                      PAG1\n                      ,\n                      CD48\n                      ,\n                      SLAMF1\n                      ,\n                      DYSF\n                      ,and\n                      LOC615223\n                      ), organ development and reproduction (\n                      LDB3\n                      ,\n                      ADAMTSL4\n                      ,\n                      TPRN\n                      ,\n                      CCDC40\n                      ,\n                      OR2AG1G\n                      , and\n                      OR8B3\n                      ), thermogenic activation (\n                      TBC1D16\n                      ), phospholipid metabolism (\n                      PLPPR4\n                      and\n                      PITPNB\n                      ), thermos-tolerance (\n                      ZNF423\n                      ), and stimulus response (\n                      NCOA7\n                      ,\n                      CYP2C85\n                      , and\n                      ARFGEF3\n                      ).\n                    \n                  \n                  \n                    Conclusion\n                    This study provides new insights into early forms of genetic plasticity of animals adapted to very diverse ecosystems. Our findings highlight candidate genes related to immune response, organ development, reproduction, metabolism, and thermo-tolerance, hypothesizing their role in facilitating adaptation to different environments.",
+      "citation_count": 4,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "southern_africa"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "gao_2025_evidence",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.54517/ssd.v1i2.2342",
+      "title": "Sustainable small-scale animal agriculture and food security in Africa",
+      "authors": [
+        "Never Assan"
+      ],
+      "year": 2023,
+      "venue": "Sustainable Social Development",
+      "abstract": "&lt;p&gt;For Africa, smallholder livestock farming is crucial for rural livelihood and food security. Understanding the connections between food security, gender inequality, and climate change can help us find solutions to Africa’s persistent food crisis. Women’s participation in small-scale animal agriculture helps ensure the food security of households; however, climate change has a detrimental effect on animal productivity, so prioritizing climate-smart animal husbandry techniques is critical. The shift in animal agriculture toward sustainability must be fueled by gender-sensitive strategies. Production and food security will improve through a transdisciplinary strategy that recognizes the connections among small-scale animal agriculture, climate change, and gender issues. Policies that are adapted to local conditions and encourage equitable growth in small-scale animal agriculture will be necessary to address the challenges this sector faces and improve food security. The majority of developing nations have institutional and technical obstacles that could prohibit the small-scale farming sector from participating in new food security efforts aimed at enhancing rural livelihoods. Therefore, it is highly doubtful that any strategy created to improve food security while downplaying the importance of smallholder agriculture will be long-term viable. The discussion makes clear the importance of small-scale animal agriculture and offers potential solutions that could be adopted to transform the small-scale animal agriculture sector to increase its value and enhance food security across the continent.&lt;/p&gt;&lt;p&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;",
+      "citation_count": 3,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "assan_2023_sustainable",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.20900/jsr20190004",
+      "title": "Linking the Sustainable Development Goals through an Investigation of Urban Household Food Security in Southern Africa",
+      "authors": [],
+      "year": 2019,
+      "venue": "Journal of Sustainability Research",
+      "abstract": "",
+      "citation_count": 3,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "unknown_2019_linking",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.52589/ajafs-3mcayt0d",
+      "title": "Leveraging Robotics for Sustainable Agriculture: A Comparative Analysis of Africa and the EU’S Food Security Strategies",
+      "authors": [
+        "Anya, A. A.",
+        "Anya, K. A.",
+        "Ishola, A. V."
+      ],
+      "year": 2024,
+      "venue": "African Journal of Agriculture and Food Science",
+      "abstract": "The intensifying demand for food production, driven by population growth and climate pressures, has placed a strain on agricultural systems worldwide, particularly in Africa and the European Union (EU). This paper presents a comparative analysis of the adoption of robotics in agriculture across these regions, exploring the current practices, limitations, and advancements shaping the future of sustainable farming. In Africa, limited infrastructure, high costs, and technological barriers hinder the integration of robotics, challenging smallholder farmers and reducing productivity. Conversely, the EU demonstrates more advanced adoption, supported by robust policy frameworks and technology infrastructure, although it faces challenges including workforce aging and the need for ethical guidelines in AI applications. This study highlights significant case studies within the EU, such as those in the Netherlands and Germany, showcasing the economic and environmental impacts of robotics in diverse farming models. The analysis extends to the benefits of robotics in increasing productivity and resource efficiency while reducing labor dependency, contributing to precision farming practices and environmental sustainability. The findings underscore the critical role of robotics in future agricultural systems, suggesting that while Africa faces more immediate barriers to adoption, targeted investments and policy adaptations could bridge these gaps. The study concludes by advocating for tailored, region-specific strategies to achieve sustainable agriculture through robotics, underscoring the technology's potential to address global food security challenges in Africa and the EU.",
+      "citation_count": 1,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "a_2024_leveraging",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1080/23311932.2025.2587338",
+      "title": "Food security dimensions: threshold effects and causal interactions—panel evidence from Southern Africa",
+      "authors": [
+        "Bornwell Mutale",
+        "Sahya Maulu",
+        "Alice Chilambwe"
+      ],
+      "year": 2025,
+      "venue": "Cogent Food &amp; Agriculture",
+      "abstract": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "mutale_2025_food",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1186/s40066-025-00554-z",
+      "title": "The impact of sustainable organic agriculture on food security in sub-Saharan Africa: a mixed methods systematic review with meta-analysis",
+      "authors": [
+        "Andre M. N. Renzaho",
+        "Rashid Abdulai",
+        "Kh Shafiur Rahaman",
+        "Sanjay Kumar Das",
+        "Ramadhani Noor",
+        "Bukola Salami",
+        "Stanley Chitekwe"
+      ],
+      "year": 2025,
+      "venue": "Agriculture &amp; Food Security",
+      "abstract": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "renzaho_2025_the",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.22587/aejsa.2020.14.1.1",
+      "title": "Food Security and Sustainable Agriculture: A\nCase of Hungary",
+      "authors": [],
+      "year": 2020,
+      "venue": "AMERICAN-EURASIAN JOURNAL OF SUSTAINABLE AGRICULTURE",
+      "abstract": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "unknown_2020_food",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1186/s40066-026-00613-z",
+      "title": "Correction: The impact of sustainable organic agriculture on food security in sub-Saharan africa: a mixed methods systematic review with meta-analysis",
+      "authors": [
+        "Andre M. N. Renzaho",
+        "Rashid Abdulai",
+        "Kh Shafiur Rahaman",
+        "Sanjay Kumar Das",
+        "Ramadhani Noor",
+        "Bukola Salami",
+        "Stanley Chitekwe"
+      ],
+      "year": 2026,
+      "venue": "Agriculture &amp; Food Security",
+      "abstract": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "renzaho_2026_correction",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.18782/2582-7146.223",
+      "title": "Innovative Approaches to Sustainable Agriculture: Ensuring Food Security and Environmental Health",
+      "authors": [
+        "Muhammad Ahmad"
+      ],
+      "year": 2024,
+      "venue": "Current Research in Agriculture and Farming",
+      "abstract": "Sustainable agriculture has become vital for supplying the world's increasing demand for food in the future. While ensuring food supply, this technique addresses decreased biodiversity, loss of resources, and global warming. Some practices like Crop Rotation, Integrated Pest Control, and Precision Land and Water Management increase yields while preserving the environment and other resources. Precision farming and remote sensing improve soil health and crop production. Cover crops, organic farming, and efficient irrigation improve soil and save water. Sustainable agriculture requires teamwork to reach its potential. To secure food security for future generations, governments, researchers, and stakeholders must support these practices.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "ahmad_2024_innovative",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.envsci.2025.104119",
+      "title": "Integration of indigenous knowledge with scientific knowledge: A systematic review",
+      "authors": [
+        "Enioluwa Jonathan Ijatuyi",
+        "Alexa Lamm",
+        "Kowiyou Yessoufou",
+        "Terence Suinyuy",
+        "Hosea Olayiwola Patrick"
+      ],
+      "year": 2025,
+      "venue": "Environmental Science &amp; Policy",
+      "abstract": "",
+      "citation_count": 39,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge"
+      ],
+      "bibtex_key": "ijatuyi_2025_integration",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1080/1389224x.2020.1828112",
+      "title": "Entwining indigenous knowledge and science knowledge for sustainable agricultural extension: exploring the strengths and challenges",
+      "authors": [
+        "C. Radcliffe",
+        "A. Raman",
+        "C. Parissi"
+      ],
+      "year": 2020,
+      "venue": "The Journal of Agricultural Education and Extension",
+      "abstract": "",
+      "citation_count": 15,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge",
+        "ch2_modern_ag_science"
+      ],
+      "bibtex_key": "radcliffe_2020_entwining",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1002/sd.2483",
+      "title": "The role of permaculture in the integration of indigenous and modern agricultural knowledge: Evidence from Konso, Ethiopia",
+      "authors": [
+        "Tariku Sagoya Gashute",
+        "Tefera Kagnalew Hale"
+      ],
+      "year": 2022,
+      "venue": "Sustainable Development",
+      "abstract": "AbstractThe modern and indigenous agricultural knowledge have own strength and deficiencies. The modern agriculture with its technological advents has the capability for boosting production. However, it has environmentally hostile externalities. On the other hand, IK of agriculture is nature friendly and organic in its production. However, it is slow to meet the growing need for food because of demographic stress and emerging preferences. Therefore, both sides need innovative responses to capitalize on their strength and avoid limitations. One of the alternatives is to integrate the two systems. Based on this rationale, this study explored the integrative role of permaculture in bridging indigenous and modern agricultural knowledge. Purposive sampling was applied for the selection of the research area and participants. The research approach followed was qualitative. Interview, FGD and observation were used for data collection. Thematic and narrative analysis was used for data analysis. The finding of the study indicated that farmers in the study area were receptive of some of the knowledge from modern agriculture such as improved seeds and some methods such as pest control. But at the same time they are suspicious about some sides such as the impact of fertilizers, the effectiveness of some improved seed, and concerned about the disappearance of important local seeds. Though it was not deeply implemented those who have the exposure were positive about permaculture, for its philosophy is consistent with their IK. Therefore, if properly implemented permaculture can play important bridging role in the integration of indigenous and modern farming.",
+      "citation_count": 10,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_modern_ag_science"
+      ],
+      "bibtex_key": "gashute_2022_the",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1108/jkm-11-2024-1326",
+      "title": "Bridging science and society: the integration of indigenous and scientific knowledge management",
+      "authors": [
+        "Muhammad Kazim Nur Sohad",
+        "Elisabetta Mafrolla"
+      ],
+      "year": 2025,
+      "venue": "Journal of Knowledge Management",
+      "abstract": "Purpose\n                  This study aims to address the effective incorporation of indigenous knowledge (IK) and scientific knowledge (SK) within economic development strategies in emerging economies, with a particular focus on the agricultural sector in Bangladesh. The objective is to assess the integration of these knowledge systems to promote sustainability of development policies.\n               \n               \n                  Design/methodology/approach\n                  The research uses the Theory of Planned Behavior to evaluate the behavioral intention of farming stakeholders in the agricultural supply chain regarding the use of knowledge management (KM) as a tool for ensuring agricultural sustainability. An original dataset was collected through ad hoc questionnaires administered to farmers and their buyers and suppliers in rural Bangladesh. Structural equation modeling was used to analyze the data and investigate the relationships among variables.\n               \n               \n                  Findings\n                  The empirical analysis reveals that the synthesis of local IK and global SK through effective KM practices may promote agricultural sustainability. The results indicate that farmers and their stakeholders are willing to enact KM, as a crucial instrument for integrating these different sources of knowledge.\n               \n               \n                  Research limitations/implications\n                  The authors encourage donors, agencies and policymakers to rethink their development projects by emphasizing the value of local expertise, lived experiences and biodiversity. The findings underscore the necessity of integrating IK and SK into KM frameworks to ensure the sustainability of economic development initiatives in underdeveloped regions.\n               \n               \n                  Practical implications\n                  This research offers practical insights for policymakers to develop frameworks that incorporate both IK and SK in agricultural policies. It highlights the need for training programs that bridge traditional and modern practices, fostering collaboration among local communities, agricultural stakeholders and institutions. By integrating both knowledge systems, can improve resource management, enhance sustainability and support food security. The findings also encourage local decision-making processes, promoting resilience and adaptability in agricultural practices.\n               \n               \n                  Social implications\n                  This research blends anthropological insights and managerial strategies, demonstrating how integrating IK with SK can foster sustainable agricultural practices. It promotes local empowerment, respects cultural values and encourages more effective, context-sensitive knowledge management approaches, bridging the gap between theory and practice in development.\n               \n               \n                  Originality/value\n                  This paper contributes to the existing literature by proposing a coherent framework for integrating IK and SK through KM. It highlights the importance of local contexts in development strategies and offers insights that can inform better policy-making in emerging economies, particularly in the agricultural sector.",
+      "citation_count": 8,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge",
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "sohad_2025_bridging",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.3390/ani12172243",
+      "title": "Using Untargeted LC-MS Metabolomics to Identify the Association of Biomarkers in Cattle Feces with Marbling Standard Longissimus Lumborum",
+      "authors": [
+        "Dong Chen",
+        "Minchao Su",
+        "He Zhu",
+        "Gang Zhong",
+        "Xiaoyan Wang",
+        "Weimin Ma",
+        "Metha Wanapat",
+        "Zhiliang Tan"
+      ],
+      "year": 2022,
+      "venue": "Animals",
+      "abstract": "Background: To improve the grade of beef marbling has great economic value in the cattle industry since marbling has the traits of high quality and comprehensive nutrition. And because of the marbling’s importance and complexity, it is indispensable to explore marbled beef at multiple levels. This experiment studied the relationship between fecal metabolites and marbling characters, and further screened biomarkers. Results: We performed fecal metabolomics analysis on 30 individuals selected from 100 crossbreed cattle (Luxi Yellow cattle ♀ × Japanese Wagyu cattle ♂), 15 with an extremely high-grade marbling beef and 15 with an extremely low-grade marbling beef. A total of 9959 and 8389 m/z features were detected in positive ionization and negative ionization mode by liquid chromatography-mass spectrometry (LC-MS). Unfortunately, the sample separation in the PCA is not obvious, and the predictive ability of the orthogonal partial least squares discrimination analysis (OPLS-DA) model is not good. However, we got six differential metabolites filtered by VIP &gt; 1 and p &lt; 0.05. After that, we used weighted correlation network analysis (WGCNA) and found out a module in each positive and negative mode most related to the trait of marbling beef, and then identified three metabolites in positive mode. By further annotation of the Kyoto encyclopedia of genes and genomes (KEGG), it was found that these metabolites involved a variety of metabolic ways, including sphingomyelin metabolism, linoleic acid metabolism, glycerophospholipid metabolism, and so on. Finally, receiver operating characteristic (ROC) analysis was used to evaluate the predictability of metabolites, and the result showed that SM(d18:0/16:1(9Z)) (AUC = 0.72), PC(15:0/18:2(9Z,12Z)) (AUC = 0.72), ADP (AUC = 0.71), PC(16:0/16:0) (AUC = 0.73), and 3-O-Sulfogalactosylceramide (d18:1/18:0) (AUC = 0.69) have an accuracy diagnosis. Conclusions: In conclusion, this study supports new opinions for the successive evaluation of marbling beef through metabolites. Furthermore, six non-invasive fecal metabolites that can evaluate beef marbling grade were found, including SM(d18:0/16:1(9Z)), PC(15:0/18:2(9Z,12Z)), ADP, PC(16:0/16:0), and 3-O-Sulfogalactosylceramide.",
+      "citation_count": 8,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "chen_2022_using",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.55627/agribiol.003.01.1173",
+      "title": "Integrating Indigenous Agricultural Knowledge with Modern Practices for Sustainable Farming and Food Security",
+      "authors": [
+        "Syed Tahaa Munawar",
+        "Muhammad Usman Khalid"
+      ],
+      "year": 2025,
+      "venue": "Journal of Agriculture and Biology",
+      "abstract": "Farmers can achieve sustainable farming by using Modern Agricultural Practices (MAP) and Traditional Ecological Knowledge (TEK). Researchers perform a study to evaluate how TEK-MAP integrates with farming systems by conducting surveys and conducting semi-structured interviews along with performing field observations. The research gathers quantitative findings from survey data and qualitative results from interviews through a mixed techniques approach. TEK-MAP adoption exists in three levels with 45% of farmers implementing the system completely and the rest integrating it partially or not at all. Three main barriers that prevent TEK-MAP adoption stem from insufficient institutional backing and monetary difficulties as well as deficiencies in laws. The research shows widespread adoption of intercropping systems and agroforestry and organic pest control methods belonging to TEK while MAP includes precision farming and irrigation systems and biotechnology generates efficiency. The onsite verification shows both approaches together create healthier soil together with better water reserve and financial viability. This research reveals the necessity of developing policy measures together with training sessions and financial backing to boost TEK-MAP usage for sustainable farming.",
+      "citation_count": 4,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge",
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science",
+        "ch1_background"
+      ],
+      "bibtex_key": "munawar_2025_integrating",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.56975/ijrar.v12i2.315668",
+      "title": "Integration of Indigenous Knowledge System (IKS) with Geographical Analysis, Cartographical Mapping in the essence of Modern Geospatial Technology in India",
+      "authors": [
+        "Dr.Bhaskar Das"
+      ],
+      "year": 2025,
+      "venue": "International Journal of Research and Analytical Reviews",
+      "abstract": "",
+      "citation_count": 1,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge"
+      ],
+      "bibtex_key": "das_2025_integration",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.69968/ijisem.2025v4i2396-402",
+      "title": "Indian Knowledge System and Enterprise Evolution: A Review of Indigenous Knowledge Integration in Indian SMEs",
+      "authors": [
+        "Anjali Jadon",
+        "Abhilasha Dixit",
+        "Shilpi Jadon"
+      ],
+      "year": 2025,
+      "venue": "International Journal of Innovations in Science Engineering And Management",
+      "abstract": "Small and Medium Businesses (SMEs) are essential to creating jobs, encouraging innovation, and fostering inclusive growth in India's changing economic environment. At the same time, there is unrealized potential for sustainable skill development in Indian Knowledge Systems (IKS), a storehouse of indigenous knowledge including health, education, architecture, handicraft, and agriculture. The relationship between IKS and skill development in the SME sector is examined in this review article, which also critically looks at how traditional knowledge might be used to fill the skill shortages among current employees by enhancing current professional frameworks. In order to determine how IKS might influence training models, entrepreneurial practices, and community-based learning in SMEs, the article reviews current literature, policies, and case studies. Along with outlining the difficulties of integration, such as scalability, formal recognition, and digitization, it also offers a strategic plan for utilizing IKS in modern organizational growth. In order to promote IKS as a catalyst for SMEs that are prepared for the future rather than as a holdover from the past, the study highlights the necessity of an inclusive, culturally founded skill ecosystem that respects tradition while welcoming innovation.",
+      "citation_count": 1,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge"
+      ],
+      "bibtex_key": "jadon_2025_indian",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.24940/ijird/2019/v8/i7/jul19058",
+      "title": "Integrating Indigenous Agricultural Knowledge into Modern Agricultural Practices for Sustainable Rural Household  Food Security in Uganda",
+      "authors": [
+        "Milton Rwangire",
+        "Roberts K. Muriisa"
+      ],
+      "year": 2019,
+      "venue": "International Journal of Innovative Research and Development",
+      "abstract": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "rwangire_2019_integrating",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.46545/aijas.v10i1.355",
+      "title": "INTEGRATION OF NANOTECHNOLOGY AND INDIGENOUS AFRICAN AGRICULTURAL KNOWLEDGE: A REVIEW",
+      "authors": [
+        "Magdalene Iredia Osakue",
+        "Joy Chinaza Aninwonye",
+        "Ginikanwa Patience Ezeaku",
+        "Tolulope Tosin Ajayi",
+        "Fatimoh Ikeoluwa Egbinola"
+      ],
+      "year": 2025,
+      "venue": "American International Journal of Agricultural Studies",
+      "abstract": "There is a pressing need to improve agricultural methods and apply cutting-edge technologies to boost food production and ensure food security in Africa. For decades, farmers have relied on commercially available pesticides that are both environmentally harmful and expensive. On the other hand, nanotechnology is an emerging technology with numerous promising uses, among which is the prevention and treatment of plant diseases. Its application has allowed for more precise and efficient pesticide distribution to plants but there have been increasing concerns about toxicity and general acceptance. This review article examines the infusion of Indigenous agricultural knowledge into nanotechnology for pesticide production in Africa. This study employs a systematic review to identify relevant published articles from electronic databases like PubMed, Directory of Open Access Journals (DOAJ), and African Journals Online (AJOL) after which a total of 46 articles were selected from 373 articles which were identified at the initial stage. The study shows that the African agricultural system, governed by Indigenous Agricultural Knowledge, which is the result of human efforts to optimise crop yields via careful planning, experimentation, and the transmission of tried-and-true techniques from generation to generation has proven to be an economical, eco-friendly, and healthful strategy for addressing issues like weed control and insect and disease prevention in agriculture. The findings of this review suggest that incorporating Indigenous Agricultural Knowledge with nanotechnology via green methods can solve these problems.\nJEL Classification Codes: O13, O55, Q16, Q56.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "osakue_2025_integration",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.47856/ijaast.2021.v08i2.005",
+      "title": "A Study on Identification of Indigenous Technology Knowledge (ITK) and its Utilization in Contemporary Modern Agriculture at Shajapur District of Madhya Pradesh",
+      "authors": [
+        "Pankaj Sharma"
+      ],
+      "year": 2021,
+      "venue": "International Journal of Advances in Agricultural Science and Technology",
+      "abstract": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "sharma_2021_a",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.21275/sr22618120557",
+      "title": "A Study on Indigenous Knowledge Systems of the Bodos of Jalukbari Village Associated with Agricultural Practice",
+      "authors": [
+        "Bhaskarjyoti Boro"
+      ],
+      "year": 2022,
+      "venue": "International Journal of Science and Research (IJSR)",
+      "abstract": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge"
+      ],
+      "bibtex_key": "boro_2022_a",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.55927/fjst.v4i9.218",
+      "title": "Exploring Indigenous Knowledge Systems in Sustainable Agricultural Extension Practices",
+      "authors": [
+        "Dance Tangkesalu"
+      ],
+      "year": 2025,
+      "venue": "Formosa Journal of Science and Technology",
+      "abstract": "This study explores the role of local knowledge systems in enhancing sustainable agricultural extension practices by linking local wisdom, innovation adoption, and agribusiness sustainability. Using a mixed methods approach with interviews, focus group discussions, and surveys, findings reveal that traditional practices—such as season-based planting, soil management, and water conservation—remain highly relevant for production sustainability and improve the effectiveness of extension when integrated into learning materials. The study concludes that combining local wisdom with modern extension approaches strengthens sustainable agribusiness theory and offers practical implications for participatory, adaptive, and context-based extension models.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge",
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science"
+      ],
+      "bibtex_key": "tangkesalu_2025_exploring",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.prenap.2026.100737",
+      "title": "Integration of indigenous medicinal knowledge into Kenya's modern health care sector and its conservation: A systematic review",
+      "authors": [
+        "Rose Nyakemiso Sagwe",
+        "Mary Wahu Kuria"
+      ],
+      "year": 2026,
+      "venue": "Pharmacological Research - Natural Products",
+      "abstract": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "sagwe_2026_integration",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.18326/aicoies.v1i1.262",
+      "title": "Indigenous knowledge, Islamic va INTEGRATION INDIGENOUS KNOWLEDGE AND ISLAMIC VALUE IN UTILIZING INVERTEBRATES IN THE MAJALENGKA, WEST JAVA COMMUNITY",
+      "authors": [
+        "Salsa Fani Lestiani"
+      ],
+      "year": 2022,
+      "venue": "Annual International COnference on Islamic Education for Students",
+      "abstract": "This research aimed to determine the integration of indigenous knowledge and Islamic values ​​in the Majalengka community in utilizing invertebrates and to explore the practice of indigenous knowledge in utilizing invertebrates, especially snails (Achatina fulica) and Javanese grasshopper (Valanga nigricornis) in the health and food sector. This research was conducted in Sukaraja village, Jatiwangi, Majalengka district. This research was used a qualitative approach method of direct observation. Data was collected through observation, interviews, documentation and literature study, then the data were analyzed descriptively. The results show that indigenous knowledge based on Islamic values ​​implemented by the Majalengka indigenous community could increase community empowerment in various fields, namely health, economics, and social. The people of Majalengka use the snail (Achatina fulica) as a natural medicine for toothaches and the wound healing. While the Javanese grasshopper (Valanga nigricornis) as a traditional food of the community is believed to have a lot of protein content which is very good for the human body, especially for the growth of children. Further studies need to be conducted regarding the use of animals by the community based on sustainable conservation and further studies have to also be done to analyze of the presence of any bioactive compounds in invertebrate species used in traditional medicine in the research area.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge"
+      ],
+      "bibtex_key": "lestiani_2022_indigenous",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.33545/26180723.2024.v7.i9c.3174",
+      "title": "Participatory video documentation of indigenous agricultural knowledge for extension system integration in South Korea",
+      "authors": [
+        "Park Soo-Jin"
+      ],
+      "year": 2024,
+      "venue": "International Journal of Agriculture Extension and Social Development",
+      "abstract": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "soojin_2024_participatory",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.14719/pst.7875",
+      "title": "Integrating indigenous knowledge in modern agriculture: Challenges and opportunities",
+      "authors": [
+        "Kshatriya T Tarun",
+        "Vendan R Thamizh",
+        "C Rajeswari"
+      ],
+      "year": 2025,
+      "venue": "Plant Science Today",
+      "abstract": "Around 10000 years ago, humans began domesticating plants and understanding the role of weather and soil in agriculture. Over generations, they developed environmentally friendly farming practices, that sustained productivity while preserving local ecosystems. This historical perspective underscores the value of indigenous knowledge in developing alternative resource management approaches. Traditional techniques, refined through centuries, hold immense significance and must be safeguarded from extinction. These methods are eco-friendly and community-centric, offering viable solutions to contemporary agricultural challenges, including climate change, resource depletion and food insecurity. Their low-cost, sustainable nature makes them an essential complement to modern high-input farming. Integrating these practices with contemporary agriculture can foster resilient, environmentally sound and culturally significant farming systems. However, to fully leverage their potential, further research scientific validation and systematic documentation are imperative. Research institutions, NGOs and policymakers must collaborate to revive, adapt and disseminate these techniques among farming communities. This synergy between traditional wisdom and modern innovation can bridge the gap, ensuring a more sustainable agricultural future. By recognizing, validating and integrating traditional agricultural knowledge, we can create robust farming systems that preserve biodiversity, improve resilience and support food security for future generations.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge",
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "tarun_2025_integrating",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1080/15595692.2023.2246609",
+      "title": "Academic scientific knowledge and Indigenous worldviews: Discourse integration for sustainable development",
+      "authors": [
+        "Seth A. Agbo"
+      ],
+      "year": 2023,
+      "venue": "Diaspora, Indigenous, and Minority Education",
+      "abstract": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "agbo_2023_academic",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1093/geroni/igae098.1826",
+      "title": "BUILDING INDIGENOUS HEALTH: INSIGHTS FROM INDIGENOUS ADULTS ON KNOWLEDGE INTEGRATION AND ADAPTIVE STRATEGIES",
+      "authors": [
+        "Zih-Yong Liao",
+        "Fang-Lin Kuo"
+      ],
+      "year": 2024,
+      "venue": "Innovation in Aging",
+      "abstract": "Abstract\n               Over half of the older population faces inadequate dietary intake, posing higher risks of geriatric syndromes like frailty and sarcopenia. This community-based participatory research (CBPR) co-created a nutrition and cooking workshop in a Taiwanese Indigenous community. Employing the photovoice method alongside focus groups and individual interviews with 16 participants, we sought to understand the older Indigenous adults’ dietary patterns. Nutbeam’s health literacy model (2000) and Giddens’ structuration theory (1984) guided data analysis and conceptualization of food literacy construction in the Indigenous land. Four main themes emerged. First, ‘knowledge integration’ represents the conversation between traditional and scientific food/nutrition knowledge, strengthening functional food literacy to address health concerns. Second, ‘Indigenous adaptive strategies’ demonstrate their ability to apply food knowledge meaningfully in daily life, representing interactive food literacy. Third, ‘awareness of advanced nutrition literacy’ demonstrates the older adults’ ability to evaluate personal diets and critically reflect on the need for better health, representing critical food literacy. These food literacy constructs are iterative and interactive. Lastly, work is central to Indigenous life, shaping their identity and a sense of achievement, motivating older adults’ adaptive strategies and pursuing advanced nutrition literacy. However, the middle-aged population is less likely to attend health promotion activities due to work. Indigenous adaptive strategies reflect human agency’s potential to reproduce individual food ecosystems and healthcare practice systems within the community, overcoming structural barriers. CBPR can foster a sense of ownership among participants, enabling them to engage healthy behaviors as their personal priorities and take active initiatives toward better health.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "liao_2024_building",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.compedu.2020.103814",
+      "title": "EmoFindAR: Evaluation of a mobile multiplayer augmented reality game for primary school children",
+      "authors": [
+        "Lissette López-Faican",
+        "Javier Jaen"
+      ],
+      "year": 2020,
+      "venue": "Computers &amp; Education",
+      "abstract": "",
+      "citation_count": 144,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "lópezfaican_2020_emofindar",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.earscirev.2020.103223",
+      "title": "Position paper: Open web-distributed integrated geographic modelling and simulation to enable broader participation and applications",
+      "authors": [
+        "Min Chen",
+        "Alexey Voinov",
+        "Daniel P. Ames",
+        "Albert J. Kettner",
+        "Jonathan L. Goodall",
+        "Anthony J. Jakeman",
+        "C. Michael Barton",
+        "Quillon Harpham",
+        "Susan Cuddy",
+        "Cecelia DeLuca",
+        "Songshan Yue",
+        "Jin Wang",
+        "Feng‐Yuan Zhang",
+        "Yongning Wen",
+        "Guonian Lü"
+      ],
+      "year": 2020,
+      "venue": "Earth-Science Reviews",
+      "abstract": "Integrated geographic modelling and simulation is a computational means to improve understanding of the environment. With the development of Service Oriented Architecture (SOA) and web technologies, it is possible to conduct open, extensible integrated geographic modelling across a network in which resources can be accessed and integrated, and further distributed geographic simulations can be performed. This open web-distributed modelling and simulation approach is likely to enhance the use of existing resources and can attract diverse participants. With this approach, participants from different physical locations or domains of expertise can perform comprehensive modelling and simulation tasks collaboratively. This paper reviews past integrated modelling and simulation systems, highlighting the associated development challenges when moving to an open web-distributed system. A conceptual framework is proposed to introduce a roadmap from a system design perspective, with potential use cases provided. The four components of this conceptual framework - a set of standards, a resource sharing environment, a collaborative integrated modelling environment, and a distributed simulation environment - are also discussed in detail with the goal of advancing this emerging field.",
+      "citation_count": 136,
+      "is_open_access": true,
+      "open_access_url": "https://www.sciencedirect.com/science/article/am/pii/S0012825220302695?via%3Dihub",
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "chen_2020_position",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1088/1748-9326/abec05",
+      "title": "Gamification for climate change engagement: review of corpus and future agenda",
+      "authors": [
+        "Daniel Fernández Galeote",
+        "Mikko Rajanen",
+        "Dorina Rajanen",
+        "Nikoletta-Zampeta Legaki",
+        "David Langley",
+        "Juho Hamari"
+      ],
+      "year": 2021,
+      "venue": "Environmental Research Letters",
+      "abstract": "Abstract Both bottom-up and top-down initiatives are essential for addressing climate change effectively. These include initiatives aiming to achieve widespread behavioral change towards reduction of greenhouse gas emissions as well as pursuing education regarding adaptation measures. While awareness of the issue of climate change is now pervasive, and actions are being taken at all levels of society, there is still much to do if international goals are to be met. Games and gamification offer one approach to foster both behavioral change and education. In this paper, we investigate the state-of-the-art of game-based climate change engagement through a systematic literature review of 64 research outputs comprising 56 different gamified approaches. Our analysis of the literature reveals a trend of promising findings in this nascent and growing area of research, suggesting the potential to impact multiple engagement dimensions simultaneously, as well as create an engaging gameful experience. Overall, the corpus appears to offer a fruitful balance in foci between climate science, mitigation, and adaptation, as well as a variety of formats in game-based approaches (i.e. digital, analog, and hybrid). However, shortcomings were also observed, such as geographic and demographic imbalances and the short duration of interventions. The reviewed studies yield a large number of results indicating climate change engagement through gamification, especially in the form of cognitive engagement, affect towards climate change-related topics, and in-game behavioral engagement with others. Nevertheless, heterogeneity in terms of contexts, designs, outcomes, and methods, as well as limited rigor in research designs and reporting, hinders drawing overall conclusions. Based on our review, we provide guidelines regarding contexts, interventions, results, and research quality and internal validity for advancing the space of game-based interventions for climate change engagement.",
+      "citation_count": 101,
+      "is_open_access": true,
+      "open_access_url": "https://iopscience.iop.org/article/10.1088/1748-9326/abec05/pdf",
+      "status": "screened",
+      "relevance_tags": [
         "serious_games"
       ],
       "chapter_relevance": [
         "ch2_serious_games"
       ],
-      "bibtex_key": "weerasiri_2025_the",
+      "bibtex_key": "galeote_2021_gamification",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.3390/ijgi9030170",
+      "title": "Minecraft as a Tool for Engaging Children in Urban Planning: A Case Study in Tirol Town, Brazil",
+      "authors": [
+        "Bruno de Andrade",
+        "Alenka Poplin",
+        "Ìtalo Sousa de Sena"
+      ],
+      "year": 2020,
+      "venue": "ISPRS International Journal of Geo-Information",
+      "abstract": "The purpose of this paper is to explore the potential of Minecraft’s game environment for urban planning with older and younger children in a public school in Tirol town, Brazil. Minecraft is employed as an innovative tool to tackle the present lack of engagement and involvement of key societal actors such as children and young people in urban planning. Thus, how can games support children to co-design their future city? Which heritage values do they represent graphically in the game environment? Geogames are games that provide a visualization of a real spatial context and in this study, Minecraft is the tool which we use to explore youth engagement. We designed two experiments, which tested Minecraft as a geogame environment for engaging young people in urban planning. These experiments were conducted with children, who emerged as active emancipated actors to bring their values to the planning practice. The playtesting results revealed the potential of Minecraft to keep children engaged in the design workshop, as well as their relevant ludic ability to co-create walkable, green, and interactive places. New research questions arose about the potential of creating a culture of planning among children in order to motivate other social actors to share responsibilities for sustainable development and management.",
+      "citation_count": 77,
+      "is_open_access": true,
+      "open_access_url": "https://www.mdpi.com/2220-9964/9/3/170/pdf?version=1584502770",
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "andrade_2020_minecraft",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.5751/es-11014-240402",
+      "title": "New pathways for governing food system transformations: a pluralistic practice-based futures approach using visioning, back-casting, and serious gaming",
+      "authors": [
+        "Astrid Mangnus",
+        "Joost Vervoort",
+        "Steven R. McGreevy",
+        "Kazuhiko Ota",
+        "Christoph Rupprecht",
+        "Momoe Oga",
+        "Mai Kobayashi"
+      ],
+      "year": 2019,
+      "venue": "Ecology and Society",
+      "abstract": "Mangnus, A. C., J. M. Vervoort, S. R. McGreevy, K. Ota, C. D. D. Rupprecht, M. Oga, and M. Kobayashi. 2019. New pathways for governing food system transformations: a pluralistic practice-based futures approach using visioning, back-casting, and serious gaming. Ecology and Society 24(4):2. https://doi.org/10.5751/ES-11014-240402",
+      "citation_count": 76,
+      "is_open_access": true,
+      "open_access_url": "https://www.ecologyandsociety.org/vol24/iss4/art2/ES-2019-11014.pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "mangnus_2019_new",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.tsc.2023.101354",
+      "title": "Developing critical thinking skills through gamification",
+      "authors": [
+        "Claudia V. Angelelli",
+        "Geisa Müller de Campos Ribeiro",
+        "Maico Roris Severino",
+        "Eilidh Johnstone",
+        "Gana Borzenkova",
+        "Dayane Costa Oliveira da Silva"
+      ],
+      "year": 2023,
+      "venue": "Thinking Skills and Creativity",
+      "abstract": "",
+      "citation_count": 60,
+      "is_open_access": true,
+      "open_access_url": "https://e-space.mmu.ac.uk/632274/10/Developing%20critical%20thinking%20skills%20through%20gamification.pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "bibtex_key": "angelelli_2023_developing",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.3390/w11040869",
+      "title": "Towards a Framework for Designing and Assessing Game-Based Approaches for Sustainable Water Governance",
+      "authors": [
+        "Alice H. Aubert",
+        "Wietske Medema",
+        "A.E.J. Wals"
+      ],
+      "year": 2019,
+      "venue": "Water",
+      "abstract": "Most of the literature on serious games and gamification calls for a shift from evaluating practices to using theories to assess them. While the former is necessary to justify using game-based approaches, the latter enables understanding “why” game-based approaches are beneficial (or not). Based on earlier review papers and the papers in this special issue of Water entitled “Understanding game-based approaches for improving sustainable water governance: the potential of serious games to solve water problems”, we show that game-based approaches in a water governance context are relatively diverse. In particular, the expected aims, targeted audience, and spatial and temporal scales are factors that differentiate game-based approaches. These factors also strongly influence the design of game-based approaches and the research developed to assess them. We developed a framework to guide and reflect on the design and assessment of game-based approaches, and we suggest opportunities for future research. In particular, we highlight the lack of game-based approaches that can support “society-driven” sustainable water governance.",
+      "citation_count": 52,
+      "is_open_access": true,
+      "open_access_url": "https://www.mdpi.com/2073-4441/11/4/869/pdf?version=1556190640",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "bibtex_key": "aubert_2019_towards",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.compedu.2018.05.004",
+      "title": "Motivation is a game: Massively multiplayer online games as agents of motivation in higher education",
+      "authors": [
+        "Papia Bawa",
+        "Sunnie Lee Watson",
+        "William Watson"
+      ],
+      "year": 2018,
+      "venue": "Computers &amp; Education",
+      "abstract": "",
+      "citation_count": 42,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "bawa_2018_motivation",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.3390/electronics12173663",
+      "title": "Development of an Extended Reality-Based Collaborative Platform for Engineering Education: Operator 5.0",
+      "authors": [
+        "Dimitris Mourtzis",
+        "John Angelopoulos"
+      ],
+      "year": 2023,
+      "venue": "Electronics",
+      "abstract": "With the shift towards the human centric, sustainable, and resilient Industry 5.0, the need for training operators in complex industrial systems has become increasingly crucial. This paper explores the significance of collaborative extended reality (XR)-based engineering education in the preparation of the next generation of operators, denoted as Operator 5.0. By leveraging immersive technologies, operators can gain hands-on training experience in virtual or augmented environments. By incorporating these elements, operators can undergo comprehensive and personalized training, resulting in improved performance, reduced downtime, enhanced safety, and increased operational efficiency. Additionally, the framework is tested within a laboratory environment in three different case studies, focusing on maintenance and repair operations in the context of modern manufacturing in order to test its functionalities. Therefore, in this research, the current developments have been debugged and examined in order to test all of the functionalities of the digital platform so that the revised and improved version of the digital platform can be tested with a wider industrial and educational audience.",
+      "citation_count": 35,
+      "is_open_access": true,
+      "open_access_url": "https://www.mdpi.com/2079-9292/12/17/3663/pdf?version=1693392146",
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "mourtzis_2023_development",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.3390/su17010314",
+      "title": "Driving Innovation and Sustainable Development in Cultural Heritage Education Through Digital Transformation: The Role of Interactive Technologies",
+      "authors": [
+        "Aili Zhang",
+        "Yumeng Gong",
+        "Qiuyue Chen",
+        "Xu Jin",
+        "Yang Mu",
+        "Yi Lu"
+      ],
+      "year": 2025,
+      "venue": "Sustainability",
+      "abstract": "Integrating cultural heritage education into digital platforms is crucial for advancing the knowledge-based economy, as it introduces innovative methods for information dissemination and economic growth stimulation. This study investigates the synergy between advanced digital technologies and cultural heritage principles, focusing on developing an interactive platform for the Xiannong Altar in China. Utilizing the Applied Games Engagement Model (AGEM), the project created an interactive instructional program on traditional agricultural culture, transforming static cultural resources into dynamic knowledge. We conducted a between-subjects user study involving 100 participants. The findings demonstrate that the platform significantly enhanced participants’ understanding of cultural heritage and farming practices, positively influencing their perceptions. This study underscores the potential of digital technology to foster sustainable behaviors and effectively convey information, establishing it as a powerful educational tool for transformative learning. By illustrating how digitizing cultural material can drive innovation and create commercial value, this research contributes valuable insights for governments, cultural organizations, and entrepreneurs to leverage digital advancements to improve accessibility, engagement, and economic opportunities in the cultural and creative industries. Furthermore, it highlights the role of digital transformation in cultural heritage education as a catalyst for innovation and value generation within the knowledge-based economy.",
+      "citation_count": 22,
+      "is_open_access": true,
+      "open_access_url": "https://www.mdpi.com/2071-1050/17/1/314/pdf?version=1735912322",
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "zhang_2025_driving",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1007/s10460-020-10121-w",
+      "title": "Virtualizing the ‘good life’: reworking narratives of agrarianism and the rural idyll in a computer game",
+      "authors": [
+        "Lee‐Ann Sutherland"
+      ],
+      "year": 2020,
+      "venue": "Agriculture and Human Values",
+      "abstract": "Abstract Farming computer games enable the ‘desk chair countryside’—millions of people actively engaged in performing farming and rural activities on-line—to co-produce their desired representations of rural life, in line with the parameters set by game creators. In this paper, I critique the narratives and images of farming life expressed in the popular computer game ‘Stardew Valley’. Stardew is based on a scenario whereby players leave a [meaningless] urban desk job to revitalize the family farm. Player are given a choice to invest in the Community Center or to support ‘JojaMart’, a ‘big-box’ development. The farming narrative demonstrates the hallmarks of classical American agrarianism: farming as the basic profession on which other occupations depend, the virtue of hard work, the ‘natural’ and moral nature of agricultural life, and the economic independence of the farmer. More recent discourses of critical agrarianism are noticeably absent, particularly in relation to environmental protection. Conflict is centred on urban-based big business, whereas the farm is represented as a ‘bolt-hole’ or sanctuary from urban life. I argue that embedding issues of big-box development in gameplay enrols players in active reflection and debate on desirable responses, whereas the emphasis on reproducing classical agrarian tropes risks desensitizing game players to contemporary agrarian social and environmental justice issues. However, Stardew Valley gameplay implicitly reinforces the ideal that low input farming is the way that agriculture should be practiced. The success of the game in eliciting on-line debates, and the requirement for active performance and decision-making, demonstrates the specific potential of computer games as mediums for influencing and intervening in ongoing reworking of farming imaginaries, and enabling more critically engagement of the ‘desk chair countryside’ in important global debates.",
+      "citation_count": 20,
+      "is_open_access": true,
+      "open_access_url": "https://link.springer.com/content/pdf/10.1007/s10460-020-10121-w.pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "sutherland_2020_virtualizing",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1002/wcc.664",
+      "title": "Focus groups and serious gaming in climate change communication research—A methodological review",
+      "authors": [
+        "Victoria Wibeck",
+        "Tina‐Simone Neset"
+      ],
+      "year": 2020,
+      "venue": "Wiley Interdisciplinary Reviews Climate Change",
+      "abstract": "Abstract This article explores the methodological challenges and opportunities of climate change communication research in a digital landscape. It scrutinizes the potential and limitations of combining group‐based qualitative interview methods, such as focus groups, with new digital media tools such as serious games. The paper brings together three strands of research: Climate change communication studies, methods literature on focus groups, and literature on (digital) serious gaming. Our review demonstrates that studies that deliberately combine focus groups methods with serious gaming have hitherto been scarce. There is a proliferation of digital visualization tools in climate change communication. We therefore see the need to critically explore what and how the integration of digital tools into qualitative group‐based studies can contribute to enhancing research into climate change communication and knowledge development. To illuminate the opportunities and challenges for the integration of serious gaming in focus group studies in the area of climate change communication, we bring in a few illustrative examples from a research project that integrated focus group methodology with a serious game on climate adaptation in Nordic agriculture. Introducing digital serious games in focus group‐based climate change communication studies can benefit climate change communication research in at least three ways: (a) by spurring participants’ in‐depth discussions, facilitating analysis of how sense‐making occurs; (b) by providing opportunities to evaluate features of the game itself and to develop it for different target audiences; and (c) by forming part of participatory climate change communication activities, engaging lay people and/or experts in co‐creating knowledge. This article is categorized under: Perceptions, Behavior, and Communication of Climate Change &gt; Perceptions of Climate Change",
+      "citation_count": 19,
+      "is_open_access": true,
+      "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/wcc.664",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "bibtex_key": "wibeck_2020_focus",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1109/access.2023.3327581",
+      "title": "Supply Chain Management Serious Game Using Blockchain Smart Contract",
+      "authors": [
+        "Astrid Novita Putri",
+        "Mochamad Hariadi",
+        "Reza Fuad Rachmadi"
+      ],
+      "year": 2023,
+      "venue": "IEEE Access",
+      "abstract": "Smart contracts and Blockchain are necessary for transactions in supply chain management. A smart contract is an agreement in the form of a cryptographic code digitally signed by the actors. This technology holds the data transaction transparently and securely between the actors. The actors may benefit without intermediaries involved in the transaction. Supply chain management will be easily tracked by decentralized data sharing. Supply chain management involves transactions in agricultural sectors such as farmers, Village Cooperatives units, distributors, and consumers. The Cooperative is a party that buys goods from farmers and sells them to consumers. A smart contract is a digital signature that can access the system in transactions. The system records log activities that show the origin of transactions. All actors can see the transaction of agricultural products stored in the blockchain ledger in the Blockchain. This paper discusses blockchain-based smart contracts scenario for supply chain management that is simulated and implemented in the Serious Game. The Game is developed using Unity 3D Development Platform, programming language contract using Solidity, Moralis as Web3 Development Platform and dApp as backend blockchain, Network Environment Polygon Ethereum, and Database that is Redis Enterprise, MongoDB Compass, and Mumbai Testnet.",
+      "citation_count": 16,
+      "is_open_access": true,
+      "open_access_url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10295474.pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "bibtex_key": "putri_2023_supply",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1038/s41598-025-95615-5",
+      "title": "Development and evaluation of an augmented reality serious game to enhance 21st century skills in cultural tourism",
+      "authors": [
+        "Pawitra Liamruk",
+        "Natnicha Onwong",
+        "Kiettikoon Amornrat",
+        "Ann Arayapipatkul",
+        "Kawin Sipiyaruk"
+      ],
+      "year": 2025,
+      "venue": "Scientific Reports",
+      "abstract": "Cultural tourism plays a significant role in preserving traditions and promoting global awareness. However, engaging younger generations with cultural heritage through traditional tourism methods remains challenging, as traditional tourism methods are often perceived as lacking the interactivity and engagement characteristic of digital experiences. The increasing prevalence of digital entertainment and social media has further shifted preferences toward dynamic, personalized content. Integrating modern technologies, such as augmented reality (AR), into cultural tourism experiences can bridge this gap, providing interactive and immersive learning opportunities. This research aimed to develop and assess the usability and educational impact of KideClass in enhancing 21st century skills while promoting cultural tourism. A descriptive evaluation design was employed, with 20 participants: 10 children (aged 6-12 years) and 10 parents. Participants engaged in six mini-games integrated into the KideClass game, designed to enhance cultural and scientific literacy. Data were collected using perceived evaluations of 21st century skill development and a user satisfaction assessment based on a 5-point Likert scale. The results indicated perceived improvements in 21st century skills, particularly in critical thinking/problem-solving (Children: Mean = 4.57, SD = 0.45; Parents: Mean = 4.30, SD = 0.33) and adaptability (Children: Mean = 4.47, SD = 0.55; Parents: Mean = 4.17, SD = 0.32). Children reported higher ratings in scientific literacy (Mean = 4.47, SD = 0.48) compared to parents (Mean = 3.83, SD = 0.36). User satisfaction was high, with audio esthetics (Mean = 4.90, SD = 0.32), creative freedom (Mean = 4.65, SD = 0.67), and AR features (Mean = 4.65 ± 0.78) receiving top ratings. However, usability (Mean = 4.43, SD = 0.69) and narrative clarity (Mean = 4.30, SD = 0.74) were identified as lower than other aspects. Overall, KideClass demonstrates significant potential in enhancing cultural tourism engagement and developing key 21st century skills among children and parents. The integration of AR and gamified learning provides a dynamic and interactive platform for cultural education. While the game was well perceived in terms of user engagement and satisfaction, further refinement in usability and narrative clarity is recommended. Future iterations of the game could benefit from expanded cultural scenarios and collaborative features to foster deeper learning and engagement.",
+      "citation_count": 12,
+      "is_open_access": true,
+      "open_access_url": "https://www.nature.com/articles/s41598-025-95615-5.pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games",
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games",
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "liamruk_2025_development",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1093/forestry/cpad007",
+      "title": "Use of virtual reality technology in chainsaw operations, education and training",
+      "authors": [
+        "Irene Capecchi",
+        "Francesco Neri",
+        "Tommaso Borghini",
+        "Iacopo Bernetti"
+      ],
+      "year": 2023,
+      "venue": "Forestry An International Journal of Forest Research",
+      "abstract": "Abstract Wood harvesting operations represent one of the industrial sectors with the highest risk of accidents at work. In semi-mechanized logging operations, the great majority of accidents generally occur using chainsaws during tree felling. Unfortunately, these situations frequently cause serious injuries and even the deaths of workers. In numerous cases, the accidents occurred to people who were badly trained and inexperienced, with a short employment history. One solution to reduce these harmful events is to support workers employed in this sector with training applications. This paper presents a description of a research and training programme for operating with chainsaws in tree felling operations using a Virtual Reality (VR) application called ForestVRoom. This innovative education method was compared with the traditional theoretical lesson based on a slide show. The results of the training were verified through a statistical analysis of questionnaires administered to a sample of 45 students in undergraduate and master’s degree programmes at the School of Agriculture and Forestry at the University of Florence. We have shown that the combination of traditional didactics and symmetrical collaborative VR leads to an increase in knowledge and especially in the ability to understand situations in a real forest site. VR is a useful teaching tool that can complement conventional training methods because of its potential to provide an immersive and attractive experience that facilitates learning and recognition of situations in forest sites.",
+      "citation_count": 12,
+      "is_open_access": true,
+      "open_access_url": "https://academic.oup.com/forestry/advance-article-pdf/doi/10.1093/forestry/cpad007/49329335/cpad007.pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "capecchi_2023_use",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.3390/educsci12020100",
+      "title": "Initial Design and Testing of Multiplayer Cooperative Game to Support Physical Activity in Schools",
+      "authors": [
+        "Solomon Sunday Oyelere",
+        "Simon Malmström Berghem",
+        "Robert Brännström",
+        "Stina Rutberg",
+        "Teemu H. Laine",
+        "Anna-Karin Lindqvist"
+      ],
+      "year": 2022,
+      "venue": "Education Sciences",
+      "abstract": "Recent studies have shown that children are not adequately physically active and there is a need to increase children’s physical activity. This study describes new opportunities and solutions for using existing games and gamification to increase physical activity among children in Sweden. We adopted the principles of Tic-Tac-Training to redesign, build, and test a classical multiplayer cooperative game, Battleship, to create a PA game that children experience as fun and engaging. The low fidelity prototype of the game was developed using an iterative game development life cycle and tested with 13 young male children aged 8–11 in a real-world informal setting. A mixed-method research approach was used to understand the users’ experiences and the impact of the Battleship-PA game on behavior change regarding physical activity. Research data were collected through audio recordings of interactions, direct observation, and a user experience questionnaire. The results of this study indicate both positive and negative feedback that can be used to improve the game and user experiences. The results from the unfiltered recordings revealed that both teams were competitive, cooperated within their team, and became excited whenever they destroyed opponent’s ships or were close to winning. However, the children felt bored and exhausted when many gamification tasks were repeated several times in a game session. Direct observation indicated that the children enjoyed the physical activities resulting from playing the game. However, participants who had not previously played the classical version of Battleship were confused about the objectives and concept of the game. The analysis of the user experience questionnaire indicated that most children found the game easy to play, motivating, engaging, interactive, fun, cooperative, competitive, and visually appealing. Furthermore, most children agreed that the game helped them to be physically active and strongly agreed that they enjoyed performing the physical activities in the game. Future work is needed to improve the game user interface, gamification elements, and prepare additional physical activity tasks for a rewarding experience.",
+      "citation_count": 10,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games",
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games",
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "oyelere_2022_initial",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1051/e3sconf/202127312011",
+      "title": "Psychological and pedagogical aspects of simulation technology at English lessons for future engineers of the agro-industrial complex",
+      "authors": [
+        "Tatiana E. Isaeva",
+        "Natalia Malishevskaya",
+        "Elena Goryunova",
+        "Liliya Alexandrovna Lazareva",
+        "Mikhail Churikov"
+      ],
+      "year": 2021,
+      "venue": "E3S Web of Conferences",
+      "abstract": "During the period of COVID-19 pandemic when mostly all the universities have transferred to distant learning, the educational effect of many interactive methods partially reduced. However, simulation is underestimated by university professors and scarsely used in the educational process. Despite a profound interest in interactive methods, theoretical and practical issues of simulation still need examination, especially in the context of competence-based education. In present research pedagogical, psychological and linguistic issues of simulation are studied. Though, simulation is often referred to as a method or a game, we consider it to be an educational technology. Contrary to entertaining simulation, educational simulation used as technology usually is more than a case, because it has a structured scenario with a system of rules and prohibitions, which are created with a certain idea of forming specific competences. The practical part of the article contains a description of the empirical study of the simulation technology results used at English lessons at the technical university, which prove a high educational efficiency of simulation technology in the professional development of future engineers of agro-complex.",
+      "citation_count": 9,
+      "is_open_access": true,
+      "open_access_url": "https://www.e3s-conferences.org/articles/e3sconf/pdf/2021/49/e3sconf_interagromash2021_12011.pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "isaeva_2021_psychological",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1186/s41039-017-0056-6",
+      "title": "Design-based research on teacher facilitation practices for serious gaming in formal schooling",
+      "authors": [
+        "Morris Siu–Yung Jong",
+        "Anmei Dong",
+        "Eric Tsun-Hin Luk"
+      ],
+      "year": 2017,
+      "venue": "Research and Practice in Technology Enhanced Learning",
+      "abstract": "Serious gaming has been regarded as one of the important student-centric learning approaches in the coming decade. However, there has been a lack of in-depth discussion of the teacher role in the course of serious gaming when it is adopted in formal schooling. The study discussed in this paper is a piece of two-cycle design-based research, involving three teachers respectively from top, middle and bottom academic banding schools in Hong Kong and their Grade 11 classes in two consecutive school years (197 students in total). In the context of formal curriculum learning and teaching, we (researchers) collaborated with the teachers (practitioners) to investigate (design, enact, analyse and redesign) what and how they should do in order to optimise their students' serious gaming process and advance the pedagogic effectiveness of serious gaming in different classroom settings.",
+      "citation_count": 9,
+      "is_open_access": true,
+      "open_access_url": "https://telrp.springeropen.com/track/pdf/10.1186/s41039-017-0056-6",
+      "status": "screened",
+      "relevance_tags": [
+        "dsr"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "jong_2017_design",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.3390/su12208743",
+      "title": "Bringing Policy Decisions to the People—Education for Sustainable Development through a Digital Simulation Game",
+      "authors": [
+        "Sven Ivens",
+        "Gerlinde Wiese",
+        "Klaus Dittert",
+        "Oliver Mußhoff",
+        "Monika Oberle"
+      ],
+      "year": 2020,
+      "venue": "Sustainability",
+      "abstract": "After repeated warnings by the European Commission regarding high nitrate concentrations in German waters, in 2017, Germany implemented a new fertilizer application ordinance (FO) with stricter nitrate value limits. The new regulations have severely affected agricultural regions in Germany and could lead to a high number of job losses if farmers must conform to the new regulations and do not implement new production methods. Therefore, a simulation game was developed to educate farmers and residents about the new FO and to facilitate adaptation to the new environmentally friendly legislation. The aims of the newly developed simulation game are to educate residents and farmers in affected regions about the new FO and to develop new ideas on how to comply with the new regulations. The aims of the present study are, first, to research participants’ evaluation of the simulation game and, second, to assess the effect of the simulation game on subjective knowledge, internal efficacy, and attitude towards the new FO. This pre- and post-comparison design study was based on pre-test and post-test with participants in two games (N = 90). The results were analyzed using descriptive statistics, multiple regression analyses, qualitative content analysis, and mean value comparisons. The simulation game had a positive effect on participants’ subjective knowledge (Cohen’s d 0.65) and internal efficacy (Cohen’s d 0.36), but it did not have an effect on their attitudes toward the new FO, and it was shown to slightly lower their interest in agriculture politics (Cohen’s d −0.33). The participants reported that the game made them more aware of both the difficulty and necessity of finding compromises in the field of agriculture politics. Overall, the simulation was rated very positively and was perceived as interesting and informative by the participants.",
+      "citation_count": 5,
+      "is_open_access": true,
+      "open_access_url": "https://www.mdpi.com/2071-1050/12/20/8743/pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "ivens_2020_bringing",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.joule.2019.08.003",
+      "title": "Energy Trading as a Multiplayer Game",
+      "authors": [
+        "Brandon R. Sutherland"
+      ],
+      "year": 2019,
+      "venue": "Joule",
+      "abstract": "",
+      "citation_count": 3,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "sutherland_2019_energy",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1504/ijor.2022.121493",
+      "title": "Informal-contract farming in an agriculture supply chain: a game-theoretic analysis",
+      "authors": [
+        "Shivshanker Singh Patel"
+      ],
+      "year": 2022,
+      "venue": "International Journal of Operational Research",
+      "abstract": "",
+      "citation_count": 2,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "patel_2022_informal",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.33096/ilkom.v14i3.1432.303-313",
+      "title": "Multiplayer mechanism design for soil tillage serious game",
+      "authors": [
+        "Anang Kukuh Adisusilo",
+        "Emmy Wahyuningtyas",
+        "Nia Saurina",
+        "Radi Radi"
+      ],
+      "year": 2022,
+      "venue": "ILKOM Jurnal Ilmiah",
+      "abstract": "The primary goal of Serious Games is not only for fun but also for lesson. In learning the first stage of soil tillage which using the mouldboard plow, a proper understanding is needed so that the soil tillage process will follow the needs of plant growth. The use of serious games as a study instrument for soil tillage is under the concept of digital game-based learning (DGBL). The problem of players when playing serious games is less motivated to play because the serious game system and scenario are less challenging. That challenges accelerate the shape of knowledge and experience when playing the games (user experience). By referring to the Learning Mechanics Gaming Mechanics (LM-GM) model, which is based on multiplayer in serious games, hopefully the learning process of land management using the mouldboard plow can be optimized. This process can increase learning motivation and elevate the user experience. This research results a design concept of a learning mechanism and a game mechanism for a serious multiplayer game of soil tillage with a mouldboard plow. There are three types of learning mechanisms in conceptual and concrete components, also six types of game mechanisms that can be used as a reference for the formation of multiplayer serious games and the increase player motivation.",
+      "citation_count": 1,
+      "is_open_access": true,
+      "open_access_url": "https://jurnal.fikom.umi.ac.id/index.php/ILKOM/article/download/1432/pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games",
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games",
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "adisusilo_2022_multiplayer",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1155/hbe2/6564116",
+      "title": "Culturally Tailored Serious Game Design: A Revolutionary Model for Smart Agriculture",
+      "authors": [
+        "Sehrish Riaz",
+        "Kashif Ishaq",
+        "Atif Alvi",
+        "Syahanim Mohd Salleh",
+        "Naeem A. Nawaz"
+      ],
+      "year": 2025,
+      "venue": "Human Behavior and Emerging Technologies",
+      "abstract": "Smart agriculture, which is culturally specific, combines education with the celebratory potlatch of our agrarian heritage. Smart agriculture, also known as precision farming, refers to the application of advanced technologies to enhance the effectiveness and efficiency of agricultural practices. The concept of serious games has gained popularity across various fields, including smart agriculture. Serious gaming is currently being considered as a new approach to address challenging farming issues and enhance farmer training, thereby stimulating technological innovation in the agricultural sector. Despite the growing interest in serious games, there is a lack of research exploring how such games can effectively communicate practical farming knowledge, particularly across different cultural practices. Research is needed to assess whether these games can effectively teach key topics, such as soil management and crop selection while respecting cultural norms. It is also crucial to evaluate whether gameplay influences players’ attitudes toward sustainable farming and the extent to which they retain the knowledge in real‐world contexts. This study examines a culturally specific game design model for smart agriculture, integrating educational and cultural elements to enhance learning and engagement. The game allows players to experience the farming cycle, encompassing planting, tending, and harvesting. It is intended to educate children and anyone interested in learning about the origins of their food, as well as to explain why sustainable farming is essential for future generations. The players experience farming through seasonal cycles, from decisions on seed types to soil preparation, including dealing with weather calamities. A quasiexperimental design compared two groups: a traditional learning group and an experimental serious game group. A serious game developed based on the proposed model was implemented and evaluated through pre‐ and posttests, statistical analyses, and heuristic evaluations to measure improvements in agricultural knowledge. The results demonstrate significant knowledge retention in the game group, particularly in precision farming, sustainability, and IoT‐based solutions ( p &lt; 0.05). These findings highlight the potential of serious games as an innovative tool for blending traditional agricultural knowledge with modern farming practices, promoting sustainable farming education in diverse cultural settings.",
+      "citation_count": 1,
+      "is_open_access": true,
+      "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1155/hbe2/6564116",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "modern_ag_science",
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science",
+        "ch2_serious_games",
+        "ch4_game_mechanics"
+      ],
+      "bibtex_key": "riaz_2025_culturally",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1007/s00182-019-00662-8",
+      "title": "Multiplayer games as extension of misère games",
+      "authors": [
+        "Koki Suetsugu"
+      ],
+      "year": 2019,
+      "venue": "International Journal of Game Theory",
+      "abstract": "",
+      "citation_count": 1,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "suetsugu_2019_multiplayer",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.orl.2017.06.009",
+      "title": "New counterterror measures: Feedback Nash equilibrium of a multiplayer differential game",
+      "authors": [
+        "Jun Wang"
+      ],
+      "year": 2017,
+      "venue": "Operations Research Letters",
+      "abstract": "",
+      "citation_count": 1,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "wang_2017_new",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.13166/jms/108947",
+      "title": "Massively Multiplayer Game-based  Education",
+      "authors": [
+        "Peter Godwod"
+      ],
+      "year": 2019,
+      "venue": "Journal of Modern Science",
+      "abstract": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "godwod_2019_massively",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.58459/icce.2023.1454",
+      "title": "MEGA World – A Platform of Multiplayer Educational Game for All",
+      "authors": [
+        "Maiga CHANG"
+      ],
+      "year": 2023,
+      "venue": "International Conference on Computers in Education",
+      "abstract": "This paper presents MEGA World, a platform that allows teachers to create their own virtual worlds for their course so their students can learn required knowledge and skills as well as be stealth assessed in a non-pressure environment. Students will walk through the learning and assessment activities by wondering and exploring the virtual world via interest driven. In this paper, various quest types will be introduced, and their use cases will be explained with the content from four graduate level and undergraduate level courses in Athabasca University. At the end, users’ experiences and their preliminary perceptions toward the use of MEGA World will be summarized – users spent on average 70 to 81 minutes on the gameplay activities even they were introduced MEGA World and its activities in the last second week of the term/semester; moreover, they had very positive opinions on the use of it to replace the supervised exam.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games",
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games",
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "chang_2023_mega",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.32664/j-intech.v7i01.406",
+      "title": "Game Multiplayer â€œMini Car Circuitâ€ Berbasis Android",
+      "authors": [
+        "Syaifuddin Yudha Saputra",
+        "Subari Subari"
+      ],
+      "year": 2019,
+      "venue": "J-INTECH",
+      "abstract": "Game merupakan program permainan bertujuan untuk menghibur. Game yang paling efektif untuk menghilangkan stres adalah game yang mudah dipelajari, tetapi memiliki tujuan yang sulit dicapai. Salah satu contoh adalah game balap (racing game). Game yang dapat dimainkan oleh banyak pemain (multiplayer) tentunya akan memberikan pengalaman bermain yang lebih menyenangkan dibandingkan jika bermain game seorang diri atau melawan AI (Artificial Intelligence). Meskipun demikian banyak pengguna yang merasa jenuh karena permainan dianggap monoton. Dikarenakan pada racing game yang free tidak bisa mengganti jenis mobil yang diinginkan dan membuat room sendiri untuk bermain. Sedangkan untuk yang berbayar dirasa kurang efektif karena harus melakukan transaksi pembayaran untuk membeli jenis mobil yang diinginkan. Game ini memiliki fitur utama, yaitu bermain secara realtime multiplayer, dalam fitur tersebut, pengguna dapat membuat room bermain sendiri ataupun memilih untuk masuk ke room yang sudah dibuat oleh player lainnya. Pemain akan disuguhkan dengan tampilan antarmuka yang mudah digunakan. Pemain akan bermain dengan 3 player lainnya dalam waktu yang sama. Dalam fitur main tersebut, pemain diharuskan menghubungkan smartphone android ke internet, fitur main juga menyediakan beberapa pilihan jenis mobil player dan track balapan yang akan digunakan dalam permainan. Pemain juga akan dimanjakan dengan control yang mudah dipahami dan digunakan dalam permainan. Sebagai pengujian game, Peneliti akan melakukan pengujian secara langsung dalam waktu yang sama. Pengujian dilakukan secara serentak dengan menggunakan perangkat Smartphone Android dengan berbagai kriteria pengujian yang ada. Penggunaan teknologi multiplayer pada game dapat diterapkan tanpa butuh biaya apapun untuk menggunakan server secara realtime. Framework Photon Unity Networking (Free) yang digunakan peneliti sebagai pengatur multiplayer pada game ini terbukti dapat berjalan dengan baik dan mudah diterapkan dalam penggunannya. Adapun manfaat dari game ini yaitu sebagai sarana hiburan di waktu luang, melatih kemampuan player untuk memenangkan permainan dengan menghadapi pesaing di dalam game, dan menambah alternatif game multiplayer di smartphone. Diharapkan dengan adanya game ini dapat membangun aplikasi game multiplayer pada android yang mudah dimainkan, menantang, menarik juga tidak membosankan dan dapat membangun aplikasi game multiplayer sebagai sarana hiburan oleh pengguna.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "saputra_2019_game",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.58459/icce.2019.815",
+      "title": "Virtual World and Quests Creation on MEGA World (Multiplayer Educational Game for All)",
+      "authors": [
+        "Maiga Chang"
+      ],
+      "year": 2019,
+      "venue": "International Conference on Computers in Education",
+      "abstract": "A multiplayer online role-play game (MORPG), called MEGA World (MEGA stood for Multiplayer Educational Game for Assessment in v1.0 back to 2010 and now stands for Multiplayer Educational Game for All), has been designed and developed since 2010. MEGA World is a web-based massively multiplayer educational game platform which supports any languages and is capable of access any existing external resources (e.g., multimedia, materials, online meetings, etc.)(Chang &amp; Kinshuk, 2010[1]). Teachers can create their virtual worlds as well as create learning and assessment activities (i.e., quests in the game) of different learning subjects for students' for instances English, and Java Programming, Flash ActionScript, research methods (Kuo, Chang, Kinshuk, &amp; Liu, 2010[2]; Li, Zou, Xie, Wang, &amp; Chang, 2018[3]; Lu, Luo, Chang, Kuo, &amp; Li, 2018[4]; Xu, Chang, Chen, Chen, &amp; Kinshuk, 2016[5]). Students can learn specific knowledge and reach the learning goal by taking and solving those quests while playing. The current version of MEGA World[6] (Multiplayer Educational Game for All) is v2.1 and supports eight quest types for teachers to create: greeting, item collection and delivery, sorting, treasure hunting and digging, calculation, fill-in-the-blank, short answer, and speaking-based conversation quest type (Chang, Chen, Wu, &amp; Yu, 2019[7]). In this version of the game, students can have their own avatars and see others visually. In this tutorial, we are going to show participants how to use MEGA World as well as teach participants how to create virtual worlds, NPCs, quests (individual quest and quest chain) and their quest items and rewards for their courses or learning topics.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games",
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games",
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "chang_2019_virtual",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.24908/pceea.2023.17136",
+      "title": "Development of a scalable, immersive, multiplayer game for teaching engineering courses",
+      "authors": [
+        "Tahzinul Islam",
+        "Moshi Wei",
+        "Alidad Amirfazli"
+      ],
+      "year": 2024,
+      "venue": "Proceedings of the Canadian Engineering Education Association (CEEA)",
+      "abstract": "A scalable and immersive game was developed to serve as a monthly concept review game for theory-heavy engineering courses (such as fluid dynamics or heat transfer). It was designed such that in-game items and content may be dynamically replaced easily with an Excel data table, without the need for further programming. It is expected that course instructors may use such a tool by simply updating an Excel data table to rapidly tailor the game for any course. Even room/zone designs may be parametrized using a data table. Given the automation level of such a tool, its scalability and adaptability, the results of this work demonstrate the an innovative tool for educators to use for rapid construction of fun learning environments for engineering students in fun, game worlds. Future multiplayer game development can aid with collaborative learning to an even higher degree.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "islam_2024_development",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.29100/jipi.v1i01.15",
+      "title": "GAME FPS DENGAN MENGGUNAKAN MULTIPLAYER GAME",
+      "authors": [
+        "Ida Bagus Made Oka Widharma"
+      ],
+      "year": 2016,
+      "venue": "JIPI (Jurnal Ilmiah Penelitian dan Pembelajaran Informatika)",
+      "abstract": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "widharma_2016_game",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.32664/j-intech.v13i02.1970",
+      "title": "Developing the 'Angker' Multiplayer Horror Mobile Game Using the Agile Method",
+      "authors": [
+        "Apik Banyubasa",
+        "Cindy Valencia",
+        "Hassan Narallah Matauq",
+        "R Bramaditya Ario Wirawisesa",
+        "Aditya Wicaksono",
+        "Muhammad Nasir"
+      ],
+      "year": 2025,
+      "venue": "J-INTECH",
+      "abstract": "This study develops a mobile-based multiplayer horror game titled \"Angker\" using the Agile method, specifically Agile Scrum, in response to the rapid growth of the mobile game industry and increasing interest in the multiplayer horror genre. The Agile method was chosen for its flexibility in managing complex game development, allowing quick adaptation to changes and strong team collaboration. The development process was divided into eight sprints, covering planning (team role assignment, project scheduling), design (UML diagrams, UI design using Figma), feature development (character movement, multiplayer system, chat, item system, visual/audio assets, in-game store, skin transactions), internal and external testing, and final deployment. A total of 15 core features were successfully developed and implemented, including 8 technical modules such as a multiplayer lobby system, coin transaction system, interactive item system, and win condition detection system. Testing results demonstrated improvements in time efficiency, team coordination, and final product quality. The novelty of this study lies in the comprehensive integration of the Agile method in multiplayer horror game development using the Godot engine—an approach still rarely implemented, especially by small teams with limited resources.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "banyubasa_2025_developing",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.21512/jggag.v5i1.7469",
+      "title": "Developing Multiplayer Online Game “KNIGHT FANTASY ONLINE”",
+      "authors": [
+        "Darius Andana Haris",
+        "Viny Christiani Mawardi",
+        "Davin Pratama"
+      ],
+      "year": 2021,
+      "venue": "Journal of Games, Game Art, and Gamification",
+      "abstract": "Knights Fantasy Online is a massively multiplayer online game with role-playing game genre. This game was developed using ActionScript 3.0 of Adobe Flash for client and Java for its server, while the design of the game was designed using Adobe Illustrator. This research is intended to make multiplayer online games using Adobe Flash. In this game, Players start their adventure in a world called Edenia as a knight from a kingdom called Aurum, the player is in charge of controlling the population of monsters. Players can take on quests, collect equipment and improve their character's ability. The game was tested by using Blackbox, alpha, beta and stress test. Through the results of a questionnaire distributed to 40 people. The test results shows that Knights Fantasy Online has an interesting gameplay, easy to understand and also has enough features as a massively multiplayer online game.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "haris_2021_developing",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.31315/telematika.v7i1.409",
+      "title": "MOBILE GAME HALMA MULTIPLAYER",
+      "authors": [
+        "Novrido Charibaldi",
+        "Wilis Kaswidjanti",
+        "Muhammad Dhimas"
+      ],
+      "year": 2015,
+      "venue": "Telematika",
+      "abstract": "Handphone besides as a communication tool also has a function as a medium of entertainment. Various multimedia services and communications facilities contained therein, one Bluetooth. Games is one application that always exist in the mobile phone, and with a wider variety of games development by utilizing the services in mobile. In this research, the development of the multiplayer games for mobile phones utilizing Bluetooth communication media using the programming language Java Micro Edition (J2ME). Design method using the grapple, NetBeans IDE 6.1 is used as tools to assist programming.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "charibaldi_2015_mobile",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.61577/jalf.2025.10006",
+      "title": "Towards human-centric farming: critique of tech-driven solutions in Indian agriculture",
+      "authors": [
+        "Abhigyan Priyadarsan"
+      ],
+      "year": 2025,
+      "venue": "Journal of Agriculture and Livestock Farming",
+      "abstract": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "priyadarsan_2025_towards",
+      "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.7557/ejcgc.v16i2.8039",
+      "title": "The arena of teamwork",
+      "authors": [
+        "Geunyoung Kim"
+      ],
+      "year": 2025,
+      "venue": "Eludamos: Journal for Computer Game Culture",
+      "abstract": "Multiplayer gaming highly depends on teamwork, making the spatial arrangement of players an important design factor. This study examines how two seating configurations—linear seating and stellate polygonal seating—affect multiplayer performance, communication, and overall collaborative experience. Twenty-four participants played in teams under both arrangements, followed by surveys from sixteen participants evaluating eight aspects of teamwork and interaction. While linear seating resulted in higher kill counts and thus stronger quantitative performance, players consistently rated stellate polygonal seating more positively, emphasizing its advantages for communication and team-centric engagement. These findings note the complex relationship between spatial layout and team effectiveness in gaming environments and suggest that optimal multiplayer setups require balancing functional performance with social and spatial dynamics. Future work should explore additional spatial variables that may further enhance collaborative gameplay.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "kim_2025_the",
       "added_date": "2026-06-22",
       "read_date": null
     }

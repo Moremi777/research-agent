@@ -103,11 +103,12 @@ Chapter 1 — Introduction
 Chapter 2 — Literature Review
   2.1 Introduction
   2.2 Thematic Review of the Problem Domain
-    2.2.1 Indigenous Farming Knowledge Systems in Southern Africa
-    2.2.2 Serious Games and Game-Based Learning in Education
-    2.2.3 Technology in Agricultural Education and Extension
-    2.2.4 Farmer-to-Farmer Knowledge Exchange and Peer Learning
-  2.3 Review of the Solution Domain (Technology / Theories / Concepts)
+    2.2.1 Indigenous Farming Knowledge
+    2.2.2 Sustainable Agriculture
+    2.2.3 Modern Agricultural Science
+  2.3 Thematic Review of the Solution Domain
+    2.3.1 Serious Games
+    2.3.2 Multiplayer and Simulations
   2.4 Existing Artefacts and Their Limitations
   2.5 Theoretical / Conceptual Framework
   2.6 Identification of the Research Gap
