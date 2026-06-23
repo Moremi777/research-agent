@@ -1631,7 +1631,42 @@
       background: rgba(239,68,68,0.15);
       color: var(--red);
     }
+
+    .tab-nav button svg { vertical-align: -2px; margin-right: 6px; }
+
+    .reader-modal {
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+      background: var(--bg); z-index: 200; display: none; flex-direction: column;
+    }
+    .reader-modal.active { display: flex; }
+    .reader-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 12px 24px; background: var(--card); border-bottom: 1px solid var(--border);
+      min-height: 60px;
+    }
+    .reader-header h3 { font-size: 14px; flex: 1; margin-right: 16px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .reader-header .reader-meta { font-size: 12px; color: var(--text-muted); margin-right: 16px; }
+    .reader-iframe { flex: 1; border: none; width: 100%; }
+    .reader-footer {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 12px 24px; background: var(--card); border-top: 1px solid var(--border);
+    }
+    .reader-footer .btn-done {
+      padding: 10px 32px; border-radius: 8px; border: none;
+      background: var(--green); color: #fff; font-size: 14px; font-weight: 600; cursor: pointer;
+    }
+    .reader-footer .btn-done:hover { opacity: 0.9; }
+    .reader-footer .btn-close {
+      padding: 10px 24px; border-radius: 8px; border: 1px solid var(--border);
+      background: transparent; color: var(--text); font-size: 14px; cursor: pointer;
+    }
+    .reader-fallback {
+      flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; color: var(--text-muted);
+    }
+    .reader-fallback a { color: var(--accent); font-size: 16px; }
   </style>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#6366f1">
 </head>
 <body>
 
@@ -1648,21 +1683,40 @@
 
 <!-- ── App ── -->
 <div id="app">
+<div class="reader-modal" id="reader-modal">
+  <div class="reader-header">
+    <h3 id="reader-title"></h3>
+    <span class="reader-meta" id="reader-meta"></span>
+    <button class="btn-close" onclick="closeReader()">Close</button>
+  </div>
+  <iframe class="reader-iframe" id="reader-iframe" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
+  <div class="reader-fallback" id="reader-fallback" style="display:none">
+    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--text-muted)" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+    <p>This paper cannot be embedded due to publisher restrictions.</p>
+    <a id="reader-external-link" href="#" target="_blank">Open in new tab →</a>
+    <p style="font-size:13px">You can still mark it as read after reviewing it externally.</p>
+  </div>
+  <div class="reader-footer">
+    <div style="font-size:13px;color:var(--text-muted)" id="reader-doi"></div>
+    <button class="btn-done" onclick="doneReading()">&#10003; Done Reading</button>
+  </div>
+</div>
   <header>
     <div class="logo">
       Research Agent <span>Dashboard</span>
     </div>
+    <div id="live-clock" style="color:var(--text-muted);font-size:13px;font-family:monospace;"></div>
     <button id="logout-btn" onclick="logout()">Log Out</button>
   </header>
 
   <nav class="tab-nav" id="tab-nav">
-    <button class="active" data-tab="dashboard">Dashboard</button>
-    <button data-tab="sources">Sources</button>
-    <button data-tab="write">Write</button>
-    <button data-tab="quizzes">Quizzes</button>
-    <button data-tab="timeline">Timeline</button>
-    <button data-tab="notes">Notes</button>
-    <button data-tab="reports">Reports</button>
+    <button class="active" data-tab="dashboard"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg> Dashboard</button>
+    <button data-tab="sources"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> Sources</button>
+    <button data-tab="write"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg> Write</button>
+    <button data-tab="quizzes"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg> Quizzes</button>
+    <button data-tab="timeline"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Timeline</button>
+    <button data-tab="notes"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg> Notes</button>
+    <button data-tab="reports"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10"/><path d="M12 20V4"/><path d="M6 20v-6"/></svg> Reports</button>
   </nav>
 
   <div class="tab-content">
@@ -1958,6 +2012,17 @@ const WRITING_GUIDES = {
   },
 };
 
+const RESEARCH_QUOTES = [
+  {text: 'Research is to see what everybody else has seen, and to think what nobody else has thought.', author: 'Albert Szent-Györgyi'},
+  {text: 'The important thing is not to stop questioning. Curiosity has its own reason for existing.', author: 'Albert Einstein'},
+  {text: 'In the middle of difficulty lies opportunity.', author: 'Albert Einstein'},
+  {text: 'Knowledge is of no value unless you put it into practice.', author: 'Anton Chekhov'},
+  {text: 'The more that you read, the more things you will know. The more that you learn, the more places you will go.', author: 'Dr. Seuss'},
+  {text: 'Education is not the filling of a pail, but the lighting of a fire.', author: 'W.B. Yeats'},
+  {text: 'The beautiful thing about learning is that no one can take it away from you.', author: 'B.B. King'},
+  {text: 'Research is formalised curiosity. It is poking and prying with a purpose.', author: 'Zora Neale Hurston'},
+];
+
 let DATA = null;
 let _writeCheckDebounceTimer = null;
 
@@ -2162,6 +2227,12 @@ function renderDashboard() {
       '</span></div>';
   }
 
+  // Motivational quote
+  const quote = RESEARCH_QUOTES[Math.floor(Math.random() * RESEARCH_QUOTES.length)];
+  html += '<div class="card" style="margin-bottom:24px;padding:20px 24px;border-left:3px solid var(--accent);background:rgba(99,102,241,0.06)">' +
+    '<div style="font-style:italic;font-size:15px;line-height:1.6;color:var(--text)">"' + esc(quote.text) + '"</div>' +
+    '<div style="margin-top:8px;font-size:13px;color:var(--text-muted);text-align:right">-- ' + esc(quote.author) + '</div></div>';
+
   // Stat cards with progress ring for reading progress
   const readingPct = stats.reading_progress_pct || 0;
   const ringColor = readingPct >= 75 ? 'var(--green)' : readingPct >= 40 ? 'var(--amber)' : 'var(--accent)';
@@ -2270,7 +2341,13 @@ function renderSources() {
     DATA.daily_plan.daily_suggestions.forEach(s => { if (s.doi) suggestedDois.add(s.doi); });
   }
 
-  let html = '<div class="sources-controls">' +
+  let html = '<div style="display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap">' +
+    '<button class="save-btn" onclick="exportBibtex()" style="font-size:13px;padding:8px 16px">Export IEEE BibTeX</button>' +
+    '<button class="save-btn" onclick="exportRIS()" style="font-size:13px;padding:8px 16px;background:var(--blue)">Export RIS</button>' +
+    '<label class="save-btn" style="font-size:13px;padding:8px 16px;background:var(--green);cursor:pointer">Import Sources <input type="file" accept=".json,.bib" onchange="importSources(event)" style="display:none"></label>' +
+    '</div>';
+
+  html += '<div class="sources-controls">' +
     '<input type="text" class="search-box" id="source-search" placeholder="Search title, authors, venue, DOI..." oninput="filterSources()">' +
     '<select class="sort-select" id="source-sort" onchange="filterSources()">' +
     '<option value="citations">Sort by Citations</option>' +
@@ -2342,7 +2419,7 @@ function filterSources() {
       '<td>' + (s.citation_count || 0) + '</td>' +
       '<td><span class="status-badge ' + statusClass + '">' + esc(s.status || 'screened') + '</span></td>' +
       '<td>' + tagPills + '</td>' +
-      '<td>' + (link ? '<a href="' + esc(link) + '" target="_blank" rel="noopener" class="access-link">Open</a>' : '-') + '</td>' +
+      '<td>' + (link ? '<button class="access-link" onclick="openReader(\'' + esc(s.doi).replace(/'/g, "\\'") + '\')">Read</button>' : '-') + '</td>' +
       '</tr>';
 
     html += '<tr class="abstract-row" id="abstract-' + i + '"><td colspan="7">' +
@@ -2356,6 +2433,210 @@ function filterSources() {
 function toggleAbstract(idx) {
   const row = document.getElementById('abstract-' + idx);
   if (row) row.classList.toggle('visible');
+}
+
+// ── READER MODAL ──
+let _readerSource = null;
+
+function openReader(doi) {
+  const source = (DATA.sources || []).find(s => s.doi === doi);
+  if (!source) return;
+  _readerSource = source;
+
+  document.getElementById('reader-title').textContent = source.title || 'Untitled';
+  document.getElementById('reader-meta').textContent = (source.authors || []).slice(0,3).join(', ') + ' (' + (source.year || '') + ')';
+  document.getElementById('reader-doi').textContent = 'DOI: ' + (source.doi || '');
+
+  const url = source.open_access_url || (source.doi ? 'https://doi.org/' + source.doi : '');
+  const iframe = document.getElementById('reader-iframe');
+  const fallback = document.getElementById('reader-fallback');
+
+  if (url) {
+    iframe.style.display = 'block';
+    fallback.style.display = 'none';
+    iframe.src = url;
+    document.getElementById('reader-external-link').href = url;
+
+    iframe.onerror = function() {
+      iframe.style.display = 'none';
+      fallback.style.display = 'flex';
+    };
+
+    setTimeout(() => {
+      try {
+        if (!iframe.contentDocument && !iframe.contentWindow) {
+          iframe.style.display = 'none';
+          fallback.style.display = 'flex';
+        }
+      } catch(e) {
+        iframe.style.display = 'none';
+        fallback.style.display = 'flex';
+      }
+    }, 3000);
+  } else {
+    iframe.style.display = 'none';
+    fallback.style.display = 'flex';
+  }
+
+  document.getElementById('reader-modal').classList.add('active');
+
+  if ('serviceWorker' in navigator && navigator.serviceWorker.controller && url) {
+    navigator.serviceWorker.controller.postMessage({ type: 'CACHE_URL', url: url });
+  }
+}
+
+function closeReader() {
+  document.getElementById('reader-modal').classList.remove('active');
+  document.getElementById('reader-iframe').src = '';
+  _readerSource = null;
+}
+
+function doneReading() {
+  if (!_readerSource) return;
+  const doi = _readerSource.doi;
+
+  let readSources = JSON.parse(localStorage.getItem('read-sources') || '{}');
+  readSources[doi] = { read_date: new Date().toISOString(), title: _readerSource.title };
+  localStorage.setItem('read-sources', JSON.stringify(readSources));
+
+  const source = (DATA.sources || []).find(s => s.doi === doi);
+  if (source) {
+    source.status = 'read';
+    source.read_date = new Date().toISOString().split('T')[0];
+  }
+
+  closeReader();
+  showToast('Marked as read: ' + (_readerSource ? _readerSource.title : '').substring(0, 50) + '...');
+
+  generateQuizForSource(doi);
+}
+
+function generateQuizForSource(doi) {
+  const source = (DATA.sources || []).find(s => s.doi === doi);
+  if (!source) return;
+
+  const title = source.title || 'this paper';
+  const authorName = (source.authors || ['the authors'])[0];
+
+  const questions = [
+    { id: 1, type: 'recall', question: 'What is the main research question or objective of "' + title + '"?', source_title: title, difficulty: 'medium', scoring_rubric: {'0':'No answer','1':'Vague','2':'Partial','3':'Good','4':'Detailed','5':'Excellent'} },
+    { id: 2, type: 'recall', question: 'What methodology did ' + authorName + ' use in "' + title + '"?', source_title: title, difficulty: 'medium', scoring_rubric: {'0':'No answer','1':'Vague','2':'Partial','3':'Good','4':'Detailed','5':'Excellent'} },
+    { id: 3, type: 'comprehension', question: 'In your own words, explain the main argument or finding of "' + title + '".', source_title: title, difficulty: 'hard', scoring_rubric: {'0':'No answer','1':'Copied','2':'Basic','3':'Shows understanding','4':'Insightful','5':'Mastery'} },
+    { id: 4, type: 'comprehension', question: 'What are the key limitations acknowledged in "' + title + '"?', source_title: title, difficulty: 'medium', scoring_rubric: {'0':'No answer','1':'Vague','2':'Partial','3':'Good','4':'Detailed','5':'Excellent'} },
+    { id: 5, type: 'application', question: 'How does "' + title + '" relate to your research on serious games for indigenous farming knowledge?', source_title: title, difficulty: 'hard', scoring_rubric: {'0':'No answer','1':'Generic','2':'Some link','3':'Clear connection','4':'Strong analysis','5':'Novel insight'} },
+    { id: 6, type: 'application', question: 'Which section of your Chapter 2 could cite "' + title + '" and why?', source_title: title, difficulty: 'medium', scoring_rubric: {'0':'No answer','1':'Wrong section','2':'Right section','3':'Good justification','4':'Strong fit','5':'Excellent with specifics'} },
+    { id: 7, type: 'critical_analysis', question: 'What are the methodological strengths and weaknesses of "' + title + '"?', source_title: title, difficulty: 'hard', scoring_rubric: {'0':'No answer','1':'Surface level','2':'One point','3':'Multiple points','4':'Balanced analysis','5':'Deep critical evaluation'} },
+    { id: 8, type: 'critical_analysis', question: 'If you were reviewing "' + title + '" for a journal, what would you highlight as its main contribution and main limitation?', source_title: title, difficulty: 'hard', scoring_rubric: {'0':'No answer','1':'Surface','2':'Basic review','3':'Good analysis','4':'Thorough','5':'Expert-level review'} },
+    { id: 9, type: 'comprehension', question: 'What theoretical framework or conceptual approach does "' + title + '" use?', source_title: title, difficulty: 'medium', scoring_rubric: {'0':'No answer','1':'Vague','2':'Named framework','3':'Explained','4':'Connected to context','5':'Critical evaluation'} },
+    { id: 10, type: 'application', question: 'What specific design decision for your serious game could be informed by the findings of "' + title + '"?', source_title: title, difficulty: 'hard', scoring_rubric: {'0':'No answer','1':'Generic','2':'Relevant idea','3':'Specific decision','4':'Well justified','5':'Innovative application'} },
+  ];
+
+  const quiz = { quiz_type: 'paper-specific', generated_at: new Date().toISOString(), based_on_sources: [doi], questions: questions, must_redo: false };
+
+  if (!DATA.quizzes) DATA.quizzes = [];
+  DATA.quizzes.unshift(quiz);
+
+  const navBtn = document.querySelector('[data-tab="quizzes"]');
+  if (navBtn) navBtn.click();
+  renderQuizzes();
+  showToast('Quiz generated for: ' + title.substring(0, 40) + '...');
+}
+
+// ── EXPORT / IMPORT ──
+function exportBibtex() {
+  const sources = window._sources || DATA.sources || [];
+  let bib = '';
+  sources.forEach(s => {
+    if (!s.doi) return;
+    const authors = (s.authors || []);
+    const authorStr = authors.map(a => { const p = a.split(' '); return p.length > 1 ? p[p.length-1] + ', ' + p.slice(0,-1).join(' ') : a; }).join(' and ');
+    const key = ((authors[0] || 'unknown').split(' ').pop() || 'unknown').toLowerCase() + '_' + (s.year || '0000') + '_' + ((s.title || '').split(' ')[0] || 'x').toLowerCase().replace(/[^a-z]/g,'');
+    bib += '@article{' + key + ',\n';
+    if (s.title) bib += '  title     = {' + s.title + '},\n';
+    if (authorStr) bib += '  author    = {' + authorStr + '},\n';
+    if (s.venue) bib += '  journal   = {' + s.venue + '},\n';
+    if (s.year) bib += '  year      = {' + s.year + '},\n';
+    if (s.doi) bib += '  doi       = {' + s.doi + '},\n';
+    bib += '}\n\n';
+  });
+  downloadFile('references.bib', bib, 'application/x-bibtex');
+  showToast('Exported ' + sources.filter(s => s.doi).length + ' sources as BibTeX');
+}
+
+function exportRIS() {
+  const sources = window._sources || DATA.sources || [];
+  let ris = '';
+  sources.forEach(s => {
+    if (!s.doi) return;
+    ris += 'TY  - JOUR\n';
+    if (s.title) ris += 'TI  - ' + s.title + '\n';
+    (s.authors || []).forEach(a => { const p = a.split(' '); ris += 'AU  - ' + (p.length > 1 ? p[p.length-1] + ', ' + p.slice(0,-1).join(' ') : a) + '\n'; });
+    if (s.year) ris += 'PY  - ' + s.year + '\n';
+    if (s.venue) ris += 'JO  - ' + s.venue + '\n';
+    if (s.doi) ris += 'DO  - ' + s.doi + '\n';
+    ris += 'ER  - \n\n';
+  });
+  downloadFile('references.ris', ris, 'application/x-research-info-systems');
+  showToast('Exported ' + sources.filter(s => s.doi).length + ' sources as RIS');
+}
+
+function downloadFile(filename, content, mimeType) {
+  const blob = new Blob([content], { type: mimeType });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = filename;
+  document.body.appendChild(a); a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+function importSources(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    const text = e.target.result;
+    let imported = [];
+    if (file.name.endsWith('.json')) {
+      try {
+        const data = JSON.parse(text);
+        imported = Array.isArray(data) ? data : (data.sources || data.results || []);
+      } catch(err) { showToast('Invalid JSON file'); return; }
+    } else if (file.name.endsWith('.bib')) {
+      const entries = text.split(/(?=@\w+\{)/);
+      entries.forEach(entry => {
+        const titleM = entry.match(/title\s*=\s*\{([^}]+)\}/i);
+        const authorM = entry.match(/author\s*=\s*\{([^}]+)\}/i);
+        const yearM = entry.match(/year\s*=\s*\{(\d{4})\}/i);
+        const doiM = entry.match(/doi\s*=\s*\{([^}]+)\}/i);
+        const journalM = entry.match(/(?:journal|booktitle)\s*=\s*\{([^}]+)\}/i);
+        if (titleM) {
+          imported.push({
+            title: titleM[1], authors: authorM ? authorM[1].split(' and ').map(a => a.trim()) : [],
+            year: yearM ? parseInt(yearM[1]) : null, doi: doiM ? doiM[1] : null,
+            venue: journalM ? journalM[1] : '', status: 'screened', relevance_tags: [],
+            citation_count: 0, is_open_access: false, abstract: '',
+          });
+        }
+      });
+    }
+    if (imported.length === 0) { showToast('No sources found in file'); return; }
+
+    let userImports = JSON.parse(localStorage.getItem('imported-sources') || '[]');
+    const existingDois = new Set((DATA.sources || []).map(s => s.doi).concat(userImports.map(s => s.doi)));
+    let added = 0;
+    imported.forEach(s => {
+      if (s.doi && !existingDois.has(s.doi)) { userImports.push(s); existingDois.add(s.doi); added++; }
+      else if (!s.doi && s.title) { userImports.push(s); added++; }
+    });
+    localStorage.setItem('imported-sources', JSON.stringify(userImports));
+
+    DATA.sources = (DATA.sources || []).concat(userImports);
+    renderSources();
+    showToast('Imported ' + added + ' new sources');
+  };
+  reader.readAsText(file);
+  event.target.value = '';
 }
 
 // ── WRITE TAB ──
@@ -2423,6 +2704,7 @@ function renderWrite() {
     '<div class="section-header" id="write-section-header">' + esc(firstSectionTitle || 'Select a section') + '</div>' +
     '<div id="write-guide-container"></div>' +
     '<textarea class="write-textarea" id="write-textarea" placeholder="Start writing..." oninput="debouncedWriteCheck()"></textarea>' +
+    '<div id="write-fix-bar" style="display:none;align-items:center;gap:12px;padding:10px 16px;background:rgba(34,197,94,0.1);border:1px solid rgba(34,197,94,0.3);border-radius:8px;margin-top:8px;font-size:13px"></div>' +
     '<div class="write-footer">' +
     '<div class="write-stats"><span id="write-word-count">0 words</span><span id="write-citation-count">0 citations</span><span id="write-issues-badge"></span></div>' +
     '<button class="save-btn" onclick="saveDraft()">Save Draft</button>' +
@@ -2667,6 +2949,21 @@ function checkWritingRealtime() {
   }
 
   updateIssuesBadge(issues.length);
+
+  // Inline fix bar
+  const fixable = issues.filter(i => i.type === 'americanism' || i.type === 'contraction');
+  const fixBar = document.getElementById('write-fix-bar');
+  if (fixBar) {
+    if (fixable.length > 0) {
+      const first = fixable[0];
+      fixBar.style.display = 'flex';
+      fixBar.innerHTML = '<span style="flex:1"><strong style="color:var(--red)">' + esc(first.text) + '</strong> → <strong style="color:var(--green)">' + esc(first.suggestion.replace(/^.*'([^']+)'.*$/, '$1')) + '</strong> <span style="color:var(--text-muted);font-size:12px">(line ' + first.line + ')</span></span>' +
+        '<button onclick="applyFix(\'' + esc(first.text).replace(/'/g, "\\'") + '\',\'' + esc(first.suggestion.replace(/^.*'([^']+)'.*$/, '$1')).replace(/'/g, "\\'") + '\')" style="padding:6px 16px;border-radius:6px;border:none;background:var(--green);color:#fff;cursor:pointer;font-size:13px;font-weight:600">Fix</button>' +
+        '<button onclick="applyAllFixes()" style="padding:6px 16px;border-radius:6px;border:none;background:var(--accent);color:#fff;cursor:pointer;font-size:13px;font-weight:600;margin-left:6px">Fix All (' + fixable.length + ')</button>';
+    } else {
+      fixBar.style.display = 'none';
+    }
+  }
 }
 
 function updateIssuesBadge(count) {
@@ -2684,6 +2981,30 @@ function updateIssuesBadge(count) {
   if (checksHeader) {
     checksHeader.textContent = '(' + count + ')';
   }
+}
+
+function applyFix(wrong, right) {
+  const textarea = document.getElementById('write-textarea');
+  const regex = new RegExp('\\b' + wrong.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b', 'gi');
+  textarea.value = textarea.value.replace(regex, right);
+  debouncedWriteCheck();
+  showToast('Fixed: ' + wrong + ' → ' + right);
+}
+
+function applyAllFixes() {
+  const textarea = document.getElementById('write-textarea');
+  let text = textarea.value;
+  for (const [am, br] of Object.entries(AMERICAN_TO_BRITISH)) {
+    const regex = new RegExp('\\b' + am.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b', 'gi');
+    text = text.replace(regex, br);
+  }
+  for (const [contr, expand] of Object.entries(CONTRACTIONS)) {
+    const regex = new RegExp(contr.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
+    text = text.replace(regex, expand);
+  }
+  textarea.value = text;
+  debouncedWriteCheck();
+  showToast('All fixable issues resolved');
 }
 
 // ── QUIZZES TAB ──
@@ -2860,67 +3181,119 @@ function renderTimeline() {
 
 // ── NOTES TAB ──
 function renderNotes() {
-  const plan = DATA.daily_plan;
-  const planHistory = DATA.daily_plans_history || [];
-  const notes = DATA.notes || {};
+  const userNotes = JSON.parse(localStorage.getItem('user-notes') || '[]');
   let html = '';
 
-  // Daily Focus Notes
-  html += '<div class="notes-section"><h2>Daily Focus Notes</h2>';
+  html += '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">';
+  html += '<h2 style="font-size:20px;font-weight:700">My Notes</h2>';
+  html += '<button class="save-btn" onclick="createNewNote()">+ New Note</button>';
+  html += '</div>';
 
+  html += '<div id="note-editor-area"></div>';
+
+  if (userNotes.length > 0) {
+    userNotes.sort((a,b) => new Date(b.modified_at) - new Date(a.modified_at));
+    userNotes.forEach((note, i) => {
+      const created = new Date(note.created_at).toLocaleString();
+      const modified = new Date(note.modified_at).toLocaleString();
+      const preview = (note.content || '').substring(0, 150) + ((note.content || '').length > 150 ? '...' : '');
+      html += '<div class="card" style="margin-bottom:12px;cursor:pointer" onclick="editNote(' + i + ')">' +
+        '<div style="display:flex;justify-content:space-between;align-items:start">' +
+        '<div><strong style="font-size:15px">' + esc(note.title || 'Untitled') + '</strong>' +
+        '<p style="color:var(--text-muted);font-size:13px;margin-top:4px">' + esc(preview) + '</p></div>' +
+        '<div style="text-align:right;font-size:12px;color:var(--text-muted);white-space:nowrap;margin-left:16px">' +
+        '<div>Created: ' + created + '</div><div>Modified: ' + modified + '</div></div></div></div>';
+    });
+  } else {
+    html += '<div class="card" style="text-align:center;padding:32px;color:var(--text-muted)">' +
+      '<svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="margin-bottom:12px"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>' +
+      '<h3 style="margin-bottom:4px;color:var(--text)">No notes yet</h3><p>Click "New Note" to start taking notes on your research.</p></div>';
+  }
+
+  // Agent reading notes from data.json
+  const agentNotes = DATA.notes || {};
+  const noteKeys = Object.keys(agentNotes);
+  if (noteKeys.length > 0) {
+    html += '<h2 style="font-size:18px;font-weight:700;margin-top:32px;margin-bottom:16px">Reading Notes (from Agent)</h2>';
+    noteKeys.forEach(key => {
+      const note = agentNotes[key];
+      html += '<div class="card" style="margin-bottom:12px">';
+      html += '<strong>' + esc(note.title || key) + '</strong>';
+      if (note.date_read) html += '<div style="font-size:12px;color:var(--text-muted)">Read: ' + esc(note.date_read) + '</div>';
+      if (note.research_question) html += '<p style="margin-top:8px"><strong>Research question:</strong> ' + esc(note.research_question) + '</p>';
+      if (note.methodology) html += '<p><strong>Methodology:</strong> ' + esc(note.methodology) + '</p>';
+      if (note.key_findings && note.key_findings.length) html += '<p><strong>Key findings:</strong></p><ul>' + note.key_findings.map(f => '<li>' + esc(f) + '</li>').join('') + '</ul>';
+      if (note.relevance_to_my_research) html += '<p><strong>Relevance:</strong> ' + esc(note.relevance_to_my_research) + '</p>';
+      html += '</div>';
+    });
+  }
+
+  // Daily focus notes
+  const plan = DATA.daily_plan;
   if (plan && plan.focus_notes && plan.focus_notes.length > 0) {
-    html += '<div class="focus-notes-day"><h4>' + formatFullDate(plan.date) + '</h4><ol class="focus-list">';
-    plan.focus_notes.forEach(n => { html += '<li>' + esc(n) + '</li>'; });
+    html += '<h2 style="font-size:18px;font-weight:700;margin-top:32px;margin-bottom:16px">Today\'s Focus Notes</h2>';
+    html += '<div class="card"><ol style="padding-left:20px">';
+    plan.focus_notes.forEach(n => { html += '<li style="margin-bottom:8px">' + esc(n) + '</li>'; });
     html += '</ol></div>';
   }
 
-  planHistory.forEach(p => {
-    if (p.date === (plan && plan.date)) return;
-    if (p.focus_notes && p.focus_notes.length > 0) {
-      html += '<div class="focus-notes-day"><h4>' + formatFullDate(p.date) + '</h4><ol class="focus-list">';
-      p.focus_notes.forEach(n => { html += '<li>' + esc(n) + '</li>'; });
-      html += '</ol></div>';
-    }
-  });
-
-  if ((!plan || !plan.focus_notes || plan.focus_notes.length === 0) && planHistory.length === 0) {
-    html += '<div class="empty-state">No focus notes available yet.</div>';
-  }
-  html += '</div>';
-
-  // Reading Notes
-  html += '<div class="notes-section"><h2>Reading Notes</h2>';
-  const noteKeys = Object.keys(notes);
-  if (noteKeys.length > 0) {
-    noteKeys.forEach(key => {
-      const n = notes[key];
-      html += '<div class="reading-note-card">' +
-        '<h4>' + esc(n.title) + '</h4>' +
-        '<div class="note-meta">Read: ' + esc(n.date_read || 'Unknown') + '</div>';
-
-      if (n.research_question) {
-        html += '<div class="note-field"><div class="note-field-label">Research Question</div><p>' + esc(n.research_question) + '</p></div>';
-      }
-      if (n.methodology) {
-        html += '<div class="note-field"><div class="note-field-label">Methodology</div><p>' + esc(n.methodology) + '</p></div>';
-      }
-      if (n.key_findings && n.key_findings.length > 0) {
-        html += '<div class="note-field"><div class="note-field-label">Key Findings</div><ul>';
-        n.key_findings.forEach(f => { html += '<li>' + esc(f) + '</li>'; });
-        html += '</ul></div>';
-      }
-      if (n.relevance_to_my_research) {
-        html += '<div class="note-field"><div class="note-field-label">Relevance to My Research</div><p>' + esc(n.relevance_to_my_research) + '</p></div>';
-      }
-
-      html += '</div>';
-    });
-  } else {
-    html += '<div class="empty-state">No reading notes yet — complete a reading session to see notes here</div>';
-  }
-  html += '</div>';
-
   document.getElementById('tab-notes').innerHTML = html;
+}
+
+function createNewNote() {
+  const area = document.getElementById('note-editor-area');
+  area.innerHTML = '<div class="card" style="margin-bottom:16px">' +
+    '<input type="text" id="note-title" placeholder="Note title..." style="width:100%;padding:10px;border-radius:8px;border:1px solid var(--border);background:var(--bg);color:var(--text);font-size:15px;margin-bottom:12px">' +
+    '<textarea id="note-content" placeholder="Write your note..." style="width:100%;min-height:200px;padding:12px;border-radius:8px;border:1px solid var(--border);background:var(--bg);color:var(--text);font-size:14px;font-family:inherit;resize:vertical;line-height:1.6"></textarea>' +
+    '<div style="display:flex;gap:8px;margin-top:12px">' +
+    '<button class="save-btn" onclick="saveNote(-1)">Save Note</button>' +
+    '<button class="btn-close" style="padding:10px 20px;border-radius:8px;border:1px solid var(--border);background:transparent;color:var(--text);cursor:pointer" onclick="renderNotes()">Cancel</button>' +
+    '</div></div>';
+  document.getElementById('note-title').focus();
+}
+
+function editNote(idx) {
+  const notes = JSON.parse(localStorage.getItem('user-notes') || '[]');
+  const note = notes[idx];
+  if (!note) return;
+  const area = document.getElementById('note-editor-area');
+  area.innerHTML = '<div class="card" style="margin-bottom:16px">' +
+    '<input type="text" id="note-title" value="' + esc(note.title || '') + '" style="width:100%;padding:10px;border-radius:8px;border:1px solid var(--border);background:var(--bg);color:var(--text);font-size:15px;margin-bottom:12px">' +
+    '<textarea id="note-content" style="width:100%;min-height:200px;padding:12px;border-radius:8px;border:1px solid var(--border);background:var(--bg);color:var(--text);font-size:14px;font-family:inherit;resize:vertical;line-height:1.6">' + esc(note.content || '') + '</textarea>' +
+    '<div style="display:flex;gap:8px;margin-top:12px">' +
+    '<button class="save-btn" onclick="saveNote(' + idx + ')">Save</button>' +
+    '<button style="padding:10px 20px;border-radius:8px;border:1px solid var(--red);background:transparent;color:var(--red);cursor:pointer" onclick="deleteNote(' + idx + ')">Delete</button>' +
+    '<button class="btn-close" style="padding:10px 20px;border-radius:8px;border:1px solid var(--border);background:transparent;color:var(--text);cursor:pointer" onclick="renderNotes()">Cancel</button>' +
+    '</div></div>';
+}
+
+function saveNote(idx) {
+  const title = document.getElementById('note-title').value.trim();
+  const content = document.getElementById('note-content').value.trim();
+  if (!title && !content) { showToast('Note is empty'); return; }
+
+  const notes = JSON.parse(localStorage.getItem('user-notes') || '[]');
+  const now = new Date().toISOString();
+
+  if (idx === -1) {
+    notes.push({ title: title || 'Untitled', content, created_at: now, modified_at: now });
+  } else {
+    notes[idx].title = title || 'Untitled';
+    notes[idx].content = content;
+    notes[idx].modified_at = now;
+  }
+
+  localStorage.setItem('user-notes', JSON.stringify(notes));
+  showToast('Note saved');
+  renderNotes();
+}
+
+function deleteNote(idx) {
+  const notes = JSON.parse(localStorage.getItem('user-notes') || '[]');
+  notes.splice(idx, 1);
+  localStorage.setItem('user-notes', JSON.stringify(notes));
+  showToast('Note deleted');
+  renderNotes();
 }
 
 // ── REPORTS TAB ──
@@ -3037,6 +3410,24 @@ function toggleAccordion(header) {
   header.classList.toggle('open');
   const body = header.nextElementSibling;
   if (body) body.classList.toggle('open');
+}
+
+// ── LIVE CLOCK ──
+function updateClock() {
+  const now = new Date();
+  const days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const str = days[now.getDay()] + ' ' + now.getDate() + ' ' + months[now.getMonth()] + ' ' + now.getFullYear() + ' · ' +
+    String(now.getHours()).padStart(2,'0') + ':' + String(now.getMinutes()).padStart(2,'0') + ':' + String(now.getSeconds()).padStart(2,'0');
+  const el = document.getElementById('live-clock');
+  if (el) el.textContent = str;
+}
+setInterval(updateClock, 1000);
+updateClock();
+
+// ── PWA ──
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js').catch(() => {});
 }
 </script>
 </body>
