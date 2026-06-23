@@ -1,4 +1,4 @@
-const CACHE_NAME = 'research-agent-v3';
+const CACHE_NAME = 'research-agent-v4';
 const CORE_ASSETS = [
   './',
   './index.html',
