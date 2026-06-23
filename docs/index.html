@@ -912,28 +912,6 @@
       min-width: 16px;
     }
 
-    .self-score-row {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .self-score-row label {
-      font-size: 13px;
-      color: var(--text-muted);
-      font-weight: 600;
-    }
-
-    .score-select {
-      padding: 6px 12px;
-      border-radius: 6px;
-      border: 1px solid var(--border);
-      background: var(--bg);
-      color: var(--text);
-      font-size: 14px;
-      cursor: pointer;
-    }
-
     .quiz-submit-btn {
       padding: 12px 32px;
       border-radius: 8px;
@@ -1351,6 +1329,48 @@
         padding: 32px 24px;
         margin: 16px;
       }
+      .tab-nav button {
+        padding: 8px 10px;
+        font-size: 12px;
+      }
+      .tab-nav button svg {
+        display: none;
+      }
+      .tab-content {
+        padding: 12px;
+      }
+      header {
+        padding: 0 8px;
+        gap: 4px;
+        flex-wrap: wrap;
+        height: auto;
+        padding-top: 8px;
+        padding-bottom: 8px;
+      }
+      #live-clock {
+        font-size: 11px !important;
+      }
+      #logout-btn {
+        font-size: 11px;
+        padding: 4px 8px;
+      }
+      .reader-header {
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .reader-header h3 {
+        width: 100%;
+        white-space: normal;
+      }
+      .two-col, .three-col {
+        grid-template-columns: 1fr;
+      }
+      .question-card {
+        padding: 12px;
+      }
+      .suggestions-grid {
+        grid-template-columns: 1fr;
+      }
     }
 
     /* ── Scrollbar ── */
@@ -1646,7 +1666,6 @@
     }
     .reader-header h3 { font-size: 14px; flex: 1; margin-right: 16px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .reader-header .reader-meta { font-size: 12px; color: var(--text-muted); margin-right: 16px; }
-    .reader-iframe { flex: 1; border: none; width: 100%; }
     .reader-footer {
       display: flex; align-items: center; justify-content: space-between;
       padding: 12px 24px; background: var(--card); border-top: 1px solid var(--border);
@@ -1660,10 +1679,6 @@
       padding: 10px 24px; border-radius: 8px; border: 1px solid var(--border);
       background: transparent; color: var(--text); font-size: 14px; cursor: pointer;
     }
-    .reader-fallback {
-      flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; color: var(--text-muted);
-    }
-    .reader-fallback a { color: var(--accent); font-size: 16px; }
   </style>
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#6366f1">
@@ -1673,6 +1688,10 @@
 <!-- ── Login Screen ── -->
 <div id="login-screen">
   <div class="login-card">
+    <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.5" style="margin-bottom:16px">
+      <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+      <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+    </svg>
     <h1>Research Agent</h1>
     <p>Enter your password to access the dashboard</p>
     <input type="password" id="login-password" placeholder="Password" autocomplete="current-password">
@@ -1687,14 +1706,15 @@
   <div class="reader-header">
     <h3 id="reader-title"></h3>
     <span class="reader-meta" id="reader-meta"></span>
+    <span id="reader-timer" style="font-family:monospace;color:var(--amber);font-size:14px;margin-right:16px">00:00</span>
     <button class="btn-close" onclick="closeReader()">Close</button>
   </div>
-  <iframe class="reader-iframe" id="reader-iframe" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
-  <div class="reader-fallback" id="reader-fallback" style="display:none">
-    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--text-muted)" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-    <p>This paper cannot be embedded due to publisher restrictions.</p>
-    <a id="reader-external-link" href="#" target="_blank">Open in new tab →</a>
-    <p style="font-size:13px">You can still mark it as read after reviewing it externally.</p>
+  <div class="reader-content" id="reader-content" style="flex:1;overflow-y:auto;padding:24px;max-width:800px;margin:0 auto;width:100%">
+    <div id="reader-abstract"></div>
+    <div style="margin-top:24px">
+      <h4 style="font-size:14px;color:var(--text-muted);margin-bottom:8px">Reading Notes</h4>
+      <textarea id="reader-notes" placeholder="Take notes while reading..." style="width:100%;min-height:150px;padding:12px;border-radius:8px;border:1px solid var(--border);background:var(--bg);color:var(--text);font-size:14px;font-family:inherit;resize:vertical"></textarea>
+    </div>
   </div>
   <div class="reader-footer">
     <div style="font-size:13px;color:var(--text-muted)" id="reader-doi"></div>
@@ -1706,7 +1726,11 @@
       Research Agent <span>Dashboard</span>
     </div>
     <div id="live-clock" style="color:var(--text-muted);font-size:13px;font-family:monospace;"></div>
-    <button id="logout-btn" onclick="logout()">Log Out</button>
+    <div style="display:flex;gap:6px;align-items:center">
+      <button onclick="exportSession()" style="padding:6px 12px;border-radius:6px;border:1px solid var(--border);background:transparent;color:var(--text-muted);font-size:12px;cursor:pointer" title="Export session to sync across devices">&#8595; Sync</button>
+      <label style="padding:6px 12px;border-radius:6px;border:1px solid var(--border);background:transparent;color:var(--text-muted);font-size:12px;cursor:pointer" title="Import session from another device">&#8593; Sync<input type="file" accept=".json" onchange="importSession(event)" style="display:none"></label>
+      <button id="logout-btn" onclick="logout()">Log Out</button>
+    </div>
   </header>
 
   <nav class="tab-nav" id="tab-nav">
@@ -2419,7 +2443,10 @@ function filterSources() {
       '<td>' + (s.citation_count || 0) + '</td>' +
       '<td><span class="status-badge ' + statusClass + '">' + esc(s.status || 'screened') + '</span></td>' +
       '<td>' + tagPills + '</td>' +
-      '<td>' + (link ? '<button class="access-link" onclick="openReader(\'' + esc(s.doi).replace(/'/g, "\\'") + '\')">Read</button>' : '-') + '</td>' +
+      '<td><div style="display:flex;gap:4px;flex-wrap:wrap">' +
+        (link ? '<button class="access-link" onclick="openReader(\'' + esc(s.doi).replace(/'/g, "\\'") + '\')">Read</button>' : '') +
+        (s.doi ? '<button class="access-link" style="color:var(--amber)" onclick="exportSingleBibtex(\'' + esc(s.doi).replace(/'/g, "\\'") + '\')">BibTeX</button>' : '') +
+      '</div></td>' +
       '</tr>';
 
     html += '<tr class="abstract-row" id="abstract-' + i + '"><td colspan="7">' +
@@ -2438,6 +2465,9 @@ function toggleAbstract(idx) {
 // ── READER MODAL ──
 let _readerSource = null;
 
+let _readerTimerInterval = null;
+let _readerStartTime = null;
+
 function openReader(doi) {
   const source = (DATA.sources || []).find(s => s.doi === doi);
   if (!source) return;
@@ -2447,42 +2477,44 @@ function openReader(doi) {
   document.getElementById('reader-meta').textContent = (source.authors || []).slice(0,3).join(', ') + ' (' + (source.year || '') + ')';
   document.getElementById('reader-doi').textContent = 'DOI: ' + (source.doi || '');
 
-  const url = source.open_access_url || (source.doi ? 'https://doi.org/' + source.doi : '');
-  const iframe = document.getElementById('reader-iframe');
-  const fallback = document.getElementById('reader-fallback');
-
-  if (url) {
-    iframe.style.display = 'block';
-    fallback.style.display = 'none';
-    iframe.src = url;
-    document.getElementById('reader-external-link').href = url;
-
-    iframe.onerror = function() {
-      iframe.style.display = 'none';
-      fallback.style.display = 'flex';
-    };
-
-    setTimeout(() => {
-      try {
-        if (!iframe.contentDocument && !iframe.contentWindow) {
-          iframe.style.display = 'none';
-          fallback.style.display = 'flex';
-        }
-      } catch(e) {
-        iframe.style.display = 'none';
-        fallback.style.display = 'flex';
-      }
-    }, 3000);
-  } else {
-    iframe.style.display = 'none';
-    fallback.style.display = 'flex';
+  // Build abstract section
+  const abstractDiv = document.getElementById('reader-abstract');
+  let abstractHtml = '<div style="margin-bottom:16px">';
+  abstractHtml += '<h4 style="font-size:16px;margin-bottom:4px">' + esc(source.title || 'Untitled') + '</h4>';
+  abstractHtml += '<div style="font-size:13px;color:var(--text-muted);margin-bottom:4px">' + esc((source.authors || []).join(', ')) + '</div>';
+  if (source.year || source.venue) {
+    abstractHtml += '<div style="font-size:13px;color:var(--text-muted)">' + esc((source.venue || '') + (source.year ? ' (' + source.year + ')' : '')) + '</div>';
   }
+  abstractHtml += '</div>';
+  if (source.abstract) {
+    abstractHtml += '<div style="margin-bottom:16px"><h4 style="font-size:14px;color:var(--text-muted);margin-bottom:8px">Abstract</h4>' +
+      '<p style="font-size:14px;line-height:1.7;color:var(--text)">' + esc(source.abstract) + '</p></div>';
+  }
+  abstractDiv.innerHTML = abstractHtml;
+
+  // Load saved notes from localStorage
+  const savedNotes = JSON.parse(localStorage.getItem('reader-notes') || '{}');
+  const notesTextarea = document.getElementById('reader-notes');
+  notesTextarea.value = savedNotes[doi] || '';
+
+  // Open the paper in a new tab
+  const url = source.open_access_url || (source.doi ? 'https://doi.org/' + source.doi : '');
+  if (url) {
+    window.open(url, '_blank');
+  }
+
+  // Start the reading timer
+  _readerStartTime = Date.now();
+  document.getElementById('reader-timer').textContent = '00:00';
+  if (_readerTimerInterval) clearInterval(_readerTimerInterval);
+  _readerTimerInterval = setInterval(() => {
+    const elapsed = Math.floor((Date.now() - _readerStartTime) / 1000);
+    const mins = String(Math.floor(elapsed / 60)).padStart(2, '0');
+    const secs = String(elapsed % 60).padStart(2, '0');
+    document.getElementById('reader-timer').textContent = mins + ':' + secs;
+  }, 1000);
 
   document.getElementById('reader-modal').classList.add('active');
-
-  if ('serviceWorker' in navigator && navigator.serviceWorker.controller && url) {
-    navigator.serviceWorker.controller.postMessage({ type: 'CACHE_URL', url: url });
-  }
 }
 
 function closeReader() {
@@ -3054,14 +3086,7 @@ function renderQuizzes() {
         html += '</div>';
       }
 
-      // Self-score dropdown
-      const maxQ = q.scoring_rubric ? Math.max(...Object.keys(q.scoring_rubric).map(Number).filter(n => !isNaN(n)), 5) : 5;
-      html += '<div class="self-score-row"><label>Self-score:</label><select class="score-select" id="q-score-' + i + '">' +
-        '<option value="">--</option>';
-      for (let s = 0; s <= maxQ; s++) {
-        html += '<option value="' + s + '">' + s + '</option>';
-      }
-      html += '</select></div></div>';
+      html += '</div>';
     });
 
     html += '<button class="quiz-submit-btn" onclick="submitQuiz()">Submit Quiz</button>' +
@@ -3104,38 +3129,37 @@ function submitQuiz() {
   const quiz = DATA.quizzes[0];
   if (!quiz) return;
   const questions = quiz.questions || [];
-  let totalScore = 0;
-  let maxScore = 0;
+  let answered = 0;
+  const total = questions.length;
 
   questions.forEach((q, i) => {
-    const sel = document.getElementById('q-score-' + i);
-    const val = sel ? parseInt(sel.value) : 0;
-    totalScore += isNaN(val) ? 0 : val;
-    const maxQ = q.scoring_rubric ? Math.max(...Object.keys(q.scoring_rubric).map(Number).filter(n => !isNaN(n)), 5) : 5;
-    maxScore += maxQ;
+    const textarea = document.getElementById('q-answer-' + i);
+    if (textarea && textarea.value.trim().length > 10) {
+      answered++;
+    }
   });
 
-  const pct = maxScore > 0 ? Math.round((totalScore / maxScore) * 100) : 0;
+  const pct = total > 0 ? Math.round((answered / total) * 100) : 0;
   const color = pct >= 70 ? 'var(--green)' : pct >= 50 ? 'var(--amber)' : 'var(--red)';
 
   const resultDiv = document.getElementById('quiz-result');
   resultDiv.style.display = 'block';
-  resultDiv.style.background = color.replace('var(', '').replace(')', '') === '--green'
-    ? 'rgba(34,197,94,0.15)' : color === 'var(--amber)' ? 'rgba(245,158,11,0.15)' : 'rgba(239,68,68,0.15)';
+  resultDiv.style.background = pct >= 70
+    ? 'rgba(34,197,94,0.15)' : pct >= 50 ? 'rgba(245,158,11,0.15)' : 'rgba(239,68,68,0.15)';
   resultDiv.style.color = color;
-  resultDiv.innerHTML = totalScore + '/' + maxScore + '<div class="pct">' + pct + '%</div>';
+  resultDiv.innerHTML = 'You answered ' + answered + ' of ' + total + ' questions<div class="pct">' + pct + '%</div>';
 
   // Save to localStorage
   const scores = JSON.parse(localStorage.getItem(QUIZ_SCORES_KEY) || '[]');
   scores.push({
     date: new Date().toISOString().split('T')[0],
     quiz_type: quiz.quiz_type || 'Quiz',
-    score: totalScore,
-    max_score: maxScore
+    score: answered,
+    max_score: total
   });
   localStorage.setItem(QUIZ_SCORES_KEY, JSON.stringify(scores));
 
-  showToast('Quiz submitted! Score: ' + pct + '%');
+  showToast('Quiz submitted! You answered ' + answered + ' of ' + total + ' questions');
 }
 
 function updateWritingWordCount() {
@@ -3424,6 +3448,58 @@ function updateClock() {
 }
 setInterval(updateClock, 1000);
 updateClock();
+
+// ── Session Sync ──
+function exportSession() {
+  const sessionData = {};
+  for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i);
+    sessionData[key] = localStorage.getItem(key);
+  }
+  const blob = new Blob([JSON.stringify(sessionData, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = 'research-session-' + new Date().toISOString().split('T')[0] + '.json';
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  showToast('Session exported — import this file on your other device to sync');
+}
+
+function importSession(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    try {
+      const data = JSON.parse(e.target.result);
+      for (const [key, value] of Object.entries(data)) {
+        localStorage.setItem(key, value);
+      }
+      showToast('Session restored — refreshing...');
+      setTimeout(() => location.reload(), 1000);
+    } catch(err) { showToast('Invalid session file'); }
+  };
+  reader.readAsText(file);
+  event.target.value = '';
+}
+
+// ── Individual Source Export ──
+function exportSingleBibtex(doi) {
+  const s = (DATA.sources || []).find(src => src.doi === doi);
+  if (!s) return;
+  const authors = (s.authors || []);
+  const authorStr = authors.map(a => { const p = a.split(' '); return p.length > 1 ? p[p.length-1] + ', ' + p.slice(0,-1).join(' ') : a; }).join(' and ');
+  const key = ((authors[0] || 'unknown').split(' ').pop() || 'unknown').toLowerCase() + '_' + (s.year || '0000');
+  let bib = '@article{' + key + ',\n';
+  if (s.title) bib += '  title     = {' + s.title + '},\n';
+  if (authorStr) bib += '  author    = {' + authorStr + '},\n';
+  if (s.venue) bib += '  journal   = {' + s.venue + '},\n';
+  if (s.year) bib += '  year      = {' + s.year + '},\n';
+  if (s.doi) bib += '  doi       = {' + s.doi + '},\n';
+  bib += '}\n';
+  downloadFile(key + '.bib', bib, 'application/x-bibtex');
+  showToast('BibTeX exported for: ' + (s.title || '').substring(0, 40) + '...');
+}
 
 // ── PWA ──
 if ('serviceWorker' in navigator) {
