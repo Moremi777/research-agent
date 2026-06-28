@@ -1,10 +1,10 @@
 {
-  "exported_at": "2026-06-22T21:54:16.812732+00:00",
+  "exported_at": "2026-06-28T09:06:59.711861+00:00",
   "stats": {
-    "total_sources": 403,
+    "total_sources": 443,
     "by_status": {
       "excluded": 60,
-      "screened": 342,
+      "screened": 382,
       "reading": 1
     },
     "by_year": {
@@ -13,32 +13,32 @@
       "2017": 20,
       "2018": 24,
       "2019": 30,
-      "2020": 49,
-      "2021": 42,
-      "2022": 41,
-      "2023": 44,
-      "2024": 50,
-      "2025": 45,
-      "2026": 21
+      "2020": 54,
+      "2021": 45,
+      "2022": 50,
+      "2023": 48,
+      "2024": 57,
+      "2025": 52,
+      "2026": 26
     },
     "by_chapter": {
-      "ch2_serious_games": 123,
+      "ch2_serious_games": 134,
       "ch4_game_mechanics": 21,
-      "ch2_multiplayer_simulations": 69,
-      "ch2_indigenous_knowledge": 69,
-      "ch2_sustainable_agriculture": 94,
-      "ch1_background": 72,
-      "ch2_modern_ag_science": 36
+      "ch2_multiplayer_simulations": 74,
+      "ch2_indigenous_knowledge": 73,
+      "ch2_sustainable_agriculture": 102,
+      "ch1_background": 78,
+      "ch2_modern_ag_science": 39
     },
     "by_tag": {
-      "serious_games": 123,
-      "multiplayer_simulations": 69,
-      "indigenous_knowledge": 69,
-      "sustainable_agriculture": 94,
-      "southern_africa": 72,
-      "modern_ag_science": 36,
-      "dsr": 4,
-      "general": 33
+      "serious_games": 134,
+      "multiplayer_simulations": 74,
+      "indigenous_knowledge": 73,
+      "sustainable_agriculture": 102,
+      "southern_africa": 75,
+      "modern_ag_science": 39,
+      "dsr": 5,
+      "general": 47
     },
     "reading_progress_pct": 0.0
   },
@@ -9126,6 +9126,1090 @@
       ],
       "bibtex_key": "çakmak_2025_evaluating",
       "added_date": "2026-06-22",
+      "read_date": null
+    },
+    {
+      "doi": "10.3390/su12135488",
+      "title": "The Role of Agriculture in Ensuring Food Security in Developing Countries: Considerations in the Context of the Problem of Sustainable Food Production",
+      "authors": [
+        "Karolina Pawlak",
+        "Małgorzata Kołodziejczak"
+      ],
+      "year": 2020,
+      "venue": "Sustainability",
+      "abstract": "Ensuring food security has become an issue of key importance to countries with different degrees of economic development, while the agricultural sector plays a strategic role in improving food availability. The aim of this paper is to identify relationships between the undernourishment scale and selected characteristics describing the agricultural sector within identified clusters of developing countries. Typological groups of countries were separated using Ward’s method. It results from the analyses that the greatest problems with maintaining food security are observed in the developing countries with a high share of agriculture in their Gross Domestic Product (GDP), adverse conditions hindering agricultural production and deficient infrastructure. Based on research results desirable and tailored strategies for food security improvement in individual clusters were developed. Promoting investments in agricultural infrastructure and extension services along with adopting measures aimed at increasing the households’ purchasing power, especially those in rural areas, appear to be key drivers for improving both food availability and food access. The paper focuses not only on identifying the reasons of undernourishment, but also contributes to recognition of the most effective ways to solve the hunger problem under a country’s unique conditions. It offers a comprehensive perspective for the policy formulation in various areas world-wide, which may be of interest to scholars and policy makers.",
+      "citation_count": 938,
+      "is_open_access": true,
+      "open_access_url": "https://www.mdpi.com/2071-1050/12/13/5488/pdf?version=1594186755",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "pawlak_2020_the",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.1038/s41586-023-06406-9",
+      "title": "Diverse values of nature for sustainability",
+      "authors": [
+        "Unai Pascual",
+        "Patricia Balvanera",
+        "Christopher B. Anderson",
+        "Rebecca Chaplin‐Kramer",
+        "Mike Christie",
+        "David González-Jiménez",
+        "Adrián Martín",
+        "Christopher M. Raymond",
+        "Mette Termansen",
+        "Arild Vatn",
+        "Simone Athayde",
+        "Brigitte Baptiste",
+        "David N. Barton",
+        "Sander Jacobs",
+        "Eszter Kelemen",
+        "Ritesh Kumar",
+        "Elena Lazos",
+        "Tuyeni H. Mwampamba",
+        "Barbara Nakangu",
+        "Patrick O’Farrell",
+        "Suneetha M. Subramanian",
+        "Meine van Noordwijk",
+        "SoEun Ahn",
+        "Sacha Amaruzaman",
+        "Ariane Amin",
+        "Paola Arias‐Arévalo",
+        "Gabriela Arroyo-Robles",
+        "Mariana Cantú-Fernández",
+        "Antonio Arjona Castro",
+        "Victoria Contreras",
+        "Alta De Vos",
+        "Nicolas Dendoncker",
+        "Stefanie Engel",
+        "Uta Eser",
+        "Daniel P. Faith",
+        "Anna Filyushkina",
+        "Houda Ghazi",
+        "Erik Gómez‐Baggethun",
+        "Rachelle K. Gould",
+        "Louise Guibrunet",
+        "Haripriya Gundimeda",
+        "Thomas P. Hahn",
+        "Zuzana V. Harmáčková",
+        "Marcello Hernández‐Blanco",
+        "Andra‐Ioana Horcea‐Milcu",
+        "Mariaelena Huambachano",
+        "Natalia Lutti Hummel Wicher",
+        "Cem İskender Aydın",
+        "Mine Işlar",
+        "Ann‐Kathrin Koessler",
+        "Jasper O. Kenter",
+        "Marina Kosmus",
+        "Heera Lee",
+        "Beria Leimona",
+        "Sharachchandra Lélé",
+        "Dominic Lenzi",
+        "Bosco Lliso",
+        "Lelani Mannetti",
+        "Juliana Merçon",
+        "Ana Sofía Monroy‐Sais",
+        "Nibedita Mukherjee",
+        "Barbara Muraca",
+        "Roldán Muradian",
+        "Ranjini Murali",
+        "Sara Nelson",
+        "Gabriel R. Nemogá",
+        "Jonas Ngouhouo Poufoun",
+        "Aidin Niamir",
+        "Emmanuel Nuesiri",
+        "Tobias Ochieng Nyumba",
+        "Begüm Özkaynak",
+        "Ignacio Palomo",
+        "Ram Pandit",
+        "Agnieszka Pawłowska-Mainville",
+        "Luciana Porter‐Bolland",
+        "Martin F. Quaas",
+        "Julian Rode",
+        "Ricardo Rozzi",
+        "Sonya Sachdeva",
+        "Aibek Samakov",
+        "Marije Schaafsma",
+        "Nadia Sitas",
+        "Paula Ungar",
+        "Evonne Yiu",
+        "Yuki Yoshida",
+        "Eglée L. Zent"
+      ],
+      "year": 2023,
+      "venue": "Nature",
+      "abstract": "Abstract Twenty-five years since foundational publications on valuing ecosystem services for human well-being 1,2 , addressing the global biodiversity crisis 3 still implies confronting barriers to incorporating nature’s diverse values into decision-making. These barriers include powerful interests supported by current norms and legal rules such as property rights, which determine whose values and which values of nature are acted on. A better understanding of how and why nature is (under)valued is more urgent than ever 4 . Notwithstanding agreements to incorporate nature’s values into actions, including the Kunming-Montreal Global Biodiversity Framework (GBF) 5 and the UN Sustainable Development Goals 6 , predominant environmental and development policies still prioritize a subset of values, particularly those linked to markets, and ignore other ways people relate to and benefit from nature 7 . Arguably, a ‘values crisis’ underpins the intertwined crises of biodiversity loss and climate change 8 , pandemic emergence 9 and socio-environmental injustices 10 . On the basis of more than 50,000 scientific publications, policy documents and Indigenous and local knowledge sources, the Intergovernmental Platform on Biodiversity and Ecosystem Services (IPBES) assessed knowledge on nature’s diverse values and valuation methods to gain insights into their role in policymaking and fuller integration into decisions 7,11 . Applying this evidence, combinations of values-centred approaches are proposed to improve valuation and address barriers to uptake, ultimately leveraging transformative changes towards more just (that is, fair treatment of people and nature, including inter- and intragenerational equity) and sustainable futures.",
+      "citation_count": 627,
+      "is_open_access": true,
+      "open_access_url": "https://www.nature.com/articles/s41586-023-06406-9.pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture"
+      ],
+      "bibtex_key": "pascual_2023_diverse",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.1007/s11191-019-00100-x",
+      "title": "A Multi-Perspective Reflection on How Indigenous Knowledge and Related Ideas Can Improve Science Education for Sustainability",
+      "authors": [
+        "Robby Zidny",
+        "Jesper Sjöström",
+        "Ingo Eilks"
+      ],
+      "year": 2020,
+      "venue": "Science & Education",
+      "abstract": "Abstract Indigenous knowledge provides specific views of the world held by various indigenous peoples. It offers different views on nature and science that generally differ from traditional Western science. Futhermore, it introduces different perspectives on nature and the human in nature. Coming basically from a Western perspective on nature and science, the paper analyzes the literature in science education focusing on research and practices of integrating indigenous knowledge with science education. The paper suggests Didaktik models and frameworks for how to elaborate on and design science education for sustainability that takes indigenous knowledge and related non-Western and alternative Western ideas into consideration. To do so, indigenous knowledge is contextualized with regards to related terms (e.g., ethnoscience), and with Eastern perspectives (e.g., Buddhism), and alternative Western thinking (e.g., post-human Bildung ). This critical review provides justification for a stronger reflection about how to include views, aspects, and practices from indigenous communities into science teaching and learning. It also suggests that indigenous knowledge offers rich and authentic contexts for science learning. At the same time, it provides chances to reflect views on nature and science in contemporary (Western) science education for contributing to the development of more balanced and holistic worldviews, intercultural understanding, and sustainability.",
+      "citation_count": 312,
+      "is_open_access": true,
+      "open_access_url": "https://link.springer.com/content/pdf/10.1007/s11191-019-00100-x.pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge",
+        "sustainable_agriculture",
+        "dsr"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture"
+      ],
+      "bibtex_key": "zidny_2020_a",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.stae.2023.100058",
+      "title": "Indigenous knowledge management practices in subsistence farming: A comprehensive evaluation",
+      "authors": [
+        "Ebenezer Osei Jones"
+      ],
+      "year": 2024,
+      "venue": "Sustainable Technology and Entrepreneurship",
+      "abstract": "",
+      "citation_count": 7,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge"
+      ],
+      "bibtex_key": "jones_2024_indigenous",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.3390/agriculture14122370",
+      "title": "The Adoption of Sustainable Farming Practices by Smallholder Crop Farmers: Micro-Level Evidence from North-Eastern South Africa",
+      "authors": [
+        "Ally Sithole",
+        "Oluwasogo David Olorunfemi"
+      ],
+      "year": 2024,
+      "venue": "Agriculture",
+      "abstract": "Sustainable farming practices (SFPs) are often touted as vehicles for improving crop productivity and the livelihoods of many rural households. However, SFP’s adoption rates remain persistently low, especially among smallholder farmers in many rural parts of developing countries. Thus, this study aimed to evaluate the adoption of SFPs amongst smallholder crop farmers in Mbombela, South Africa. A simple random sampling procedure was employed to collect data from 294 farmers who were solely specializing in crop production. The data were collected using a structured questionnaire, and the analysis was performed with descriptive statistics. A multivariate probit model was adopted to determine the socio-economic determinants of adopting SFPs. The findings of this study confirm that SFPs are essential for addressing the abiotic and biophysical challenges that impede crop productivity, as farmers view these practices as highly beneficial in their farming activities. Also, the results reveal that crop rotation was the most adopted practice, whereas intercropping and conservation tillage were the least adopted practices in the surveyed area. Furthermore, the study showed that “gender, years of education, off-farm income, annual income, marital status, and satisfaction with extension services” were significant socio-economic attributes that do indeed influence the adoption of SFPs by smallholder crop farmers in the surveyed area. These findings underscore the need for the Ministry of Agriculture and rural development stakeholders to address issues relating to economic incentives, improve farmers’ perception of SFPs, provide financial literacy and support programs, and intensify efforts to promote underutilized practices.",
+      "citation_count": 7,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "modern_ag_science",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science",
+        "ch1_background"
+      ],
+      "bibtex_key": "sithole_2024_the",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.1080/23311932.2026.2643008",
+      "title": "Validating neglected indigenous agricultural knowledge for sustainable and resilient farming in Ethiopia",
+      "authors": [
+        "Senait Kehali Tesfaye",
+        "Getasew Daru Tariku",
+        "Sinkie Alemu Kebede",
+        "Abebaw Abebe Getahun",
+        "Tarekegn Derbib Biza",
+        "Birhanu Gebeyehu Abebaw"
+      ],
+      "year": 2026,
+      "venue": "Cogent Food &amp; Agriculture",
+      "abstract": "",
+      "citation_count": 1,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "tesfaye_2026_validating",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.3389/fsufs.2025.1685062",
+      "title": "Reviving indigenous farming knowledge in an input-intensive agriculture system: evidence from Eastern Uttar Pradesh",
+      "authors": [
+        "Sarita Mishra",
+        "Roopa H. S.",
+        "Jay Prakash Bhatt"
+      ],
+      "year": 2026,
+      "venue": "Frontiers in Sustainable Food Systems",
+      "abstract": "Indigenous agricultural knowledge including practices such as organic manuring, intercropping, and traditional saved seed use has long supported sustainable farming among smallholder communities in India. In Eastern Uttar Pradesh, however, this knowledge is rapidly disappearing. Based on a survey of 1,768 smallholder farmers led by the Grameen Foundation India (GFI) across Varanasi and Mirzapur, using a stratified random sampling approach and a structured, pilot-tested questionnaire. This study finds that while an average 60 % of farmers still use organic fertilizer but many apply them incorrectly, reducing their effectiveness and potentially affecting soil health and fertility over time, as perceived by farmers. Descriptive statistics, chi-square tests, and logistic regression were employed to examine patterns of indigenous knowledge erosion and misapplication. The analysis revealed that the majority of farmers follow monocropping systems, rely heavily on chemical inputs, and exhibit a critical gap between awareness and correct agronomic application of traditional practices. The study recommends community-driven approaches and future action research focused on farmer training, participatory awareness programs, and extension engagement to strengthen the revival of indigenous practices. Bridging this gap is vital for restoring soil fertility, enhancing resilience, and embedding indigenous knowledge in future sustainable land management strategies.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge",
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "mishra_2026_reviving",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.70132/p8996699462",
+      "title": "Indigenous knowledge for sustainable agriculture development: banana ripening methodologies from South Africa",
+      "authors": [
+        "Beata Kilonzo",
+        "John B. Ochanda Ogola",
+        "Ishmael Obaeko Iwara"
+      ],
+      "year": 2025,
+      "venue": "Insights into Regional Development",
+      "abstract": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge",
+        "sustainable_agriculture",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture"
+      ],
+      "bibtex_key": "kilonzo_2025_indigenous",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.5958/2231-6736.2024.00168.2",
+      "title": "Indigenous technical knowledge (ITKs) in dairy farming",
+      "authors": [
+        "Reena Rawat",
+        "O.P. Daipuria",
+        "Mona Raghuvanshi"
+      ],
+      "year": 2024,
+      "venue": "Journal of Community Mobilization and Sustainable Development",
+      "abstract": "Indigenous Technical Knowledge evolved from the experiences of farmers found to possess practical utility in solving some of the farmer’s problems under their own conditions. A study undertaken in Gwalior division of Madhya Pradesh helped to document various Indigenous Technical Knowledge (ITKs) in dairying. The validation of Indigenous Technical Knowledge with 80 scientists showed varied level of validity scores.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "rawat_2024_indigenous",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.1007/s12571-021-01184-6",
+      "title": "The future of farming: Who will produce our food?",
+      "authors": [
+        "K.E. Giller",
+        "Thomas Delaune",
+        "‪João Vasco Silva",
+        "Katrien Descheemaeker",
+        "G.W.J. van de Ven",
+        "A.G.T. Schut",
+        "Mark T. van Wijk",
+        "James Hammond",
+        "Zvi Hochman",
+        "G. Taulya",
+        "Régis Chikowo",
+        "Sudha Narayanan",
+        "Avinash Kishore",
+        "Fabrizio Bresciani",
+        "Heitor Mancini Teixeira",
+        "Jens Andersson",
+        "M.K. van Ittersum"
+      ],
+      "year": 2021,
+      "venue": "Food Security",
+      "abstract": "Abstract Achieving SDG2 (zero hunger) in a situation of rapid global population growth requires a continued focus on food production. Farming not merely needs to sustainably produce nutritious diets, but should also provide livelihoods for farmers, while retaining natural ecosystems and services. Rather than focusing on production principles, this article explores the interrelations between farms and farming systems in the global food system. Evaluating farming systems around the world, we reveal a bewildering diversity. While family farms predominate, these range in size from less than 0.1 ha to more than 10,000 ha, and from hand hoe use to machine-based cultivation, enabling one person to plant more than 500 ha in a day. Yet, farming in different parts of the world is highly interdependent, not least because prices paid for farm produce are largely determined by global markets. Furthermore, the economic viability of farming is a problem, globally. We highlight trends in major regions of the world and explore possible trajectories for the future and ask: Who are the farmers of the future? Changing patterns of land ownership, rental and exchange mean that the concept of ‘what is a farm’ becomes increasingly fluid. Next to declining employment and rural depopulation, we also foresee more environmentally-friendly, less external input dependent, regionalised production systems. This may require the reversal of a global trend towards increasing specialisation to a recoupling of arable and livestock farming, not least for the resilience it provides. It might also require a slow-down or reversal of the widespread trend of scale enlargement in agriculture. Next to this trend of scale enlargement, small farms persist in Asia: consolidation of farms proceeds at a snail’s pace in South-east Asia and 70% of farms in India are ‘ultra-small’ – less than 0.05 ha. Also in Africa, where we find smallholder farms are much smaller than often assumed (&lt; 1 ha), farming households are often food insecure. A raft of pro-poor policies and investments are needed to stimulate small-scale agriculture as part of a broader focus on rural development to address persistent poverty and hunger. Smallholder farms will remain an important source of food and income, and a social safety net in absence of alternative livelihood security. But with limited possibilities for smallholders to ‘step-up’, the agricultural engine of growth appears to be broken. Smallholder agriculture cannot deliver the rate of economic growth currently assumed by many policy initiatives in Africa.",
+      "citation_count": 609,
+      "is_open_access": true,
+      "open_access_url": "https://link.springer.com/content/pdf/10.1007/s12571-021-01184-6.pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch1_background"
+      ],
+      "bibtex_key": "giller_2021_the",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.3390/su13094883",
+      "title": "Current Progress and Future Prospects of Agriculture Technology: Gateway to Sustainable Agriculture",
+      "authors": [
+        "Nawab Khan",
+        "Ram L. Ray",
+        "Ghulam Raza Sargani",
+        "Muhammad Ihtisham",
+        "Muhammad Khayyam",
+        "Sohaib Ismail"
+      ],
+      "year": 2021,
+      "venue": "Sustainability",
+      "abstract": "The agricultural industry is getting more data-centric and requires precise, more advanced data and technologies than before, despite being familiar with agricultural processes. The agriculture industry is being advanced by various information and advanced communication technologies, such as the Internet of Things (IoT). The rapid emergence of these advanced technologies has restructured almost all other industries, as well as advanced agriculture, which has shifted the industry from a statistical approach to a quantitative one. This radical change has shaken existing farming techniques and produced the latest prospects in a series of challenges. This comprehensive review article enlightens the potential of the IoT in the advancement of agriculture and the challenges faced when combining these advanced technologies with conventional agricultural systems. A brief analysis of these advanced technologies with sensors is presented in advanced agricultural applications. Numerous sensors that can be implemented for specific agricultural practices require best management practices (e.g., land preparation, irrigation systems, insect, and disease management). This review includes the integration of all suitable techniques, from sowing to harvesting, packaging, transportation, and advanced technologies available for farmers throughout the cropping system. Besides, this review article highlights the utilization of other tools such as unmanned aerial vehicles (UAVs) for crop monitoring and other beneficiary measures, such as optimizing crop yields. In addition, advanced programs based on the IoT are also discussed. Finally, based on our comprehensive review, we identified advanced prospects regarding the IoT, which are essential tools for sustainable agriculture.",
+      "citation_count": 495,
+      "is_open_access": true,
+      "open_access_url": "https://www.mdpi.com/2071-1050/13/9/4883/pdf?version=1619689142",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science"
+      ],
+      "bibtex_key": "khan_2021_current",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.3389/fbloc.2020.00007",
+      "title": "Blockchain Technology for Agriculture: Applications and Rationale",
+      "authors": [
+        "Hang Xiong",
+        "Tobias Dalhaus",
+        "Puqing Wang",
+        "Jiajin Huang"
+      ],
+      "year": 2020,
+      "venue": "Frontiers in Blockchain",
+      "abstract": "The blockchain is a ledger of accounts and transactions that are written and stored by all participants. It promises a reliable source of truth about the state of farms, inventories and contracts in agriculture, where the collection of such information is often incredibly costly. The blockchain technology can track the provenance of food and thus helps create trustworthy food supply chains and build trust between producers and consumers. As a trusted way of storing data, it facilitates the use of data-driven technologies to make farming smarter. In addition, jointly used with smart contracts, it allows timely payments between stakeholders that can be triggered by data changes appearing in the blockchain This article examines the applications of blockchain technology in food supply chains, agricultural insurance, smart farming, transactions of agricultural products for both theoretical and practical perspectives. We also discuss the challenges of recording transactions made by smallholder farmers and creating the ecosystem for utilizing the blockchain technology in the food and agriculture sector.",
+      "citation_count": 361,
+      "is_open_access": true,
+      "open_access_url": "https://www.frontiersin.org/articles/10.3389/fbloc.2020.00007/pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [
+        "ch1_background"
+      ],
+      "bibtex_key": "xiong_2020_blockchain",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.1007/978-981-16-6124-2_4",
+      "title": "Precision Farming in Modern Agriculture",
+      "authors": [
+        "E. Fantin Irudaya Raj",
+        "M. Appadurai",
+        "K. Athiappan"
+      ],
+      "year": 2021,
+      "venue": "Transactions on computer systems and networks",
+      "abstract": "",
+      "citation_count": 137,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "raj_2021_precision",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.atech.2025.100889",
+      "title": "Artificial intelligence applied to precision livestock farming: A tertiary study",
+      "authors": [
+        "Damiano Distante",
+        "Chiara Albanello",
+        "Hira Zaffar",
+        "Stefano Faralli",
+        "Domenico Amalfitano"
+      ],
+      "year": 2025,
+      "venue": "Smart Agricultural Technology",
+      "abstract": "",
+      "citation_count": 18,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "distante_2025_artificial",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.17265/2161-6256/2020.02.001",
+      "title": "Precision Livestock Farming: The Opportunities in Poultry Sector",
+      "authors": [
+        "Pramir Maharjan",
+        "Yi Liang"
+      ],
+      "year": 2020,
+      "venue": "Journal of Agricultural Science and Technology A",
+      "abstract": "",
+      "citation_count": 3,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "maharjan_2020_precision",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.3390/agronomy15051118",
+      "title": "Design of a Chili Pepper Harvesting Device for Hilly Chili Fields",
+      "authors": [
+        "Weikang Han",
+        "Jialong Luo",
+        "Jiatao Wang",
+        "Qihang Gu",
+        "Liujun Lin",
+        "Yuan Gao",
+        "Hongru Chen",
+        "Kangya Luo",
+        "Zhixiong Zeng",
+        "Jie He"
+      ],
+      "year": 2025,
+      "venue": "Agronomy",
+      "abstract": "To address issues such as leaf occlusion, misalignment of the harvesting robotic arm, and limited harvesting range in hillside chili fields, this paper designs an intelligent harvesting system based on 3D point cloud reconstruction and multi-mechanism collaborative leveling. The system integrates real-time data from a LiDAR and IMU inertial navigation system to reconstruct the chili point cloud occluded by leaves from multiple perspectives. To address issues such as misalignment of the robotic arm caused by terrain undulations, the system integrates an adaptive leveling platform and an H-shaped planar slide, combined with a gyroscope to dynamically adjust the arm’s posture in real time, ensuring arm stability while expanding its workspace. In addition, to ensure harvesting efficiency and pepper integrity, an integrated cutting–gripping flexible end effector is designed to achieve synchronized cutting and collection operations. The experiment shows that the system achieves recognition accuracy of 81.95% for occluded chili peppers and 89.04% for non-occluded chili peppers. The harvesting success rate is 86.33%, with a single harvesting operation taking 13.17 s. During prolonged operation, the harvesting success rate can be maintained at approximately 85.1%. In summary, the intelligent harvesting system based on 3D point cloud reconstruction and multi-mechanism collaborative leveling provides a feasible solution for automated pepper harvesting.",
+      "citation_count": 3,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "han_2025_design",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.52151/aet2023474.1698",
+      "title": "Precision Farming - The Modern Approach",
+      "authors": [
+        "Ananda Verma"
+      ],
+      "year": 2025,
+      "venue": "Agricultural Engineering Today",
+      "abstract": ".",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "verma_2025_precision",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.56726/irjmets87723",
+      "title": "FieldIntel: An Artificial Intelligence-Powered Intelligent Agricultural Decision Support System for Sustainable Precision Farming",
+      "authors": [],
+      "year": 2025,
+      "venue": "International Research Journal of Modernization in Engineering Technology &amp; Science",
+      "abstract": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "unknown_2025_fieldintel",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.61463/ijset.vol.13.issue2.431",
+      "title": "AI-Enhanced Agricultural Robotics: From Precision Farming to Autonomous Harvesting",
+      "authors": [
+        "Arjun. P"
+      ],
+      "year": 2025,
+      "venue": "International Journal of Science, Engineering and Technology",
+      "abstract": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "p_2025_ai",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.12972/pastj.20220019",
+      "title": "Development of multi-body dynamics simulation model of agricultural 4WD electric vehicle platform for upland farming",
+      "authors": [],
+      "year": 2022,
+      "venue": "Precision Agriculture Science and Technology",
+      "abstract": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "unknown_2022_development",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.62110/sciencein.jist.2026.v14.1598",
+      "title": "Agricultural nanotechnology for precision farming and controlled agrochemical delivery",
+      "authors": [
+        "Priyavashini Prakash",
+        "Rajamehala Murugan",
+        "Sivamani Selvaraju"
+      ],
+      "year": 2026,
+      "venue": "Journal of Integrated Science and Technology",
+      "abstract": "Nanotechnology has emerged as a transformative tool in agriculture, offering innovative solutions to enhance productivity, sustainability, and food security. Owing to their nanoscale size and unique physicochemical properties, nanoparticles (NPs) play crucial roles in improving seed germination, nutrient uptake, plant growth, and stress tolerance while minimizing the reliance on conventional chemical fertilizers and pesticides. Recent advancements highlight the use of nanofertilizers, nanopesticides, and nanobiosensors for precision farming, disease detection, and controlled agrochemical delivery. Additionally, nanomaterials contribute to soil and water remediation, food preservation, and packaging, reducing post-harvest losses. This review discusses diverse nanoparticles, emphasizing their synthesis, modes of application, and mechanisms of action in plants. It also addresses barriers such as nanoparticle uptake, plant physiological defenses, and concerns regarding toxicity, biosafety, and regulatory challenges. Overall, nanotechnology holds immense potential to revolutionize modern agriscience by promoting sustainable practices and improving global agricultural resilience.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "prakash_2026_agricultural",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.19080/artoaj.2024.29.556432",
+      "title": "Precision Farming Drones: Advances and Future Directions",
+      "authors": [
+        "Alejandro Isabel Luna-Maldonado"
+      ],
+      "year": 2024,
+      "venue": "Agricultural Research &amp; Technology: Open Access Journal",
+      "abstract": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "lunamaldonado_2024_precision",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.atech.2026.102232",
+      "title": "Beyond single-modality: A comprehensive review on multimodal fusion paradigms in precision livestock farming",
+      "authors": [
+        "Axiu Mao",
+        "Meilu Zhu",
+        "Yanzhen Li",
+        "Kaiying Wang"
+      ],
+      "year": 2026,
+      "venue": "Smart Agricultural Technology",
+      "abstract": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "mao_2026_beyond",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.3991/ijet.v15i15.13025",
+      "title": "Virtual World as a Resource for Hybrid Education",
+      "authors": [
+        "Jairo Eduardo Márquez Díaz",
+        "Camilo Andrés Domínguez Saldaña",
+        "Camilo Alberto Rodríguez Ávila"
+      ],
+      "year": 2020,
+      "venue": "International Journal of Emerging Technologies in Learning (iJET)",
+      "abstract": "The virtual worlds in the educational environment, have opened new possibilities to innovation in the teaching-learning process, where the flexibility of access to information inside or outside the classroom through an avatar, tends to a paradigm shift in education traditional, in terms of the way of transmitting and acquiring knowledge through technological means. In this sense, an investigation was carried out on the design, development and use of a metaverse as a digital tool of didactic support to students of the Faculty of Systems Engineering of the University of Cundinamarca, with a view to establishing its viability to be implemented in a course of mathematics and demonstrate the possibilities offered by this type of resource to motivate the student in his training. The metaverse design included various ICT tools, thereby promoting self-learning and collaborative learning. Finally, it was evaluated what was the appreciation of a group of students against their interaction with the metaverse, which validated its usefulness and functionality inside and outside the classroom.",
+      "citation_count": 340,
+      "is_open_access": true,
+      "open_access_url": "https://online-journals.org/index.php/i-jet/article/download/13025/7635",
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "díaz_2020_virtual",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.1080/2331186x.2022.2115617",
+      "title": "A game perspective on collaborative learning among students in higher education",
+      "authors": [
+        "Qiannan Zhang",
+        "Sheng Lin",
+        "Jinlan Liu",
+        "Yuchen Jin"
+      ],
+      "year": 2022,
+      "venue": "Cogent Education",
+      "abstract": "",
+      "citation_count": 8,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "zhang_2022_a",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.4018/ijgbl.294011",
+      "title": "Why Games?",
+      "authors": [
+        "Papia Bawa"
+      ],
+      "year": 2022,
+      "venue": "International Journal of Game-Based Learning",
+      "abstract": "The Phenomenological study investigated the perceptions of 4 Community College administrators and 2 faculty, who experienced for the first time, the process of curricular modification using Massively Multiplayer Online Games or MMOs in their Business and English programs. Since administrators and faculty are key stakeholders of any initiative for technology integration in curricular modification, the study contributed to filling the gap in the literature regarding such stakeholder perceptions and added new insights regarding easy and affordable ways to successfully and effectively integrate MMOs within the curriculum in Higher Education disciplines.",
+      "citation_count": 4,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "bawa_2022_why",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.34293/education.v13i1.8361",
+      "title": "Collaborative Learning Management  with Language Game to Develop 12th Grade Students’ English Vocabulary  Learning and Reading Competency",
+      "authors": [
+        "Banthita Sukdee"
+      ],
+      "year": 2024,
+      "venue": "Shanlax International Journal of Education",
+      "abstract": "The purposes of this research were to (1) study twelfth grade students’ English vocabulary and reading development by applying collaborative learning management with language game of the whole group and individual (2) examine twelfth grade students’ attitudes towards collaborative learning management with language game in learning English vocabulary and reading and (3) investigate twelfth grade students’ participating behaviors in collaborative learning management with language game. The target population in this study was 40 twelfth grade students who studied English reading and summarizing in academic year 2023 at The Demonstration School of Ramkhamhaeng University. The research instruments consisted of (1) collaborative learning management with language game lesson plans (2) pre and post-test of English vocabulary and reading achievement (3) the attitudes towards collaborative learning management with language game questionnaire and (4) group behavior observation forms. The data were analyzed by utilizing mean, standard deviation, frequency, percentage, and normalized gain. The results showed that (1) twelfth grade students’ English vocabulary development by applying collaborative learning management with language game of the whole group was in medium gain ( = 0. 45) and there were 6 students obtaining high gain, 22 students obtaining medium gain and 12 students obtaining low gain; furthermore, twelfth grade students’ English reading development by applying collaborative learning management with language game of the whole group was in medium gain ( = 0. 41) and there were 3 students obtaining high gain, 25 students obtaining medium gain and 12 students obtaining low gain, (2) twelfth grade students’ attitudes towards collaborative learning management with language game in learning English vocabulary and reading were high (μ=4. 25, σ = 0. 40), and (3) twelfth grade students’ participating behaviors in collaborative learning management with language game were good over 80 percent of all students (μ=9. 62). This indicates that collaborative learning management with language game is one of the most effective teaching methods that contributes to developing learners’ vocabulary knowledge and reading competency. Moreover, it creates a fun classroom atmosphere, facilitates learners to practice critical thinking, increases their interest and enthusiasm in learning English, and supports them to have good learning behaviors.",
+      "citation_count": 1,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "sukdee_2024_collaborative",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.46787/elthe.v1i1.3362",
+      "title": "Experiential Learning Theory as a Guide for Experiential Educators in Higher Education",
+      "authors": [
+        "Alice Y. Kolb",
+        "David Kolb"
+      ],
+      "year": 2022,
+      "venue": "Experiential Learning and Teaching in Higher Education",
+      "abstract": "Core concepts of Experiential Learning Theory—the learning cycle,learning style, and learning space—have been widely used by experiential educatorsin higher education for nearly half a century. We examine the latest thinkingabout these three concepts and highlight some exemplary applications from themany disciplinary applications of experiential learning in higher education. I think that only slight acquaintance with the history of education is needed to provethat educational reformers and innovators alone have felt the need for a philosophyof education. Those who adhered to the established system needed merely a few fine soundingwords to justify existing practices. The real work was done by habits whichwere so fixed as to be institutional. The lesson for progressive education is that itrequires in an urgent degree, a degree more pressing than was incumbent upon formerinnovators, a philosophy of education based on a philosophy of experience. John Dewey, Experience and Education",
+      "citation_count": 524,
+      "is_open_access": true,
+      "open_access_url": "https://doi.org/10.46787/elthe.v1i1.3362",
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "kolb_2022_experiential",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.1186/s40594-022-00344-0",
+      "title": "Effects of digital game-based STEM education on students’ learning achievement: a meta-analysis",
+      "authors": [
+        "Liang-Hui Wang",
+        "Bing Chen",
+        "Gwo‐Jen Hwang",
+        "Jueqi Guan",
+        "Yunqing Wang"
+      ],
+      "year": 2022,
+      "venue": "International Journal of STEM Education",
+      "abstract": "Abstract Many researchers have explored the impact of digital games on learning effects in different STEM subjects. The purpose of this meta-analysis is to examine the effect of digital game-based STEM education on the learning achievement of K-12 or higher education students. The analysis results of effect sizes from 33 studies ( N = 3894) published from 2010 to 2020 showed that digital games contributed to a moderate overall effect size (ES = 0.667, 95% CI [0.520–0.814], p &lt; 0.001) when compared with other instructional methods. Furthermore, the study explored multiple moderator variables and their potential impacts on learning outcomes such as control treatment, subject discipline, educational level, game type, gaming platform, and intervention duration. The findings suggest that digital games are a promising pedagogical method in STEM education that effectively improves learning gains. Additionally, the study concludes with three recommendations for future research and practices on digital games in STEM education.",
+      "citation_count": 292,
+      "is_open_access": true,
+      "open_access_url": "https://stemeducationjournal.springeropen.com/track/pdf/10.1186/s40594-022-00344-0",
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "wang_2022_effects",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.plas.2022.100041",
+      "title": "Teachers’ experiences of using game-based learning methods in project management higher education",
+      "authors": [
+        "Elina Jääskä",
+        "Kirsi Aaltonen"
+      ],
+      "year": 2022,
+      "venue": "Project Leadership and Society",
+      "abstract": "The benefits and challenges of using game-based learning (GBL) methods in project management higher education have not been widely investigated. This study employs qualitative methods and builds on in-depth interview data from 22 experienced university teachers with a project management teaching background. It shows that teachers perceive beneficial consequences for students from gaming, such as increased interest and knowledge acquisition with a memorable learning experience. Teachers' inspirations and motivations are boosted by a novel method to motivate and engage students. The perceived challenges of GBL for students manifest as increased cognitive load and stress. This paper contributes to a deeper understanding of the impact of GBL methods while identifying challenges and disadvantages, which are not as widely discussed as benefits. This research identifies experiences from project management teachers' perspectives, covering both learners' and instructors’ viewpoints. The findings may help teachers to decide whether GBL could be used in their courses.",
+      "citation_count": 164,
+      "is_open_access": true,
+      "open_access_url": "https://doi.org/10.1016/j.plas.2022.100041",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "bibtex_key": "jääskä_2022_teachers",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.plas.2022.100055",
+      "title": "Game-based learning and students’ motivation in project management education",
+      "authors": [
+        "Elina Jääskä",
+        "Jere Lehtinen",
+        "Jaakko Kujala",
+        "Osmo Kauppila"
+      ],
+      "year": 2022,
+      "venue": "Project Leadership and Society",
+      "abstract": "Research on game-based learning (GBL) methods shows that they may increase students' motivation and learning in the context of higher education. However, there is still unclarity regarding whether and how GBL methods can be utilized in project management education. Our quasi-experimental study analyzes project management students' experiences of a GBL method applied in six European higher education institutes during late 2021 and early 2022. Data about students' experiences were collected using a post-game survey in which students were asked to evaluate how the applied GBL method affected their motivation and learning. The data were analyzed using both qualitative and quantitative methods. Our findings include students' positive and negative perceptions related to the applied GBL method, which influenced students’ motivation to study and learn project management phenomena. Our findings indicate that game-based learning solutions can be used to motivate students and to prepare learners to deal with uncertainty, as in real-life projects.",
+      "citation_count": 118,
+      "is_open_access": true,
+      "open_access_url": "https://doi.org/10.1016/j.plas.2022.100055",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "bibtex_key": "jääskä_2022_game",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.1002/inc3.18",
+      "title": "Serious games for environmental education",
+      "authors": [
+        "Cedric Kai Wei Tan",
+        "Hidayah Nurul‐Asna"
+      ],
+      "year": 2023,
+      "venue": "Integrative Conservation",
+      "abstract": "Abstract Serious games are increasingly popular in multiple fields, including education and environmental engagement. We conducted a systematic review to examine the reasons for this increasing popularity, the features of successful serious games and the current trend of serious games application in environmental education. Our systematic search revealed 56 records of papers (from years 2009 to 2023) on the use of serious games for environmental education. Thirty‐five were published in the recent 5 years reflecting a growing interest in this area. The games were aimed at imparting knowledge ( N = 28), changing attitude ( N = 28) and changing behaviour ( N = 19). Reasons for the increased application of serious games include the raising awareness on serious games and growing investment in serious games development and research, as well as better technological access through mobile devices. Successful serious games exhibit the following features: an immersive experience, meaningful engagement, a learn‐by‐doing involvement, simulation of real‐world environmental problems, autonomy in game decisions and the presence of a guiding host. This review also revealed two categories of digital serious games: computer games ( N = 14) and mobile apps (N = 11), and three categories of physical games: board games ( N = 6), card game ( N = 1) and role‐playing games ( N = 2). The gaps include (1) the lack of in‐game experience data that limits our understanding of the impacts of commercial games, (2) variation in game experience and conservation experience among participants and how this translates to the impacts of serious games, and (3) lack of understanding of how the effects of serious games with high complexities on adults learning. Serious games are increasingly being digitised and moving towards location‐based games, alternate reality, augmented reality and virtual reality. These games can facilitate interaction between learners and the natural environment, and in turn strengthen environmental awareness and appreciation.",
+      "citation_count": 76,
+      "is_open_access": true,
+      "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/inc3.18",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "bibtex_key": "tan_2023_serious",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.3390/computers11030036",
+      "title": "Game-Based Learning, Gamification in Education and Serious Games",
+      "authors": [
+        "Carlos Vaz de Carvalho",
+        "António Coelho"
+      ],
+      "year": 2022,
+      "venue": "Computers",
+      "abstract": "Video games have become one of the predominant forms of entertainment in our society, but they have also impacted many other of its social and cultural aspects [...]",
+      "citation_count": 59,
+      "is_open_access": true,
+      "open_access_url": "https://www.mdpi.com/2073-431X/11/3/36/pdf?version=1646377840",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "bibtex_key": "carvalho_2022_game",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.compedu.2024.105075",
+      "title": "Serious game-based learning and learning by making games: Types of game-based pedagogies and student gaming hours impact students' science learning outcomes",
+      "authors": [
+        "Ai-Chu Elisha Ding",
+        "Cheng-Han Yu"
+      ],
+      "year": 2024,
+      "venue": "Computers &amp; Education",
+      "abstract": "",
+      "citation_count": 39,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "bibtex_key": "ding_2024_serious",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.30476/jamp.2022.94787.1608",
+      "title": "Comparison of Gamification, Game-Based Learning, and Serious Games in Medical Education: A Scientometrics Analysis.",
+      "authors": [
+        "Mohadeseh Zohari",
+        "Neda Karim",
+        "Shiva Malgard",
+        "Maryam Aalaa",
+        "Shadi Asadzandi",
+        "Sharareh Borhani"
+      ],
+      "year": 2023,
+      "venue": "PubMed",
+      "abstract": "Introduction: Game in education aims to enhance human motivation and performance in a given activity. Gamification experts and health researchers are still unsure about the status of progress of game for health. So, to fill in this gap, the present study aimed to analyze scientific productions to identify production trends, subject areas, countries, institutes, and authors in these three areas on gamification, game-based learning, and serious games in medical education, as well as to determine co-authorship patterns. Methods: The present descriptive quantitative research was conducted through scientometric analysis by using co-authorship networks in gamification, game-based learning, and serious games. First, an advanced search was performed from 1990 to 2020 and the studies were retrieved from Web of sciences, on Aug 17, 2021 The plain text format of data was inputted to Microsoft Excel, CiteSpace and Gephi to analyze scientometric maps for the three domains. Subsequently, the required indicators to review co-authorship networks were obtained: Degree centrality, Betweenness centrality, Closeness centrality, Density, Clustering coefficient, collaboration index and collaboration coefficient. Results: There were 466 documents in gamification, 155 documents in game-based learning, and 295 documents in serious games. The results indicated the rising trend of scientific publications on the three domains. US was a prolific country in all three domains. Author collaboration has remarkably increased, although the number of single-author articles is still high. Conclusion: Due to the increasing growth of publications on these three domains, research can be continued by forming specialized groups and supporting joint publications. Also, research policy-makers should promote author collaborations on the national and international scale.",
+      "citation_count": 24,
+      "is_open_access": true,
+      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9846099/pdf/JAMP-11-50.pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "bibtex_key": "zohari_2023_comparison",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.4236/jilsa.2022.144010",
+      "title": "Gamification in Education: A Study of Design-Based Learning in Operationalizing a Game Studio for Serious Games",
+      "authors": [
+        "James Hutson",
+        "Ben Fulcher",
+        "Joseph Weber"
+      ],
+      "year": 2022,
+      "venue": "Journal of Intelligent Learning Systems and Applications",
+      "abstract": "The gamification of learning has proven educational benefits, especially in secondary education. Studies confirm the successful engagement of students with improved time on task, motivation and learning outcomes. At the same time, there remains little research on games and learning at the postsecondary level of education where traditional pedagogies remain the norm. Studies that have been conducted remain almost exclusively restricted to science programs, including medicine and engineering. Moreover, postsecondary subject-matter experts who have created their own gamified experiences often are forced to do so on an ad hoc basis either on their own, teaching themselves game engines, or with irregular support from experts in the field. But to ensure a well-designed, developed, and high-quality educational experience that leads to desired outcomes for a field, a sustainable infrastructure needs to be developed in institutions that have (or can partner with) others that have an established game design program. Moreover, such a design-based learning approach can be embedded within an existing studio model to help educate participants while producing an educational product. As such, this qualitative case study provides an example of the process of operationalizing a game design studio from pre-production through post-production, drawing from the design and development of the educational video game The Museum of the Lost VR (2022). The results, resources, and classification system presented are scalable and provide models for different sized institutions. Methods to develop a sustainable infrastructure are presented to ensure interdisciplinary partnerships across departments and institutions with game design programs to collaborate and create educational experiences that optimize user experience and learning outcomes.",
+      "citation_count": 12,
+      "is_open_access": true,
+      "open_access_url": "https://content.scirp.org/pdf/jilsa_2022111514181461.pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "bibtex_key": "hutson_2022_gamification",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.34190/ecgbl.18.1.2717",
+      "title": "Integrating Learning and Serious Game Design: The Development and Application of the Learning and Game Integration (LGI) Framework using the ‘Blackout’ Serious Game",
+      "authors": [
+        "Stella Stefany",
+        "Ling Mei Cong",
+        "Jessica Helmi",
+        "Rickman Roedavan"
+      ],
+      "year": 2024,
+      "venue": "European Conference on Games Based Learning",
+      "abstract": "Serious games are increasingly recognised as effective educational tools capable of simulating complex scenarios that traditional methods cannot replicate. This paper introduces the Learning and Game Integration (LGI) Framework, designed to seamlessly integrate educational content with interactive game design. Utilising the “Blackout” serious game, which simulates real world complex problem, this study demonstrates how the LGI Framework can be utilised as learning intervention to enhance learning by teaching Design Thinking to university students. The framework consists of four stages: Educational Content Integration, Theoretical Underpinning, Case Study Selection, and Game Design. The “Blackout” game enables students to engage with various stakeholder perspectives, deeply analyse problems, and develop innovative solutions under crisis conditions. Preliminary feedback from its implementation in an undergraduate business course (N=753) indicates increased student engagement and confidence in applying Design Thinking concepts. This paper contributes to the field of business education by presenting an innovative approach to teaching innovative problem-solving skills through serious games, emphasising the need for holistic educational frameworks that bridge theoretical learning with real-world application.",
+      "citation_count": 1,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "bibtex_key": "stefany_2024_integrating",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.36253/me-13294",
+      "title": "DAL GAME-BASED LEARNING AI SERIOUS GAMES: ALCUNE PROSPETTIVE PER L’APPRENDIMENTO MEDIATO DALLA TECNOLOGIA DIGITALE",
+      "authors": [
+        "Ciziceno Marco"
+      ],
+      "year": 2023,
+      "venue": "Media Education",
+      "abstract": "In the last years, serious games have become popular in media education as they are useful tools in engaging, motivating, and helping students learn. However, few studies investigate the long-term effects of game-based learning, and many scholars declare themself skeptical about the learning mediated by digital technology. This paper reflects on the importance of new media and serious games for young people belonging to the Net Generation as defined by Prensky. In particular, I support the idea that game-based learning reflects a broader change in our society, coinciding with the rise of the phenomenon of Gamification and the Homo Ludens paradigm. Apart from the limitations of technology-mediated learning, the paper outlines possible and new directions of serious games in educational and social work contexts.&#x0D;\n &#x0D;\nI serious games sono diventati negli ultimi anni degli strumenti diffusi nel campo dell’educazione poiché ritenuti utili a invogliare, motivare e supportare l’apprendimento degli studenti. Tuttavia, pochi studi indagano gli effetti a medio-lungo termine del game-based learning e molti studiosi si definiscono critici rispetto all’apprendimento mediato dalla tecnologia digitale. Il presente contributo riflette sull’importanza che i new media e i serious games hanno per i giovani appartenenti alla Net Generation come definita da Prensky. In particolare, si vuole supportare l’idea che il game-based learning è il riflesso di un cambiamento più ampio avvenuto nella nostra società che coincide con l’affermarsi del fenomeno della Gamification e il paradigma dell’homo ludens. Senza voler sottacere i limiti dell’istruzione mediata dalla tecnologia, il lavoro delinea possibili e nuovi direzioni del serious game in contesti educativi e di intervento sociale.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "bibtex_key": "marco_2023_dal",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.66844/etal..v2i1.8",
+      "title": "Elaboração de Game Design Document para Serious Games baseado em modelos Fram",
+      "authors": [
+        "Joaquim Eugênio Mattos Dos Santos",
+        "Paulo Victor Rodrigues De Carvalho"
+      ],
+      "year": 2026,
+      "venue": "Education &amp; Technology for Advancing Learning",
+      "abstract": "Os sistemas sociotécnicos atuais exigem uma compreensão profunda dos processos por parte dos envolvidos em sua operação. Para apoiar isso, o modelo FRAM oferece uma maneira sistemática e inteligente de descrever como esses sistemas funcionam, promovendo a conscientização sobre seu potencial de resiliência positiva em meio a mudanças nas condições, comportamentos e recursos. A engenharia de resiliência, portanto, visa garantir a adaptação sistemática, mantendo as operações normais e os resultados esperados, mesmo em situações adversas. Uma tecnologia emergente que apoia o treinamento de indivíduos em sistemas sociotécnicos são os Jogos Sérios (Serious Games), que são em suma, aplicativos gamificados projetados para educar grupos específicos sobre comportamentos adequados no local de trabalho. Esses jogos proporcionam treinamento eficaz e, ao mesmo tempo, promovem redução de custos. No entanto, seu desenvolvimento normalmente segue uma estrutura diferente daquela usada para analisar sistemas sociotécnicos. No desenvolvimento de jogos, o GDD (Game Design Document) é um artefato técnico-descritivo que descreve os elementos funcionais e de design necessários no produto final. Devido à divergência de terminologia e conhecimento entre aqueles que modelam sistemas sociotécnicos resilientes com FRAM e as equipes envolvidas no desenvolvimento de jogos, o estudo propõe um método para construir um GDD que traduza características de sistemas sociotécnicos resilientes para um formato acessível a designers e desenvolvedores de jogos digitais. A metodologia envolveu revisão e análise documental de modelos de GDD e modelagem FRAM, correlacionando seus elementos para criar um modelo adaptado às necessidades dos Serious Games, disponível nos apêndices.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "modern_ag_science",
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_modern_ag_science",
+        "ch2_serious_games"
+      ],
+      "bibtex_key": "santos_2026_elaboração",
+      "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.34190/ecgbl.19.2.4110",
+      "title": "Development of a Serious Game for British Sign Language Education",
+      "authors": [
+        "Lara E. McIntyre",
+        "Thomas Hainey",
+        "Gavin Baxter"
+      ],
+      "year": 2025,
+      "venue": "European Conference on Games Based Learning",
+      "abstract": "Learning the alphabet is a fundamental part of any language, especially British Sign Language (BSL). Without an understanding of the alphabet, learners may lack awareness of where signs outside the alphabet originate from, which leads to gaps in proficiency. Although the BSL Scotland Act 2015 promotes the use of BSL, many learners in Britain continue to face challenges that hinder language acquisition, such as limited access to learning materials, classes, and groups. Serious games have captured great interest and have been applied in a plethora of areas for education, training, or awareness through engaging gameplay. They offer a unique approach to overcoming these barriers, promoting deaf awareness and encouraging sign language learning through engaging material. This paper presents the development of a novel, hangman-inspired serious game prototype designed to facilitate learning the BSL alphabet and vocabulary. The game integrates spelling exercises with visual sign representations, aiming to connect the BSL letter recognition to the corresponding dynamic sign.  This prototype serves as a step towards addressing resource gaps and accommodating the community by offering a potential model for sign language learning through a serious game.  Immersive serious games can add a level of engagement and potential haptic interaction to BSL education. This paper will also provide a preliminary scoping literature review of the state of the art of the application of VR and serious games for sign language education.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "bibtex_key": "mcintyre_2025_development",
+      "added_date": "2026-06-28",
       "read_date": null
     }
   ],
