@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-06-28T09:06:59.616461+00:00",
+  "last_updated": "2026-07-05T09:04:58.744412+00:00",
   "sources": [
     {
       "doi": "10.2196/games.3804",
@@ -21037,6 +21037,80 @@
       "read_date": null,
       "bibtex_key": "mcintyre_2025_development",
       "last_updated": "2026-06-28T09:06:59.616444+00:00"
+    },
+    {
+      "doi": "10.1016/j.atech.2024.100529",
+      "title": "Stimulating awareness of Precision Farming through gamification: The Farming Simulator case",
+      "authors": [
+        {
+          "name": "Tetiana Pavlenko",
+          "affiliation": null
+        },
+        {
+          "name": "Dimitrios Argyropoulos",
+          "affiliation": null
+        },
+        {
+          "name": "Matthieu Arnoult",
+          "affiliation": null
+        },
+        {
+          "name": "Thomas Engel",
+          "affiliation": null
+        },
+        {
+          "name": "Yiorgos Gadanakis",
+          "affiliation": null
+        },
+        {
+          "name": "Hans W. Griepentrog",
+          "affiliation": null
+        },
+        {
+          "name": "Jacob Kambuta",
+          "affiliation": null
+        },
+        {
+          "name": "Tamisan Latherow",
+          "affiliation": null
+        },
+        {
+          "name": "Alistair J. Murdoch",
+          "affiliation": null
+        },
+        {
+          "name": "Richard Tranter",
+          "affiliation": null
+        },
+        {
+          "name": "Dimitrios S. Paraforos",
+          "affiliation": null
+        }
+      ],
+      "year": 2024,
+      "venue": "Smart Agricultural Technology",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.1016/j.atech.2024.100529",
+      "abstract": "",
+      "citation_count": 4,
+      "is_open_access": false,
+      "open_access_url": null,
+      "source_api": "crossref",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-07-05",
+      "read_date": null,
+      "bibtex_key": "pavlenko_2024_stimulating",
+      "last_updated": "2026-07-05T09:04:58.744389+00:00"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
-  "exported_at": "2026-06-28T09:06:59.711861+00:00",
+  "exported_at": "2026-07-05T09:04:58.860850+00:00",
   "stats": {
-    "total_sources": 443,
+    "total_sources": 444,
     "by_status": {
       "excluded": 60,
-      "screened": 382,
+      "screened": 383,
       "reading": 1
     },
     "by_year": {
@@ -17,12 +17,12 @@
       "2021": 45,
       "2022": 50,
       "2023": 48,
-      "2024": 57,
+      "2024": 58,
       "2025": 52,
       "2026": 26
     },
     "by_chapter": {
-      "ch2_serious_games": 134,
+      "ch2_serious_games": 135,
       "ch4_game_mechanics": 21,
       "ch2_multiplayer_simulations": 74,
       "ch2_indigenous_knowledge": 73,
@@ -31,7 +31,7 @@
       "ch2_modern_ag_science": 39
     },
     "by_tag": {
-      "serious_games": 134,
+      "serious_games": 135,
       "multiplayer_simulations": 74,
       "indigenous_knowledge": 73,
       "sustainable_agriculture": 102,
@@ -10210,6 +10210,39 @@
       ],
       "bibtex_key": "mcintyre_2025_development",
       "added_date": "2026-06-28",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.atech.2024.100529",
+      "title": "Stimulating awareness of Precision Farming through gamification: The Farming Simulator case",
+      "authors": [
+        "Tetiana Pavlenko",
+        "Dimitrios Argyropoulos",
+        "Matthieu Arnoult",
+        "Thomas Engel",
+        "Yiorgos Gadanakis",
+        "Hans W. Griepentrog",
+        "Jacob Kambuta",
+        "Tamisan Latherow",
+        "Alistair J. Murdoch",
+        "Richard Tranter",
+        "Dimitrios S. Paraforos"
+      ],
+      "year": 2024,
+      "venue": "Smart Agricultural Technology",
+      "abstract": "",
+      "citation_count": 4,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "bibtex_key": "pavlenko_2024_stimulating",
+      "added_date": "2026-07-05",
       "read_date": null
     }
   ],
