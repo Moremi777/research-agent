@@ -1,10 +1,10 @@
 {
-  "exported_at": "2026-07-05T09:04:58.860850+00:00",
+  "exported_at": "2026-07-12T09:49:37.650508+00:00",
   "stats": {
-    "total_sources": 444,
+    "total_sources": 446,
     "by_status": {
       "excluded": 60,
-      "screened": 383,
+      "screened": 385,
       "reading": 1
     },
     "by_year": {
@@ -16,29 +16,29 @@
       "2020": 54,
       "2021": 45,
       "2022": 50,
-      "2023": 48,
+      "2023": 49,
       "2024": 58,
       "2025": 52,
-      "2026": 26
+      "2026": 27
     },
     "by_chapter": {
       "ch2_serious_games": 135,
       "ch4_game_mechanics": 21,
       "ch2_multiplayer_simulations": 74,
-      "ch2_indigenous_knowledge": 73,
-      "ch2_sustainable_agriculture": 102,
-      "ch1_background": 78,
-      "ch2_modern_ag_science": 39
+      "ch2_indigenous_knowledge": 74,
+      "ch2_sustainable_agriculture": 103,
+      "ch1_background": 79,
+      "ch2_modern_ag_science": 40
     },
     "by_tag": {
       "serious_games": 135,
       "multiplayer_simulations": 74,
-      "indigenous_knowledge": 73,
-      "sustainable_agriculture": 102,
+      "indigenous_knowledge": 74,
+      "sustainable_agriculture": 103,
       "southern_africa": 75,
-      "modern_ag_science": 39,
+      "modern_ag_science": 40,
       "dsr": 5,
-      "general": 47
+      "general": 48
     },
     "reading_progress_pct": 0.0
   },
@@ -10243,6 +10243,59 @@
       ],
       "bibtex_key": "pavlenko_2024_stimulating",
       "added_date": "2026-07-05",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.heliyon.2023.e22601",
+      "title": "Application of digital technologies for ensuring agricultural productivity",
+      "authors": [
+        "Rambod Abiri",
+        "Nastaran Rizan",
+        "Siva K. Balasundram",
+        "Arash Bayat Shahbazi",
+        "Hazandy Abdul Hamid"
+      ],
+      "year": 2023,
+      "venue": "Heliyon",
+      "abstract": "Over the decades, agri-food security has become one of the most critical concerns in the world. Sustainable agri-food production technologies have been reliable in mitigating poverty caused by high demands for food. Recently, the applications of agri-food system technologies have been meaningfully changing the worldwide scene due to both external strengths and internal forces. Digital agriculture (DA) is a pioneering technology helping to meet the growing global demand for sustainable food production. Integrating different sub-branches of DA technologies such as artificial intelligence, automation and robotics, sensors, Internet of Things (IoT) and data analytics into agriculture practices to reduce waste, optimize farming inputs and enhance crop production. This can help shift from tedious operations to continuously automated processes, resulting in increasing agricultural production by enabling the traceability of products and processes. The application of DA provides agri-food producers with accurate and real-time observations regarding different features influencing their productivity, such as plant health, soil quality, weather conditions, and pest and disease pressure. Analyzing the results achieved by DA can help agricultural producers and scholars make better decisions to increase yields, improve efficiency, reduce costs, and manage resources. The core focus of the current work is to clarify the benefits of some sub-branches of DA in increasing agricultural production efficiency, discuss the challenges of practical DA in the field, and highlight the future perspectives of DA. This review paper can open new directions to speed up the DA application on the farm and link traditional agriculture with modern farming technologies.",
+      "citation_count": 285,
+      "is_open_access": true,
+      "open_access_url": "http://www.cell.com/article/S2405844023098092/pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge",
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science",
+        "ch1_background"
+      ],
+      "bibtex_key": "abiri_2023_application",
+      "added_date": "2026-07-12",
+      "read_date": null
+    },
+    {
+      "doi": "10.21275/sr26703102323",
+      "title": "From Digital Agricultural Governance to Intelligent Precision Farming: Repositioning E-Peek Pahani as an AI-Driven Ecosystem",
+      "authors": [
+        "Chitra Ganesh Desai"
+      ],
+      "year": 2026,
+      "venue": "International Journal of Science and Research (IJSR)",
+      "abstract": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "desai_2026_from",
+      "added_date": "2026-07-12",
       "read_date": null
     }
   ],

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-07-05T09:04:58.744412+00:00",
+  "last_updated": "2026-07-12T09:49:37.543616+00:00",
   "sources": [
     {
       "doi": "10.2196/games.3804",
@@ -21111,6 +21111,93 @@
       "read_date": null,
       "bibtex_key": "pavlenko_2024_stimulating",
       "last_updated": "2026-07-05T09:04:58.744389+00:00"
+    },
+    {
+      "doi": "10.1016/j.heliyon.2023.e22601",
+      "title": "Application of digital technologies for ensuring agricultural productivity",
+      "authors": [
+        {
+          "name": "Rambod Abiri",
+          "affiliation": "Universiti Putra Malaysia"
+        },
+        {
+          "name": "Nastaran Rizan",
+          "affiliation": "Universiti Putra Malaysia"
+        },
+        {
+          "name": "Siva K. Balasundram",
+          "affiliation": "Universiti Putra Malaysia"
+        },
+        {
+          "name": "Arash Bayat Shahbazi",
+          "affiliation": "University of Technology Malaysia"
+        },
+        {
+          "name": "Hazandy Abdul Hamid",
+          "affiliation": "Universiti Putra Malaysia"
+        }
+      ],
+      "year": 2023,
+      "venue": "Heliyon",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.1016/j.heliyon.2023.e22601",
+      "abstract": "Over the decades, agri-food security has become one of the most critical concerns in the world. Sustainable agri-food production technologies have been reliable in mitigating poverty caused by high demands for food. Recently, the applications of agri-food system technologies have been meaningfully changing the worldwide scene due to both external strengths and internal forces. Digital agriculture (DA) is a pioneering technology helping to meet the growing global demand for sustainable food production. Integrating different sub-branches of DA technologies such as artificial intelligence, automation and robotics, sensors, Internet of Things (IoT) and data analytics into agriculture practices to reduce waste, optimize farming inputs and enhance crop production. This can help shift from tedious operations to continuously automated processes, resulting in increasing agricultural production by enabling the traceability of products and processes. The application of DA provides agri-food producers with accurate and real-time observations regarding different features influencing their productivity, such as plant health, soil quality, weather conditions, and pest and disease pressure. Analyzing the results achieved by DA can help agricultural producers and scholars make better decisions to increase yields, improve efficiency, reduce costs, and manage resources. The core focus of the current work is to clarify the benefits of some sub-branches of DA in increasing agricultural production efficiency, discuss the challenges of practical DA in the field, and highlight the future perspectives of DA. This review paper can open new directions to speed up the DA application on the farm and link traditional agriculture with modern farming technologies.",
+      "citation_count": 285,
+      "is_open_access": true,
+      "open_access_url": "http://www.cell.com/article/S2405844023098092/pdf",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge",
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science",
+        "ch1_background"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-07-12",
+      "read_date": null,
+      "bibtex_key": "abiri_2023_application",
+      "last_updated": "2026-07-12T09:49:37.508822+00:00"
+    },
+    {
+      "doi": "10.21275/sr26703102323",
+      "title": "From Digital Agricultural Governance to Intelligent Precision Farming: Repositioning E-Peek Pahani as an AI-Driven Ecosystem",
+      "authors": [
+        {
+          "name": "Chitra Ganesh Desai",
+          "affiliation": null
+        }
+      ],
+      "year": 2026,
+      "venue": "International Journal of Science and Research (IJSR)",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.21275/sr26703102323",
+      "abstract": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "source_api": "crossref",
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-07-12",
+      "read_date": null,
+      "bibtex_key": "desai_2026_from",
+      "last_updated": "2026-07-12T09:49:37.543603+00:00"
     }
   ]
 }
