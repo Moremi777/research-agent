@@ -1,10 +1,10 @@
 {
-  "exported_at": "2026-07-12T09:49:37.650508+00:00",
+  "exported_at": "2026-07-19T09:50:40.444840+00:00",
   "stats": {
-    "total_sources": 446,
+    "total_sources": 461,
     "by_status": {
       "excluded": 60,
-      "screened": 385,
+      "screened": 400,
       "reading": 1
     },
     "by_year": {
@@ -13,32 +13,32 @@
       "2017": 20,
       "2018": 24,
       "2019": 30,
-      "2020": 54,
-      "2021": 45,
-      "2022": 50,
-      "2023": 49,
-      "2024": 58,
+      "2020": 58,
+      "2021": 46,
+      "2022": 55,
+      "2023": 51,
+      "2024": 60,
       "2025": 52,
-      "2026": 27
+      "2026": 28
     },
     "by_chapter": {
-      "ch2_serious_games": 135,
+      "ch2_serious_games": 137,
       "ch4_game_mechanics": 21,
-      "ch2_multiplayer_simulations": 74,
+      "ch2_multiplayer_simulations": 75,
       "ch2_indigenous_knowledge": 74,
-      "ch2_sustainable_agriculture": 103,
-      "ch1_background": 79,
-      "ch2_modern_ag_science": 40
+      "ch2_sustainable_agriculture": 110,
+      "ch1_background": 81,
+      "ch2_modern_ag_science": 43
     },
     "by_tag": {
-      "serious_games": 135,
-      "multiplayer_simulations": 74,
+      "serious_games": 137,
+      "multiplayer_simulations": 75,
       "indigenous_knowledge": 74,
-      "sustainable_agriculture": 103,
+      "sustainable_agriculture": 110,
       "southern_africa": 75,
-      "modern_ag_science": 40,
+      "modern_ag_science": 43,
       "dsr": 5,
-      "general": 48
+      "general": 52
     },
     "reading_progress_pct": 0.0
   },
@@ -10296,6 +10296,415 @@
       "chapter_relevance": [],
       "bibtex_key": "desai_2026_from",
       "added_date": "2026-07-12",
+      "read_date": null
+    },
+    {
+      "doi": "10.1007/s11356-022-19718-6",
+      "title": "A review of the global climate change impacts, adaptation, and sustainable mitigation measures",
+      "authors": [
+        "Kashif Abbass",
+        "Muhammad Qasim",
+        "Huaming Song",
+        "Muntasir Murshed",
+        "Haider Mahmood",
+        "Ijaz Younis"
+      ],
+      "year": 2022,
+      "venue": "Environmental Science and Pollution Research",
+      "abstract": "",
+      "citation_count": 2217,
+      "is_open_access": true,
+      "open_access_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8978769",
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "abbass_2022_a",
+      "added_date": "2026-07-19",
+      "read_date": null
+    },
+    {
+      "doi": "10.3390/su13031318",
+      "title": "Impact of Climate Change on Agriculture and Its Mitigation Strategies: A Review",
+      "authors": [
+        "Gurdeep Singh Malhi",
+        "Manpreet Kaur",
+        "Prashant Kaushik"
+      ],
+      "year": 2021,
+      "venue": "Sustainability",
+      "abstract": "Climate change is a global threat to the food and nutritional security of the world. As greenhouse-gas emissions in the atmosphere are increasing, the temperature is also rising due to the greenhouse effect. The average global temperature is increasing continuously and is predicted to rise by 2 °C until 2100, which would cause substantial economic losses at the global level. The concentration of CO2, which accounts for a major proportion of greenhouse gases, is increasing at an alarming rate, and has led to higher growth and plant productivity due to increased photosynthesis, but increased temperature offsets this effect as it leads to increased crop respiration rate and evapotranspiration, higher pest infestation, a shift in weed flora, and reduced crop duration. Climate change also affects the microbial population and their enzymatic activities in soil. This paper reviews the information collected through the literature regarding the issue of climate change, its possible causes, its projection in the near future, its impact on the agriculture sector as an influence on physiological and metabolic activities of plants, and its potential and reported implications for growth and plant productivity, pest infestation, and mitigation strategies and their economic impact.",
+      "citation_count": 1474,
+      "is_open_access": true,
+      "open_access_url": "https://www.mdpi.com/2071-1050/13/3/1318/pdf?version=1611822170",
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "malhi_2021_impact",
+      "added_date": "2026-07-19",
+      "read_date": null
+    },
+    {
+      "doi": "10.3390/plants9081011",
+      "title": "Exploiting Biological Nitrogen Fixation: A Route Towards a Sustainable Agriculture",
+      "authors": [
+        "Abdoulaye Soumaré",
+        "Abdala Gamby Diédhiou",
+        "Moses Thuita",
+        "Mohamed Hafidi",
+        "Yedir Ouhdouch",
+        "Subramaniam Gopalakrishnan",
+        "Lamfeddal Kouisni"
+      ],
+      "year": 2020,
+      "venue": "Plants",
+      "abstract": "For all living organisms, nitrogen is an essential element, while being the most limiting in ecosystems and for crop production. Despite the significant contribution of synthetic fertilizers, nitrogen requirements for food production increase from year to year, while the overuse of agrochemicals compromise soil health and agricultural sustainability. One alternative to overcome this problem is biological nitrogen fixation (BNF). Indeed, more than 60% of the fixed N on Earth results from BNF. Therefore, optimizing BNF in agriculture is more and more urgent to help meet the demand of the food production needs for the growing world population. This optimization will require a good knowledge of the diversity of nitrogen-fixing microorganisms, the mechanisms of fixation, and the selection and formulation of efficient N-fixing microorganisms as biofertilizers. Good understanding of BNF process may allow the transfer of this ability to other non-fixing microorganisms or to non-leguminous plants with high added value. This minireview covers a brief history on BNF, cycle and mechanisms of nitrogen fixation, biofertilizers market value, and use of biofertilizers in agriculture. The minireview focuses particularly on some of the most effective microbial products marketed to date, their efficiency, and success-limiting in agriculture. It also highlights opportunities and difficulties of transferring nitrogen fixation capacity in cereals.",
+      "citation_count": 430,
+      "is_open_access": true,
+      "open_access_url": "https://www.mdpi.com/2223-7747/9/8/1011/pdf?version=1597121683",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture"
+      ],
+      "bibtex_key": "soumaré_2020_exploiting",
+      "added_date": "2026-07-19",
+      "read_date": null
+    },
+    {
+      "doi": "10.1007/s11356-022-19358-w",
+      "title": "Global impact of COVID-19 on agriculture: role of sustainable agriculture and digital farming",
+      "authors": [
+        "Adithya Sridhar",
+        "Akash Balakrishnan",
+        "Meenu Mariam Jacob",
+        "Mika Sillanpää",
+        "Nanditha Dayanandan"
+      ],
+      "year": 2022,
+      "venue": "Environmental Science and Pollution Research",
+      "abstract": "",
+      "citation_count": 201,
+      "is_open_access": true,
+      "open_access_url": "https://link.springer.com/content/pdf/10.1007/s11356-022-19358-w.pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture"
+      ],
+      "bibtex_key": "sridhar_2022_global",
+      "added_date": "2026-07-19",
+      "read_date": null
+    },
+    {
+      "doi": "10.1109/access.2020.3048415",
+      "title": "Machine Learning Applications for Precision Agriculture: A Comprehensive Review",
+      "authors": [
+        "Abhinav Sharma",
+        "Arpit Jain",
+        "Prateek Gupta",
+        "Vinay Chowdary"
+      ],
+      "year": 2020,
+      "venue": "IEEE Access",
+      "abstract": "Agriculture plays a vital role in the economic growth of any country. With the increase of population, frequent changes in climatic conditions and limited resources, it becomes a challenging task to fulfil the food requirement of the present population. Precision agriculture also known as smart farming have emerged as an innovative tool to address current challenges in agricultural sustainability. The mechanism that drives this cutting edge technology is machine learning (ML). It gives the machine ability to learn without being explicitly programmed. ML together with IoT (Internet of Things) enabled farm machinery are key components of the next agriculture revolution. In this article, authors present a systematic review of ML applications in the field of agriculture. The areas that are focused are prediction of soil parameters such as organic carbon and moisture content, crop yield prediction, disease and weed detection in crops and species detection. ML with computer vision are reviewed for the classification of a different set of crop images in order to monitor the crop quality and yield assessment. This approach can be integrated for enhanced livestock production by predicting fertility patterns, diagnosing eating disorders, cattle behaviour based on ML models using data collected by collar sensors, etc. Intelligent irrigation which includes drip irrigation and intelligent harvesting techniques are also reviewed that reduces human labour to a great extent. This article demonstrates how knowledge-based agriculture can improve the sustainable productivity and quality of the product.",
+      "citation_count": 1045,
+      "is_open_access": true,
+      "open_access_url": "https://ieeexplore.ieee.org/ielx7/6287639/9312710/09311735.pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science"
+      ],
+      "bibtex_key": "sharma_2020_machine",
+      "added_date": "2026-07-19",
+      "read_date": null
+    },
+    {
+      "doi": "10.3390/agronomy10020207",
+      "title": "From Smart Farming towards Agriculture 5.0: A Review on Crop Data Management",
+      "authors": [
+        "Verónica Sáiz-Rubio",
+        "Francisco Rovira-Más"
+      ],
+      "year": 2020,
+      "venue": "Agronomy",
+      "abstract": "The information that crops offer is turned into profitable decisions only when efficiently managed. Current advances in data management are making Smart Farming grow exponentially as data have become the key element in modern agriculture to help producers with critical decision-making. Valuable advantages appear with objective information acquired through sensors with the aim of maximizing productivity and sustainability. This kind of data-based managed farms rely on data that can increase efficiency by avoiding the misuse of resources and the pollution of the environment. Data-driven agriculture, with the help of robotic solutions incorporating artificial intelligent techniques, sets the grounds for the sustainable agriculture of the future. This paper reviews the current status of advanced farm management systems by revisiting each crucial step, from data acquisition in crop fields to variable rate applications, so that growers can make optimized decisions to save money while protecting the environment and transforming how food will be produced to sustainably match the forthcoming population growth.",
+      "citation_count": 947,
+      "is_open_access": true,
+      "open_access_url": "https://www.mdpi.com/2073-4395/10/2/207/pdf?version=1580720886",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture"
+      ],
+      "bibtex_key": "sáizrubio_2020_from",
+      "added_date": "2026-07-19",
+      "read_date": null
+    },
+    {
+      "doi": "10.3390/s20041042",
+      "title": "IoT-Based Smart Irrigation Systems: An Overview on the Recent Trends on Sensors and IoT Systems for Irrigation in Precision Agriculture",
+      "authors": [
+        "Laura García",
+        "Lorena Parra",
+        "Jose M. Jiménez",
+        "Jaime Lloret",
+        "Pascal Lorenz"
+      ],
+      "year": 2020,
+      "venue": "Sensors",
+      "abstract": "Water management is paramount in countries with water scarcity. This also affects agriculture, as a large amount of water is dedicated to that use. The possible consequences of global warming lead to the consideration of creating water adaptation measures to ensure the availability of water for food production and consumption. Thus, studies aimed at saving water usage in the irrigation process have increased over the years. Typical commercial sensors for agriculture irrigation systems are very expensive, making it impossible for smaller farmers to implement this type of system. However, manufacturers are currently offering low-cost sensors that can be connected to nodes to implement affordable systems for irrigation management and agriculture monitoring. Due to the recent advances in IoT and WSN technologies that can be applied in the development of these systems, we present a survey aimed at summarizing the current state of the art regarding smart irrigation systems. We determine the parameters that are monitored in irrigation systems regarding water quantity and quality, soil characteristics and weather conditions. We provide an overview of the most utilized nodes and wireless technologies. Lastly, we will discuss the challenges and the best practices for the implementation of sensor-based irrigation systems.",
+      "citation_count": 709,
+      "is_open_access": true,
+      "open_access_url": "https://www.mdpi.com/1424-8220/20/4/1042/pdf?version=1581852410",
+      "status": "screened",
+      "relevance_tags": [
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_modern_ag_science"
+      ],
+      "bibtex_key": "garcía_2020_iot",
+      "added_date": "2026-07-19",
+      "read_date": null
+    },
+    {
+      "doi": "10.3390/s24082647",
+      "title": "Smart Sensors and Smart Data for Precision Agriculture: A Review",
+      "authors": [
+        "Abdellatif Soussi",
+        "Enrico Zero",
+        "Roberto Sacile",
+        "Daniele Trinchero",
+        "Marco Fossa"
+      ],
+      "year": 2024,
+      "venue": "Sensors",
+      "abstract": "Precision agriculture, driven by the convergence of smart sensors and advanced technologies, has emerged as a transformative force in modern farming practices. The present review synthesizes insights from a multitude of research papers, exploring the dynamic landscape of precision agriculture. The main focus is on the integration of smart sensors, coupled with technologies such as the Internet of Things (IoT), big data analytics, and Artificial Intelligence (AI). This analysis is set in the context of optimizing crop management, using resources wisely, and promoting sustainability in the agricultural sector. This review aims to provide an in-depth understanding of emerging trends and key developments in the field of precision agriculture. By highlighting the benefits of integrating smart sensors and innovative technologies, it aspires to enlighten farming practitioners, researchers, and policymakers on best practices, current challenges, and prospects. It aims to foster a transition towards more sustainable, efficient, and intelligent farming practices while encouraging the continued adoption and adaptation of new technologies.",
+      "citation_count": 330,
+      "is_open_access": true,
+      "open_access_url": "https://www.mdpi.com/1424-8220/24/8/2647/pdf?version=1713686700",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science"
+      ],
+      "bibtex_key": "soussi_2024_smart",
+      "added_date": "2026-07-19",
+      "read_date": null
+    },
+    {
+      "doi": "10.3389/fpubh.2023.1113682",
+      "title": "Game-based learning in medical education",
+      "authors": [
+        "Maosen Xu",
+        "Yong Luo",
+        "Yu Zhang",
+        "Ruolan Xia",
+        "Hong Qian",
+        "Xiuhe Zou"
+      ],
+      "year": 2023,
+      "venue": "Frontiers in Public Health",
+      "abstract": "At present, medical education is rapidly evolving. Game-based learning (GBL) has been gradually used for education, and several innovations have emerged. The emergence of serious games and gamification provides alternative approaches for educators to improve the medical teaching process. Both serious games and gamification exert their education-promoting function by providing the possibility of combining learning activities such as feedback, testing, and spaced repetition with active participation and autonomy as well as positive experiences for students. Developing effective GBL modalities has the potential to bring immersive experiences for medical students and improve their study outcomes. Herein, we reviewed recent studies employing GBL in medical education, including serious games and gamification teaching. Furthermore, we also discussed the effectiveness and limitations of GBL to suggest future directions for the development and application of GBL in medical education.",
+      "citation_count": 222,
+      "is_open_access": true,
+      "open_access_url": "https://www.frontiersin.org/articles/10.3389/fpubh.2023.1113682/pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "bibtex_key": "xu_2023_game",
+      "added_date": "2026-07-19",
+      "read_date": null
+    },
+    {
+      "doi": "10.3389/fmed.2022.855403",
+      "title": "Virtual Simulation in Undergraduate Medical Education: A Scoping Review of Recent Practice",
+      "authors": [
+        "Qingming Wu",
+        "Yubin Wang",
+        "Lili Lu",
+        "Yong Chen",
+        "Hui Long",
+        "Jun Wang"
+      ],
+      "year": 2022,
+      "venue": "Frontiers in Medicine",
+      "abstract": "Virtual simulation (VS) as an emerging interactive pedagogical strategy has been paid more and more attentions in the undergraduate medical education. Because of the fast development of modern computer simulation technologies, more and more advanced and emerging VS-based instructional practices are constantly increasing to promote medical education in diverse forms. In order to describe an overview of the current trends in VS-based medical teaching and learning, this scoping review presented a worldwide analysis of 92 recently published articles of VS in the undergraduate medical teaching and learning. The results indicated that 98% of included articles were from Europe, North America, and Asia, suggesting a possible inequity in digital medical education. Half (52%) studies reported the immersive virtual reality (VR) application. Evidence for educational effectiveness of VS in medical students' knowledge or skills was sufficient as per Kirkpatrick's model of outcome evaluation. Recently, VS has been widely integrated in surgical procedural training, emergency and pediatric emergency medicine training, teaching of basic medical sciences, medical radiation and imaging, puncture or catheterization training, interprofessional medical education, and other case-based learning experiences. Some challenges, such as accessibility of VS instructional resources, lack of infrastructure, \"decoupling\" users from reality, as well as how to increase students' motivation and engagement, should be addressed.",
+      "citation_count": 149,
+      "is_open_access": true,
+      "open_access_url": "https://www.frontiersin.org/articles/10.3389/fmed.2022.855403/pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "wu_2022_virtual",
+      "added_date": "2026-07-19",
+      "read_date": null
+    },
+    {
+      "doi": "10.1007/s40692-022-00240-0",
+      "title": "A review of using digital game-based learning for preschoolers",
+      "authors": [
+        "Najmeh Behnamnia",
+        "Amirrudin Kamsin",
+        "Maizatul Akmar Ismail",
+        "Siavash A. Hayati"
+      ],
+      "year": 2022,
+      "venue": "Journal of Computers in Education",
+      "abstract": "",
+      "citation_count": 88,
+      "is_open_access": true,
+      "open_access_url": "https://link.springer.com/content/pdf/10.1007/s40692-022-00240-0.pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "bibtex_key": "behnamnia_2022_a",
+      "added_date": "2026-07-19",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.ijme.2026.101505",
+      "title": "Comparing collaborative learning techniques in entrepreneurship education: Game-based scaffolding and flipped jigsaw",
+      "authors": [
+        "Mohammad Hossein Ronaghi"
+      ],
+      "year": 2026,
+      "venue": "The International Journal of Management Education",
+      "abstract": "",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "ronaghi_2026_comparing",
+      "added_date": "2026-07-19",
+      "read_date": null
+    },
+    {
+      "doi": "10.1097/md.0000000000038813",
+      "title": "The impact of simulation-based training in medical education: A review",
+      "authors": [
+        "Chukwuka Elendu",
+        "Dependable C. Amaechi",
+        "Alexander U. Okatta",
+        "Emmanuel C. Amaechi",
+        "Tochi C. Elendu",
+        "Chiamaka P. Ezeh",
+        "Ijeoma D. Elendu"
+      ],
+      "year": 2024,
+      "venue": "Medicine",
+      "abstract": "Simulation-based training (SBT) has emerged as a transformative approach in medical education, significantly enhancing healthcare professionals' learning experience and clinical competency. This article explores the impact of SBT, tracing its historical development and examining the various types of simulations utilized today, including high-fidelity mannequins, virtual reality environments, standardized patients, and hybrid simulations. These methods offer a safe and controlled environment for students to practice and hone technical and non-technical skills, ultimately improving patient safety and clinical outcomes. The benefits of SBT are manifold, including enhanced skill acquisition, error reduction, and the opportunity for repeated practice without risk to actual patients. Immediate feedback and structured debriefing further solidify learning, making Simulation an invaluable tool in medical education. However, the implementation of SBT is challenging. It requires substantial financial investment, specialized equipment, and trained faculty. Additionally, there are concerns about the realism of simulations and the transferability of skills to real-world clinical settings. Despite these challenges, numerous case studies and empirical research underscore the effectiveness of SBT compared to traditional methods. Looking ahead, advancements in technology, such as artificial intelligence and improved virtual reality applications, promise to enhance the efficacy and accessibility of simulation training. The integration of Simulation with other training modalities and its adoption in diverse global contexts highlight its potential to revolutionize medical education worldwide. This article affirms the crucial role of SBT in preparing the next generation of healthcare professionals and its ongoing evolution driven by technological innovations.",
+      "citation_count": 809,
+      "is_open_access": true,
+      "open_access_url": "https://doi.org/10.1097/md.0000000000038813",
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "elendu_2024_the",
+      "added_date": "2026-07-19",
+      "read_date": null
+    },
+    {
+      "doi": "10.1038/s41579-023-00900-7",
+      "title": "Climate change impacts on plant pathogens, food security and paths forward",
+      "authors": [
+        "Brajesh K. Singh",
+        "Manuel Delgado‐Baquerizo",
+        "Eleonora Egidi",
+        "Emilio Guirado",
+        "Jan E. Leach",
+        "Hongwei Liu",
+        "Pankaj Trivedi"
+      ],
+      "year": 2023,
+      "venue": "Nature Reviews Microbiology",
+      "abstract": "",
+      "citation_count": 1224,
+      "is_open_access": true,
+      "open_access_url": "https://www.nature.com/articles/s41579-023-00900-7.pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "singh_2023_climate",
+      "added_date": "2026-07-19",
+      "read_date": null
+    },
+    {
+      "doi": "10.3389/fpls.2022.925548",
+      "title": "Impact of climate change on agricultural production; Issues, challenges, and opportunities in Asia",
+      "authors": [
+        "Muhammad Habib ur Rahman",
+        "Ashfaq Ahmad",
+        "Ahsan Raza",
+        "Muhammad Hasnain",
+        "Hesham F. Alharby",
+        "Yahya Alzahrani",
+        "Atif A. Bamagoos",
+        "Khalid Rehman Hakeem",
+        "Saeed Ahmad",
+        "Wajid Nasim",
+        "Shafaqat Ali",
+        "Fatma Mansour",
+        "Ayman El Sabagh"
+      ],
+      "year": 2022,
+      "venue": "Frontiers in Plant Science",
+      "abstract": "Agricultural production is under threat due to climate change in food insecure regions, especially in Asian countries. Various climate-driven extremes, i.e., drought, heat waves, erratic and intense rainfall patterns, storms, floods, and emerging insect pests have adversely affected the livelihood of the farmers. Future climatic predictions showed a significant increase in temperature, and erratic rainfall with higher intensity while variability exists in climatic patterns for climate extremes prediction. For mid-century (2040-2069), it is projected that there will be a rise of 2.8°C in maximum temperature and a 2.2°C in minimum temperature in Pakistan. To respond to the adverse effects of climate change scenarios, there is a need to optimize the climate-smart and resilient agricultural practices and technology for sustainable productivity. Therefore, a case study was carried out to quantify climate change effects on rice and wheat crops and to develop adaptation strategies for the rice-wheat cropping system during the mid-century (2040-2069) as these two crops have significant contributions to food production. For the quantification of adverse impacts of climate change in farmer fields, a multidisciplinary approach consisted of five climate models (GCMs), two crop models (DSSAT and APSIM) and an economic model [Trade-off Analysis, Minimum Data Model Approach (TOAMD)] was used in this case study. DSSAT predicted that there would be a yield reduction of 15.2% in rice and 14.1% in wheat and APSIM showed that there would be a yield reduction of 17.2% in rice and 12% in wheat. Adaptation technology, by modification in crop management like sowing time and density, nitrogen, and irrigation application have the potential to enhance the overall productivity and profitability of the rice-wheat cropping system under climate change scenarios. Moreover, this paper reviews current literature regarding adverse climate change impacts on agricultural productivity, associated main issues, challenges, and opportunities for sustainable productivity of agriculture to ensure food security in Asia. Flowing opportunities such as altering sowing time and planting density of crops, crop rotation with legumes, agroforestry, mixed livestock systems, climate resilient plants, livestock and fish breeds, farming of monogastric livestock, early warning systems and decision support systems, carbon sequestration, climate, water, energy, and soil smart technologies, and promotion of biodiversity have the potential to reduce the negative effects of climate change.",
+      "citation_count": 405,
+      "is_open_access": true,
+      "open_access_url": "https://www.frontiersin.org/articles/10.3389/fpls.2022.925548/pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "bibtex_key": "rahman_2022_impact",
+      "added_date": "2026-07-19",
       "read_date": null
     }
   ],
