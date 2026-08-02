@@ -1,10 +1,10 @@
 {
-  "exported_at": "2026-07-26T09:57:19.575869+00:00",
+  "exported_at": "2026-08-02T09:54:59.497027+00:00",
   "stats": {
-    "total_sources": 461,
+    "total_sources": 468,
     "by_status": {
       "excluded": 60,
-      "screened": 400,
+      "screened": 407,
       "reading": 1
     },
     "by_year": {
@@ -13,11 +13,11 @@
       "2017": 20,
       "2018": 24,
       "2019": 30,
-      "2020": 58,
-      "2021": 46,
-      "2022": 55,
+      "2020": 59,
+      "2021": 49,
+      "2022": 57,
       "2023": 51,
-      "2024": 60,
+      "2024": 61,
       "2025": 52,
       "2026": 28
     },
@@ -25,20 +25,20 @@
       "ch2_serious_games": 137,
       "ch4_game_mechanics": 21,
       "ch2_multiplayer_simulations": 75,
-      "ch2_indigenous_knowledge": 74,
-      "ch2_sustainable_agriculture": 110,
+      "ch2_indigenous_knowledge": 75,
+      "ch2_sustainable_agriculture": 114,
       "ch1_background": 81,
-      "ch2_modern_ag_science": 43
+      "ch2_modern_ag_science": 48
     },
     "by_tag": {
       "serious_games": 137,
       "multiplayer_simulations": 75,
-      "indigenous_knowledge": 74,
-      "sustainable_agriculture": 110,
+      "indigenous_knowledge": 75,
+      "sustainable_agriculture": 114,
       "southern_africa": 75,
-      "modern_ag_science": 43,
+      "modern_ag_science": 48,
       "dsr": 5,
-      "general": 52
+      "general": 53
     },
     "reading_progress_pct": 0.0
   },
@@ -10705,6 +10705,190 @@
       ],
       "bibtex_key": "rahman_2022_impact",
       "added_date": "2026-07-19",
+      "read_date": null
+    },
+    {
+      "doi": "10.1007/s13593-020-00646-z",
+      "title": "Agroecological principles and elements and their implications for transitioning to sustainable food systems. A review",
+      "authors": [
+        "Alexander Wezel",
+        "Barbara Herren",
+        "Rachel Bezner Kerr",
+        "Edmundo Barrios",
+        "André Luiz Gonçalves",
+        "Fergus Sinclair"
+      ],
+      "year": 2020,
+      "venue": "Agronomy for Sustainable Development",
+      "abstract": "Abstract There is consensus that the global food system is not delivering good nutrition for all and is causing environmental degradation and loss of biodiversity, such that a profound transformation is needed to meet the challenges of persistent malnutrition and rural poverty, aggravated by the growing consequences of climate change. Agroecological approaches have gained prominence in scientific, agricultural and political discourse in recent years, suggesting pathways to transform agricultural and food systems that address these issues. Here we present an extensive literature review of concepts, definitions and principles of agroecology, and their historical evolution, considering the three manifestations of agroecology as a science, a set of practices and a social movement; and relate them to the recent dialogue establishing a set of ten iconic elements of agroecology that have emerged from a global multi-stakeholder consultation and synthesis process. Based on this, a consolidated list of principles is developed and discussed in the context of presenting transition pathways to more sustainable food systems. The major outcomes of this paper are as follows. (1) Definition of 13 consolidated agroecological principles: recycling; input reduction; soil health; animal health; biodiversity; synergy; economic diversification; co-creation of knowledge; social values and diets; fairness; connectivity; land and natural resource governance; participation. (2) Confirmation that these principles are well aligned and complementary to the 10 elements of agroecology developed by FAO but articulate requirements of soil and animal health more explicitly and distinguish between biodiversity and economic diversification. (3) Clarification that application of these generic principles can generate diverse pathways for incremental and transformational change towards more sustainable farming and food systems. (4) Identification of four key entry points associated with the elements: diversity; circular and solidarity economy; co-creation and sharing of knowledge; and, responsible governance to enable plausible pathways of transformative change towards sustainable agriculture and food systems.",
+      "citation_count": 855,
+      "is_open_access": true,
+      "open_access_url": "https://link.springer.com/content/pdf/10.1007/s13593-020-00646-z.pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture"
+      ],
+      "bibtex_key": "wezel_2020_agroecological",
+      "added_date": "2026-08-02",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.jafr.2022.100446",
+      "title": "Novel approaches and practices to sustainable agriculture",
+      "authors": [
+        "Seid Hussen Muhie"
+      ],
+      "year": 2022,
+      "venue": "Journal of Agriculture and Food Research",
+      "abstract": "The world population is increasing in a disquieting rate while the quantity of food to gratify this snowballing human population is an annoyance to agrarian scientists and policymakers around the globe. Today's population is snatching natural resources from the future which can endanger the future generation's right to have nutritious food and clean air. The causes for this challenge can be enumerated and listed out, but singled out as lack of and/or poor implementation of novel approaches and practices for sustainable agriculture. Some of the novel approaches are but not limited to climate smart agriculture (CSA), organic farming, biodynamic agriculture, sustainable intensification and regenerative agriculture; and novel practices as integrated farming system (IFS), precision agriculture, integrated nutrient management (INM) and integrated pest management (IPM). The adoption of these approaches and practices has been proven to safeguard agricultural sustainability.",
+      "citation_count": 395,
+      "is_open_access": true,
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S266615432200179X/pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science"
+      ],
+      "bibtex_key": "muhie_2022_novel",
+      "added_date": "2026-08-02",
+      "read_date": null
+    },
+    {
+      "doi": "10.38124/ijisrt/ijisrt24may2442",
+      "title": "IoT Solutions in Agriculture: Enhancing Efficiency and Productivity",
+      "authors": [
+        "Shradha Pawar"
+      ],
+      "year": 2024,
+      "venue": "International Journal of Innovative Science and Research Technology (IJISRT)",
+      "abstract": "The agricultural sector is on the brink of a transformative era with the emergence of Internet of Things (IoT) technologies. This paper delves into integrating IoT solutions in agriculture, focusing on how these technologies can significantly enhance efficiency, productivity, and sustainability. It explores various IoT applications, including precision farming, automated irrigation, soil monitoring, and pest control, and discusses their benefits and challenges. The study underlines the immense potential of IoT in shaping the future of agriculture by harnessing real-time data, advanced analytics, and intelligent decision-making systems.",
+      "citation_count": 962,
+      "is_open_access": true,
+      "open_access_url": "https://www.ijisrt.com/assets/upload/files/IJISRT24MAY2442.pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science"
+      ],
+      "bibtex_key": "pawar_2024_iot",
+      "added_date": "2026-08-02",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.jksuci.2021.05.013",
+      "title": "Precision agriculture using IoT data analytics and machine learning",
+      "authors": [
+        "Ravesa Akhter",
+        "Shabir Ahmad Sofi"
+      ],
+      "year": 2021,
+      "venue": "Journal of King Saud University - Computer and Information Sciences",
+      "abstract": "In spite of the insight commonality may have concerning agrarian practice, fact is that nowadays agricultural science diligence is accurate, precise, data-driven, and vigorous than ever. The emanation of the technologies based on Internet of Things (IoT) has reformed nearly each industry like smart city, smart health, smart grid, smart home, including “smart agriculture or precision agriculture”. Applying machine learning using the IoT data analytics in agricultural sector will rise new benefits to increase the quantity and quality of production from the crop fields to meet the increasing food demand. Such world-shattering advancements are rocking the current agrarian approaches and generating novel and best chances besides a number of limitations. This paper climaxes the power and capability of computing techniques including internet of things, wireless sensor networks, data analytics and machine learning in agriculture. The paper proposed the prediction model of Apple disease in the apple orchards of Kashmir valley using data analytics and Machine learning in IoT system. Furthermore, a local survey was conducted to know from the farmers about the trending technologies and their effect in precision agriculture. Finally, the paper discusses the challenges faced when incorporating these technologies in the traditional farming approaches.",
+      "citation_count": 540,
+      "is_open_access": true,
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S1319157821001282/pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge",
+        "ch2_modern_ag_science"
+      ],
+      "bibtex_key": "akhter_2021_precision",
+      "added_date": "2026-08-02",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.ejrs.2021.08.007",
+      "title": "Smart farming for improving agricultural management",
+      "authors": [
+        "Elsayed Said Mohamed",
+        "AA. Belal",
+        "Sameh Kotb Abd‐Elmabod",
+        "Mohammed A. El-Shirbeny",
+        "A. Gad",
+        "Mohamed Zahran"
+      ],
+      "year": 2021,
+      "venue": "The Egyptian Journal of Remote Sensing and Space Science",
+      "abstract": "The food shortage and the population growth are the most challenges facing sustainable development worldwide. Advanced technologies such as artificial intelligence (AI), the Internet of Things (IoT), and the mobile internet can provide realistic solutions to the challenges that are facing the world. Therefore, this work focuses on the new approaches regarding smart farming (SF) from 2019 to 2021, where the work illustrates the data gathering, transmission, storage, analysis, and also, suitable solutions. IoT is one of the essential pillars in smart systems, as it connects sensor devices to perform various basic tasks. The smart irrigation system included those sensors for monitoring water level, irrigation efficiency, climate, etc. Smart irrigation is based on smart controllers and sensors as well as some mathematical relations. In addition, this work illustrated the application of unmanned aerial vehicles (UAV) and robots, where they can be achieved several functions such as harvesting, seedling, weed detection, irrigation, spraying of agricultural pests, livestock applications, etc. real-time using IoT, artificial intelligence (AI), deep learning (DL), machine learning (ML) and wireless communications. Moreover, this work demonstrates the importance of using a 5G mobile network in developing smart systems, as it leads to high-speed data transfer, up to 20 Gbps, and can link a large number of devices per square kilometer. Although the applications of smart farming in developing countries are facing several challenges, this work highlighted some approaches the smart farming. In addition, the implementation of Smart Decision Support Systems (SDSS) in developing countries supports the real-time analysis, mapping of soil characteristics and also helps to make proper decision management. Finally, smart agriculture in developing countries needs more support from governments at the small farms and the private sector.",
+      "citation_count": 444,
+      "is_open_access": true,
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S1110982321000582/pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_modern_ag_science"
+      ],
+      "bibtex_key": "mohamed_2021_smart",
+      "added_date": "2026-08-02",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.susoc.2022.05.004",
+      "title": "Understanding the role of digital technologies in education: A review",
+      "authors": [
+        "Abid Haleem",
+        "Mohd Javaid",
+        "Mohammad Asim Qadri",
+        "Rajiv Suman"
+      ],
+      "year": 2022,
+      "venue": "Sustainable Operations and Computers",
+      "abstract": "One of the fundamental components of the United Nations’ sustainable development 2030 agenda is quality education. It aims to ensure inclusive and equitable quality education for all. Digital technologies have emerged as an essential tool to achieve this goal. These technologies are simple to detect emissions sources, prevent additional damage through improved energy efficiency and lower-carbon alternatives to fossil fuels, and even remove surplus greenhouse gases from the environment. Digital technologies strive to decrease or eliminate pollution and waste while increasing production and efficiency. These technologies have shown a powerful impact on the education system. The recent COVID-19 Pandemic has further institutionalised the applications of digital technologies in education. These digital technologies have made a paradigm shift in the entire education system. It is not only a knowledge provider but also a co-creator of information, a mentor, and an assessor. Technological improvements in education have made life easier for students. Instead of using pen and paper, students nowadays use various software and tools to create presentations and projects. When compared to a stack of notebooks, an iPad is relatively light. When opposed to a weighty book, surfing an E-book is easier. These methods aid in increasing interest in research. This paper is brief about the need for digital technologies in education and discusses major applications and challenges in education.",
+      "citation_count": 2490,
+      "is_open_access": true,
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S2666412722000137/pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "haleem_2022_understanding",
+      "added_date": "2026-08-02",
+      "read_date": null
+    },
+    {
+      "doi": "10.1016/j.agsy.2020.103046",
+      "title": "Digital twins in smart farming",
+      "authors": [
+        "C.N. Verdouw",
+        "Bedir Teki̇nerdoğan",
+        "Adrie Beulens",
+        "J. Wolfert"
+      ],
+      "year": 2021,
+      "venue": "Agricultural Systems",
+      "abstract": "Digital Twins are very promising to bring smart farming to new levels of farming productivity and sustainability. A Digital Twin is a digital equivalent of a real-life object of which it mirrors its behaviour and states over its lifetime in a virtual space. Using Digital Twins as a central means for farm management enables the decoupling of physical flows from its planning and control. As a consequence, farmers can manage operations remotely based on (near) real-time digital information instead of having to rely on direct observation and manual tasks on-site. This allows them to act immediately in case of (expected) deviations and to simulate effects of interventions based on real-life data. This paper analyses how Digital Twins can advance smart farming. It defines the concept, develops a typology of different types of Digital Twins, and proposes a conceptual framework for designing and implementing Digital Twins. The framework comprises a control model based on a general systems approach and an implementation model for Digital Twin systems based on the Internet of Things—Architecture (IoT-A), a reference architecture for IoT systems. The framework is applied to and validated in five smart farming use cases of the European IoF2020 project, focussing on arable farming, dairy farming, greenhouse horticulture, organic vegetable farming and livestock farming.",
+      "citation_count": 654,
+      "is_open_access": true,
+      "open_access_url": "https://doi.org/10.1016/j.agsy.2020.103046",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science"
+      ],
+      "bibtex_key": "verdouw_2021_digital",
+      "added_date": "2026-08-02",
       "read_date": null
     }
   ],
