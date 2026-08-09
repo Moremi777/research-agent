@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-08-02T09:54:59.389760+00:00",
+  "last_updated": "2026-08-09T08:39:27.018091+00:00",
   "sources": [
     {
       "doi": "10.2196/games.3804",
@@ -22282,6 +22282,54 @@
       "read_date": null,
       "bibtex_key": "verdouw_2021_digital",
       "last_updated": "2026-08-02T09:54:59.389742+00:00"
+    },
+    {
+      "doi": "10.1016/j.ijin.2022.09.004",
+      "title": "Enhancing smart farming through the applications of Agriculture 4.0 technologies",
+      "authors": [
+        {
+          "name": "Mohd Javaid",
+          "affiliation": "Jamia Millia Islamia"
+        },
+        {
+          "name": "Abid Haleem",
+          "affiliation": "Jamia Millia Islamia"
+        },
+        {
+          "name": "Ravi Pratap Singh",
+          "affiliation": "Dr. B. R. Ambedkar National Institute of Technology Jalandhar"
+        },
+        {
+          "name": "Rajiv Suman",
+          "affiliation": "Govind Ballabh Pant University of Agriculture and Technology"
+        }
+      ],
+      "year": 2022,
+      "venue": "International Journal of Intelligent Networks",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.1016/j.ijin.2022.09.004",
+      "abstract": "Agriculture 4.0 represents the fourth agriculture revolution that uses digital technologies and moves toward a smarter, more efficient, environmentally responsible agriculture sector. Agricultural technologies have emerged to enhance sustainability and discover more effective farm methods. This encompasses all digitalisation and automation processes in business and our daily lives, including Big Data, Artificial Intelligence (AI), robots, the Internet of Things (IoT), and virtual and augmented reality. These technological advancements are having a profound impact on our lives. From a technical standpoint, it brings us to precision agriculture. This provides a data-driven strategy for efficiently growing and maintaining crops on cultivable land, enabling farmers to use most of the resources at their disposal. Throughout the supply chain, daily operations create massive volumes of data. Most of this information was previously untouched, but with the help of big data technologies, such information can be used to improve the performance and production of any crop. Depending on the crop type and its growth needs, digitised harvesters can help handle huge areas in various situations, particularly agriculture. This paper is brief about Agriculture 4.0 and its condition. Smart farming, Various key technologies and specific domains for the Exploring Agriculture 4.0 Domain are discussed in detail and, finally, identified and discussed significant applications of Agriculture 4.0 technologies. These technologies are essential to our lives since they simplify our daily duties without recognising them. In Agriculture 4.0 systems, fleets of digitised equipment employ current infrastructures like cloud computing to connect, identify the processing condition of different regions and the requirement for input materials and coordinate the machinery.",
+      "citation_count": 553,
+      "is_open_access": true,
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S2666603022000173/pdf",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-08-09",
+      "read_date": null,
+      "bibtex_key": "javaid_2022_enhancing",
+      "last_updated": "2026-08-09T08:39:27.018074+00:00"
     }
   ]
 }
