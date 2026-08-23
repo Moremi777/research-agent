@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-08-09T08:39:27.018091+00:00",
+  "last_updated": "2026-08-23T08:26:53.448704+00:00",
   "sources": [
     {
       "doi": "10.2196/games.3804",
@@ -22330,6 +22330,44 @@
       "read_date": null,
       "bibtex_key": "javaid_2022_enhancing",
       "last_updated": "2026-08-09T08:39:27.018074+00:00"
+    },
+    {
+      "doi": "10.17083/r7tmhz47",
+      "title": "Potential of Digital Game-Based Learning in Vocational Mathematics Education",
+      "authors": [
+        {
+          "name": "Ljerka Jukić Matić",
+          "affiliation": null
+        },
+        {
+          "name": "Marijana Zarožinski",
+          "affiliation": null
+        }
+      ],
+      "year": 2026,
+      "venue": "International Journal of Serious Games",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.17083/r7tmhz47",
+      "abstract": "Digital game-based learning (DGBL) has been widely recognized as a promising approach for supporting mathematics learning, yet little is known about how students in three-year vocational education and training (VET) programmes perceive its educational value. Guided by Situated Expectancy–Value Theory (SEVT), this study examined how these students perceive the value and learning potential of DGBL in mathematics. Data were collected from 469 secondary VET students using a questionnaire and analysed using exploratory and confirmatory factor analysis, followed by descriptive and regression analyses. Students evaluated DGBL based on a brief explanation of the concept rather than direct classroom experience. The findings indicate that students expressed relatively high intrinsic value toward DGBL, whereas perceived usefulness and learning opportunities were only moderate. Gender differences were found in gaming experience and game-genre preferences, but not in value-related perceptions of DGBL. The study extends research on DGBL in mathematics to three-year VET students, a subgroup that is often insufficiently distinguished in previous research. Based on students’ perceptions of a hypothetical DGBL approach, the study offers cautious design implications for DGBL in VET mathematics, suggesting that game-based activities should be connected with vocationally grounded mathematical tasks rather than relying on enjoyment alone.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "source_api": "crossref",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-08-23",
+      "read_date": null,
+      "bibtex_key": "matić_2026_potential",
+      "last_updated": "2026-08-23T08:26:53.448688+00:00"
     }
   ]
 }
