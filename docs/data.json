@@ -1,10 +1,10 @@
 {
-  "exported_at": "2026-08-23T08:26:53.561973+00:00",
+  "exported_at": "2026-08-30T13:32:35.837402+00:00",
   "stats": {
-    "total_sources": 470,
+    "total_sources": 471,
     "by_status": {
       "excluded": 60,
-      "screened": 409,
+      "screened": 410,
       "reading": 1
     },
     "by_year": {
@@ -19,24 +19,24 @@
       "2023": 51,
       "2024": 61,
       "2025": 52,
-      "2026": 29
+      "2026": 30
     },
     "by_chapter": {
       "ch2_serious_games": 138,
       "ch4_game_mechanics": 21,
       "ch2_multiplayer_simulations": 75,
-      "ch2_indigenous_knowledge": 75,
-      "ch2_sustainable_agriculture": 115,
-      "ch1_background": 81,
-      "ch2_modern_ag_science": 49
+      "ch2_indigenous_knowledge": 76,
+      "ch2_sustainable_agriculture": 116,
+      "ch1_background": 82,
+      "ch2_modern_ag_science": 50
     },
     "by_tag": {
       "serious_games": 138,
       "multiplayer_simulations": 75,
-      "indigenous_knowledge": 75,
-      "sustainable_agriculture": 115,
+      "indigenous_knowledge": 76,
+      "sustainable_agriculture": 116,
       "southern_africa": 75,
-      "modern_ag_science": 49,
+      "modern_ag_science": 50,
       "dsr": 5,
       "general": 53
     },
@@ -10941,6 +10941,35 @@
       ],
       "bibtex_key": "matić_2026_potential",
       "added_date": "2026-08-23",
+      "read_date": null
+    },
+    {
+      "doi": "10.36713/epra28903",
+      "title": "SUSTAINABLE AGRICULTURE, INDIGENOUS KNOWLEDGE SYSTEMS AND RURAL DEVELOPMENT AMONG INDIGENOUS PEOPLES OF TRIPURA",
+      "authors": [
+        "Twichangma Debbarma",
+        "Dr. Marconi Debbarma"
+      ],
+      "year": 2026,
+      "venue": "EPRA International Journal of Agriculture and Rural Economic Research",
+      "abstract": "Tripura’s rural economy is closely associated with agriculture, forests, shifting cultivation, livestock rearing, wage labour and other natural-resource-based activities. These livelihood systems are particularly important among the state’s Indigenous Peoples, whose social institutions, customary practices and ecological knowledge have developed through long-term interaction with local environments. This article examines the relationship between sustainable agriculture, Indigenous Knowledge Systems and rural development among Indigenous Peoples of Tripura. It adopts a qualitative research methodology based on semi-structured interviews, focus group discussions, participant observation and documentary analysis. The study focuses on Indigenous knowledge related to soil fertility, seed selection, crop diversity, seasonal calendars, pest management, water use, agroforestry, forest conservation and climate adaptation. The discussion indicates that Indigenous Knowledge Systems function as forms of ecological, cultural, social and livelihood capital. Practices such as mixed cropping, local seed preservation, organic nutrient management, home gardening, agroforestry, livestock integration and community-based resource regulation can support food security, biodiversity conservation, climate resilience and livelihood diversification. However, these systems face challenges arising from shortened fallow periods, land-use change, commercialisation, climate variability, youth migration, labour shortages and limited institutional recognition. The article recommends community-led documentation, participatory agricultural extension, community seed banks, women-centred programmes, youth engagement, climate-resilient farming, improved market access and protection of collective knowledge rights. Sustainable rural development in Tripura should combine Indigenous Knowledge Systems with appropriate scientific knowledge while protecting community autonomy, cultural identity and decision-making authority.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge",
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science",
+        "ch1_background"
+      ],
+      "bibtex_key": "debbarma_2026_sustainable",
+      "added_date": "2026-08-30",
       "read_date": null
     }
   ],

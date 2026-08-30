@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-08-23T08:26:53.448704+00:00",
+  "last_updated": "2026-08-30T13:32:35.727525+00:00",
   "sources": [
     {
       "doi": "10.2196/games.3804",
@@ -22368,6 +22368,49 @@
       "read_date": null,
       "bibtex_key": "matić_2026_potential",
       "last_updated": "2026-08-23T08:26:53.448688+00:00"
+    },
+    {
+      "doi": "10.36713/epra28903",
+      "title": "SUSTAINABLE AGRICULTURE, INDIGENOUS KNOWLEDGE SYSTEMS AND RURAL DEVELOPMENT AMONG INDIGENOUS PEOPLES OF TRIPURA",
+      "authors": [
+        {
+          "name": "Twichangma Debbarma",
+          "affiliation": null
+        },
+        {
+          "name": "Dr. Marconi Debbarma",
+          "affiliation": null
+        }
+      ],
+      "year": 2026,
+      "venue": "EPRA International Journal of Agriculture and Rural Economic Research",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.36713/epra28903",
+      "abstract": "Tripura’s rural economy is closely associated with agriculture, forests, shifting cultivation, livestock rearing, wage labour and other natural-resource-based activities. These livelihood systems are particularly important among the state’s Indigenous Peoples, whose social institutions, customary practices and ecological knowledge have developed through long-term interaction with local environments. This article examines the relationship between sustainable agriculture, Indigenous Knowledge Systems and rural development among Indigenous Peoples of Tripura. It adopts a qualitative research methodology based on semi-structured interviews, focus group discussions, participant observation and documentary analysis. The study focuses on Indigenous knowledge related to soil fertility, seed selection, crop diversity, seasonal calendars, pest management, water use, agroforestry, forest conservation and climate adaptation. The discussion indicates that Indigenous Knowledge Systems function as forms of ecological, cultural, social and livelihood capital. Practices such as mixed cropping, local seed preservation, organic nutrient management, home gardening, agroforestry, livestock integration and community-based resource regulation can support food security, biodiversity conservation, climate resilience and livelihood diversification. However, these systems face challenges arising from shortened fallow periods, land-use change, commercialisation, climate variability, youth migration, labour shortages and limited institutional recognition. The article recommends community-led documentation, participatory agricultural extension, community seed banks, women-centred programmes, youth engagement, climate-resilient farming, improved market access and protection of collective knowledge rights. Sustainable rural development in Tripura should combine Indigenous Knowledge Systems with appropriate scientific knowledge while protecting community autonomy, cultural identity and decision-making authority.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "source_api": "crossref",
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge",
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science",
+        "ch1_background"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-08-30",
+      "read_date": null,
+      "bibtex_key": "debbarma_2026_sustainable",
+      "last_updated": "2026-08-30T13:32:35.727506+00:00"
     }
   ]
 }
