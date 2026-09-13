@@ -1,10 +1,10 @@
 {
-  "exported_at": "2026-09-06T11:58:13.708018+00:00",
+  "exported_at": "2026-09-13T13:06:31.480731+00:00",
   "stats": {
-    "total_sources": 471,
+    "total_sources": 472,
     "by_status": {
       "excluded": 60,
-      "screened": 410,
+      "screened": 411,
       "reading": 1
     },
     "by_year": {
@@ -13,7 +13,7 @@
       "2017": 20,
       "2018": 24,
       "2019": 30,
-      "2020": 59,
+      "2020": 60,
       "2021": 49,
       "2022": 58,
       "2023": 51,
@@ -26,7 +26,7 @@
       "ch4_game_mechanics": 21,
       "ch2_multiplayer_simulations": 75,
       "ch2_indigenous_knowledge": 76,
-      "ch2_sustainable_agriculture": 116,
+      "ch2_sustainable_agriculture": 117,
       "ch1_background": 82,
       "ch2_modern_ag_science": 50
     },
@@ -34,7 +34,7 @@
       "serious_games": 138,
       "multiplayer_simulations": 75,
       "indigenous_knowledge": 76,
-      "sustainable_agriculture": 116,
+      "sustainable_agriculture": 117,
       "southern_africa": 75,
       "modern_ag_science": 50,
       "dsr": 5,
@@ -10970,6 +10970,34 @@
       ],
       "bibtex_key": "debbarma_2026_sustainable",
       "added_date": "2026-08-30",
+      "read_date": null
+    },
+    {
+      "doi": "10.5751/es-11305-250103",
+      "title": "Indigenous and local knowledge in sustainability transformations research: a literature review",
+      "authors": [
+        "David P. M. Lam",
+        "Elvira Hinz",
+        "Daniel J. Lang",
+        "Maria Tengö",
+        "Henrik von Wehrden",
+        "Berta Martín‐López"
+      ],
+      "year": 2020,
+      "venue": "Ecology and Society",
+      "abstract": "Lam, D., E. Hinz, D. Lang, M. Tengö, H. von Wehrden, and B. Martín-López. 2020. Indigenous and local knowledge in sustainability transformations research: a literature review. Ecology and Society 25(1):3. https://doi.org/10.5751/ES-11305-250103",
+      "citation_count": 371,
+      "is_open_access": true,
+      "open_access_url": "https://www.ecologyandsociety.org/vol25/iss1/art3/ES-2019-11305.pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture"
+      ],
+      "bibtex_key": "lam_2020_indigenous",
+      "added_date": "2026-09-13",
       "read_date": null
     }
   ],

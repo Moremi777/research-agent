@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-08-30T13:32:35.727525+00:00",
+  "last_updated": "2026-09-13T13:06:31.365074+00:00",
   "sources": [
     {
       "doi": "10.2196/games.3804",
@@ -22411,6 +22411,60 @@
       "read_date": null,
       "bibtex_key": "debbarma_2026_sustainable",
       "last_updated": "2026-08-30T13:32:35.727506+00:00"
+    },
+    {
+      "doi": "10.5751/es-11305-250103",
+      "title": "Indigenous and local knowledge in sustainability transformations research: a literature review",
+      "authors": [
+        {
+          "name": "David P. M. Lam",
+          "affiliation": "Leuphana University of Lüneburg"
+        },
+        {
+          "name": "Elvira Hinz",
+          "affiliation": "Leuphana University of Lüneburg"
+        },
+        {
+          "name": "Daniel J. Lang",
+          "affiliation": "Leuphana University of Lüneburg"
+        },
+        {
+          "name": "Maria Tengö",
+          "affiliation": "Stockholm Resilience Centre"
+        },
+        {
+          "name": "Henrik von Wehrden",
+          "affiliation": "Leuphana University of Lüneburg"
+        },
+        {
+          "name": "Berta Martín‐López",
+          "affiliation": "Leuphana University of Lüneburg"
+        }
+      ],
+      "year": 2020,
+      "venue": "Ecology and Society",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.5751/es-11305-250103",
+      "abstract": "Lam, D., E. Hinz, D. Lang, M. Tengö, H. von Wehrden, and B. Martín-López. 2020. Indigenous and local knowledge in sustainability transformations research: a literature review. Ecology and Society 25(1):3. https://doi.org/10.5751/ES-11305-250103",
+      "citation_count": 371,
+      "is_open_access": true,
+      "open_access_url": "https://www.ecologyandsociety.org/vol25/iss1/art3/ES-2019-11305.pdf",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-09-13",
+      "read_date": null,
+      "bibtex_key": "lam_2020_indigenous",
+      "last_updated": "2026-09-13T13:06:31.365055+00:00"
     }
   ]
 }
