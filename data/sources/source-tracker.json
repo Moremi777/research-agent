@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-09-13T13:06:31.365074+00:00",
+  "last_updated": "2026-10-04T13:41:26.196526+00:00",
   "sources": [
     {
       "doi": "10.2196/games.3804",
@@ -22465,6 +22465,1352 @@
       "read_date": null,
       "bibtex_key": "lam_2020_indigenous",
       "last_updated": "2026-09-13T13:06:31.365055+00:00"
+    },
+    {
+      "doi": "10.1016/j.heliyon.2023.e12978",
+      "title": "Indigenous agricultural knowledge: A neglected human based resource for sustainable crop protection and production",
+      "authors": [
+        {
+          "name": "Anteneh Agezew Melash",
+          "affiliation": "University of Debrecen"
+        },
+        {
+          "name": "Amare Assefa Bogale",
+          "affiliation": "Magyar Agrár- és Élettudományi Egyetem"
+        },
+        {
+          "name": "Abeje Tafere Migbaru",
+          "affiliation": "Debark University"
+        },
+        {
+          "name": "Gashaw Gismu Chakilu",
+          "affiliation": "Debark University"
+        },
+        {
+          "name": "Attila Percze",
+          "affiliation": "Magyar Agrár- és Élettudományi Egyetem"
+        },
+        {
+          "name": "Éva Babett Ábrahám",
+          "affiliation": "University of Debrecen"
+        },
+        {
+          "name": "Dejene K. Mengistu",
+          "affiliation": "Alliance Bioversity International - CIAT"
+        }
+      ],
+      "year": 2023,
+      "venue": "Heliyon",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.1016/j.heliyon.2023.e12978",
+      "abstract": "Indigenous knowledge, developed over generations and owned by communities or individuals within a community, offers alternative strategies and perspectives on resource management and use. However, as emphasized in the contemporary agricultural history of Ethiopia, the most effective indigenous agricultural knowledge has not been well documented and some of them are replaced by modern techniques. This study was therefore conducted to assess and document community-based techniques to control pests and diseases and the practical implications of indigenous farming techniques. A focus group discussion, key informant interviews and semi-structured questionnaires were conducted with 150 farmers. The result showed that a substantial number (92%) of the farming community uses indigenous based plant protection measures. Indigenous farmers (92%) splash liquids made of cow urine to control the adverse effect of fungi. Farmers are also using different seed selection methods for next season planting. About 29% of the farmers do single head-based seed selection prior to mass harvesting, 34% are collected as \" Qerm \" and 45% select their seeds during threshing. Indigenous farming knowledge varies with the natural feature of the growing location and cropping system, including the rainfall pattern, soil fertility status, crop, and weed type. The observed positive effect of indigenous agricultural practices on crop production substantiates the need to include these essential approaches in the cultivation system along with the modern agronomic techniques. This might reduce the dependency on expensive and pollutant agricultural inputs. However, sociodemographic factors such as educational level, marital status and farming experience have been found as a determinant factor that influences utilization of indigenous farming knowledge. It can be therefore inferred that documenting indigenous knowledge and proving its applicability scientifically could contribute to organically oriented agricultural production and consequently reduce agriculture's contribution to environmental pollution.",
+      "citation_count": 73,
+      "is_open_access": true,
+      "open_access_url": "http://www.cell.com/article/S2405844023001858/pdf",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "melash_2023_indigenous",
+      "last_updated": "2026-10-04T13:41:25.089479+00:00"
+    },
+    {
+      "doi": "10.52253/vjta.2022.v03i01.03",
+      "title": "Organic farming: A sustainable agricultural practice",
+      "authors": [
+        {
+          "name": "Renu Soni",
+          "affiliation": null
+        },
+        {
+          "name": "Ruchitra Gupta",
+          "affiliation": null
+        },
+        {
+          "name": "Preeti Agarwal",
+          "affiliation": "University of Delhi"
+        },
+        {
+          "name": "Reema Mishra",
+          "affiliation": "University of Delhi"
+        }
+      ],
+      "year": 2022,
+      "venue": "Vantage Journal of Thematic Analysis",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.52253/vjta.2022.v03i01.03",
+      "abstract": "The agriculture sector faces multiple challenges in meeting the growing food demand of an ever-increasing population. Conventional farming is one of the most widely practiced approach due to its affordability and accessibility, but it is associated with various drawbacks. A resilient and sustainable agriculture system is required to face different environmental challenges. Sustainable agriculture includes different ecofriendly farming techniques that boost crop yield and livestock production without having an adverse effect on the environment. Organic farming is one such approach that should be practiced for attaining the goal of sustainable agriculture. In simple words, organic farming can be defined as the production of plants by avoiding the use of harmful synthetic additives (fertilizers, pesticides, antibiotics etc.). Organically cultivated foodstuffs have become increasingly popular due to their numerous health benefits. India has experienced a significant expansion of organic farming and is presently one of the major organic producers in the world. Though there are some difficulties yet to be overcome in order to ensure that organic farming has a beneficial economic and health impact, it can be argued that it has a better prospect in India. This review deliberates the current state of organic farming in India along with its components, advantages, associated constraints and future potential.",
+      "citation_count": 58,
+      "is_open_access": true,
+      "open_access_url": "https://doi.org/10.52253/vjta.2022.v03i01.03",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "soni_2022_organic",
+      "last_updated": "2026-10-04T13:41:25.125751+00:00"
+    },
+    {
+      "doi": "10.1007/978-3-030-74693-3_3",
+      "title": "Relevance of Indigenous Knowledge Systems in Sustaining Agriculture Under Smallholder Farming in Sub-Saharan Africa",
+      "authors": [
+        {
+          "name": "Simeon Albert Materechera",
+          "affiliation": "North-West University"
+        }
+      ],
+      "year": 2021,
+      "venue": "World sustainability series",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.1007/978-3-030-74693-3_3",
+      "abstract": "",
+      "citation_count": 4,
+      "is_open_access": false,
+      "open_access_url": null,
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge",
+        "ch1_background"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "materechera_2021_relevance",
+      "last_updated": "2026-10-04T13:41:25.164573+00:00"
+    },
+    {
+      "doi": "10.4324/9781003440871-10",
+      "title": "Ecological Integrity and Indigenous Farming Practices in Africa",
+      "authors": [
+        {
+          "name": "Ngozi Finette Unuigbe",
+          "affiliation": null
+        }
+      ],
+      "year": 2024,
+      "venue": "Routledge eBooks",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.4324/9781003440871-10",
+      "abstract": "In the pursuit of maintaining ecological integrity and ensuring sustainable agricultural practices, it is crucial to recognize the intricate relationship between Indigenous farming methods and the natural environment. The majority of Indigenous farmers in Africa, deeply connected to their land and reliant on its ecological balance, depend on rain-fed agricultural production for their livelihoods. In this context, reliable Indigenous weather forecasts become essential tools in guiding rural farmers’ decisions, especially in adapting to the challenges posed by climate change. However, much of the literature reveals that an exclusive reliance on Western scientific knowledge often proves counterproductive at the rural level. This is particularly true in regions where traditional knowledge systems have evolved in tandem with local ecological conditions, enabling farmers to make informed decisions that respect and uphold ecological integrity. This chapter will delve into how Indigenous climate knowledge has been instrumental over the past century in assisting rural farmers’ households in SSA to tackle climate stressors, thereby enhancing decision-making for adaptation. It will argue for the advancement of assessment processes to ensure that Indigenous knowledge systems receive adequate recognition and credit and explore how policymakers in SSA can enhance and utilize Indigenous climate knowledge among pastoralists in the region, addressing climatic stressors and potentially increasing crop production. It will ultimately show that in the quest for sustainable solutions to the challenges faced by Indigenous farmers in Africa, a balanced and respectful synthesis of Indigenous knowledge and Western science stands as a cornerstone in maintaining ecological integrity and advancing global environmental justice.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "unuigbe_2024_ecological",
+      "last_updated": "2026-10-04T13:41:25.202718+00:00"
+    },
+    {
+      "doi": "10.12688/f1000research.188475.1",
+      "title": "Community-centred Digitalisation of Indigenous Agricultural Knowledge: An Empirically Derived Framework from Vhavenda Groundnut Farming, South Africa",
+      "authors": [
+        {
+          "name": "Thizwilondi Joanbeth Madima",
+          "affiliation": "University of Venda"
+        }
+      ],
+      "year": 2026,
+      "venue": "F1000Research",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.12688/f1000research.188475.1",
+      "abstract": "Background Indigenous agricultural knowledge plays a vital role in sustaining biodiversity, food security, cultural identity, and environmental stewardship. Despite increasing recognition of Indigenous Knowledge Systems (IKS), much Indigenous agricultural knowledge remains orally transmitted and is increasingly threatened by socio-economic change, urbanisation and declining intergenerational knowledge transmission. Although digital technologies offer new opportunities for preservation, existing approaches often privilege technological solutions over Indigenous governance and community authority. Methods This exploratory qualitative study examined community perspectives on the ethical digitalisation of Indigenous agricultural knowledge among 25 purposively selected participants from four Vhavenda groundnut-farming communities in the Vhembe Biosphere Reserve, Limpopo Province, South Africa. Guided by Indigenous Knowledge Systems Theory, Indigenous Research Methodologies and Indigenous Data Sovereignty, data were generated through semi-structured interviews, focus-group discussions and participant observation and analysed using Reflexive Thematic Analysis. Results Four interrelated themes emerged. Participants conceptualised Indigenous agricultural knowledge as a living epistemological system embedded within ecological knowledge, cultural values and community identity. Knowledge was transmitted primarily through observation, storytelling, apprenticeship and intergenerational participation. While participants recognised the potential of digital technologies to strengthen knowledge preservation and youth engagement, they consistently emphasised that digitalisation should remain community-governed, culturally appropriate and ethically grounded. These findings informed the development of the Community-centred Indigenous Knowledge Digitalisation Framework (CIKDF), which positions Indigenous communities as the principal custodians, decision-makers and beneficiaries throughout the digital preservation lifecycle. Conclusions The study demonstrates that successful digitalisation of Indigenous agricultural knowledge depends less on technological innovation than on Indigenous governance, community participation and ethical stewardship. By integrating Indigenous Knowledge Systems, Indigenous Research Methodologies, participatory digital heritage and Indigenous Data Sovereignty, the CIKDF provides a theoretically grounded and practically applicable framework for the ethical preservation of Indigenous agricultural knowledge in South Africa and comparable Indigenous contexts internationally.",
+      "citation_count": 0,
+      "is_open_access": true,
+      "open_access_url": "https://f1000research.com/articles/15-1491/pdf",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge",
+        "sustainable_agriculture",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "madima_2026_community",
+      "last_updated": "2026-10-04T13:41:25.240722+00:00"
+    },
+    {
+      "doi": "10.36096/ijbes.v7i5.904",
+      "title": "Contribution of the indigenous agricultural knowledge for local economic development in the Limpopo province: A case of indigenous liquified manure",
+      "authors": [
+        {
+          "name": "Thizwilondi Joanbeth Madima",
+          "affiliation": "University of Venda"
+        }
+      ],
+      "year": 2025,
+      "venue": "International Journal of Business Ecosystem and Strategy (2687-2293)",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.36096/ijbes.v7i5.904",
+      "abstract": "Small-scale farmers in South Africa, particularly in Indigenous communities, continue to heavily rely on artificial farming, overlooking Indigenous agricultural knowledge. The key influence behind this is that the artificial farming practices have become more accessible than the Indigenous agricultural knowledge. This paper is aimed at understanding the economic viability of the Indigenous liquified manure for small-scale farmers while promoting the sustainable Indigenous agriculture within Indigenous communities. The paper is centred on addressing poor agricultural practice of the Indigenous liquified manure in establishing indigenous agriculture knowledge culture in rural communities in Vuwani. A sample of 18 participants consisting of 13 small-scale indigenous farmers, 3 traditional leaders, and 2 agricultural experts were drawn using purposive sampling from Vuwani rural communities. The qualitative semi-structured interviews and focus group discussions were employed for data collection and analysed using thematic analysis. The study unveiled that the Indigenous liquified manure contributes to the high produce of the indigenous crops that enables the Indigenous communities to economically sustain themselves. The findings further show that the practice of the Indigenous liquified manure is understood as an entrepreneurial opportunity to create job opportunities in the Vuwani.",
+      "citation_count": 0,
+      "is_open_access": true,
+      "open_access_url": "https://bussecon.com/ojs/index.php/ijbes/article/download/904/591",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "madima_2025_contribution",
+      "last_updated": "2026-10-04T13:41:25.278613+00:00"
+    },
+    {
+      "doi": "10.4324/9781003280316-22",
+      "title": "Indigenous Agriculture and Sustainability Knowledge",
+      "authors": [
+        {
+          "name": "Bruce Pascoe",
+          "affiliation": "University of Technology Sydney"
+        }
+      ],
+      "year": 2024,
+      "venue": "Routledge eBooks",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.4324/9781003280316-22",
+      "abstract": "An emerging and fresh perspective on Australian Aboriginal and indigenous culture challenges the long-established and conventional view that they are a hunter–gatherer society. There is historical and archaeological evidence of elements of a sedentary way of life with villages and houses, and with knowledge associated with techniques of agricultural cultivation and the storage of agricultural products. This is a fascinating perspective, particularly in the context of the continuing debate prompted by climate change about Australian agriculture and its sustainability with increasingly disruptive droughts, fires and floods. There may be things that we can and should be learning from Indigenous Aboriginal people about their tens of thousands of years of continuous and sustainable lived experience on this continent.",
+      "citation_count": 0,
+      "is_open_access": true,
+      "open_access_url": "https://api.taylorfrancis.com/content/chapters/oa-edit/download?identifierName=doi&identifierValue=10.4324/9781003280316-22&type=chapterpdf",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "pascoe_2024_indigenous",
+      "last_updated": "2026-10-04T13:41:25.315932+00:00"
+    },
+    {
+      "doi": "10.30574/wjarr.2024.21.1.0314",
+      "title": "AI in precision agriculture: A review of technologies for sustainable farming practices",
+      "authors": [
+        {
+          "name": "Adebunmi Okechukwu Adewusi",
+          "affiliation": "University of Ilorin"
+        },
+        {
+          "name": "Onyeka Franca Asuzu",
+          "affiliation": null
+        },
+        {
+          "name": "Temidayo Olorunsogo",
+          "affiliation": null
+        },
+        {
+          "name": "Temidayo Olorunsogo",
+          "affiliation": null
+        },
+        {
+          "name": "Ejuma Martha Adaga",
+          "affiliation": null
+        },
+        {
+          "name": "Donald Obinna Daraojimba",
+          "affiliation": "Ahmadu Bello University"
+        }
+      ],
+      "year": 2024,
+      "venue": "World Journal of Advanced Research and Reviews",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.30574/wjarr.2024.21.1.0314",
+      "abstract": "Precision agriculture, facilitated by advancements in Artificial Intelligence (AI), has emerged as a transformative paradigm in modern farming. This review comprehensively examines the integration of AI technologies in precision agriculture to enhance sustainability and optimize farming practices. The paper synthesizes recent research and developments in AI applications, covering key areas such as crop monitoring, resource management, decision support systems, and automation. The adoption of AI-driven techniques, including machine learning, computer vision, and sensor technologies, is reshaping traditional farming methods by providing farmers with real-time data and actionable insights. Crop monitoring applications utilize satellite imagery, drones, and ground-based sensors to assess plant health, detect diseases, and optimize irrigation strategies. AI-driven decision support systems empower farmers to make informed choices based on data-driven predictions, weather forecasts, and historical patterns, contributing to resource-efficient practices and minimizing environmental impact. Resource management is a critical aspect of sustainable farming, and AI plays a pivotal role in optimizing the use of water, fertilizers, and pesticides. Smart irrigation systems, enabled by AI algorithms, ensure precise and efficient water distribution, reducing water wastage and promoting water conservation. AI-driven analysis of soil conditions helps farmers tailor fertilization practices, enhancing nutrient utilization and minimizing environmental runoff. The review also explores the role of AI in automating farming operations through robotics and autonomous vehicles. These technologies not only alleviate labor shortages but also improve efficiency in planting, harvesting, and crop maintenance. Additionally, the integration of AI fosters connectivity in agriculture, enabling seamless communication between devices, sensors, and farming equipment. As precision agriculture continues to evolve, the review highlights challenges and future prospects. Ethical considerations, data security, and the digital divide in rural areas are among the challenges that need attention. Moreover, the paper discusses potential avenues for further research, emphasizing the need for interdisciplinary collaboration to address the complex issues associated with the sustainable implementation of AI in precision agriculture. This review provides a comprehensive overview of the transformative impact of AI in precision agriculture, offering insights into current technologies, challenges, and future directions. The integration of AI not only enhances productivity and efficiency but also contributes to the long-term sustainability of farming practices, ensuring food security in the face of a growing global population.",
+      "citation_count": 151,
+      "is_open_access": true,
+      "open_access_url": "https://wjarr.com/sites/default/files/WJARR-2024-0314.pdf",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge",
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science",
+        "ch1_background"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "adewusi_2024_ai",
+      "last_updated": "2026-10-04T13:41:25.354034+00:00"
+    },
+    {
+      "doi": "10.1007/s44279-024-00078-3",
+      "title": "Unlocking the potential of precision agriculture for sustainable farming",
+      "authors": [
+        {
+          "name": "George Mgendi",
+          "affiliation": "World Vegetable Center"
+        }
+      ],
+      "year": 2024,
+      "venue": "Discover Agriculture",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.1007/s44279-024-00078-3",
+      "abstract": "Abstract Abstract Precision agriculture, a transformative farming approach, has gained prominence due to advancements in digital technologies. This paper explores the multifaceted landscape of precision agriculture, focusing on its tangible benefits, challenges, and future directions. Purpose Amidst the growing interest in precision agriculture, this paper aims to provide a comprehensive analysis of its various aspects. Specifically, it seeks to elucidate the benefits of precision agriculture in optimizing resource utilization, enhancing crop health, and promoting sustainability. Moreover, it examines the challenges faced in its implementation and proposes future directions to overcome these obstacles. Findings Through a review of existing literature and case studies, this paper presents a nuanced understanding of precision agriculture's impact on crop farming, livestock production, economic outcomes, and environmental sustainability. It identifies key challenges such as data security, implementation costs, and regulatory frameworks, while also highlighting innovative solutions and promising advancements in the field. Originality To the best of our knowledge, this paper represents a rigorous attempt to comprehensively analyze the landscape of precision agriculture, with a focus on its original contributions to the field. By synthesizing existing research and offering insights into future directions, it adds to the emerging knowledge base surrounding precision agriculture and its potential to revolutionize modern farming practices.",
+      "citation_count": 119,
+      "is_open_access": true,
+      "open_access_url": "https://link.springer.com/content/pdf/10.1007/s44279-024-00078-3.pdf",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "mgendi_2024_unlocking",
+      "last_updated": "2026-10-04T13:41:25.391974+00:00"
+    },
+    {
+      "doi": "10.1515/biol-2022-0713",
+      "title": "Artificial intelligence and internet of things oriented sustainable precision farming: Towards modern agriculture",
+      "authors": [
+        {
+          "name": "Amit Sharma",
+          "affiliation": "Southern Federal University"
+        },
+        {
+          "name": "Amit Sharma",
+          "affiliation": "Southern Federal University"
+        },
+        {
+          "name": "Ashutosh Sharma",
+          "affiliation": "Southern Federal University"
+        },
+        {
+          "name": "Ashutosh Sharma",
+          "affiliation": "Southern Federal University"
+        },
+        {
+          "name": "Alexey Tselykh",
+          "affiliation": "Southern Federal University"
+        },
+        {
+          "name": "Alexander Vitalievich Bozhenyuk",
+          "affiliation": "Southern Federal University"
+        },
+        {
+          "name": "Tanupriya Choudhury",
+          "affiliation": "Symbiosis International University"
+        },
+        {
+          "name": "Madani Abdu Alomar",
+          "affiliation": "King Abdulaziz University"
+        },
+        {
+          "name": "Manuel Sánchez‐Chero",
+          "affiliation": "Universidad Nacional de Frontera"
+        }
+      ],
+      "year": 2023,
+      "venue": "Open Life Sciences",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.1515/biol-2022-0713",
+      "abstract": "Agriculture encompasses the study, practice, and discipline of plant cultivation. Agriculture has an extensive history dating back thousands of years. Depending on climate and terrain, it began independently in various locations on the planet. In comparison to what could be sustained by foraging and gathering, agriculture has the potential to significantly increase the human population. Throughout the twenty-first century, precision farming (PF) has increased the agricultural output. precision agriculture (PA) is a technology-enabled method of agriculture that assesses, monitors, and evaluates the needs of specific fields and commodities. The primary objective of this farming method, as opposed to conventional farming, is to increase crop yields and profitability through the precise application of inputs. This work describes in depth the development and function of artificial intelligence (AI) and the internet of things (IoT) in contemporary agriculture. Modern day-to-day applications rely extensively on AI and the IoT. Modern agriculture leverages AI and IoT for technological advancement. This improves the accuracy and profitability of modern agriculture. The use of AI and IoT in modern smart precision agricultural applications is highlighted in this work and the method proposed incorporates specific steps in PF and demonstrates superior performance compared to existing classification methods. It achieves a remarkable accuracy of 98.65%, precision of 98.32%, and recall rate of 97.65% while retaining competitive execution time of 0.23 s, when analysing PF using the FAOSTAT benchmark dataset. Additionally, crucial equipment and methods used in PF are described and the vital advantages and real-time tools utilised in PA are covered in detail.",
+      "citation_count": 89,
+      "is_open_access": true,
+      "open_access_url": "https://www.degruyter.com/document/doi/10.1515/biol-2022-0713/pdf",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_modern_ag_science"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "sharma_2023_artificial",
+      "last_updated": "2026-10-04T13:41:25.430165+00:00"
+    },
+    {
+      "doi": "10.9734/ijpss/2023/v35i193528",
+      "title": "Potential of Precision Farming Technologies for Eco-Friendly Agriculture",
+      "authors": [
+        {
+          "name": "Vaishnavi Gawande",
+          "affiliation": "Dr Panjabrao Deshmukh Krishi Vidyapeeth"
+        },
+        {
+          "name": "D. R. K. Saikanth",
+          "affiliation": "Professor Jayashankar Telangana Agricultural University"
+        },
+        {
+          "name": "B. S. Sumithra",
+          "affiliation": "University of Agricultural Sciences, Dharwad"
+        },
+        {
+          "name": "S. Ashokh Aravind",
+          "affiliation": "Tamil Nadu Agricultural University"
+        },
+        {
+          "name": "G. Narayana Swamy",
+          "affiliation": "Acharya N. G. Ranga Agricultural University"
+        },
+        {
+          "name": "Manojit Chowdhury",
+          "affiliation": "Indian Agricultural Research Institute"
+        },
+        {
+          "name": "Bal Veer Singh",
+          "affiliation": "Chandra Shekhar Azad University of Agriculture and Technology"
+        }
+      ],
+      "year": 2023,
+      "venue": "International Journal of Plant & Soil Science",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.9734/ijpss/2023/v35i193528",
+      "abstract": "Precision farming technologies have the potential to revolutionize agriculture by promoting eco-friendly practices. The review explores the potential advantages of precision farming technologies in achieving sustainable and environmentally conscious agriculture. The application of precision farming techniques allows for the targeted use of resources such as water, fertilizers, and pesticides, minimizing waste and reducing environmental impact. By incorporating advanced technologies like GPS, GIS, remote sensing, and data analytics, precision farming enables farmers to make informed decisions based on real-time data, leading to improved crop management and increased productivity. Additionally, precision farming promotes the adoption of site-specific management strategies, taking into account the unique characteristics of each field, optimizing resource allocation, and reducing the risk of environmental pollution. This review highlights the importance of precision farming in achieving eco-friendly agriculture and calls for further research and adoption of these technologies to promote sustainable farming practices.",
+      "citation_count": 66,
+      "is_open_access": true,
+      "open_access_url": "https://journalijpss.com/index.php/IJPSS/article/view/3528/7020",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "gawande_2023_potential",
+      "last_updated": "2026-10-04T13:41:25.468463+00:00"
+    },
+    {
+      "doi": "10.30574/ijsra.2024.12.2.1371",
+      "title": "Precision agriculture: Leveraging data science for sustainable farming",
+      "authors": [
+        {
+          "name": "Adeleye Yusuff Adewuyi",
+          "affiliation": "University of Southern Indiana"
+        },
+        {
+          "name": "Blessing J. Anyibama",
+          "affiliation": "Tuskegee University"
+        },
+        {
+          "name": "Kayode Blessing Adebayo",
+          "affiliation": "South Dakota State University"
+        },
+        {
+          "name": "Joseph Moses Kalinzi",
+          "affiliation": "Southern Illinois University Carbondale"
+        },
+        {
+          "name": "Samson Ademola Adeniyi",
+          "affiliation": "Drexel University"
+        },
+        {
+          "name": "Ifeoluwa Uchechukwu Wada",
+          "affiliation": "Emporia State University"
+        }
+      ],
+      "year": 2024,
+      "venue": "International Journal of Science and Research Archive",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.30574/ijsra.2024.12.2.1371",
+      "abstract": "Precision agriculture leverages data science and technology to optimize farming practices, enhance crop yields, and promote sustainability. This review examines how data-driven approaches are revolutionizing agriculture through improved decision-making, resource efficiency, and environmental stewardship. Key technologies enabling precision agriculture are discussed, including remote sensing, IoT sensors, AI/machine learning, and farm management information systems. The paper explores applications such as variable rate technology, yield mapping, and predictive analytics. Challenges related to data management, interoperability, and adoption barriers are analyzed. The review concludes that precision agriculture, powered by data science, offers significant potential to address food security and sustainability challenges, but requires continued research and interdisciplinary collaboration to realize its full benefits.",
+      "citation_count": 19,
+      "is_open_access": true,
+      "open_access_url": "https://ijsra.net/sites/default/files/IJSRA-2024-1371.pdf",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science",
+        "ch1_background"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "adewuyi_2024_precision",
+      "last_updated": "2026-10-04T13:41:25.506825+00:00"
+    },
+    {
+      "doi": "10.30574/gscarr.2024.18.1.0026",
+      "title": "A comprehensive examination of security and privacy in precision agriculture technologies",
+      "authors": [
+        {
+          "name": "Pauline A. Ongadi",
+          "affiliation": null
+        }
+      ],
+      "year": 2024,
+      "venue": "GSC Advanced Research and Reviews",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.30574/gscarr.2024.18.1.0026",
+      "abstract": "Precision agriculture has revolutionized modern farming practices by integrating cutting-edge technologies such as sensors, drones, and data analytics to optimize crop management. While these advancements offer unprecedented benefits in terms of yield optimization and resource efficiency, they also raise significant concerns regarding the security and privacy of sensitive agricultural data. This research paper delves into the intricate landscape of precision agriculture security and privacy, aiming to identify potential threats, vulnerabilities, and the corresponding measures necessary for safeguarding farmers' data and ensuring the sustainability of precision farming practices. The study employs a multidisciplinary approach, combining insights from computer science, agriculture, and privacy studies to provide a comprehensive overview. Through an analysis of existing security frameworks and privacy regulations, this paper proposes recommendations for the development and implementation of robust security protocols and privacy-enhancing technologies tailored to the unique challenges of precision agriculture. The findings of this research contribute to the ongoing dialogue on responsible technology adoption in agriculture, emphasizing the importance of striking a balance between innovation and the protection of farmers' sensitive information in the era of precision farming.",
+      "citation_count": 15,
+      "is_open_access": true,
+      "open_access_url": "https://gsconlinepress.com/journals/gscarr/sites/default/files/GSCARR-2024-0026.pdf",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "ongadi_2024_a",
+      "last_updated": "2026-10-04T13:41:25.545375+00:00"
+    },
+    {
+      "doi": "10.9734/jeai/2024/v46i92909",
+      "title": "Precision Agriculture: Transforming Farming Efficiency with Cutting-edge Smart Technologies: A Comprehensive Review",
+      "authors": [
+        {
+          "name": "Shani Gulaiya",
+          "affiliation": "Galgotias University"
+        },
+        {
+          "name": "Aparna Sharma",
+          "affiliation": "Rani Durgavati University"
+        },
+        {
+          "name": "Sahadeva Singh",
+          "affiliation": "Galgotias University"
+        },
+        {
+          "name": "Ravi Kumar",
+          "affiliation": "Galgotias University"
+        },
+        {
+          "name": "Durgesh Chaudhary",
+          "affiliation": "Amity University"
+        },
+        {
+          "name": "Kamalkant Yadav",
+          "affiliation": "Galgotias University"
+        },
+        {
+          "name": "Manish Kumar",
+          "affiliation": "Galgotias University"
+        },
+        {
+          "name": "Ravindra Kumar",
+          "affiliation": "Galgotias University"
+        }
+      ],
+      "year": 2024,
+      "venue": "Journal of Experimental Agriculture International",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.9734/jeai/2024/v46i92909",
+      "abstract": "Agriculture is the study, practice, and science of plant growth. Agriculture has a long history dating back thousands of years. Depending on the topography and climate, it started out separately in different places of the planet. Thanks to agriculture, the number of people on Earth has increased many times beyond what could be maintained by hunting and gathering. Precision farming has improved production in modern agriculture since the 20th century. Precision farming is a farming method that uses technology to measure, monitor, and analyze the demands of particular fields and crops. The primary goal of this farming style, in contrast to conventional farming, is to maximize crop yields and profitability by precisely using inputs. In today's world, artificial intelligence and the Internet of Things are indispensable. Modern agriculture uses AI and IoT technologies and their benefits. This improves the accuracy and profitability of contemporary agriculture. We go over a few of the modern uses of AI and IoT in intelligent precision farming. Furthermore, significant instruments and methods used in precision farming are also described. The crucial benefits and the real-time devices used in the precision farming are also discussed in detail.",
+      "citation_count": 4,
+      "is_open_access": true,
+      "open_access_url": "https://doi.org/10.9734/jeai/2024/v46i92909",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_modern_ag_science"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "gulaiya_2024_precision",
+      "last_updated": "2026-10-04T13:41:25.583625+00:00"
+    },
+    {
+      "doi": "10.51470/plantarchives.2025.v25.supplement-2.051",
+      "title": "PRECISION FARMING: TECHNOLOGIES, APPLICATIONS, AND CHALLENGES IN MODERN AGRICULTURE: A REVIEW",
+      "authors": [],
+      "year": 2025,
+      "venue": "PLANT ARCHIVES",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.51470/plantarchives.2025.v25.supplement-2.051",
+      "abstract": "Precision farming, also known as precision agriculture, is a transformative approach that leverages advanced technologies such as GPS, GIS, remote sensing, IoT, and AI to optimize agricultural practices (Lu et al., 1997).By enabling site-specific management of resources like water, fertilizers, and pesticides, precision farming enhances resource efficiency, reduces environmental impact, and boosts crop yields.This paper explores the principles, technologies, and benefits of precision farming, with a focus on its adoption in India and globally.It highlights key components such as variable-rate technology (VRT), soil and crop sensors, and decision support systems (DSS), while addressing challenges like high initial costs, technical complexity, and fragmented landholdings.The paper also examines government initiatives, institutional support, and future prospects for precision farming, emphasizing its potential to revolutionize sustainable agriculture and food security.",
+      "citation_count": 0,
+      "is_open_access": true,
+      "open_access_url": "https://doi.org/10.51470/plantarchives.2025.v25.supplement-2.051",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science",
+        "ch1_background"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "unknown_2025_precision",
+      "last_updated": "2026-10-04T13:41:25.621881+00:00"
+    },
+    {
+      "doi": "10.1007/s10639-020-10373-3",
+      "title": "Contextualized mobile game-based learning application for computing education",
+      "authors": [
+        {
+          "name": "Alok Kumar Yadav",
+          "affiliation": "University of Eastern Finland"
+        },
+        {
+          "name": "Solomon Sunday Oyelere",
+          "affiliation": "University of Eastern Finland"
+        }
+      ],
+      "year": 2020,
+      "venue": "Education and Information Technologies",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.1007/s10639-020-10373-3",
+      "abstract": "Abstract This paper intends to present an overview of a mobile game-based learning application, BaghLearn that develops and upskills programming and algorithmic knowledge by cross-curricular capabilities through a traditional world-based game. The focus of this research was to explore the learning effectiveness of BaghLearn on students. Mixed method research approach was applied to collect, process and analyze the research data in which undergraduate students who had some prior knowledge or had taken algorithm courses were instructed to test the mobile game learning application. This study exhibits the idea of integrating learning with contextual mobile game as an effective approach in understanding the influence of games towards cognitive achievements of students in computing education. In addition, there are no major requirements for the use of this application (can be maintained in resource-constrained contexts such as Nepal), which makes it expressively satisfying and useful for students who are relentlessly using mobile devices. Besides, this study evaluated the influence of BaghLearn towards learning of the design and analysis of algorithm course, which is a compulsory course for most undergraduate computing education program. Furthermore, the study findings can be used as a guideline for developing learning solutions and usability evaluation of such solutions, especially for infrastructure-constrained contexts. Students using the BaghLearn opined that the application is easy to use, supportive and lead to improved learning satisfaction.",
+      "citation_count": 48,
+      "is_open_access": true,
+      "open_access_url": "https://link.springer.com/content/pdf/10.1007/s10639-020-10373-3.pdf",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "yadav_2020_contextualized",
+      "last_updated": "2026-10-04T13:41:25.660118+00:00"
+    },
+    {
+      "doi": "10.58693/ier.212",
+      "title": "Applications and Learning Outcomes of Game Based Learning in Education",
+      "authors": [
+        {
+          "name": "Paraskevi Mikrouli",
+          "affiliation": "Aristotle University of Thessaloniki"
+        },
+        {
+          "name": "Katerina Tzafilkou",
+          "affiliation": "University of Macedonia"
+        },
+        {
+          "name": "Nicolaos Protogeros",
+          "affiliation": "University of Macedonia"
+        }
+      ],
+      "year": 2024,
+      "venue": "International Educational Review",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.58693/ier.212",
+      "abstract": "Game-based learning (GBL) is considered the most engaging means of learning and brings several benefits as regards the learning outputs. Game-based learning is applied in all different educational stages from pre-school education to tertiary education, and workplace. This review study discusses and extends previous findings by organizing the application of GBL approaches in different educational stages and presenting the main learning outcomes. The review study collects and analyzes 104 scientific papers ranging from 2013-2021. The benefits and limitations of GBL are also discussed in the paper, while different types of games including augmented reality (AR) approaches are considered. According to the findings, in primary and secondary education, GBL demonstrates a positive impact on learning outcomes and engagement, enhancing students' understanding of complex concepts and fostering real-world application of learned knowledge. While GBL in tertiary education facilitates deeper understanding, critical thinking, and skill development, its implementation requires careful design and evaluation aligned with learning objectives. The study also explores various types of GBL games, including memory, simulation, interactive, quiz, puzzle, strategy, and reality-testing games, each tailored to different educational objectives and subjects. Furthermore, Augmented Reality (AR) in GBL shows promise across subjects but faces challenges like technical limitations, training needs, privacy concerns, potential distractions, and a lack of comprehensive research on its efficacy. Overall, while GBL demonstrates considerable potential in enhancing education, its successful implementation requires careful consideration of age-appropriateness, varied game types, and integration of emerging technologies like AR.",
+      "citation_count": 20,
+      "is_open_access": true,
+      "open_access_url": "https://int-er.com/download/applications-and-learning-outcomes-of-game-based-learning-in-education-14327.pdf",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "mikrouli_2024_applications",
+      "last_updated": "2026-10-04T13:41:25.698165+00:00"
+    },
+    {
+      "doi": "10.3390/info16060490",
+      "title": "The Gaming Revolution in History Education: The Practice and Challenges of Integrating Game-Based Learning into Formal Education",
+      "authors": [
+        {
+          "name": "Chien-Hung Lai",
+          "affiliation": "Chung Yuan Christian University"
+        },
+        {
+          "name": "Penghui Hu",
+          "affiliation": "Chung Yuan Christian University"
+        }
+      ],
+      "year": 2025,
+      "venue": "Information",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.3390/info16060490",
+      "abstract": "This study conducts a comprehensive literature review to explore the potential and challenges of integrating game-based learning (GBL) into formal history education. Given the increasing interest in the educational value of games, this review systematically examines academic research published over the past fifteen years. The analysis focuses on two major themes: (1) the development and theoretical underpinnings of history-related game-based learning, and (2) the difficulties encountered when implementing GBL in formal education systems, including issues related to curriculum alignment, teacher readiness, and instructional assessment. Drawing on 118 selected high-impact publications, this review identifies both the pedagogical benefits and the structural limitations of using historical games in the classroom. The findings highlight that while game-based learning holds promise in improving students’ engagement, motivation, and understanding of historical content, its practical implementation requires careful instructional design, sufficient resources, and alignment with national educational standards. This review concludes by proposing a set of strategic recommendations to guide future integration efforts of GBL into history education. As a literature review, this study does not involve empirical data collection but rather synthesizes existing research findings to inform educational practice and future inquiry.",
+      "citation_count": 18,
+      "is_open_access": true,
+      "open_access_url": "https://www.mdpi.com/2078-2489/16/6/490/pdf?version=1749740191",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "lai_2025_the",
+      "last_updated": "2026-10-04T13:41:25.736444+00:00"
+    },
+    {
+      "doi": "10.54337/ijsepm.7549",
+      "title": "Multiplayer game for decision-making in energy communities",
+      "authors": [
+        {
+          "name": "Vita Brakovska",
+          "affiliation": "Riga Technical University"
+        },
+        {
+          "name": "Ruta Vanaga",
+          "affiliation": "Riga Technical University"
+        },
+        {
+          "name": "Ģirts Bohvalovs",
+          "affiliation": "Riga Technical University"
+        },
+        {
+          "name": "Leonora Fila",
+          "affiliation": "Riga Technical University"
+        },
+        {
+          "name": "Andra Blumberga",
+          "affiliation": "Riga Technical University"
+        }
+      ],
+      "year": 2023,
+      "venue": "International Journal of Sustainable Energy Planning and Management",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.54337/ijsepm.7549",
+      "abstract": "Energy communities are widely studied from various perspectives, especially in the context of geopolitical events of recent years, when humanity is faced with the need for urgent solutions to promote climate change and alleviate the crisis of energy resources. Although citizens' interest in the use of renewable resources has gradually grown, energy policy support measures for more active participation of society in the implementation of energy efficiency measures are still being implemented with variable success, especially through mutual agreement. Serious games are a rapidly growing tool for awareness and collaboration on a single platform for gamers seeking solutions to energy resource optimization issues. The paper focuses on energy community versus energy use practices, trends, and intervention strategies in multifamily residential blocks, using serious gaming and direct user online feedback. This study uses a multi-player simulation tool to enable the modelling of scenarios for energy efficiency measures for apartment building block residents and energy community target goals for decision-making decisions. User experience and game mechanics were tested on a pre-selected group. The results indicate positive feedback, including a practical application for both energy community and professionals, and provide valuable recommendations for further research and improvement of the tool.",
+      "citation_count": 11,
+      "is_open_access": true,
+      "open_access_url": "https://journals.aau.dk/index.php/sepm/article/download/7549/6437",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games",
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games",
+        "ch2_multiplayer_simulations"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "brakovska_2023_multiplayer",
+      "last_updated": "2026-10-04T13:41:25.774735+00:00"
+    },
+    {
+      "doi": "10.3390/ijgi10020074",
+      "title": "Spationomy Simulation Game—Playful Learning in Spatial Economy Higher Education",
+      "authors": [
+        {
+          "name": "Vít Pásztó",
+          "affiliation": "Moravská Vysoká Skola Olomouc"
+        },
+        {
+          "name": "Jiří Pánek",
+          "affiliation": "Palacký University Olomouc"
+        },
+        {
+          "name": "René Glas",
+          "affiliation": "Utrecht University"
+        },
+        {
+          "name": "Jasper van Vught",
+          "affiliation": "Utrecht University"
+        }
+      ],
+      "year": 2021,
+      "venue": "ISPRS International Journal of Geo-Information",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.3390/ijgi10020074",
+      "abstract": "Simulation games, as a method of playful learning, have been used for more than 70 years in various disciplines with the economy as a leading application field. Their development has been tied with advances in computer science, and nowadays, hundreds of simulation games exist. However, simulation games are not just useful for encouraging disciplinary knowledge production; they also promise to be effective tools for interdisciplinary collaboration. To further explore these promises, we report on the design and playing of a simulation game on the boundary of geoinformatics and business and economics; an interdisciplinary field we have termed Spationomy. Within this game, students from different disciplinary (and cultural) backgrounds applied their knowledge and skills to tackle interdisciplinary problems. In this paper, we also analyze students’ feedback on the game to complement this aspect. The main goal is to discuss the design process that went into creating the game as well as experiences from play sessions in relation to this increase of interdisciplinary knowledge among students. In the end, we present a new gaming concept based on real-world data that can be played in other interdisciplinary situations. Here, students´ feedback on individual features of the game helped to identify future directions in the development of our simulation game.",
+      "citation_count": 10,
+      "is_open_access": true,
+      "open_access_url": "https://www.mdpi.com/2220-9964/10/2/74/pdf?version=1614146988",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "pásztó_2021_spationomy",
+      "last_updated": "2026-10-04T13:41:25.813096+00:00"
+    },
+    {
+      "doi": "10.34190/ecgbl.20.1.5503",
+      "title": "Balancing Attention in an Immersive Augmented Reality Multiplayer Game for Museum Education",
+      "authors": [
+        {
+          "name": "Jessica L. Bitter",
+          "affiliation": null
+        },
+        {
+          "name": "Lorena Müller",
+          "affiliation": null
+        },
+        {
+          "name": "Leonie F. E. Ferdinand",
+          "affiliation": null
+        },
+        {
+          "name": "Ulrike Spierling",
+          "affiliation": null
+        }
+      ],
+      "year": 2026,
+      "venue": "European Conference on Games Based Learning",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.34190/ecgbl.20.1.5503",
+      "abstract": "Augmented reality (AR) is increasingly used in cultural heritage exhibitions, yet many systems are designed for single users and can make visitors feel isolated. This study examines how immersive AR games can support group interaction while maintaining attention and interest in the physical exhibits. In a mixed-methods study, 90 participants played a multiplayer AR game we developed for a natural history museum. The game combined a dinosaur fossil with virtual content and collaborative game mechanics. Data were collected through observation, a questionnaire, and interviews. Results show that the game fostered a shared experience, with virtual elements attracting the most attention, while the fossil remained present. After gameplay, participants showed significantly greater interest in examining the fossil and learning about the dinosaur.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "source_api": "crossref",
+      "status": "screened",
+      "relevance_tags": [
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_multiplayer_simulations"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "bitter_2026_balancing",
+      "last_updated": "2026-10-04T13:41:25.851111+00:00"
+    },
+    {
+      "doi": "10.1007/978-981-19-2080-6_74",
+      "title": "Serious Games and Game-Based Learning",
+      "authors": [
+        {
+          "name": "Claudia Schrader",
+          "affiliation": "University of Wuppertal"
+        }
+      ],
+      "year": 2023,
+      "venue": "Handbook of Open, Distance and Digital Education",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.1007/978-981-19-2080-6_74",
+      "abstract": "Abstract This chapter summarizes theory and empirical research concerned with the use of serious games and game-based learning in educational contexts. Relevant characteristics and theoretical foundations of the value of games are assessed. The reviewed empirical findings indicate a strong effect of serious games and game-based learning on learner motivation, affect, and cognitive outcomes. However, the direction of their impact is not always straightforward as it depends on the interplay of conditions including the game type, design features, learner characteristics, and learning activities. This chapter suggests that developers and educators take this interplay into account to ensure optimal learner experiences when developing or choosing serious games or game-based learning approaches for educational purposes.",
+      "citation_count": 27,
+      "is_open_access": true,
+      "open_access_url": "https://link.springer.com/content/pdf/10.1007/978-981-19-2080-6_74.pdf",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "schrader_2023_serious",
+      "last_updated": "2026-10-04T13:41:25.889278+00:00"
+    },
+    {
+      "doi": "10.24140/ijfma.v8.n1.04",
+      "title": "Game-Based Learning in Higher Education Using Analogue Games",
+      "authors": [
+        {
+          "name": "Vicky Maratou",
+          "affiliation": "Hellenic Open University"
+        },
+        {
+          "name": "Firdaous Ennami",
+          "affiliation": "London South Bank University"
+        },
+        {
+          "name": "Filipe Luz",
+          "affiliation": "Universidade Lusófona"
+        },
+        {
+          "name": "Yama Abdullahi",
+          "affiliation": "London South Bank University"
+        },
+        {
+          "name": "Raimonda Agnè Medeišienė",
+          "affiliation": "Vilnius University"
+        },
+        {
+          "name": "Indrė Ščiukauskė",
+          "affiliation": "Vilnius University"
+        },
+        {
+          "name": "Rizos Chaliampalias",
+          "affiliation": "Hellenic Open University"
+        },
+        {
+          "name": "Achilles D. Kameas",
+          "affiliation": "Hellenic Open University"
+        },
+        {
+          "name": "Carla Sousa",
+          "affiliation": "Universidade Lusófona"
+        },
+        {
+          "name": "Sara Sara",
+          "affiliation": "London South Bank University"
+        }
+      ],
+      "year": 2023,
+      "venue": "INTERNATIONAL JOURNAL OF FILM AND MEDIA ARTS",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.24140/ijfma.v8.n1.04",
+      "abstract": "Games have been effective in helping people to interact with one another and learning more about the culture they inhabit (Piaget, 1962). The importance of games and their centrality to culture is pointed out by Huizinga (1944) who suggested using them as a medium to organise our lived experience and as an escape from their pragmatic focus (Ruckenstein, 1992). The “playful” nature of games results in escapism because it often hides the seriousness of their outcomes (Bateson, 2014; Henricks, 2006). For instance, games can be implemented in war where they are viewed as a deadly sort of game, with elaborate rules, strategies, and codes of sportsmanship. Furthermore, the widespread use of games has gained traction as a rapidly evolving teaching and learning tool in the educational sector as well. This rapid growth in the use of games as an educational tool has led to the creation of an immense number of diverse games, aiding teaching and learning in a multitude of disciplines from economics to art, and numerous encyclopaedic websites of previously developed games have been created. Despite this rapid growth, it is debatable whether this is due to increased effective learning from games, or simply the increased engagement and enjoyment observed in comparison to traditional pedagogical methods. To that end, the current paper explores the practices of analogue GBL across European Higher Education Institutions (HEIs) and the challenges and opportunities associated with Game-Based Learning (GBL) from the perspective of educators and game designers. Gamification – including simple game mechanics, such as points for correct answers (Hidi & Renninger, 2006; Kim, Song, Lockee, & Burton, 2018; Rotgans & Schmidt, 2011) – is often used as a teaching aid to increase student engagement and enjoyment. However, simply adding a game mechanic into classic, lecture-based teaching does not necessarily assist in cognitive retention in classrooms, or develop 21st-century skills. As a matter of fact, more academics are seeing the benefits of GBL (Qian & Clark, 2016), in which games are specifically designed to enhance learning and the development of a certain skillset. It may also involve adapting a game that is already designed for use in the classroom, such as using open world-based board games to teach the interaction between geopolitical groups, or the use of LEGO® blocks to help improve comprehension of city planning. A good GBL intervention will ensure that the central mechanic of a game is linked to the expected learning outcomes of the module (Arnab et al., 2014).",
+      "citation_count": 24,
+      "is_open_access": true,
+      "open_access_url": "https://revistas.ulusofona.pt/index.php/ijfma/article/download/8278/5287",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "maratou_2023_game",
+      "last_updated": "2026-10-04T13:41:25.927504+00:00"
+    },
+    {
+      "doi": "10.1044/2021_persp-21-00284",
+      "title": "Serious Games and Gamification: Game-Based Learning in Communication Sciences and Disorders",
+      "authors": [
+        {
+          "name": "Tim Brackenbury",
+          "affiliation": "Bowling Green State University"
+        },
+        {
+          "name": "Lisa M. Kopf",
+          "affiliation": "University of Northern Iowa"
+        }
+      ],
+      "year": 2022,
+      "venue": "Perspectives of the ASHA Special Interest Groups",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.1044/2021_persp-21-00284",
+      "abstract": "Purpose: Serious games and gamification are evidence-based forms of game-based learning that facilitate student/client instruction. Serious games are activities that directly incorporate educational content into games; gamification integrates characteristics of games into nongame activities. They both promote learning by increasing students' motivation and engagement. The purpose of this tutorial is to facilitate readers' understanding and use of serious games and gamification in communication sciences and disorders (CSD) education, in both classroom and clinical settings. It includes models of motivation and engagement, research on serious games and gamification, in-depth examples from two CSD courses, and suggestions for implementation. Conclusions: Multiple studies, including meta-analyses, have demonstrated significant positive effects of both serious games and gamification on student motivation, engagement, and learning. Self-determination theory is a useful model for developing serious games and gamified learning because it provides a complex understanding of learners' needs and multiple levels of intrinsic and extrinsic motivation. Suggestions for incorporating serious games and gamified learning in CSD contexts include designing activities that address and balance motivation and learning, targeting specific forms of motivation in meaningful ways, and reconsidering intrinsic motivation as the ultimate goal of learning.",
+      "citation_count": 12,
+      "is_open_access": false,
+      "open_access_url": null,
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "brackenbury_2022_serious",
+      "last_updated": "2026-10-04T13:41:25.968969+00:00"
+    },
+    {
+      "doi": "10.1044/2024_persp-23-00267",
+      "title": "Getting Serious About Games: Exploring How Game-Based Learning Is Used in Education and Therapy",
+      "authors": [
+        {
+          "name": "Alisha P. Springle",
+          "affiliation": "Indiana University South Bend"
+        }
+      ],
+      "year": 2024,
+      "venue": "Perspectives of the ASHA Special Interest Groups",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.1044/2024_persp-23-00267",
+      "abstract": "Purpose: The increasing interest in game-based learning (GBL) provides an opportunity to enhance interprofessional collaboration between speech-language pathologists (SLPs) and teachers. The purpose of this two-part article is to determine the similarities and differences between how teachers and SLPs think about and employ GBL. Method: Two distinct methods were used to research GBL. First, a systematic literature review gathered information on teachers' perspectives on GBL, including the benefits and implementation challenges. The important features of the learning games were also catalogued. Then, a qualitative study of focus groups containing both SLPs and teachers examined the shared and disparate views of GBL. Results: The initial literature review identified potential shared viewpoints of GBL as a motivational activity with a focus on learning and potential differences in implementation, use of professional time, and balancing fun and learning. The findings of the qualitative study validated that although teachers and SLPs share specific thoughts on GBL, their different patterns of use drive different paths for game selection and development. Conclusions: The similarities and differences between how teachers think about and use GBL are reviewed, and clinical implications are discussed. As with many interprofessional issues, GBL can be supported by collaborative practices that allow professionals to share their time and experiences while acknowledging and valuing their different expertise.",
+      "citation_count": 4,
+      "is_open_access": false,
+      "open_access_url": null,
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games",
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games",
+        "ch2_multiplayer_simulations"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "springle_2024_getting",
+      "last_updated": "2026-10-04T13:41:26.006751+00:00"
+    },
+    {
+      "doi": "10.34190/ecgbl.20.2.4895",
+      "title": "Interactive Signalling Laboratory: A Physical Serious Game for Railway Operations Education",
+      "authors": [
+        {
+          "name": "Martin Scheidt",
+          "affiliation": null
+        },
+        {
+          "name": "Julek Weck",
+          "affiliation": null
+        }
+      ],
+      "year": 2026,
+      "venue": "European Conference on Games Based Learning",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.34190/ecgbl.20.2.4895",
+      "abstract": "Railway operations are a complex socio-technical system shaped by state-based logic, relational dependencies, and temporal constraints that are difficult to visualise. Many core principles remain implicit and are only indirectly accessible through regulations, diagrams, or operational rules, which makes railway operations difficult to teach. Conventional teaching approaches often reach their limits when conveying such dynamic, interdependent systems. Although digital railway simulations are widely used, they primarily support individual interaction through abstract interfaces. There is still a need for collaborative, haptic learning environments that encourage shared reasoning and make implicit operational knowledge visible. Therefore, this paper introduces the Interactive Signalling Laboratory (SigLab), a physical serious game based on a modified wooden railway. It teaches railway operations through the interplay of vehicles, signalling, and infrastructure. SigLab applies a discrete abstraction of a continuous system, with speed represented as track segments per round. This serves a didactic purpose by making principles discussable that would be harder to observe in a continuous simulation. Its core didactic principle is collaborative gameplay, requiring learners to operate the system jointly and negotiate terminology, thereby rendering otherwise invisible rules tangible. Because state updates are performed stepwise on local track segments in fixed rounds, SigLab can be interpreted as behaving like a cellular automaton. Physical interaction is assumed to support the externalisation and negotiation of tacit mental models. However, systematic documentation of physical game-based approaches in this domain remains limited. To address this gap, SigLab is presented as a practice-based case study refined over seven years. Practice-based insights suggest that SigLab supports shared concept formation, improves system-level understanding, intensifies peer-to-peer dialogue, and fosters systematic reasoning about operational processes. Learners must articulate assumptions and resolve conflicts collaboratively. Open challenges remain regarding model granularity, scalability, and assessment integration. The paper contributes design insights for physical serious games in higher education. It identifies the need for systematic evaluation and outlines next steps toward empirical validation, aiming to inform future work on game-based learning for complex, rule-driven systems.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "source_api": "crossref",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games",
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games",
+        "ch2_multiplayer_simulations"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "scheidt_2026_interactive",
+      "last_updated": "2026-10-04T13:41:26.044642+00:00"
+    },
+    {
+      "doi": "10.26832/24566632.2024.0904028",
+      "title": "Climate-smart agriculture: A review of sustainability, resilience, and food security",
+      "authors": [
+        {
+          "name": "Sunil Regmi",
+          "affiliation": "Agriculture and Forestry University"
+        },
+        {
+          "name": "Binisha Paudel",
+          "affiliation": "Agriculture and Forestry University"
+        }
+      ],
+      "year": 2024,
+      "venue": "Archives of Agriculture and Environmental Science",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.26832/24566632.2024.0904028",
+      "abstract": "This paper investigates Climate Smart Agriculture (CSA), a comprehensive strategy aimed at improving agricultural efficiency and sustainability while addressing the challenges of climate change. It examines the economic advantages of CSA for adopters compared to traditional farming methods and assesses CSA's role in mitigating climate change, adapting to its impacts, and enhancing food security. The study reviews essential CSA practices, including agroforestry, conservation agriculture, water-efficient irrigation technologies, crop diversification, improved livestock management, and soil carbon sequestration, as well as the barriers to adoption, such as limited funding, arable land, land tenure issues, and insufficient expertise. Agroforestry and crop rotation have shown encouraging results, with agroforestry serving as a cost-effective solution for food production and environmental preservation. Dairy companies boosted milk consumption from 529,000 to 3 million liters, while farmer profits grew from $0.2 to $0.3 per liter. Rice yields have increased, from 3-4 tons to 7.5 tons per hectare. In cotton farming, CSA adopters cut input costs compared to traditional methods, resulting in long-term economic gains. Crop rotation increased maize productivity by 5–10%, while new irrigation techniques improved water efficiency by 5–35%. However, regions without CSA methods experienced significant livestock losses, highlighting the importance of widespread adoption to ensure resilience. Despite CSA’s advantages, its widespread adoption is hindered by financial and knowledge barriers. Future research should focus on optimizing multiple cropping systems, crop diversification, and no-till agriculture. CSA, particularly when integrated with technologies like the Internet of Things (IoT), offers a promising path toward more adaptive and resilient agricultural practices. Broader adoption will require investments in research and resources to effectively scale CSA innovations.",
+      "citation_count": 13,
+      "is_open_access": true,
+      "open_access_url": "https://journals.aesacademy.org/index.php/aaes/article/download/09-04-028/pdf",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge",
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science",
+        "ch1_background"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "regmi_2024_climate",
+      "last_updated": "2026-10-04T13:41:26.082726+00:00"
+    },
+    {
+      "doi": "10.9734/ijecc/2023/v13i31702",
+      "title": "Climate Based Smart Agriculture: Need for Food Security and Sustainability",
+      "authors": [
+        {
+          "name": "Pushkar Dev",
+          "affiliation": "Sri Karan Narendra Agriculture University, Jobner"
+        },
+        {
+          "name": "Suman Khandelwal",
+          "affiliation": "Sri Karan Narendra Agriculture University, Jobner"
+        },
+        {
+          "name": "S. C. Yadav",
+          "affiliation": "Sri Karan Narendra Agriculture University, Jobner"
+        },
+        {
+          "name": "Vikas Arya",
+          "affiliation": "Sri Karan Narendra Agriculture University, Jobner"
+        },
+        {
+          "name": "H. R. Mali",
+          "affiliation": "Sri Karan Narendra Agriculture University, Jobner"
+        },
+        {
+          "name": "Poonam",
+          "affiliation": "Sri Karan Narendra Agriculture University, Jobner"
+        }
+      ],
+      "year": 2023,
+      "venue": "International Journal of Environment and Climate Change",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.9734/ijecc/2023/v13i31702",
+      "abstract": "A variety of climate-smart agriculture technologies, practices, and services have been introduced in climate-smart villages as adaptation strategies to cope with climate risks and ensure stability and sustainability in agricultural production. Farmers who utilize climate-smart agriculture adaptation strategies have been shown to achieve higher output, yield, and return compared to those who do not. There are promising opportunities to scale out these strategies and immense potential to enhance crop yields and farm incomes while reducing greenhouse gas emissions. Strengthening agricultural extension services and agricultural finance by linking climate finance to traditional agricultural finance could play a significant role in scaling out climate-smart agriculture practices and technologies. This would make agriculture more sustainable and climate-resilient, thereby becoming a viable source of livelihood and food security for millions of farmers in the country. Zero budget natural farming is a climate-resilient farming system that can enhance food and nutritional security while allowing farmers to improve soil fertility and yields at lower costs, risks, and irrigation requirements. This system protects the ecosystem by improving soil organic matter, water retention, and biodiversity, while reducing air and water pollution as well as greenhouse gas emissions.",
+      "citation_count": 7,
+      "is_open_access": true,
+      "open_access_url": "https://journalijecc.com/index.php/IJECC/article/download/1702/3383",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science",
+        "ch1_background"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "dev_2023_climate",
+      "last_updated": "2026-10-04T13:41:26.120641+00:00"
+    },
+    {
+      "doi": "10.13140/rg.2.2.13661.58088",
+      "title": "Climate-Smart Off-Season Vegetable Production through Tunnel Farming for Enhanced Food Security, Farmers' Income, and Sustainable Agriculture.",
+      "authors": [
+        {
+          "name": "Aziz Ullah",
+          "affiliation": null
+        },
+        {
+          "name": "Zubair Shah",
+          "affiliation": null
+        }
+      ],
+      "year": 2026,
+      "venue": "",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.13140/rg.2.2.13661.58088",
+      "abstract": "",
+      "citation_count": 0,
+      "is_open_access": true,
+      "open_access_url": "https://doi.org/10.13140/rg.2.2.13661.58088",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch1_background"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "ullah_2026_climate",
+      "last_updated": "2026-10-04T13:41:26.158617+00:00"
+    },
+    {
+      "doi": "10.5281/zenodo.22301142",
+      "title": "Climate-Smart Agriculture for Sustainable Food Security",
+      "authors": [
+        {
+          "name": "N. Thilagavathi",
+          "affiliation": null
+        }
+      ],
+      "year": 2026,
+      "venue": "International Journal for Research Trends in Social Science & Humanities.",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.5281/zenodo.22301142",
+      "abstract": "Climate change is creating serious challenges for agriculture and food security, particularly for rural and smallholder farming communities. Rising temperatures, irregular rainfall, droughts, floods, water scarcity, soil degradation and biodiversity loss can reduce agricultural productivity and affect rural livelihoods. Climate-Smart Agriculture (CSA) provides an integrated approach to address these challenges by improving agricultural productivity, strengthening resilience to climate change and promoting sustainable management of natural resources. This study examines the role of CSA in achieving sustainable food security from a global perspective. The study adopts a descriptive and analytical research design based on secondary data collected from the Food and Agriculture Organization (FAO), World Bank, Intergovernmental Panel on Climate Change (IPCC), United Nations and other published sources. The study covers the period 2019–2025 and reviews major CSA practices, including conservation agriculture, water-smart agriculture, climate-resilient crop varieties, agroforestry, integrated crop-livestock systems and digital agriculture. The findings indicate that CSA can improve agricultural productivity, farmer income, climate resilience, nutritional security and resource conservation. However, limited climate finance, high technology costs, smallholder constraints, digital inequality, weak extension services and policy gaps continue to restrict adoption. The study recommends stronger financial support, affordable technologies, improved extension services and farmer-centred policies to promote inclusive CSA and strengthen sustainable food security.",
+      "citation_count": 0,
+      "is_open_access": true,
+      "open_access_url": "https://doi.org/10.5281/zenodo.22301142",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science",
+        "ch1_background"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-04",
+      "read_date": null,
+      "bibtex_key": "thilagavathi_2026_climate",
+      "last_updated": "2026-10-04T13:41:26.196518+00:00"
     }
   ]
 }
