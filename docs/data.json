@@ -1,10 +1,10 @@
 {
-  "exported_at": "2026-10-04T13:41:26.313814+00:00",
+  "exported_at": "2026-10-11T14:37:59.521071+00:00",
   "stats": {
-    "total_sources": 502,
+    "total_sources": 508,
     "by_status": {
       "excluded": 60,
-      "screened": 441,
+      "screened": 447,
       "reading": 1
     },
     "by_year": {
@@ -13,32 +13,32 @@
       "2017": 20,
       "2018": 24,
       "2019": 30,
-      "2020": 61,
+      "2020": 63,
       "2021": 51,
-      "2022": 60,
+      "2022": 61,
       "2023": 58,
       "2024": 71,
       "2025": 55,
-      "2026": 35
+      "2026": 38
     },
     "by_chapter": {
-      "ch2_serious_games": 147,
+      "ch2_serious_games": 148,
       "ch4_game_mechanics": 21,
-      "ch2_multiplayer_simulations": 80,
-      "ch2_indigenous_knowledge": 83,
-      "ch2_sustainable_agriculture": 130,
-      "ch1_background": 91,
-      "ch2_modern_ag_science": 61
+      "ch2_multiplayer_simulations": 81,
+      "ch2_indigenous_knowledge": 84,
+      "ch2_sustainable_agriculture": 134,
+      "ch1_background": 94,
+      "ch2_modern_ag_science": 64
     },
     "by_tag": {
-      "serious_games": 147,
-      "multiplayer_simulations": 80,
-      "indigenous_knowledge": 83,
-      "sustainable_agriculture": 130,
-      "southern_africa": 79,
-      "modern_ag_science": 61,
+      "serious_games": 148,
+      "multiplayer_simulations": 81,
+      "indigenous_knowledge": 84,
+      "sustainable_agriculture": 134,
+      "southern_africa": 80,
+      "modern_ag_science": 64,
       "dsr": 5,
-      "general": 53
+      "general": 54
     },
     "reading_progress_pct": 0.0
   },
@@ -11801,6 +11801,164 @@
       ],
       "bibtex_key": "thilagavathi_2026_climate",
       "added_date": "2026-10-04",
+      "read_date": null
+    },
+    {
+      "doi": "10.1007/s43621-026-04926-8",
+      "title": "Integrating indigenous knowledge systems into regenerative agriculture for sustainable crop production in southern Africa",
+      "authors": [
+        "Albert Thembinkosi Modi"
+      ],
+      "year": 2026,
+      "venue": "Discover Sustainability",
+      "abstract": "Abstract Agricultural production in Southern Africa is increasingly constrained by climate variability, declining soil fertility, water scarcity, biodiversity loss, and rising pest pressures, particularly within rain-fed smallholder farming systems. Indigenous Knowledge Systems (IKS), developed through generations of interaction between communities and local agroecosystems, offer context-specific approaches that align closely with the principles of regenerative agriculture. This review synthesizes evidence from 37 publications examining the contribution of IKS to sustainable crop production across Southern Africa. Particular attention is given to soil health, soil biological activity, water-use efficiency, ecological pest regulation, crop productivity, and climate resilience. The synthesis demonstrates that indigenous regenerative practices, including organic soil amendments, residue retention, crop diversification, intercropping, agroforestry, water harvesting, and botanical pest management, improve soil organic carbon, enhance microbial activity, increase water retention, and stabilize yields under climatic stress. Evidence further indicates that indigenous pest management strategies frequently maintain pest populations below economic injury thresholds, thereby reducing dependence on synthetic pesticides while supporting ecosystem services. The review highlights the convergence between IKS, agroecology, integrated pest management, conservation agriculture, and regenerative agriculture, and proposes pathways for integrating indigenous ecological indicators into decision-support systems, crop models, and precision agriculture technologies. Despite growing recognition of indigenous knowledge within sustainability and climate adaptation agendas, significant gaps remain in quantitative validation, longitudinal assessment, and integration into formal agricultural research and policy frameworks. The findings demonstrate that Indigenous Knowledge Systems constitute a scientifically credible and economically viable foundation for regenerative agriculture and contribute directly to Sustainable Development Goals 2 (Zero Hunger), 12 (Responsible Consumption and Production), 13 (Climate Action), and 15 (Life on Land). Strengthening the integration of indigenous and scientific knowledge systems will be essential for building resilient, productive, and sustainable agricultural systems across Southern Africa and the broader Global South.",
+      "citation_count": 0,
+      "is_open_access": true,
+      "open_access_url": "https://doi.org/10.1007/s43621-026-04926-8",
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge",
+        "sustainable_agriculture",
+        "modern_ag_science",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge",
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science",
+        "ch1_background"
+      ],
+      "bibtex_key": "modi_2026_integrating",
+      "added_date": "2026-10-11",
+      "read_date": null
+    },
+    {
+      "doi": "10.1162/glep_a_00566",
+      "title": "Precision Technologies for Agriculture: Digital Farming, Gene-Edited Crops, and the Politics of Sustainability",
+      "authors": [
+        "Jennifer A. Clapp (University of Waterloo)",
+        "Sarah-Louise Ruder"
+      ],
+      "year": 2020,
+      "venue": "Global Environmental Politics",
+      "abstract": "This article analyzes the rise of precision technologies for agriculture—specifically digital farming and plant genome editing—and their implications for the politics of environmental sustainability in the agrifood sector. We map out opposing views in the emerging debate over the environmental aspects of these technologies: while proponents see them as vital tools for environmental sustainability, critics view them as antithetical to their own agroecological vision of sustainable agriculture. We argue that key insights from the broader literature on the social effects of technological change—in particular, technological lock-in, the double-edged nature of technology, and uneven power relations—help to explain the political dynamics of this debate. Our analysis highlights the divergent perspectives regarding how these technologies interact with environmental problems, as well as the risks and opportunities they present. Yet, as we argue in the article, developments so far suggest that these dynamics are not always straightforward in practice.",
+      "citation_count": 248,
+      "is_open_access": true,
+      "open_access_url": "https://direct.mit.edu/glep/article-pdf/20/3/49/1859724/glep_a_00566.pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture"
+      ],
+      "bibtex_key": "waterloo_2020_precision",
+      "added_date": "2026-10-11",
+      "read_date": null
+    },
+    {
+      "doi": "10.11591/edulearn.v14i1.14139",
+      "title": "Game based learning for safety and security education",
+      "authors": [
+        "Ge Jin",
+        "Shoji Nakayama",
+        "Manghui Tu"
+      ],
+      "year": 2020,
+      "venue": "Journal of Education and Learning (EduLearn)",
+      "abstract": "Safety and security education are important part of technology related education, because of recent number of increase in safety and security related incidents. Game based learning is an emerging and rapidly advancing forms of computer-assisted instruction. Game based learning for safety and security education enables students to learn concepts and skills without the risk of physical injury and security breach. In this paper, a pedestal grinder safety game and physical security game have been developed using industrial standard modeling and game development software. The average score of the knowledge test of grinder safety game was 82%, which is higher than traditional lecture only instruction method. In addition, the survey of physical security game shows 84% average satisfaction ratio from high school students who played the game during the summer camp. The results of these studies indicated that game based learning method can enhance students’ learning without potential harm to the students.",
+      "citation_count": 17,
+      "is_open_access": true,
+      "open_access_url": "http://edulearn.intelektual.org/index.php/EduLearn/article/download/14139/pdf_399",
+      "status": "screened",
+      "relevance_tags": [
+        "general"
+      ],
+      "chapter_relevance": [],
+      "bibtex_key": "jin_2020_game",
+      "added_date": "2026-10-11",
+      "read_date": null
+    },
+    {
+      "doi": "10.18690/um.3.2022.7",
+      "title": "Development of an Inclusive Multiplayer Serious Game for Deaf and Blind",
+      "authors": [
+        "Nuno Neto",
+        "Bruno Galasso",
+        "Dirceu Esdras",
+        "Paula Maria Escudeiro"
+      ],
+      "year": 2022,
+      "venue": "University of Maribor, University Press eBooks",
+      "abstract": "The paper presents the development of an inclusive serious multiplayer game with Morse code as its theme, as well as describing methodologies and architectures for developing a serious game through specific concepts for the deaf (sign language) and blind (audio description). The preceding case has three game modes: classic one versus one, a cooperative mode between two players and a four-player game mode all. To validate this serious game performance and quality, a Quantitative Evaluation Framework was used. In that context, the final product has three dimensions: pedagogical, ergonomic, and technical. From the obtained data, it was possible to conclude that this game was proof that using accessibility guidelines during software development helps to promote not only an efficient integration of excluded communities, but also social inclusion and equity between players.",
+      "citation_count": 0,
+      "is_open_access": true,
+      "open_access_url": "https://press.um.si/index.php/ump/catalog/view/735/1016/2654-3",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games",
+        "multiplayer_simulations"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games",
+        "ch2_multiplayer_simulations"
+      ],
+      "bibtex_key": "neto_2022_development",
+      "added_date": "2026-10-11",
+      "read_date": null
+    },
+    {
+      "doi": "10.5281/zenodo.22301141",
+      "title": "Climate-Smart Agriculture for Sustainable Food Security",
+      "authors": [
+        "N. Thilagavathi"
+      ],
+      "year": 2026,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "abstract": "Climate change is creating serious challenges for agriculture and food security, particularly for rural and smallholder farming communities. Rising temperatures, irregular rainfall, droughts, floods, water scarcity, soil degradation and biodiversity loss can reduce agricultural productivity and affect rural livelihoods. Climate-Smart Agriculture (CSA) provides an integrated approach to address these challenges by improving agricultural productivity, strengthening resilience to climate change and promoting sustainable management of natural resources. This study examines the role of CSA in achieving sustainable food security from a global perspective. The study adopts a descriptive and analytical research design based on secondary data collected from the Food and Agriculture Organization (FAO), World Bank, Intergovernmental Panel on Climate Change (IPCC), United Nations and other published sources. The study covers the period 2019–2025 and reviews major CSA practices, including conservation agriculture, water-smart agriculture, climate-resilient crop varieties, agroforestry, integrated crop-livestock systems and digital agriculture. The findings indicate that CSA can improve agricultural productivity, farmer income, climate resilience, nutritional security and resource conservation. However, limited climate finance, high technology costs, smallholder constraints, digital inequality, weak extension services and policy gaps continue to restrict adoption. The study recommends stronger financial support, affordable technologies, improved extension services and farmer-centred policies to promote inclusive CSA and strengthen sustainable food security.",
+      "citation_count": 0,
+      "is_open_access": true,
+      "open_access_url": "https://doi.org/10.5281/zenodo.22301141",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science",
+        "ch1_background"
+      ],
+      "bibtex_key": "thilagavathi_2026_climate",
+      "added_date": "2026-10-11",
+      "read_date": null
+    },
+    {
+      "doi": "10.1201/9781003607342-3",
+      "title": "Climate-Smart Integrated Farming Systems for Sustainable Production and Food Security",
+      "authors": [
+        "Megha N. Parajulee",
+        "Surendra Gautam",
+        "Raju Sapkota"
+      ],
+      "year": 2026,
+      "venue": "CRC Press eBooks",
+      "abstract": "Climate smart agriculture (CSA) is a proactive and adaptive approach to enhancing sustainability of agriculture production that concerns food security and climate challenges. This chapter utilizes the key components such as integrated farming system (IFS), scale of operation, and the rationale for climate-smart agriculture to implement CSA principles. Integrating diverse agricultural practices, CSA enhances productivity, builds resilience, and helps to mitigate environmental impacts. This chapter examines climate risks, adaptation strategies, and mitigation measures emphasizing how CSA techniques such as conservation tillage, crop diversification, intercropping, precision technology, and resource efficient farming, can reduce vulnerabilities to climate change. In addition, it highlights the role of integrated farming systems in optimizing resource use, improving soil health, and ensuring long-term agriculture sustainability. The challenges regarding implementing CSA, particularly in resource limited regions, are also discussed, along with the prospects for scaling up smart climate technologies. Combining CSA with IFS helps support farmers and agricultural scientists in achieving greater food security, economic stability, and environmental stability. The synthesis presented here hopes to contribute to the broader goal of developing resilient food systems capable of withstanding climate uncertainties while ensuring long term agricultural productivity.",
+      "citation_count": 0,
+      "is_open_access": false,
+      "open_access_url": null,
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science",
+        "ch1_background"
+      ],
+      "bibtex_key": "parajulee_2026_climate",
+      "added_date": "2026-10-11",
       "read_date": null
     }
   ],
