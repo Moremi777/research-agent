@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-10-11T14:37:59.414885+00:00",
+  "last_updated": "2026-10-18T12:26:43.215138+00:00",
   "sources": [
     {
       "doi": "10.2196/games.3804",
@@ -24059,6 +24059,88 @@
       "read_date": null,
       "bibtex_key": "parajulee_2026_climate",
       "last_updated": "2026-10-11T14:37:59.414865+00:00"
+    },
+    {
+      "doi": "10.61801/ouaess.2025.2.06",
+      "title": "Exploring Indigenous Technologies and Knowledge-Based Farming Systems: A Tripartite Agricultural Relationship Between Nigeria, South Africa, and Uganda",
+      "authors": [
+        {
+          "name": "Soprinye Chatta",
+          "affiliation": null
+        },
+        {
+          "name": "Charles Chatta",
+          "affiliation": null
+        },
+        {
+          "name": "Tyron Tegwen Warlimont",
+          "affiliation": null
+        }
+      ],
+      "year": 2026,
+      "venue": "Ovidius University Annals Economic Sciences Series",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.61801/ouaess.2025.2.06",
+      "abstract": "This paper examines the implementation of indigenous technologies and knowledge-based farming systems supports sustainable agricultural transformation within the tripartite agricultural relationship between Nigeria, South Africa, and Uganda. Using empirical field data from maize demonstration plots in Northern Nigeria and comparative desk analysis from South Africa and Uganda, the study explores how indigenous agronomic practices—double-row ridge planting, organic manure integration, and balanced fertilizer use—can improve yields and women’s participation in agriculture. Results from Nigeria show that the knowledge-based maize farming model significantly increased yields (up to 7.5 t/ha). Comparative evidence from South Africa’s precision agriculture and Uganda’s NAADS system demonstrates the potential for cross-country learning. The study concludes that integrating indigenous knowledge and technology under AfCFTA can strengthen food systems, empower women, and enhance Africa’s agricultural resilience.",
+      "citation_count": 0,
+      "is_open_access": true,
+      "open_access_url": "https://doi.org/10.61801/ouaess.2025.2.06",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "indigenous_knowledge",
+        "modern_ag_science",
+        "southern_africa"
+      ],
+      "chapter_relevance": [
+        "ch2_indigenous_knowledge",
+        "ch2_modern_ag_science"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-18",
+      "read_date": null,
+      "bibtex_key": "chatta_2026_exploring",
+      "last_updated": "2026-10-18T12:26:43.178490+00:00"
+    },
+    {
+      "doi": "10.5281/zenodo.22301180",
+      "title": "Climate-Smart Agriculture For Sustainable Food Security",
+      "authors": [
+        {
+          "name": "N. Thilagavathi",
+          "affiliation": null
+        }
+      ],
+      "year": 2026,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "url": "https://doi.org/10.5281/zenodo.22301180",
+      "abstract": "Climate change is creating serious challenges for agriculture and food security, particularly for rural and smallholder farming communities. Rising temperatures, irregular rainfall, droughts, floods, water scarcity, soil degradation and biodiversity loss can reduce agricultural productivity and affect rural livelihoods. Climate-Smart Agriculture (CSA) provides an integrated approach to address these challenges by improving agricultural productivity, strengthening resilience to climate change and promoting sustainable management of natural resources. This study examines the role of CSA in achieving sustainable food security from a global perspective. The study adopts a descriptive and analytical research design based on secondary data collected from the Food and Agriculture Organization (FAO), World Bank, Intergovernmental Panel on Climate Change (IPCC), United Nations and other published sources. The study covers the period 2019–2025 and reviews major CSA practices, including conservation agriculture, water-smart agriculture, climate-resilient crop varieties, agroforestry, integrated crop-livestock systems and digital agriculture. The findings indicate that CSA can improve agricultural productivity, farmer income, climate resilience, nutritional security and resource conservation. However, limited climate finance, high technology costs, smallholder constraints, digital inequality, weak extension services and policy gaps continue to restrict adoption. The study recommends stronger financial support, affordable technologies, improved extension services and farmer-centred policies to promote inclusive CSA and strengthen sustainable food security.",
+      "citation_count": 0,
+      "is_open_access": true,
+      "open_access_url": "https://doi.org/10.5281/zenodo.22301180",
+      "source_api": "openalex",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science",
+        "ch1_background"
+      ],
+      "reading_notes_path": null,
+      "user_rating": null,
+      "added_date": "2026-10-18",
+      "read_date": null,
+      "bibtex_key": "thilagavathi_2026_climate",
+      "last_updated": "2026-10-18T12:26:43.215118+00:00"
     }
   ]
 }
