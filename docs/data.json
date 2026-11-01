@@ -1,10 +1,10 @@
 {
-  "exported_at": "2026-10-25T12:57:20.619060+00:00",
+  "exported_at": "2026-11-01T14:44:19.125834+00:00",
   "stats": {
-    "total_sources": 510,
+    "total_sources": 511,
     "by_status": {
       "excluded": 60,
-      "screened": 449,
+      "screened": 450,
       "reading": 1
     },
     "by_year": {
@@ -19,10 +19,10 @@
       "2023": 58,
       "2024": 71,
       "2025": 55,
-      "2026": 40
+      "2026": 41
     },
     "by_chapter": {
-      "ch2_serious_games": 148,
+      "ch2_serious_games": 149,
       "ch4_game_mechanics": 21,
       "ch2_multiplayer_simulations": 81,
       "ch2_indigenous_knowledge": 85,
@@ -31,7 +31,7 @@
       "ch2_modern_ag_science": 66
     },
     "by_tag": {
-      "serious_games": 148,
+      "serious_games": 149,
       "multiplayer_simulations": 81,
       "indigenous_knowledge": 85,
       "sustainable_agriculture": 135,
@@ -12013,6 +12013,31 @@
       ],
       "bibtex_key": "thilagavathi_2026_climate",
       "added_date": "2026-10-18",
+      "read_date": null
+    },
+    {
+      "doi": "10.5152/hayef.2026.26014",
+      "title": "Serious Games in the Field of Mathematics: An Evaluation in the Game",
+      "authors": [
+        "Mehmet BOZ",
+        "Mehmet BÜTÜN",
+        "İrfan Şimşek"
+      ],
+      "year": 2026,
+      "venue": "HAYEF Journal of Education",
+      "abstract": "Serious games are designed to support knowledge and skill development within structured, rule-based environments that are distinct from everyday reality. However, in mathematics education literature, some digital learning applications are labeled as serious games despite lacking core game characteristics. Since an application must first qualify as a game in order to be considered a serious one, conceptual clarity becomes essential. This study adopts a narrative review with a conceptual–analytical focus to identify the defining qualifications of serious games in mathematics education and to examine potential misclassifications in the literature. Using a criterion-based conceptual sampling strategy, four studies that explicitly positioned their applications as serious games were selected for in-depth analysis. Drawing on foundational game theory and serious games literature, five essential characteristics were identified: voluntary engagement (attractiveness), clearly defined spatial and temporal boundaries (scope), structured progression and scenario, rule-based internal balance, and repeatability. The analysis revealed that only one of the examined applications aligned substantially with these characteristics, while the others were more accurately described as gamification or simulation-oriented environments. The findings suggest that many classification problems stem primarily from conceptual ambiguities rather than implementation failures. Cite this article as: Boz, M., Bütün, M., & Şimşek, İ. (2026). Serious games in the field of mathematics: an evaluation in the game. HAYEF: Journal of Education, 23, 0014, doi:10.5152/hayef.2026.26014.",
+      "citation_count": 0,
+      "is_open_access": true,
+      "open_access_url": "https://hayefjournal.org/index.php/pub/article/download/579/581",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "bibtex_key": "boz_2026_serious",
+      "added_date": "2026-11-01",
       "read_date": null
     }
   ],
