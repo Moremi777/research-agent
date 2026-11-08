@@ -1,10 +1,10 @@
 {
-  "exported_at": "2026-11-01T14:44:19.125834+00:00",
+  "exported_at": "2026-11-08T14:46:03.735773+00:00",
   "stats": {
-    "total_sources": 511,
+    "total_sources": 513,
     "by_status": {
       "excluded": 60,
-      "screened": 450,
+      "screened": 452,
       "reading": 1
     },
     "by_year": {
@@ -15,28 +15,28 @@
       "2019": 30,
       "2020": 63,
       "2021": 51,
-      "2022": 61,
+      "2022": 62,
       "2023": 58,
       "2024": 71,
-      "2025": 55,
+      "2025": 56,
       "2026": 41
     },
     "by_chapter": {
-      "ch2_serious_games": 149,
+      "ch2_serious_games": 150,
       "ch4_game_mechanics": 21,
       "ch2_multiplayer_simulations": 81,
       "ch2_indigenous_knowledge": 85,
-      "ch2_sustainable_agriculture": 135,
-      "ch1_background": 95,
-      "ch2_modern_ag_science": 66
+      "ch2_sustainable_agriculture": 136,
+      "ch1_background": 96,
+      "ch2_modern_ag_science": 67
     },
     "by_tag": {
-      "serious_games": 149,
+      "serious_games": 150,
       "multiplayer_simulations": 81,
       "indigenous_knowledge": 85,
-      "sustainable_agriculture": 135,
+      "sustainable_agriculture": 136,
       "southern_africa": 81,
-      "modern_ag_science": 66,
+      "modern_ag_science": 67,
       "dsr": 5,
       "general": 54
     },
@@ -12038,6 +12038,65 @@
       ],
       "bibtex_key": "boz_2026_serious",
       "added_date": "2026-11-01",
+      "read_date": null
+    },
+    {
+      "doi": "10.1007/s10639-022-10999-5",
+      "title": "Serious game design model for language learning in the cultural context",
+      "authors": [
+        "Kashif Ishaq",
+        "Fadhilah Rosdi",
+        "Nor Azan Mat Zin",
+        "Adnan Abid"
+      ],
+      "year": 2022,
+      "venue": "Education and Information Technologies",
+      "abstract": "",
+      "citation_count": 62,
+      "is_open_access": true,
+      "open_access_url": "https://link.springer.com/content/pdf/10.1007/s10639-022-10999-5.pdf",
+      "status": "screened",
+      "relevance_tags": [
+        "serious_games"
+      ],
+      "chapter_relevance": [
+        "ch2_serious_games"
+      ],
+      "bibtex_key": "ishaq_2022_serious",
+      "added_date": "2026-11-08",
+      "read_date": null
+    },
+    {
+      "doi": "10.1109/access.2025.3540317",
+      "title": "Internet of Things-Based Smart Precision Farming in Soilless Agriculture: Opportunities and Challenges for Global Food Security",
+      "authors": [
+        "Monica Dutta",
+        "Deepali Gupta",
+        "Sumegh Tharewal",
+        "Deepam Goyal",
+        "Jasminder Kaur Sandhu",
+        "Manjit Kaur",
+        "Ahmad Ali AlZubi",
+        "Jazem Mutared Alanazi"
+      ],
+      "year": 2025,
+      "venue": "IEEE Access",
+      "abstract": "The rapid growth of the global population and the continuous decline in cultivable land pose significant threats to food security. This challenge worsens as climate change further reduces the availability of farmland. Soilless agriculture, such as hydroponics, aeroponics, and aquaponics, offers a sustainable solution by enabling efficient crop cultivation in controlled environments. The integration of the Internet of Things (IoT) with smart precision farming improves resource efficiency, automates environmental control, and ensures stable and high-yield crop production. IoT-enabled smart farming systems utilize real-time monitoring, data-driven decision-making, and automation to optimize water and nutrient usage while minimizing human intervention. This paper aims to explore the opportunities and challenges of IoT-based soilless farming. It also highlights its role in sustainable agriculture, urban farming, and global food security. These advanced farming methods ensure greater productivity, resource conservation, and year-round cultivation. However, these methods also face challenges such as high initial investment, technological dependency, and energy consumption. Through a comprehensive study, bibliometric analysis, and comparative analysis, this research highlights current trends and research gaps. It also outlines future directions for researchers, policymakers, and industry stakeholders to drive innovation and scalability in IoT-driven soilless agriculture. By highlighting the benefits of vertical farming and Controlled Environment Agriculture (CEA)-enabled soilless techniques, this paper supports informed decision-making to address food security challenges and promote sustainable agricultural innovations.",
+      "citation_count": 122,
+      "is_open_access": true,
+      "open_access_url": "https://doi.org/10.1109/access.2025.3540317",
+      "status": "screened",
+      "relevance_tags": [
+        "sustainable_agriculture",
+        "modern_ag_science"
+      ],
+      "chapter_relevance": [
+        "ch2_sustainable_agriculture",
+        "ch2_modern_ag_science",
+        "ch1_background"
+      ],
+      "bibtex_key": "dutta_2025_internet",
+      "added_date": "2026-11-08",
       "read_date": null
     }
   ],
